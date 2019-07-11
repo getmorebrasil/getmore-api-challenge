@@ -1,6 +1,7 @@
 # getmore-api challenge
-
- **Considere o seguinte cenário. Sua empresa acabou de fechar uma novo produto e o PO detalhou as seguintes necessidades:**
+ 
+ ## Considere o seguinte cenário. ##
+ **Sua empresa acabou de fechar uma novo produto e o PO detalhou as seguintes necessidades:**
  
   Ter uma api que gerencía um catálogo de produtos, ela deve cadastrar os produtos no banco, listar os produtos, listar as stores, listar produtos por loja e o acesso ao serviço deve ser controlado por autenticação.
   
