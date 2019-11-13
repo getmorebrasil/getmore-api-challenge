@@ -1,3 +1,11 @@
+db:
+para testar, rodar o ./server/testDB.js
+
+amqp:
+para testar e visualizar de maneira mais aparente a orquestração, descomentar o 'await timeout' no interface.js e rodar normalmente o ./server/index-consumer.js e o ./server/testProducer.js
+
+express: ...fazer...
+
 # Challenge Getmore-Api Team
 
 Considere o seguinte cenário.

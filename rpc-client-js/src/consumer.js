@@ -37,6 +37,7 @@ module.exports.startServer = async function (urlConnection, queueName, ServerInt
     async function reply(rpcRequest) {
         const { target, params } = JSON.parse(rpcRequest.content.toString());
         let returner = `${target}() is not defined on serverInterface \n`;
+        // console.log(ServerInterface[target])
         if (typeof ServerInterface[target] === 'function') {
             returner = await ServerInterface[target](params || undefined).catch(err => err);
         }

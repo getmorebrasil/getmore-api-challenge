@@ -1,23 +1,17 @@
-const too = require('./too')
+const db = require('../database');
 
-/* 
-    The signature of commented functions above of the 
-    functions not is mandatory, but recommended,
-    because is mostly easy to understand
-    what behavior of function.
-*/
+// just for test
+function timeout(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+}
 
 module.exports = () => ({
-    /* foo({ notMarried, name, age }): Promise<number> */
-    foo({ notMarried, name, age }) {
-        return Promise.resolve({ response: { name, notMarried, age } });
-    },
-    /* bar(number): Promise<number> */
-    bar({ string }) {
-        return Promise.resolve({ response: string.toUpperCase() });
-    },
-    boo({ number }) {
-        return Promise.resolve({ response: number * 2 });
-    },
-    too
+    /* getProducts(itemsPerPage = 5, page = 0): [Object] */
+    async getProducts(itemsPerPage = 5, page = 0) {
+        console.log('res1');
+        let res = await db.getProducts(itemsPerPage, page);
+        // await timeout(5000);
+        console.log('res2');
+        return { response: res };
+    }
 })
