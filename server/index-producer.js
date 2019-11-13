@@ -7,10 +7,9 @@ async function mainProducer() {
     const handlers = await Handler.getHandlers();
     console.log(handlers);
 
+    Handler.getProducts = async num => { };
 
-    Handler.foo = async num => { };
-
-    const target = 'foo';
+    const target = 'getProducts';
     const getFoo = await Handler[target]();
     console.log(getFoo);
 
