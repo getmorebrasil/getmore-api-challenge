@@ -1,9 +1,10 @@
-## Sumário
-[Instalação](#instalação)
-[Database](#database)
-[AMQP](#amqp)
-[Startar](#startar)
-[Testes](#testes)
+# Sumário
+- [Instalação](#instalação)
+- [Database](#database)
+- [AMQP](#amqp)
+- [Startar](#startar)
+- [Testes](#testes)
+- [Desafio](#challenge-getmore-api-team)
 
 ## Instalação
 - Instalar as dependências:
@@ -23,20 +24,20 @@ PGPASSWORD={_senha}
 PGDATABASE={_nome_da_database_criada}
 ```
 
-# Database
+## Database
 - Para testar apenas o db:
 ```javascript
 node server/testDB.js
 ```
 
-# AMQP
+## AMQP
 - Para utilizar o protocolo, rodar a imagem docker:
 ```
 docker run -d --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
 ```
 - Para testar e visualizar de maneira mais aparente a orquestração, descomentar o `await timeout` no arquivo `server/interface.js` e rodar normalmente o `server/index-consumer.js` e o `./server/testProducer.js` ou `yarn consumer` e `yarn producer`
 
-# Startar
+## Startar
 - Startar (requisitos: iniciar [imagem docker](#amqp) e feito os [passos de instalação](#instalação)):
 ```javascript
 yarn start
@@ -51,9 +52,10 @@ yarn dev
 ```
 - Rota para testar: `http://localhost:4000/products/{itemsPerPage}&{page}`, onde as variaveis entre chaves devem ser trocadas de acordo com a paginação desejada, por exemplo: se eu quero pegar 10 produtos por página e página 3, então o endereço seria: <a href="localhost:4000/products/10&3">`http://localhost:4000/products/10&3`</a>, por default: `itemsPerPage = 5 e page = 0`
 
-# Testes com Jest: fazer
+## Testes
+- Fazer
 
-# Challenge Getmore-Api Team
+## Challenge Getmore-Api Team
 
 Considere o seguinte cenário.
 
