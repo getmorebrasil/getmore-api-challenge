@@ -1,3 +1,10 @@
+## Sumário
+[Instalação](#instalação)
+[Database](#database)
+[AMQP](#amqp)
+[Startar](#startar)
+[Testes](#testes)
+
 ## Instalação
 - Instalar as dependências:
 ```javascript
@@ -29,12 +36,12 @@ docker run -d --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:567
 ```
 - Para testar e visualizar de maneira mais aparente a orquestração, descomentar o `await timeout` no arquivo `server/interface.js` e rodar normalmente o `server/index-consumer.js` e o `./server/testProducer.js` ou `yarn consumer` e `yarn producer`
 
-# Express
+# Startar
 - Startar (requisitos: iniciar [imagem docker](#amqp) e feito os [passos de instalação](#instalação)):
 ```javascript
 yarn start
 ```
-> Ao startar, já começa com um consumer, para adicionar mais consumers (requisitos: iniciar [imagem docker](#amqp) e feito os [passos de instalação](#instalação):
+> Ao startar, já começa com um consumer, para adicionar mais consumers (requisitos: iniciar [imagem docker](#amqp) e feito os [passos de instalação](#instalação)):
 ```javascript
 yarn consumer
 ```
@@ -44,7 +51,7 @@ yarn dev
 ```
 - Rota para testar: `http://localhost:4000/products/{itemsPerPage}&{page}`, onde as variaveis entre chaves devem ser trocadas de acordo com a paginação desejada, por exemplo: se eu quero pegar 10 produtos por página e página 3, então o endereço seria: <a href="localhost:4000/products/10&3">`http://localhost:4000/products/10&3`</a>, por default: `itemsPerPage = 5 e page = 0`
 
-# Tests com Jest: fazer
+# Testes com Jest: fazer
 
 # Challenge Getmore-Api Team
 
