@@ -10,6 +10,7 @@ async function mainProducer(itemsPerPage, page) {
     Handler.getProducts = async num => { };
     const target = 'getProducts';
     const getProducts = await Handler[target]({itemsPerPage: itemsPerPage, page: page});
+    console.log(`[x] Returned: ${target}`);
     // console.log(getProducts);
 
     connection.close();

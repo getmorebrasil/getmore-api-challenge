@@ -4,6 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node server/index.js",
+    "consumer": "node server/index-consumer.js",
+    "producer": "node server/testProducer.js",
     "dev": "nodemon server/index.js --ignore __tests__",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
