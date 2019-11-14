@@ -1,3 +1,6 @@
 producer = require('./index-producer');
 
-producer.mainProducer();
+(async () => {
+  let resp = await producer.mainProducer();
+  console.log(resp);
+})()
