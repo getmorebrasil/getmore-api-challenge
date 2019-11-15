@@ -36,11 +36,12 @@ const queryInsertProducts = (products) => {
  * itemsPerPage and page from parameters
  */
 const queryGetProducts = (itemsPerPage = 5, page = 0) => {
-  return `
-    SELECT *
-      FROM products
-      LIMIT ${itemsPerPage} OFFSET ${page * itemsPerPage}
+  let query = `
+    SELECT * FROM products ORDER BY productid ASC
+    LIMIT ${itemsPerPage} OFFSET ${page * itemsPerPage}
   `;
+  // console.log(query)
+  return query;
 }
 
 // returns all the producs in database

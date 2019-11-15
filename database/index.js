@@ -28,6 +28,7 @@ const insertProducts = async () => {
 const getProducts = async (itemsPerPage = 5, page = 0) => {
   let products = await client.query(queryGetProducts(itemsPerPage, page))
     .catch(err => console.log(err));
+    
   return products.rows;
 }
 

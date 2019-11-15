@@ -8,7 +8,7 @@
 
 ## Instalação
 - Instalar as dependências:
-```javascript
+```
 yarn install // qualquer chamada ao yarn neste e nos proximos passos, pode ser substituido por npm
 ```
 
@@ -16,7 +16,7 @@ yarn install // qualquer chamada ao yarn neste e nos proximos passos, pode ser s
 - Criar a tabela 'Products'
 
 - Criar um .env com as seguintes variaveis (variaveis entre chaves devem ser alteradas de acordo com o seu postgres e suas configurações):
-```javascript
+```
 PGHOST=localhost
 PGPORT=5432
 PGUSER={_user}
@@ -26,7 +26,7 @@ PGDATABASE={_nome_da_database_criada}
 
 ## Database
 - Para testar apenas o db:
-```javascript
+```
 node server/testDB.js
 ```
 
@@ -39,23 +39,26 @@ docker run -d --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:567
 
 ## Startar
 - Startar (requisitos: iniciar [imagem docker](#amqp) e feito os [passos de instalação](#instalação)):
-```javascript
+```
 yarn start
 ```
 > Ao startar, já começa com um consumer, para adicionar mais consumers (requisitos: iniciar [imagem docker](#amqp) e feito os [passos de instalação](#instalação)):
-```javascript
+```
 yarn consumer
 ```
 para startar em modo de desenvolvimento (requisitos: iniciar [imagem docker](#amqp) e feito os [passos de instalação](#instalação)):
-```javascript
+```
 yarn dev
 ```
 - Rota para testar: `http://localhost:4000/products/{itemsPerPage}&{page}`, onde as variaveis entre chaves devem ser trocadas de acordo com a paginação desejada, por exemplo: se eu quero pegar 10 produtos por página e página 3, então o endereço seria: <a href="localhost:4000/products/10&3">`http://localhost:4000/products/10&3`</a>, por default: `itemsPerPage = 5 e page = 0`
 
 ## Testes
-- Fazer
+- Rodar os testes automatizados com jest (precisa ter [iniciado o server](#startar)):
+```
+yarn test
+```
 
-## Challenge Getmore-Api Team
+# Challenge Getmore-Api Team
 
 Considere o seguinte cenário.
 
