@@ -38,6 +38,8 @@ docker run -d --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:567
 - Para testar e visualizar de maneira mais aparente a orquestração, descomentar o `await timeout` no arquivo `server/interface.js` e rodar normalmente o `server/index-consumer.js` e o `./server/testProducer.js` ou `yarn consumer` e `yarn producer`
 
 ## Startar
+> Antes de startar, execute o comando de [teste do database](#database), para popula-lo com os produtos
+
 - Startar (requisitos: iniciar [imagem docker](#amqp) e feito os [passos de instalação](#instalação)):
 ```
 yarn start
