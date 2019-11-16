@@ -7,7 +7,7 @@
 - [Testes](#testes)
 - [Desafio](#challenge-getmore-api-team)
 
-# Estrutura do projeto
+## Estrutura do projeto
     .
     ├── ...
     ├── __test__                      # Pasta com os testes
@@ -18,7 +18,7 @@
     │   ├── index.js                  # Core da implementação da database
     │   └── queries.js                # Queries usadas no ./index.js
     │                   
-    ├── rpc-client-js                 # <a href="https://github.com/getmorebrasil/rpc-client-js">Cliente rpc com protocolo amqp implementado pela Getmore</a>
+    ├── rpc-client-js                 # Cliente rpc com protocolo amqp implementado pela Getmore
     │   └── ...                
     │                  
     ├── server                        # Pasta com o principal do desafio
@@ -74,7 +74,7 @@ node server/populateDatabase.js
 ```
 docker run -d --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
 ```
-- Para testar e visualizar de maneira mais aparente a orquestração, descomentar o `await timeout` no arquivo `server/interface.js` e rodar normalmente o `server/index-consumer.js` e o `./server/testProducer.js` ou `yarn consumer` e `yarn producer`
+- Para testar e visualizar de maneira mais aparente a orquestração, descomentar o `await timeout` no arquivo `server/interface.js` e rodar normalmente `yarn consumer` e `yarn producer`
 
 ## Executar
 > Antes de executar, rode o comando para [popular o banco de dados](#database) com os produtos
