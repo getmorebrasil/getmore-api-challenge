@@ -1,10 +1,38 @@
 # Sumário
+- [Estrutura do projeto](#estrutura-do-projeto)
 - [Instalação](#instalação)
 - [Database](#database)
 - [AMQP](#amqp)
-- [Startar](#startar)
+- [Executar](#executar)
 - [Testes](#testes)
 - [Desafio](#challenge-getmore-api-team)
+
+# Estrutura do projeto
+    .
+    ├── ...
+    ├── __test__                      # Pasta com os testes
+    │   ├── database.test.js          # Testes do database (standalone)
+    │   └── server.test.js            # Testes do projeto executando como um todo
+    │                  
+    ├── database                      # Pasta com a implementação para o Postgres
+    │   ├── index.js                  # Core da implementação da database
+    │   └── queries.js                # Queries usadas no ./index.js
+    │                   
+    ├── rpc-client-js                 # <a href="https://github.com/getmorebrasil/rpc-client-js">Cliente rpc com protocolo amqp implementado pela Getmore</a>
+    │   └── ...                
+    │                  
+    ├── server                        # Pasta com o principal do desafio
+    │   ├── index-consumer.js         # Conexão do consumer do rpc-client
+    │   ├── index-producer.js         # Conexão do producer do rpc-client
+    │   ├── index.js                  # Express e rotas, __executa o projeto__
+    │   ├── interface.js              # Interface utilizada pelo consumer
+    │   ├── populateDatabase.js       # Implementação para popular o banco de dados com o ../products.json
+    │   └── testProducer.js           # Simples teste do producer
+    │                  
+    ├── products.json                 # Array com objetos de produtos, dado no desafio
+    └── ...
+
+
 
 ## Instalação
 - Instalar as dependências:
@@ -25,9 +53,20 @@ PGDATABASE={_nome_da_database_criada}
 ```
 
 ## Database
-- Para testar apenas o db:
+- Para popular o banco de dados:
 ```
-node server/testDB.js
+node server/populateDatabase.js
+```
+- O banco de dados será preenchido com os objetos presentes no arquivo products.json, exemplo da estrutura de um produto:
+```
+{
+  "productId": 1001,
+  "productCategory": "Category 2",
+  "productName": "Product 1",
+  "productImage": "https://picsum.photos/400?image=333",
+  "productStock": true,
+  "productPrice": 1871.425
+}
 ```
 
 ## AMQP
@@ -37,25 +76,25 @@ docker run -d --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:567
 ```
 - Para testar e visualizar de maneira mais aparente a orquestração, descomentar o `await timeout` no arquivo `server/interface.js` e rodar normalmente o `server/index-consumer.js` e o `./server/testProducer.js` ou `yarn consumer` e `yarn producer`
 
-## Startar
-> Antes de startar, execute o comando de [teste do database](#database), para popula-lo com os produtos
+## Executar
+> Antes de executar, rode o comando para [popular o banco de dados](#database) com os produtos
 
-- Startar (requisitos: iniciar [imagem docker](#amqp) e feito os [passos de instalação](#instalação)):
+- Executar (requisitos: iniciar [imagem docker](#amqp) e feito os [passos de instalação](#instalação)):
 ```
 yarn start
 ```
-> Ao startar, já começa com um consumer, para adicionar mais consumers (requisitos: iniciar [imagem docker](#amqp) e feito os [passos de instalação](#instalação)):
+> Ao executar, já começa com um consumer, para adicionar mais consumers (requisitos: iniciar [imagem docker](#amqp) e feito os [passos de instalação](#instalação)):
 ```
 yarn consumer
 ```
-para startar em modo de desenvolvimento (requisitos: iniciar [imagem docker](#amqp) e feito os [passos de instalação](#instalação)):
+- Para executar em modo de desenvolvimento (requisitos: iniciar [imagem docker](#amqp) e feito os [passos de instalação](#instalação)):
 ```
 yarn dev
 ```
 - Rota para testar: `http://localhost:4000/products/{itemsPerPage}&{page}`, onde as variaveis entre chaves devem ser trocadas de acordo com a paginação desejada, por exemplo: se eu quero pegar 10 produtos por página e página 3, então o endereço seria: <a href="localhost:4000/products/10&3">`http://localhost:4000/products/10&3`</a>, por default: `itemsPerPage = 5 e page = 0`
 
 ## Testes
-- Rodar os testes automatizados com jest (precisa ter [iniciado o server](#startar)):
+- Rodar os testes automatizados com jest (precisa ter [iniciado o server](#executar)):
 ```
 yarn test
 ```

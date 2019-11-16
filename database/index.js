@@ -1,6 +1,6 @@
 require('dotenv').config();
 const { Client } = require('pg');
-const products = require('../products');
+const products = require('../products.json');
 const client = new Client();
 const { 
   queryCreateTableProducts,

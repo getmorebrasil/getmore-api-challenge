@@ -1,5 +1,5 @@
 const producer = require('./index-producer');
-const consumer = require('./index-consumer');
+require('./index-consumer');
 const express = require('express');
 const app = express();
 const cors = require('cors');
