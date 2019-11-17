@@ -28,4 +28,17 @@ describe('Server Test', () => {
     }
   })
 
+  // test - it should try to get more items per page than maximum allowed, should get code 400
+  it('should try to get more items per page than maximum allowed', async () => {
+    let page = 2;
+    let maxPerPage = process.env.MAX_ITEMS_PER_PAGE || 10;
+    let itemsPerPage = maxPerPage + 1;
+
+    try {
+      await axios.get(`products/${page}&${itemsPerPage}`)
+    } catch ({ response }) {
+      return expect(response.data.error).toBe(`Maximum of ${maxPerPage} items per page`);
+    }
+  })
+
 });
