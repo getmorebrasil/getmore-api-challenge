@@ -91,7 +91,7 @@ yarn consumer
 ```
 yarn dev
 ```
-- Rota para testar: `http://localhost:4000/products/{itemsPerPage}&{page}`, onde as variaveis entre chaves devem ser trocadas de acordo com a paginação desejada, por exemplo: se eu quero pegar 10 produtos por página e página 3, então o endereço seria: <a href="localhost:4000/products/10&3">`http://localhost:4000/products/10&3`</a>, por default: `itemsPerPage = 5 e page = 0`
+- Rota para testar: `http://localhost:4000/products/{page}&{itemsPerPage}`, onde as variaveis entre chaves devem ser trocadas de acordo com a paginação desejada, por exemplo: deseja-se obter a página 3, com 10 produtos por página, então o endereço seria: <a href="localhost:4000/products/3&10">`http://localhost:4000/products/3&10`</a>, por default: `page = 0 e itemsPerPage = 5 `. Pode-se também ser informado apenas a página desejada, desta maneira os itens por páginas serão 5 por default. O máximo de produtos por página está definido na variavel de ambiente MAX_ITEMS_PER_PAGE, que por default é 10.
 
 ## Testes
 - Rodar os testes automatizados com jest (precisa ter [iniciado o server](#executar)):

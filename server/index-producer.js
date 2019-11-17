@@ -1,6 +1,6 @@
 const { Handler, connectionProducer } = require('../rpc-client-js/producer');
 
-async function mainProducer(itemsPerPage, page) {
+async function mainProducer(page, itemsPerPage) {
     const host = 'amqp://localhost:5672';
     const queueName = 'test_queue';
     const connection = await connectionProducer(host, queueName);
@@ -9,7 +9,7 @@ async function mainProducer(itemsPerPage, page) {
 
     Handler.getProducts = async num => { };
     const target = 'getProducts';
-    const getProducts = await Handler[target]({ itemsPerPage: itemsPerPage, page: page });
+    const getProducts = await Handler[target]({ page: page, itemsPerPage: itemsPerPage });
     console.log(`[x] Returned: ${target}`);
     // console.log(getProducts);
 

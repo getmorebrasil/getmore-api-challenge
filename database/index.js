@@ -25,25 +25,30 @@ const insertProducts = async () => {
 };
 
 // returns the products according to quantity per page and the page
-const getProducts = async (itemsPerPage = 5, page = 0) => {
-  let products = await client.query(queryGetProducts(itemsPerPage, page))
+const getProducts = async (page = 0, itemsPerPage = 5) => {
+  let maxPerPage = parseInt(process.env.MAX_ITEMS_PER_PAGE) || 10;
+
+  if (itemsPerPage > maxPerPage)
+    return {error: `Maximum of ${maxPerPage} items per page`};
+  
+  let products = await client.query(queryGetProducts(page, itemsPerPage))
     .catch(err => console.log(err));
     
   return products.rows;
 }
 
 // returns all database products
-const getAllProducts = async () => {
-  let products = await client.query(queryGetAllProducts())
-    .catch(err => console.log(err));
+// const getAllProducts = async () => {
+//   let products = await client.query(queryGetAllProducts())
+//     .catch(err => console.log(err));
 
-  return products.rows;
-}
+//   return products.rows;
+// }
 
 module.exports = {
   client,
   createTableProducts,
   insertProducts,
   getProducts,
-  getAllProducts
+  // getAllProducts
 }

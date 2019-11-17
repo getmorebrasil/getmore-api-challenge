@@ -35,7 +35,7 @@ const queryInsertProducts = (products) => {
  * returns the get products query, according to the
  * itemsPerPage and page from parameters
  */
-const queryGetProducts = (itemsPerPage = 5, page = 0) => {
+const queryGetProducts = (page = 0, itemsPerPage = 5) => {
   let query = `
     SELECT * FROM products ORDER BY productid ASC
     LIMIT ${itemsPerPage} OFFSET ${page * itemsPerPage}
