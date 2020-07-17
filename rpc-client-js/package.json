@@ -1,0 +1,27 @@
+{
+  "name": "rpc-client-js",
+  "version": "2.0.0",
+  "description": "rpc-client with amqp protocol from Getmore",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "getmore services",
+  "dependencies": {
+    "amqplib": "^0.5.3",
+    "node-uuid": "^1.4.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/getmorebrasil/rpc-client-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/getmorebrasil/rpc-client-js/issues"
+  },
+  "homepage": "https://github.com/getmorebrasil/rpc-client-js#readme",
+  "directories": {
+    "test": "test"
+  }
+}
