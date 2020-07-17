@@ -127,3 +127,20 @@ npm run start
 ```
 npm run consumer
 ```
+
+- Rota para pegar os produtos você deve usar a URL:
+
+```
+http://localhost:3000/products
+```
+
+- E passar na rota o cabeçalho da seguinte com o formato JSON abaixo:
+
+```
+{
+	"page": 5,
+	"productsPerPage": 10
+}
+```
+
+> Os valores default são: page = 0 e productsPerPage = 5.
