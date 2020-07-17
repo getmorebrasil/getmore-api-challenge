@@ -1,3 +1,10 @@
+# Sumário
+- [Desafio](#challenge-getmore-api-team)
+- [Estrutura do projeto](#estrutura-do-projeto)
+- [Instalação](#instalação)
+- [Database](#database)
+- [Executar](#executar)
+
 # Challenge Getmore-Api Team
 
 Considere o seguinte cenário.
@@ -45,4 +52,75 @@ https://github.com/getmorebrasil/rpx
  - Faça um fork desse repositório;
  - Crie uma Pull Request com sua fork
 
+## Estrutura do projeto
 
+    .
+    ├── src
+    |   ├── ...
+    |   ├── database                      # Pasta com a implementação para o Postgres
+    |   │   ├── migrations                # Schema de criação, alteração e deleção de tabelas
+    |   |   |   └── 0_create_products.ts  # Criação da tabela products
+    |   |   |
+    |   |   ├── seeds                     # Populam o database com dados pré-definidas
+    |   |   |   └── create_products.ts    # Populam a tabela products com os dados do arquivo products.json
+    |   |   |
+    |   │   └── connection.ts             # Configurações do database
+    |   │                   
+    |   ├── rpc-client-js                 # Lib de comunicação em javascript
+    |   │   └── ...                
+    |   │                  
+    |   ├── server                        # Pasta com a solução do desafio
+    |   │   ├── index-consumer.ts         # Conexão do consumer do rpc-client
+    |   │   ├── index-producer.ts         # Conexão do producer do rpc-client
+    |   │   ├── index.ts                  # Configuração do express e rotas
+    |   │   └── interface.ts              # Interface utilizada pelo consumer
+    |   │                  
+    |   └── routes.ts                     # Possui as rotas do desafio
+    |
+    ├── knexfile.ts                       # Configurações do knex e criação do database
+    |
+   ...
+
+## Instalação
+
+- Instalar as dependências do projeto:
+
+```
+npm install
+```
+
+## Database
+
+- Para criar o banco de dados:
+
+```
+npm run knex:migrate
+```
+
+- Para popular o banco de dados com os dados fornecidos:
+
+```
+npm run knex:seed
+```
+
+> O desafio foi desenvolvido utilizando o banco de dados Sqlite, porém a implementação foi feita utilizando o ´knex´. Dessa forma, para utilizar outros bancos que se achar conveniente basta trocar as configurações do arquivo ´./src/knexfile.ts´ e ´./src/database/connection.ts´
+
+## Executar
+
+- Para subir o serviço de mensageria:
+
+```
+docker run -d --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
+```
+
+- Executar:
+
+```
+npm run start
+```
+
+- Executar:
+
+```
+npm run consumer
+```

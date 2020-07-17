@@ -1,4 +1,6 @@
 /rpc-client-js
 /node_modules
 
+/src/database/database.sqlite
+
 package-lock.json
