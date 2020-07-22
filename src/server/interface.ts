@@ -10,8 +10,7 @@ interface Product {
 }
 
 export default () => ({
-    async getProducts({page = 0, productsPerPage = 5}): Promise<Product[]> {
-        const res = await seachProducts(page, productsPerPage)
-        return res
+    getProducts({page = 0, productsPerPage = 5} = {}): Promise<Product[]> {
+        return seachProducts(page, productsPerPage)
     }
 })
