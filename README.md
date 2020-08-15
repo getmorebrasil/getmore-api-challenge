@@ -2,6 +2,21 @@
 
 ## Solution (Implementation)
 
+> [x] Popule o banco com o products.json que está no projeto.
+
+`npx knex seed:run` did the hard work.
+
+> [x] Ter uma api que gerencía um catálogo de produtos, ela deve listar os produtos paginados através de um endpoint.
+
+Can be used through [/products?n=10&p=2](http://localhost:4000/products/?n=10&p=2)
+
+Please, try to fool me [/products/?n=-1&p=-1](http://localhost:4000/products/?n=-1&p=-1). You won't be able.
+
+> [ ] Foi definido com o time de desenvolvimento que o serviço será uma aplicação distribuida com a arquitetura de orquestração. Nesse caso também deverá ser construido um orquestrador, que faz o controle de acesso ao serviço de produtos, para o usuário final.
+> A comunicação entre o orquestrador e o serviço deve ser via protocolo amqp utilizando o serviço de mensageria rabbitMq.
+
+### _In progress_
+
 ### Used commands
 
 ```
@@ -28,8 +43,6 @@ getmore=# \dt+
 getmore=# select count(*) from products;
    200
 ```
-
-### _In progress_
 
 ---
 
