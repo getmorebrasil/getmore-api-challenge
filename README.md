@@ -6,6 +6,7 @@
 
 ```
 ❯ npm install express
+❯ npm install cors
 ❯ npm install nodemon -D
 ❯ npm install knex
 ❯ npm install pg
