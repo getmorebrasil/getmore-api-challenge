@@ -1,6 +1,6 @@
 # Challenge Getmore-Api Team
 
-## Resolution - Implementation
+## Solution (Implementation)
 
 ### Used commands
 
@@ -28,7 +28,7 @@ getmore=# select count(*) from products;
    200
 ```
 
-### _The end_
+### _In progress_
 
 ---
 
