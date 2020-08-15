@@ -1,23 +1,14 @@
 const express = require("express");
-const connection = require("./database/connection");
+const producer = require("./index-producer");
+require("./index-consumer");
 
 const routes = express.Router();
 
 routes.get("/products", async (req, res) => {
-  var { n = 10, p = 1 } = req.query;
-  if (n < 1) {
-    n = 10;
-  }
-  if (p < 1) {
-    p = 1;
-  }
+  let { n = 10, p = 0 } = req.query;
 
-  const prods = await connection("products")
-    .limit(n)
-    .offset((p - 1) * n)
-    .select("*");
-
-  return res.json(prods);
+  const prodRes = await producer.mainProducer(n, p);
+  return res.json(prodRes);
 });
 
 module.exports = routes;
