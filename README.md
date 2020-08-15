@@ -39,7 +39,7 @@ It was done using the getmore _rpc-client-js_ lib.
 
 `docker run -d --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management`
 
-#### rabbitmq service can be controlled through [http://localhost:15672](http://localhost:15672). User _guest_, password _guest_.
+rabbitmq service can be controlled through [http://localhost:15672](http://localhost:15672). User _guest_, password _guest_.
 
 #### Start this challenge service.
 
