@@ -25,7 +25,7 @@ After clone it, enter in the repo folder and update the submodules.
 
 `git submodule update --init --recursive`
 
-#### Install dependencies.
+#### Install dependencies
 
 `npm install`
 
@@ -33,7 +33,7 @@ After clone it, enter in the repo folder and update the submodules.
 
 `createdb getmore`
 
-#### Migrate Products table structure.
+#### Migrate Products table structure
 
 `npx knex migrate:latest`
 
@@ -41,17 +41,17 @@ After clone it, enter in the repo folder and update the submodules.
 
 `npx knex seed:run`
 
-#### As instructed in the challenge, get _rabbitmq_ running.
+#### As instructed in the challenge, get _rabbitmq_ running
 
 `docker run -d --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management`
 
 rabbitmq service can be controlled through [http://localhost:15672](http://localhost:15672). User _guest_, password _guest_.
 
-#### Start this challenge service.
+#### Start this challenge service
 
 `npm start`
 
-#### Test some GET requests.
+#### Do some GET requests
 
 [http://localhost:4000/products?n=10&p=2](http://localhost:4000/products?n=10&p=2)
 
