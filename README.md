@@ -17,7 +17,13 @@ Please, try to fool me [/products/?n=-1&p=-1](http://localhost:4000/products/?n=
 
 It was done using the getmore _rpc-client-js_ lib.
 
-## How to test
+## How to test it
+
+#### Clone this repo
+
+After clone it, enter in the repo folder and update the submodules.
+
+`git submodule update --init --recursive`
 
 #### Install dependencies.
 
