@@ -1,0 +1,3 @@
+[submodule "rpc-client-js"]
+	path = rpc-client-js
+	url = https://github.com/getmorebrasil/rpc-client-js
