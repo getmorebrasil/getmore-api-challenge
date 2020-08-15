@@ -5,25 +5,25 @@
 ### Used commands
 
 ```
-npm install express
-npm install nodemon -D
-npm install knex
-npm install pg
-npx knex init
-createdb getmore
-npx knex migrate:make create_products
-npx knex migrate:latest
+❯ npm install express
+❯ npm install nodemon -D
+❯ npm install knex
+❯ npm install pg
+❯ npx knex init
+❯ createdb getmore
+❯ npx knex migrate:make create_products
+❯ npx knex migrate:latest
 
-psql -d getmore
+❯ psql -d getmore
 getmore=# \dt+
  public | knex_migrations      | table | uzu   | 8192 bytes |
  public | knex_migrations_lock | table | uzu   | 8192 bytes |
  public | products             | table | uzu   | 56 kB      |
 
-npx knex seed:make seed_products
-npx knex seed:run
+❯ npx knex seed:make seed_products
+❯ npx knex seed:run
 
-psql -d getmore
+❯ psql -d getmore
 getmore=# select count(*) from products;
    200
 ```
