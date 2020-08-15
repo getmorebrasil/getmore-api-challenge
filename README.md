@@ -57,7 +57,7 @@ rabbitmq service can be controlled through [http://localhost:15672](http://local
 
 [http://localhost:4000/products](http://localhost:4000/products)
 
-### _In progress_
+### **=D**
 
 ### Used commands while implementing
 
