@@ -15,35 +15,37 @@ Please, try to fool me [/products/?n=-1&p=-1](http://localhost:4000/products/?n=
 > **[x]** Foi definido com o time de desenvolvimento que o serviço será uma aplicação distribuida com a arquitetura de orquestração. Nesse caso também deverá ser construido um orquestrador, que faz o controle de acesso ao serviço de produtos, para o usuário final.
 > A comunicação entre o orquestrador e o serviço deve ser via protocolo amqp utilizando o serviço de mensageria rabbitMq.
 
-### How to test
+It was done using the getmore _rpc-client-js_ lib.
 
-Install dependencies.
+## How to test
+
+#### Install dependencies.
 
 `npm install`
 
-Create a postgresql database named `getmore`. Current user need to have access to postgresql.
+#### Create a postgresql database named _getmore_. Current user need to have access to postgresql.
 
 `createdb getmore`
 
-Migrate Products table structure.
+#### Migrate Products table structure.
 
 `npx knex migrate:latest`
 
-Now seed it with the `products.json`.
+#### Now seed it with the _products.json_.
 
 `npx knex seed:run`
 
-As instructed in the challenge, get `rabbitmq` running.
+#### As instructed in the challenge, get _rabbitmq_ running.
 
 `docker run -d --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management`
 
-rabbitmq service can be controlled through [http://localhost:15672](http://localhost:15672). User guest, password guest.
+#### rabbitmq service can be controlled through [http://localhost:15672](http://localhost:15672). User _guest_, password _guest_.
 
-Start this challenge service.
+#### Start this challenge service.
 
 `npm start`
 
-Test some GET requests.
+#### Test some GET requests.
 
 [http://localhost:4000/products?n=10&p=2](http://localhost:4000/products?n=10&p=2)
 
