@@ -1,9 +1,8 @@
 # Comandos para Inilialização:
 
 ```
-docker-compose up -d
-yarn
-yarn typeorm migration:run
+./build.sh
+./start.sh
 ```
 
 # Endpoints:
