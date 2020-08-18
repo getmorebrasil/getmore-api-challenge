@@ -6,7 +6,6 @@ const mainProducer = async (data) => {
 
   const connection = await connectionProducer(host, queueName);
   const handlers = await Handler.getHandlers();
-  console.log(handlers);
   Handler.create = async () => {};
 
   const target = 'create';
@@ -15,7 +14,8 @@ const mainProducer = async (data) => {
   ]);
   console.log(resp);
 
-  connection.close();
+  /* INVESTIGAR POR QUE A CONEXÃO NÃO ESTÁ FECHANDO */
+  await connection.close();
 };
 
 module.exports = mainProducer;

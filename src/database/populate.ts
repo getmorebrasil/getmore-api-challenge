@@ -25,6 +25,6 @@ function delay(ms: number) {
       productPrice: data[i].productPrice
     };
 
-    await producer(dto);
+    producer(dto);
   }
 })();
