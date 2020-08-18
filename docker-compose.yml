@@ -5,11 +5,13 @@ services:
   getmore_postgres:
     image: 'pedronobrega/dockerpostgres'
     container_name: 'postgres'
-    volumes:
-      - './setup.sql:/docker-entrypoint-initdb.d/'
     restart: 'always'
     ports:
       - '5432:5432'
+    environment:
+      POSTGRES_DB: 'typeorm'
+      POSTGRES_USER: 'typeorm'
+      POSTGRES_PASSWORD: 'typeorm'
 
   getmore_rabbit:
     image: 'rabbitmq:3-management'
@@ -28,5 +30,3 @@ services:
     links:
       - 'getmore_postgres'
       - 'getmore_rabbit'
-    command: [sh, -c, "yarn dev:server"]
-    # yarn typeorm migration:run &&

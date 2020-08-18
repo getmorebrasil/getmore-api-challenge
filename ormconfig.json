@@ -5,7 +5,7 @@
     "username": "typeorm",
     "password": "typeorm",
     "database": "typeorm",
-    "schema": "gitmore_api_challenge",
+    "schema": "getmore_api_challenge",
     "synchronize": false,
     "logging": false,
     "entities": [ "src/models/*.entity.ts" ],

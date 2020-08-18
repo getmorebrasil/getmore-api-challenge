@@ -1,1 +1,1 @@
-CREATE SCHEMA IF NOT EXISTS gitmore_api_challenge;
+CREATE SCHEMA IF NOT EXISTS getmore_api_challenge;
