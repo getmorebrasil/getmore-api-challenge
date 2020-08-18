@@ -1,20 +1,43 @@
-import * as data from '../../products.json';
+import 'reflect-metadata';
+import '../database/connection';
 import { Product } from '../models/Product.entity';
 import { getRepository } from 'typeorm';
+import ProductDTO from '../interfaces/ProductDTO';
+type ProductCollectionDTO = ProductDTO[];
 
 export default {
-  get(){},
-
-  async createDependences() {
+  async get(){
     const repository = getRepository(Product);
+    const data: Product[]= await repository.find();
+    const productList: ProductCollectionDTO = data.map(
+      (product: Product) => {
+        const dto: ProductDTO = {
+          productId: product.productId,
+          productCategory: product.productCategory,
+          productName: product.productName,
+          productImage: product.productImage,
+          productStock: product.productStock,
+          productPrice: product.productPrice
+        };
 
-    const result = await repository.findAndCount();
-
-    /* REFACTOR THIS TO USE MESSAGER */
-    if(result[1] == 0) {
-      for (var i in data){
-        repository.save<Product>(data[i]);
+        return dto;
       }
-    }
+    );
+    return
+  },
+
+  async create(data: ProductDTO) {
+    console.log("[x] Entering Product Service")
+    const repository = getRepository(Product);
+    const product: Product = await repository.save<Product>(data);
+    const productDTO: ProductDTO = {
+      productId: product.productId,
+          productCategory: product.productCategory,
+          productName: product.productName,
+          productImage: product.productImage,
+          productStock: product.productStock,
+          productPrice: product.productPrice
+    };
+    return productDTO;
   }
 }
