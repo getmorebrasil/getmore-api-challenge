@@ -1,0 +1,22 @@
+version: '3.1'
+
+services:
+
+  postgres:
+    image: 'postgres'
+    container_name: 'postgres'
+    restart: 'always'
+    ports:
+      - '5432:5432'
+    environment:
+      POSTGRES_DB: 'typeorm'
+      POSTGRES_USER: 'typeorm'
+      POSTGRES_PASSWORD: 'typeorm'
+
+  rabbit:
+    image: 'rabbitmq:3-management'
+    container_name: 'rabbit'
+    restart: 'always'
+    ports:
+      - '15672:15672'
+      - '5672:5672'

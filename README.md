@@ -1,3 +1,19 @@
+# Comandos para Inilialização:
+
+```
+docker-compose up -d
+yarn
+yarn typeorm migration:run
+```
+
+# Endpoints:
+
+`https://localhost/products[?max-results=1&start-index=0&end-index=2000]`
+
+Filtros aceitos:
+
+
+
 # Challenge Getmore-Api Team
 
 Considere o seguinte cenário.
@@ -39,7 +55,7 @@ Lib de comunicação para o protocolo:
 https://github.com/getmorebrasil/rpc-client-js
 
 - lib de comunicação em elixir
-https://github.com/getmorebrasil/rpx 
+https://github.com/getmorebrasil/rpx
 
 **Aqui vão as etapas:**
  - Faça um fork desse repositório;
