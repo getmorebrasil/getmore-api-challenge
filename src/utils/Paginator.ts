@@ -16,24 +16,26 @@ export default class Paginator {
     const final: number = offset * this.page;
     const start: number = final - offset;
 
-    try {
-      for(var i = 0; i < this.size; i++) {
-        paginatedData.push(this.data[start + i]);
-      }
+    var payloadReturn: any = {};
 
-      return {
-        data: paginatedData,
-        size: this.size,
-        page: this.page,
-        total_pages: Math.trunc(this.data.length / this.size),
-        status: 200
-      };
-    } catch (error) {
-      console.log(error);
+    for(var i = 0; i < this.size; i++) {
+      if (this.data[start + i] !== 'undefined') {
+        paginatedData.push(this.data[start + i]);
+      } else {
+        break;
+      }
     }
 
-    if (this.page <= 0) {
-      return {
+    payloadReturn = {
+      data: paginatedData,
+      size: this.size,
+      page: this.page,
+      total_pages: Math.trunc(this.data.length / this.size),
+      status: 200
+    };
+
+    if (this.size <= 0) {
+      payloadReturn = {
         errors: [{
           title: 'Invalid Parameter.',
           detail: 'size must be a positive integer; got ' + this.size,
@@ -41,8 +43,8 @@ export default class Paginator {
           status: 400
         }]
       };
-    } if (this.size <= 0) {
-      return {
+    } else if (this.page <= 0) {
+      payloadReturn = {
         errors: [{
           title: 'Invalid Parameter.',
           detail: 'page must be a positive integer; got ' + this.page,
@@ -50,8 +52,8 @@ export default class Paginator {
           status: 400
         }]
       };
-    } else {
-      return {};
     }
+
+    return payloadReturn;
   }
 }
