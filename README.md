@@ -5,7 +5,7 @@
 ./start.sh
 ```
 
-Para acessar o servidor basta entrar em: `https://localhost:3333/`
+Para acessar o servidor basta entrar em: `http://localhost:3333/`
 
 # Comandos para Finalização
 
