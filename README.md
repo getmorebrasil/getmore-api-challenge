@@ -9,6 +9,10 @@ Para acessar o servidor basta entrar em: `https://localhost:3333/`
 
 # Comandos para Finalização
 
+```
+./stop.sh
+```
+
 # Endpoints:
 
 ## Teste de conexão
