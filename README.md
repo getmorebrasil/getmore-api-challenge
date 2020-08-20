@@ -7,6 +7,8 @@
 
 Para acessar o servidor basta entrar em: `https://localhost:3333/`
 
+# Comandos para Finalização
+
 # Endpoints:
 
 ## Teste de conexão

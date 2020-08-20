@@ -9,8 +9,14 @@ import ProductDTO from '../interfaces/ProductDTO';
   this file
 */
 
+function delay(ms: number) {
+  return new Promise( resolve => setTimeout(resolve, ms) );
+}
 
 (async () => {
+
+  /* Wait for consumer start consuming */
+  await delay(1000);
 
   for (var i in data){
     const dto: ProductDTO = {
