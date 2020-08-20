@@ -4,34 +4,36 @@ export default class Paginator {
   page: number;
   size: number;
 
-  constructor(data: any[], page: any = '1', size: any = '10') {
-    this.data = data;
-    this.page = +page;
-    this.size = +size;
+  constructor(dataToPaginate: any[], page: any = '1', size: any = '10') {
+    this.data = dataToPaginate;
+    this.page = Math.floor(+page);
+    this.size = Math.floor(+size);
   }
 
   apply() {
     const paginatedData: any[] = [];
-    const offset: number = this.size - 1;
+    const offset: number = this.size;
     const final: number = offset * this.page;
     const start: number = final - offset;
-
-    var payloadReturn: any = {};
+    const processingData = this.data[0];
+    const totalPages: number = Math.ceil(processingData.length / this.size);
 
     for(var i = 0; i < this.size; i++) {
-      if (this.data[start + i] !== 'undefined') {
-        paginatedData.push(this.data[start + i]);
+      const position: number = start + i;
+      if (typeof processingData[position] !== 'undefined') {
+        paginatedData.push(processingData[position]);
       } else {
         break;
       }
     }
 
-    payloadReturn = {
-      data: paginatedData,
-      size: this.size,
-      page: this.page,
-      total_pages: Math.trunc(this.data.length / this.size),
-      status: 200
+    var payloadReturn: any = {
+      data: this.page <= totalPages ? paginatedData.filter(() => (true)) : {},
+      metadata: [{
+        size: this.size,
+        page: this.page,
+        total_pages: totalPages
+      }]
     };
 
     if (this.size <= 0) {
@@ -39,8 +41,7 @@ export default class Paginator {
         errors: [{
           title: 'Invalid Parameter.',
           detail: 'size must be a positive integer; got ' + this.size,
-          source: { parameter: 'size' },
-          status: 400
+          source: { parameter: 'size' }
         }]
       };
     } else if (this.page <= 0) {
@@ -48,8 +49,7 @@ export default class Paginator {
         errors: [{
           title: 'Invalid Parameter.',
           detail: 'page must be a positive integer; got ' + this.page,
-          source: { parameter: 'page' },
-          status: 400
+          source: { parameter: 'page' }
         }]
       };
     }

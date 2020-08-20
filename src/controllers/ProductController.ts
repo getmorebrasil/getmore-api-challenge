@@ -14,6 +14,10 @@ export default {
 
     const paginatedProducts = new Paginator(products, page, size).apply();
 
+    if('errors' in paginatedProducts) {
+      res.status(400);
+    }
+
     res.json(paginatedProducts);
   }
 
