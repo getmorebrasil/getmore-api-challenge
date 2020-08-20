@@ -29,6 +29,7 @@
     "forceConsistentCasingInFileNames": true,  /* Disallow inconsistently-cased references to the same file. */
 
     "resolveJsonModule": true,
-    "preserveSymlinks": true
+    "preserveSymlinks": true,
+    "composite": true
   }
 }

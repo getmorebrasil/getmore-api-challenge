@@ -2,7 +2,7 @@ version: '3.1'
 
 services:
 
-  getmore_postgres:
+  postgres:
     image: 'pedronobrega/dockerpostgres'
     container_name: 'postgres'
     restart: 'always'
@@ -13,7 +13,7 @@ services:
       POSTGRES_USER: 'typeorm'
       POSTGRES_PASSWORD: 'typeorm'
 
-  getmore_rabbit:
+  rabbit:
     image: 'rabbitmq:3-management'
     container_name: 'rabbit'
     restart: 'always'
@@ -21,12 +21,12 @@ services:
       - '15672:15672'
       - '5672:5672'
 
-  getmore_node:
+  node:
     image: 'pedronobrega/dockernode'
     container_name: 'node'
     restart: 'always'
     ports:
       - '3333:3333'
     links:
-      - 'getmore_postgres'
-      - 'getmore_rabbit'
+      - 'postgres'
+      - 'rabbit'

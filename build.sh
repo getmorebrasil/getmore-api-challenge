@@ -1,6 +1,6 @@
-docker ps -q --filter "name=getmore_postgres" | grep -q . && docker stop getmore_postgres && docker rm -fv getmore_postgres
-docker ps -q --filter "name=getmore_rabbit" | grep -q . && docker stop getmore_rabbit && docker rm -fv getmore_rabbit
-docker ps -q --filter "name=getmore_node" | grep -q . && docker stop getmore_node && docker rm -fv getmore_node
+docker ps -q --filter "name=postgres" | grep -q . && docker stop postgres && docker rm -fv postgres
+docker ps -q --filter "name=rabbit" | grep -q . && docker stop rabbit && docker rm -fv rabbit
+docker ps -q --filter "name=node" | grep -q . && docker stop node && docker rm -fv node
 
 docker build -t pedronobrega/dockerpostgres -f postgres.Dockerfile .
 docker build -t pedronobrega/dockernode -f node.Dockerfile .

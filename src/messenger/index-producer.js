@@ -3,7 +3,7 @@ const { Handler, connectionProducer } = require('../dependencies/rpc-client-js/p
 module.exports = {
 
   productCreationProducer: async function (data) {
-    const host = 'amqp://guest:guest@getmore_rabbit:5672';
+    const host = 'amqp://guest:guest@rabbit:5672';
     const queueName = 'queue1';
 
     const connection = await connectionProducer(host, queueName);
@@ -23,7 +23,7 @@ module.exports = {
   },
 
   productListProducer: async function () {
-    const host = 'amqp://guest:guest@getmore_rabbit:5672';
+    const host = 'amqp://guest:guest@rabbit:5672';
     const queueName = 'queue1';
 
     const connection = await connectionProducer(host, queueName);
