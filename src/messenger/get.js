@@ -1,6 +1,6 @@
 const ProductService = require("../services/ProductService");
-const ProductDTO = require("../interfaces/ProductDTO");
 
 module.exports = async () => {
-  return await ProductService.get();
+  console.log("[x] Entering Consumer Get Product");
+  return await ProductService.default.get();
 };

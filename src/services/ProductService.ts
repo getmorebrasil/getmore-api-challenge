@@ -7,8 +7,11 @@ type ProductCollectionDTO = ProductDTO[];
 
 export default {
   async get(){
+    console.log("[x] Entering Product Service to Get Data")
     const repository = getRepository(Product);
-    const data: Product[]= await repository.find();
+    const data: Product[]= await repository.find({
+      order: { productId: "ASC" }
+    });
     const productList: ProductCollectionDTO = data.map(
       (product: Product) => {
         const dto: ProductDTO = {
@@ -23,11 +26,11 @@ export default {
         return dto;
       }
     );
-    return
+    return productList;
   },
 
   async create(data: ProductDTO) {
-    console.log("[x] Entering Product Service")
+    console.log("[x] Entering Product Service to Create Data")
     const repository = getRepository(Product);
     const product: Product = await repository.save<Product>(data);
     const productDTO: ProductDTO = {

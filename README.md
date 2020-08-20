@@ -5,13 +5,23 @@
 ./start.sh
 ```
 
+Para acessar o servidor basta entrar em: `https://localhost:3333/`
+
 # Endpoints:
 
-`https://localhost/products[?max-results=1&start-index=0&end-index=2000]`
+## Teste de conexão
 
-Filtros aceitos:
+GET: `https://localhost:3333/ping`
 
+## Lista Produtos
 
+  GET: `https://localhost:3333/products[?page=1&size=10]`
+
+  Filtros aceitos:
+
+  - A request aceita como parâmetros somente a página desejada e o número de itens:
+    - `page`: number - Página desejada para visualização
+    - `size`: number - Número de itens por página
 
 # Challenge Getmore-Api Team
 

@@ -1,5 +1,5 @@
-require('../messenger/index-consumer');
-const producer = require('../messenger/index-producer');
+require('../messenger/index-consumer.js');
+const { productCreationProducer } = require('../messenger/index-producer.js');
 import * as data from '../../products.json';
 import ProductDTO from '../interfaces/ProductDTO';
 
@@ -9,9 +9,6 @@ import ProductDTO from '../interfaces/ProductDTO';
   this file
 */
 
-function delay(ms: number) {
-  return new Promise( resolve => setTimeout(resolve, ms) );
-}
 
 (async () => {
 
@@ -25,6 +22,6 @@ function delay(ms: number) {
       productPrice: data[i].productPrice
     };
 
-    producer(dto);
+    productCreationProducer(dto);
   }
 })();
