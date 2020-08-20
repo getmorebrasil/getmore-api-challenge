@@ -1,3 +1,6 @@
+git submodule init
+git submodule update
+
 docker ps -q --filter "name=postgres" | grep -q . && docker stop postgres && docker rm -fv postgres
 docker ps -q --filter "name=rabbit" | grep -q . && docker stop rabbit && docker rm -fv rabbit
 docker ps -q --filter "name=node" | grep -q . && docker stop node && docker rm -fv node
