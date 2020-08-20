@@ -4,10 +4,10 @@ export default class Paginator {
   page: number;
   size: number;
 
-  constructor(dataToPaginate: any[], page: any = '1', size: any = '10') {
+  constructor(dataToPaginate: any[], page: number = 1, size: number = 10) {
     this.data = dataToPaginate;
-    this.page = Math.floor(+page);
-    this.size = Math.floor(+size);
+    this.page = Math.floor(page);
+    this.size = Math.floor(size);
   }
 
   apply() {

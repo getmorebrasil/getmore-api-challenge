@@ -10,9 +10,15 @@ export default {
   async get(req: Request, res: Response) {
     const products: ProductCollectionDTO = await productListProducer();
 
-    const { page, size } = req.query;
+    var { page, size } = req.query;
 
-    const paginatedProducts = new Paginator(products, page, size).apply();
+    page = Number.parseFloat(page);
+    size = Number.parseFloat(size);
+
+    const filteredPage = Number.isNaN(page) ? 1 : page;
+    const filteredSize = Number.isNaN(size) ? 10 : size;
+
+    const paginatedProducts = new Paginator(products, filteredPage, filteredSize).apply();
 
     if('errors' in paginatedProducts) {
       res.status(400);
