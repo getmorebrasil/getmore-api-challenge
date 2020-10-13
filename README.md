@@ -19,7 +19,7 @@ Para subir o serviço de mensageria
 ```
 docker run -d --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
 ```
-![N|Solid](https://pubs.vmware.com/vfabricRabbitMQ31/topic/com.vmware.vfabric.rabbitmq.3.1/rabbit-web-docs/img/tutorials/intro/hello-world-example-routing.png)
+![N|Solid](https://www.rabbitmq.com/img/tutorials/intro/hello-world-example-routing.png)
 
 **Tecnologias:**
 
