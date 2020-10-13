@@ -39,7 +39,7 @@ Lib de comunicação para o protocolo:
 https://github.com/getmorebrasil/rpc-client-js
 
 - lib de comunicação em elixir
-https://github.com/getmorebrasil/rpx 
+https://github.com/getmorebrasil/rpx [branch: server]
 
 **Aqui vão as etapas:**
  - Faça um fork desse repositório;
