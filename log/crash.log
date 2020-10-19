@@ -1,0 +1,1175 @@
+2020-10-19 01:49:36 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.756.0>
+    registered_name: []
+    exception exit: {{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"host">> => <<"localhost:4000">>,<<"sec-fetch-dest">> => <<"empty">>,<<"sec-fetch-mode">> => <<"no-cors">>,<<"sec-fetch-site">> => <<"none">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"HEAD">>,path => <<"/">>,path_info => undefined,peer => {{127,0,0,1},55932},pid => <0.755.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 1,version => 'HTTP/1.1'}},assigns => #{},before_send => [#Fun<Elixir.Plug.Telemetry.0.60895335>],body_params => #{},cookies => #{},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.756.0>,params => #{},path_info => [],path_params => #{},port => 4000,private => #{'Elixir.GetmoreApiChallengeWeb.Router' => {[],#{}},phoenix_endpoint => 'Elixir.GetmoreApiChallengeWeb.Endpoint',phoenix_request_logger => {<<"request_logger">>,<<"request_logger">>},phoenix_router => 'Elixir.GetmoreApiChallengeWeb.Router',plug_session_fetch => #Fun<Elixir.Plug.Session.1.105793137>},query_params => #{},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{},req_headers => [{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"connection">>,<<"keep-alive">>},{<<"host">>,<<"localhost:4000">>},{<<"sec-fetch-dest">>,<<"empty">>},{<<"sec-fetch-mode">>,<<"no-cors">>},{<<"sec-fetch-site">>,<<"none">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>},{<<"x-request-id">>,<<"Fj9LeVaSEEyobvEAAAQG">>}],scheme => http,script_name => [],secret_key_base => <<"2GRNG0zewCLveyKalhyINHiqVvTguf3lXY0S2sT1BFtLqf4GWgZGQ5sOIWF9+/Bn">>,state => unset,status => nil},message => <<"no route found for GET / (GetmoreApiChallengeWeb.Router)">>,plug_status => 404,router => 'Elixir.GetmoreApiChallengeWeb.Router'},[{'Elixir.GetmoreApiChallengeWeb.Router',call,2,[{file,"lib/phoenix/router.ex"},{line,402}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',plug_builder_call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint','call (overridable 3)',2,[{file,"lib/plug/debugger.ex"},{line,132}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.Phoenix.Endpoint.Cowboy2Handler',init,4,[{file,"lib/phoenix/endpoint/cowboy2_handler.ex"},{line,65}]},{cowboy_handler,execute,2,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,300}]},{cowboy_stream_h,request_process,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,291}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"host">> => <<"localhost:4000">>,<<"sec-fetch-dest">> => <<"empty">>,<<"sec-fetch-mode">> => <<"no-cors">>,<<"sec-fetch-site">> => <<"none">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"HEAD">>,path => <<"/">>,path_info => undefined,peer => {{127,0,0,1},55932},pid => <0.755.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 1,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"HEAD">>,owner => <0.756.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"connection">>,<<"keep-alive">>},{<<"host">>,<<"localhost:4000">>},{<<"sec-fetch-dest">>,<<"empty">>},{<<"sec-fetch-mode">>,<<"no-cors">>},{<<"sec-fetch-site">>,<<"none">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}},[]}
+    ancestors: [<0.755.0>,<0.621.0>,<0.620.0>,'Elixir.GetmoreApiChallengeWeb.Endpoint','Elixir.GetmoreApiChallenge.Supervisor',<0.547.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.755.0>]
+    dictionary: [{{'Elixir.GetmoreApiChallenge.Repo',dynamic_repo},'Elixir.GetmoreApiChallenge.Repo'},{'$logger_metadata$',#{request_id => <<"Fj9LeVaSEEyobvEAAAQG">>}}]
+    trap_exit: false
+    status: running
+    heap_size: 17731
+    stack_size: 28
+    reductions: 49980
+  neighbours:
+2020-10-19 01:49:36 =ERROR REPORT====
+Ranch listener 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP', connection process <0.755.0>, stream 1 had its request process <0.756.0> exit with reason {{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"host">> => <<"localhost:4000">>,<<"sec-fetch-dest">> => <<"empty">>,<<"sec-fetch-mode">> => <<"no-cors">>,<<"sec-fetch-site">> => <<"none">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"HEAD">>,path => <<"/">>,path_info => undefined,peer => {{127,0,0,1},55932},pid => <0.755.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 1,version => 'HTTP/1.1'}},assigns => #{},before_send => [#Fun<Elixir.Plug.Telemetry.0.60895335>],body_params => #{},cookies => #{},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.756.0>,params => #{},path_info => [],path_params => #{},port => 4000,private => #{'Elixir.GetmoreApiChallengeWeb.Router' => {[],#{}},phoenix_endpoint => 'Elixir.GetmoreApiChallengeWeb.Endpoint',phoenix_request_logger => {<<"request_logger">>,<<"request_logger">>},phoenix_router => 'Elixir.GetmoreApiChallengeWeb.Router',plug_session_fetch => #Fun<Elixir.Plug.Session.1.105793137>},query_params => #{},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{},req_headers => [{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"connection">>,<<"keep-alive">>},{<<"host">>,<<"localhost:4000">>},{<<"sec-fetch-dest">>,<<"empty">>},{<<"sec-fetch-mode">>,<<"no-cors">>},{<<"sec-fetch-site">>,<<"none">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>},{<<"x-request-id">>,<<"Fj9LeVaSEEyobvEAAAQG">>}],scheme => http,script_name => [],secret_key_base => <<"2GRNG0zewCLveyKalhyINHiqVvTguf3lXY0S2sT1BFtLqf4GWgZGQ5sOIWF9+/Bn">>,state => unset,status => nil},message => <<"no route found for GET / (GetmoreApiChallengeWeb.Router)">>,plug_status => 404,router => 'Elixir.GetmoreApiChallengeWeb.Router'},[{'Elixir.GetmoreApiChallengeWeb.Router',call,2,[{file,"lib/phoenix/router.ex"},{line,402}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',plug_builder_call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint','call (overridable 3)',2,[{file,"lib/plug/debugger.ex"},{line,132}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.Phoenix.Endpoint.Cowboy2Handler',init,4,[{file,"lib/phoenix/endpoint/cowboy2_handler.ex"},{line,65}]},{cowboy_handler,execute,2,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,300}]},{cowboy_stream_h,request_process,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,291}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"host">> => <<"localhost:4000">>,<<"sec-fetch-dest">> => <<"empty">>,<<"sec-fetch-mode">> => <<"no-cors">>,<<"sec-fetch-site">> => <<"none">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"HEAD">>,path => <<"/">>,path_info => undefined,peer => {{127,0,0,1},55932},pid => <0.755.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 1,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"HEAD">>,owner => <0.756.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"connection">>,<<"keep-alive">>},{<<"host">>,<<"localhost:4000">>},{<<"sec-fetch-dest">>,<<"empty">>},{<<"sec-fetch-mode">>,<<"no-cors">>},{<<"sec-fetch-site">>,<<"none">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}} and stacktrace []
+2020-10-19 01:49:42 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.759.0>
+    registered_name: []
+    exception exit: {{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d; m=2258:Z3Vlc3Q6Z3Vlc3Q%253D">>,<<"host">> => <<"localhost:4000">>,<<"sec-fetch-dest">> => <<"document">>,<<"sec-fetch-mode">> => <<"navigate">>,<<"sec-fetch-site">> => <<"none">>,<<"upgrade-insecure-requests">> => <<"1">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/">>,path_info => undefined,peer => {{127,0,0,1},55936},pid => <0.758.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 1,version => 'HTTP/1.1'}},assigns => #{},before_send => [#Fun<Elixir.Plug.Telemetry.0.60895335>],body_params => #{},cookies => #{<<"grafana_session">> => <<"5690771943534127d8e42e00c518115d">>,<<"m">> => <<"2258:Z3Vlc3Q6Z3Vlc3Q%253D">>},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.759.0>,params => #{},path_info => [],path_params => #{},port => 4000,private => #{'Elixir.GetmoreApiChallengeWeb.Router' => {[],#{}},phoenix_endpoint => 'Elixir.GetmoreApiChallengeWeb.Endpoint',phoenix_request_logger => {<<"request_logger">>,<<"request_logger">>},phoenix_router => 'Elixir.GetmoreApiChallengeWeb.Router',plug_session_fetch => #Fun<Elixir.Plug.Session.1.105793137>},query_params => #{},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{<<"grafana_session">> => <<"5690771943534127d8e42e00c518115d">>,<<"m">> => <<"2258:Z3Vlc3Q6Z3Vlc3Q%253D">>},req_headers => [{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d; m=2258:Z3Vlc3Q6Z3Vlc3Q%253D">>},{<<"host">>,<<"localhost:4000">>},{<<"sec-fetch-dest">>,<<"document">>},{<<"sec-fetch-mode">>,<<"navigate">>},{<<"sec-fetch-site">>,<<"none">>},{<<"upgrade-insecure-requests">>,<<"1">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>},{<<"x-request-id">>,<<"Fj9LerlVjUDTQngAAAJF">>}],scheme => http,script_name => [],secret_key_base => <<"2GRNG0zewCLveyKalhyINHiqVvTguf3lXY0S2sT1BFtLqf4GWgZGQ5sOIWF9+/Bn">>,state => unset,status => nil},message => <<"no route found for GET / (GetmoreApiChallengeWeb.Router)">>,plug_status => 404,router => 'Elixir.GetmoreApiChallengeWeb.Router'},[{'Elixir.GetmoreApiChallengeWeb.Router',call,2,[{file,"lib/phoenix/router.ex"},{line,402}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',plug_builder_call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint','call (overridable 3)',2,[{file,"lib/plug/debugger.ex"},{line,132}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.Phoenix.Endpoint.Cowboy2Handler',init,4,[{file,"lib/phoenix/endpoint/cowboy2_handler.ex"},{line,65}]},{cowboy_handler,execute,2,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,300}]},{cowboy_stream_h,request_process,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,291}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d; m=2258:Z3Vlc3Q6Z3Vlc3Q%253D">>,<<"host">> => <<"localhost:4000">>,<<"sec-fetch-dest">> => <<"document">>,<<"sec-fetch-mode">> => <<"navigate">>,<<"sec-fetch-site">> => <<"none">>,<<"upgrade-insecure-requests">> => <<"1">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/">>,path_info => undefined,peer => {{127,0,0,1},55936},pid => <0.758.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 1,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.759.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d; m=2258:Z3Vlc3Q6Z3Vlc3Q%253D">>},{<<"host">>,<<"localhost:4000">>},{<<"sec-fetch-dest">>,<<"document">>},{<<"sec-fetch-mode">>,<<"navigate">>},{<<"sec-fetch-site">>,<<"none">>},{<<"upgrade-insecure-requests">>,<<"1">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}},[]}
+    ancestors: [<0.758.0>,<0.621.0>,<0.620.0>,'Elixir.GetmoreApiChallengeWeb.Endpoint','Elixir.GetmoreApiChallenge.Supervisor',<0.547.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.758.0>]
+    dictionary: [{{'Elixir.GetmoreApiChallenge.Repo',dynamic_repo},'Elixir.GetmoreApiChallenge.Repo'},{'$logger_metadata$',#{request_id => <<"Fj9LerlVjUDTQngAAAJF">>}}]
+    trap_exit: false
+    status: running
+    heap_size: 17731
+    stack_size: 28
+    reductions: 93766
+  neighbours:
+2020-10-19 01:49:42 =ERROR REPORT====
+Ranch listener 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP', connection process <0.758.0>, stream 1 had its request process <0.759.0> exit with reason {{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d; m=2258:Z3Vlc3Q6Z3Vlc3Q%253D">>,<<"host">> => <<"localhost:4000">>,<<"sec-fetch-dest">> => <<"document">>,<<"sec-fetch-mode">> => <<"navigate">>,<<"sec-fetch-site">> => <<"none">>,<<"upgrade-insecure-requests">> => <<"1">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/">>,path_info => undefined,peer => {{127,0,0,1},55936},pid => <0.758.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 1,version => 'HTTP/1.1'}},assigns => #{},before_send => [#Fun<Elixir.Plug.Telemetry.0.60895335>],body_params => #{},cookies => #{<<"grafana_session">> => <<"5690771943534127d8e42e00c518115d">>,<<"m">> => <<"2258:Z3Vlc3Q6Z3Vlc3Q%253D">>},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.759.0>,params => #{},path_info => [],path_params => #{},port => 4000,private => #{'Elixir.GetmoreApiChallengeWeb.Router' => {[],#{}},phoenix_endpoint => 'Elixir.GetmoreApiChallengeWeb.Endpoint',phoenix_request_logger => {<<"request_logger">>,<<"request_logger">>},phoenix_router => 'Elixir.GetmoreApiChallengeWeb.Router',plug_session_fetch => #Fun<Elixir.Plug.Session.1.105793137>},query_params => #{},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{<<"grafana_session">> => <<"5690771943534127d8e42e00c518115d">>,<<"m">> => <<"2258:Z3Vlc3Q6Z3Vlc3Q%253D">>},req_headers => [{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d; m=2258:Z3Vlc3Q6Z3Vlc3Q%253D">>},{<<"host">>,<<"localhost:4000">>},{<<"sec-fetch-dest">>,<<"document">>},{<<"sec-fetch-mode">>,<<"navigate">>},{<<"sec-fetch-site">>,<<"none">>},{<<"upgrade-insecure-requests">>,<<"1">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>},{<<"x-request-id">>,<<"Fj9LerlVjUDTQngAAAJF">>}],scheme => http,script_name => [],secret_key_base => <<"2GRNG0zewCLveyKalhyINHiqVvTguf3lXY0S2sT1BFtLqf4GWgZGQ5sOIWF9+/Bn">>,state => unset,status => nil},message => <<"no route found for GET / (GetmoreApiChallengeWeb.Router)">>,plug_status => 404,router => 'Elixir.GetmoreApiChallengeWeb.Router'},[{'Elixir.GetmoreApiChallengeWeb.Router',call,2,[{file,"lib/phoenix/router.ex"},{line,402}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',plug_builder_call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint','call (overridable 3)',2,[{file,"lib/plug/debugger.ex"},{line,132}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.Phoenix.Endpoint.Cowboy2Handler',init,4,[{file,"lib/phoenix/endpoint/cowboy2_handler.ex"},{line,65}]},{cowboy_handler,execute,2,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,300}]},{cowboy_stream_h,request_process,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,291}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d; m=2258:Z3Vlc3Q6Z3Vlc3Q%253D">>,<<"host">> => <<"localhost:4000">>,<<"sec-fetch-dest">> => <<"document">>,<<"sec-fetch-mode">> => <<"navigate">>,<<"sec-fetch-site">> => <<"none">>,<<"upgrade-insecure-requests">> => <<"1">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/">>,path_info => undefined,peer => {{127,0,0,1},55936},pid => <0.758.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 1,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.759.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d; m=2258:Z3Vlc3Q6Z3Vlc3Q%253D">>},{<<"host">>,<<"localhost:4000">>},{<<"sec-fetch-dest">>,<<"document">>},{<<"sec-fetch-mode">>,<<"navigate">>},{<<"sec-fetch-site">>,<<"none">>},{<<"upgrade-insecure-requests">>,<<"1">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}} and stacktrace []
+2020-10-19 01:49:43 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.761.0>
+    registered_name: []
+    exception exit: {{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"image/avif,image/webp,image/apng,image/*,*/*;q=0.8">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d; m=2258:Z3Vlc3Q6Z3Vlc3Q%253D">>,<<"host">> => <<"localhost:4000">>,<<"referer">> => <<"http://localhost:4000/">>,<<"sec-fetch-dest">> => <<"image">>,<<"sec-fetch-mode">> => <<"no-cors">>,<<"sec-fetch-site">> => <<"same-origin">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/favicon.ico">>,path_info => undefined,peer => {{127,0,0,1},55936},pid => <0.758.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 2,version => 'HTTP/1.1'}},assigns => #{},before_send => [#Fun<Elixir.Plug.Telemetry.0.60895335>],body_params => #{},cookies => #{<<"grafana_session">> => <<"5690771943534127d8e42e00c518115d">>,<<"m">> => <<"2258:Z3Vlc3Q6Z3Vlc3Q%253D">>},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.761.0>,params => #{},path_info => [<<"favicon.ico">>],path_params => #{},port => 4000,private => #{'Elixir.GetmoreApiChallengeWeb.Router' => {[],#{}},phoenix_endpoint => 'Elixir.GetmoreApiChallengeWeb.Endpoint',phoenix_request_logger => {<<"request_logger">>,<<"request_logger">>},phoenix_router => 'Elixir.GetmoreApiChallengeWeb.Router',plug_session_fetch => #Fun<Elixir.Plug.Session.1.105793137>},query_params => #{},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{<<"grafana_session">> => <<"5690771943534127d8e42e00c518115d">>,<<"m">> => <<"2258:Z3Vlc3Q6Z3Vlc3Q%253D">>},req_headers => [{<<"accept">>,<<"image/avif,image/webp,image/apng,image/*,*/*;q=0.8">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d; m=2258:Z3Vlc3Q6Z3Vlc3Q%253D">>},{<<"host">>,<<"localhost:4000">>},{<<"referer">>,<<"http://localhost:4000/">>},{<<"sec-fetch-dest">>,<<"image">>},{<<"sec-fetch-mode">>,<<"no-cors">>},{<<"sec-fetch-site">>,<<"same-origin">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/favicon.ico">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>},{<<"x-request-id">>,<<"Fj9LesONHEDO24QAAAAE">>}],scheme => http,script_name => [],secret_key_base => <<"2GRNG0zewCLveyKalhyINHiqVvTguf3lXY0S2sT1BFtLqf4GWgZGQ5sOIWF9+/Bn">>,state => unset,status => nil},message => <<"no route found for GET /favicon.ico (GetmoreApiChallengeWeb.Router)">>,plug_status => 404,router => 'Elixir.GetmoreApiChallengeWeb.Router'},[{'Elixir.GetmoreApiChallengeWeb.Router',call,2,[{file,"lib/phoenix/router.ex"},{line,402}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',plug_builder_call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint','call (overridable 3)',2,[{file,"lib/plug/debugger.ex"},{line,132}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.Phoenix.Endpoint.Cowboy2Handler',init,4,[{file,"lib/phoenix/endpoint/cowboy2_handler.ex"},{line,65}]},{cowboy_handler,execute,2,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,300}]},{cowboy_stream_h,request_process,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,291}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"image/avif,image/webp,image/apng,image/*,*/*;q=0.8">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d; m=2258:Z3Vlc3Q6Z3Vlc3Q%253D">>,<<"host">> => <<"localhost:4000">>,<<"referer">> => <<"http://localhost:4000/">>,<<"sec-fetch-dest">> => <<"image">>,<<"sec-fetch-mode">> => <<"no-cors">>,<<"sec-fetch-site">> => <<"same-origin">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/favicon.ico">>,path_info => undefined,peer => {{127,0,0,1},55936},pid => <0.758.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 2,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.761.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [<<"favicon.ico">>],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept">>,<<"image/avif,image/webp,image/apng,image/*,*/*;q=0.8">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d; m=2258:Z3Vlc3Q6Z3Vlc3Q%253D">>},{<<"host">>,<<"localhost:4000">>},{<<"referer">>,<<"http://localhost:4000/">>},{<<"sec-fetch-dest">>,<<"image">>},{<<"sec-fetch-mode">>,<<"no-cors">>},{<<"sec-fetch-site">>,<<"same-origin">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/favicon.ico">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}},[]}
+    ancestors: [<0.758.0>,<0.621.0>,<0.620.0>,'Elixir.GetmoreApiChallengeWeb.Endpoint','Elixir.GetmoreApiChallenge.Supervisor',<0.547.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.758.0>]
+    dictionary: [{{'Elixir.GetmoreApiChallenge.Repo',dynamic_repo},'Elixir.GetmoreApiChallenge.Repo'},{'$logger_metadata$',#{request_id => <<"Fj9LesONHEDO24QAAAAE">>}}]
+    trap_exit: false
+    status: running
+    heap_size: 17731
+    stack_size: 28
+    reductions: 93890
+  neighbours:
+2020-10-19 01:49:43 =ERROR REPORT====
+Ranch listener 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP', connection process <0.758.0>, stream 2 had its request process <0.761.0> exit with reason {{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"image/avif,image/webp,image/apng,image/*,*/*;q=0.8">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d; m=2258:Z3Vlc3Q6Z3Vlc3Q%253D">>,<<"host">> => <<"localhost:4000">>,<<"referer">> => <<"http://localhost:4000/">>,<<"sec-fetch-dest">> => <<"image">>,<<"sec-fetch-mode">> => <<"no-cors">>,<<"sec-fetch-site">> => <<"same-origin">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/favicon.ico">>,path_info => undefined,peer => {{127,0,0,1},55936},pid => <0.758.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 2,version => 'HTTP/1.1'}},assigns => #{},before_send => [#Fun<Elixir.Plug.Telemetry.0.60895335>],body_params => #{},cookies => #{<<"grafana_session">> => <<"5690771943534127d8e42e00c518115d">>,<<"m">> => <<"2258:Z3Vlc3Q6Z3Vlc3Q%253D">>},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.761.0>,params => #{},path_info => [<<"favicon.ico">>],path_params => #{},port => 4000,private => #{'Elixir.GetmoreApiChallengeWeb.Router' => {[],#{}},phoenix_endpoint => 'Elixir.GetmoreApiChallengeWeb.Endpoint',phoenix_request_logger => {<<"request_logger">>,<<"request_logger">>},phoenix_router => 'Elixir.GetmoreApiChallengeWeb.Router',plug_session_fetch => #Fun<Elixir.Plug.Session.1.105793137>},query_params => #{},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{<<"grafana_session">> => <<"5690771943534127d8e42e00c518115d">>,<<"m">> => <<"2258:Z3Vlc3Q6Z3Vlc3Q%253D">>},req_headers => [{<<"accept">>,<<"image/avif,image/webp,image/apng,image/*,*/*;q=0.8">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d; m=2258:Z3Vlc3Q6Z3Vlc3Q%253D">>},{<<"host">>,<<"localhost:4000">>},{<<"referer">>,<<"http://localhost:4000/">>},{<<"sec-fetch-dest">>,<<"image">>},{<<"sec-fetch-mode">>,<<"no-cors">>},{<<"sec-fetch-site">>,<<"same-origin">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/favicon.ico">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>},{<<"x-request-id">>,<<"Fj9LesONHEDO24QAAAAE">>}],scheme => http,script_name => [],secret_key_base => <<"2GRNG0zewCLveyKalhyINHiqVvTguf3lXY0S2sT1BFtLqf4GWgZGQ5sOIWF9+/Bn">>,state => unset,status => nil},message => <<"no route found for GET /favicon.ico (GetmoreApiChallengeWeb.Router)">>,plug_status => 404,router => 'Elixir.GetmoreApiChallengeWeb.Router'},[{'Elixir.GetmoreApiChallengeWeb.Router',call,2,[{file,"lib/phoenix/router.ex"},{line,402}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',plug_builder_call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint','call (overridable 3)',2,[{file,"lib/plug/debugger.ex"},{line,132}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.Phoenix.Endpoint.Cowboy2Handler',init,4,[{file,"lib/phoenix/endpoint/cowboy2_handler.ex"},{line,65}]},{cowboy_handler,execute,2,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,300}]},{cowboy_stream_h,request_process,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,291}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"image/avif,image/webp,image/apng,image/*,*/*;q=0.8">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d; m=2258:Z3Vlc3Q6Z3Vlc3Q%253D">>,<<"host">> => <<"localhost:4000">>,<<"referer">> => <<"http://localhost:4000/">>,<<"sec-fetch-dest">> => <<"image">>,<<"sec-fetch-mode">> => <<"no-cors">>,<<"sec-fetch-site">> => <<"same-origin">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/favicon.ico">>,path_info => undefined,peer => {{127,0,0,1},55936},pid => <0.758.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 2,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.761.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [<<"favicon.ico">>],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept">>,<<"image/avif,image/webp,image/apng,image/*,*/*;q=0.8">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d; m=2258:Z3Vlc3Q6Z3Vlc3Q%253D">>},{<<"host">>,<<"localhost:4000">>},{<<"referer">>,<<"http://localhost:4000/">>},{<<"sec-fetch-dest">>,<<"image">>},{<<"sec-fetch-mode">>,<<"no-cors">>},{<<"sec-fetch-site">>,<<"same-origin">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/favicon.ico">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}} and stacktrace []
+2020-10-19 02:16:14 =ERROR REPORT====
+** Generic server 'Elixir.RPX.AMQP.Server' terminating 
+** Last message in was {basic_deliver,<<>>,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-_hir7Xf-OxhkveWGde54dA">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 1,exchange => <<>>,expiration => undefined,headers => [],message_id => undefined,persistent => false,priority => undefined,redelivered => false,reply_to => undefined,routing_key => <<"products">>,timestamp => undefined,type => undefined,user_id => undefined}}
+** When Server state == #{config => #{'__struct__' => 'Elixir.RPX.AMQP',channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.727.0>},custom_consumer => nil,pid => <0.736.0>},connection => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.727.0>}},worker => 'Elixir.GetmoreApiChallenge.Getmore'}
+** Reason for termination ==
+** {#{'__exception__' => true,'__struct__' => 'Elixir.Jason.DecodeError',data => <<>>,position => 0,token => nil},[{'Elixir.Jason','decode!',2,[{file,"lib/jason.ex"},{line,78}]},{'Elixir.RPX.AMQP.Server',handle_info,2,[{file,"lib/amqp/server.ex"},{line,25}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+2020-10-19 02:16:14 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.RPX.AMQP.Server:init/1
+    pid: <0.724.0>
+    registered_name: 'Elixir.RPX.AMQP.Server'
+    exception error: {#{'__exception__' => true,'__struct__' => 'Elixir.Jason.DecodeError',data => <<>>,position => 0,token => nil},[{'Elixir.Jason','decode!',2,[{file,"lib/jason.ex"},{line,78}]},{'Elixir.RPX.AMQP.Server',handle_info,2,[{file,"lib/amqp/server.ex"},{line,25}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.GetmoreApiChallenge.Supervisor',<0.547.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.548.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 28
+    reductions: 41552
+  neighbours:
+2020-10-19 02:16:14 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.GetmoreApiChallenge.Supervisor'}
+     Context:    child_terminated
+     Reason:     {#{'__exception__' => true,'__struct__' => 'Elixir.Jason.DecodeError',data => <<>>,position => 0,token => nil},[{'Elixir.Jason','decode!',2,[{file,"lib/jason.ex"},{line,78}]},{'Elixir.RPX.AMQP.Server',handle_info,2,[{file,"lib/amqp/server.ex"},{line,25}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.724.0>},{id,'Elixir.RPX.AMQP.Server'},{mfargs,{'Elixir.RPX.AMQP.Server',start_link,[[{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-10-19 02:22:17 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.RPX.AMQP.Server:-handle_info/2-fun-0-/0
+    pid: <0.667.0>
+    registered_name: []
+    exception error: {undef,[{'Elixir.GetmoreApiChallenge.Getmore',list_products,[[]],[]},{'Elixir.RPX.AMQP.Server','-handle_info/2-fun-0-',4,[{file,"lib/amqp/server.ex"},{line,29}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.RPX.AMQP.Server','Elixir.GetmoreApiChallenge.Supervisor',<0.558.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.630.0>]
+    dictionary: [{'$callers',[<0.630.0>]}]
+    trap_exit: false
+    status: running
+    heap_size: 17731
+    stack_size: 28
+    reductions: 4561
+  neighbours:
+    neighbour: [{pid,<0.630.0>},{registered_name,'Elixir.RPX.AMQP.Server'},{initial_call,{'Elixir.RPX.AMQP.Server',init,['Argument__1']}},{current_function,{gen_server,loop,7}},{ancestors,['Elixir.GetmoreApiChallenge.Supervisor',<0.558.0>]},{message_queue_len,0},{links,[<0.559.0>,<0.667.0>]},{trap_exit,false},{status,waiting},{heap_size,1598},{stack_size,12},{reductions,33612},{current_stacktrace,[{gen_server,loop,7,[{file,"gen_server.erl"},{line,437}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}]
+2020-10-19 02:22:17 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.GetmoreApiChallenge.Supervisor'}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.GetmoreApiChallenge.Getmore',list_products,[[]],[]},{'Elixir.RPX.AMQP.Server','-handle_info/2-fun-0-',4,[{file,"lib/amqp/server.ex"},{line,29}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.630.0>},{id,'Elixir.RPX.AMQP.Server'},{mfargs,{'Elixir.RPX.AMQP.Server',start_link,[[{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-10-19 02:23:36 =ERROR REPORT====
+** Generic server <0.642.0> terminating
+** Last message in was {consumer_call,{'basic.deliver',<<"amq.ctag-XELVqQQjoW5zTvrk54u28A">>,2,false,<<>>,<<"products">>},{amqp_msg,{'P_basic',undefined,undefined,undefined,1,undefined,<<"g1hkAA1ub25vZGVAbm9ob3N0AAACrQAAAAAAAAAA,LTU3NjQ2MDc1MjMwMzQyMjkwNw==">>,<<"amq.rabbitmq.reply-to.g1hkABNyYWJiaXRANzFiMjI3ZjVkZWU3AAALIgAAAABfjRhu.VY30T/8R0n5/0V0tL6EWAA==">>,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"{\"params\":[],\"target\":\"list_products\"}">>}}
+** When Server state == {state,amqp_selective_consumer,{state,#{},undefined,#{},none}}
+** Reason for termination == 
+** unexpected_delivery_and_no_default_consumer
+2020-10-19 02:23:36 =CRASH REPORT====
+  crasher:
+    initial call: amqp_gen_consumer:init/1
+    pid: <0.642.0>
+    registered_name: []
+    exception exit: {unexpected_delivery_and_no_default_consumer,[{gen_server2,terminate,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/rabbit_common/src/gen_server2.erl"},{line,1183}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.641.0>,<0.635.0>,<0.633.0>,<0.632.0>,amqp_sup,<0.483.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.641.0>]
+    dictionary: [{process_name,{amqp_gen_consumer,{<<"client 127.0.0.1:41203 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 5921
+  neighbours:
+2020-10-19 02:23:36 =SUPERVISOR REPORT====
+     Supervisor: {<0.641.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     unexpected_delivery_and_no_default_consumer
+     Offender:   [{pid,<0.642.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:41203 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2020-10-19 02:23:36 =SUPERVISOR REPORT====
+     Supervisor: {<0.641.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.642.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:41203 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2020-10-19 02:28:47 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.RPX.AMQP.Server:-handle_info/2-fun-0-/0
+    pid: <0.542.0>
+    registered_name: []
+    exception error: {undef,[{'Elixir.GetmoreApiChallenge.Getmore',list_products,[[]],[]},{'Elixir.RPX.AMQP.Server','-handle_info/2-fun-0-',4,[{file,"lib/amqp/server.ex"},{line,29}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.RPX.AMQP.Server','Elixir.GetmoreApiChallenge.Supervisor',<0.434.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.507.0>]
+    dictionary: [{'$callers',[<0.507.0>]}]
+    trap_exit: false
+    status: running
+    heap_size: 17731
+    stack_size: 28
+    reductions: 4562
+  neighbours:
+    neighbour: [{pid,<0.507.0>},{registered_name,'Elixir.RPX.AMQP.Server'},{initial_call,{'Elixir.RPX.AMQP.Server',init,['Argument__1']}},{current_function,{gen_server,loop,7}},{ancestors,['Elixir.GetmoreApiChallenge.Supervisor',<0.434.0>]},{message_queue_len,0},{links,[<0.435.0>,<0.542.0>]},{trap_exit,false},{status,waiting},{heap_size,987},{stack_size,12},{reductions,33640},{current_stacktrace,[{gen_server,loop,7,[{file,"gen_server.erl"},{line,437}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}]
+2020-10-19 02:28:47 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.GetmoreApiChallenge.Supervisor'}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.GetmoreApiChallenge.Getmore',list_products,[[]],[]},{'Elixir.RPX.AMQP.Server','-handle_info/2-fun-0-',4,[{file,"lib/amqp/server.ex"},{line,29}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.507.0>},{id,'Elixir.RPX.AMQP.Server'},{mfargs,{'Elixir.RPX.AMQP.Server',start_link,[[{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-10-19 02:30:32 =ERROR REPORT====
+** Generic server <0.518.0> terminating
+** Last message in was {consumer_call,{'basic.deliver',<<"amq.ctag-CEIZAaq7jGIEYVDUu6lRlg">>,2,false,<<>>,<<"products">>},{amqp_msg,{'P_basic',undefined,undefined,[],1,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<>>}}
+** When Server state == {state,amqp_selective_consumer,{state,#{},undefined,#{},none}}
+** Reason for termination == 
+** unexpected_delivery_and_no_default_consumer
+2020-10-19 02:30:32 =CRASH REPORT====
+  crasher:
+    initial call: amqp_gen_consumer:init/1
+    pid: <0.518.0>
+    registered_name: []
+    exception exit: {unexpected_delivery_and_no_default_consumer,[{gen_server2,terminate,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/rabbit_common/src/gen_server2.erl"},{line,1183}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.517.0>,<0.511.0>,<0.509.0>,<0.508.0>,amqp_sup,<0.359.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.517.0>]
+    dictionary: [{process_name,{amqp_gen_consumer,{<<"client 127.0.0.1:44777 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 4011
+  neighbours:
+2020-10-19 02:30:32 =SUPERVISOR REPORT====
+     Supervisor: {<0.517.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     unexpected_delivery_and_no_default_consumer
+     Offender:   [{pid,<0.518.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:44777 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2020-10-19 02:30:32 =SUPERVISOR REPORT====
+     Supervisor: {<0.517.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.518.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:44777 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2020-10-19 02:33:34 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.RPX.AMQP.Server:-handle_info/2-fun-0-/0
+    pid: <0.527.0>
+    registered_name: []
+    exception error: {#{'__exception__' => true,'__struct__' => 'Elixir.Ecto.Query.CastError',message => <<"deps/ecto/lib/ecto/repo/queryable.ex:451: value `1001` in `where` cannot be cast to type :binary_id in query:\n\nfrom p0 in GetmoreApiChallenge.Getmore.Product,\n  where: p0.id == ^1001,\n  select: p0\n">>,type => binary_id,value => 1001},[{'Elixir.Enum','-reduce/3-lists^foldl/2-0-',3,[{file,"lib/enum.ex"},{line,2111}]},{'Elixir.Enum','-map_reduce/3-lists^mapfoldl/2-0-',3,[{file,"lib/enum.ex"},{line,1520}]},{'Elixir.Enum','-reduce/3-lists^foldl/2-0-',3,[{file,"lib/enum.ex"},{line,2111}]},{'Elixir.Ecto.Repo.Queryable',execute,4,[{file,"lib/ecto/repo/queryable.ex"},{line,213}]},{'Elixir.Ecto.Repo.Queryable',all,3,[{file,"lib/ecto/repo/queryable.ex"},{line,17}]},{'Elixir.Ecto.Repo.Queryable','one!',3,[{file,"lib/ecto/repo/queryable.ex"},{line,157}]},{'Elixir.RPX.AMQP.Server','-handle_info/2-fun-0-',4,[{file,"lib/amqp/server.ex"},{line,29}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.RPX.AMQP.Server','Elixir.GetmoreApiChallenge.Supervisor',<0.418.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.491.0>]
+    dictionary: [{'$callers',[<0.491.0>]}]
+    trap_exit: false
+    status: running
+    heap_size: 17731
+    stack_size: 28
+    reductions: 9402
+  neighbours:
+    neighbour: [{pid,<0.491.0>},{registered_name,'Elixir.RPX.AMQP.Server'},{initial_call,{'Elixir.RPX.AMQP.Server',init,['Argument__1']}},{current_function,{gen_server,loop,7}},{ancestors,['Elixir.GetmoreApiChallenge.Supervisor',<0.418.0>]},{message_queue_len,0},{links,[<0.419.0>,<0.527.0>]},{trap_exit,false},{status,waiting},{heap_size,987},{stack_size,12},{reductions,33642},{current_stacktrace,[{gen_server,loop,7,[{file,"gen_server.erl"},{line,437}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}]
+2020-10-19 02:33:34 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.GetmoreApiChallenge.Supervisor'}
+     Context:    child_terminated
+     Reason:     {#{'__exception__' => true,'__struct__' => 'Elixir.Ecto.Query.CastError',message => <<"deps/ecto/lib/ecto/repo/queryable.ex:451: value `1001` in `where` cannot be cast to type :binary_id in query:\n\nfrom p0 in GetmoreApiChallenge.Getmore.Product,\n  where: p0.id == ^1001,\n  select: p0\n">>,type => binary_id,value => 1001},[{'Elixir.Enum','-reduce/3-lists^foldl/2-0-',3,[{file,"lib/enum.ex"},{line,2111}]},{'Elixir.Enum','-map_reduce/3-lists^mapfoldl/2-0-',3,[{file,"lib/enum.ex"},{line,1520}]},{'Elixir.Enum','-reduce/3-lists^foldl/2-0-',3,[{file,"lib/enum.ex"},{line,2111}]},{'Elixir.Ecto.Repo.Queryable',execute,4,[{file,"lib/ecto/repo/queryable.ex"},{line,213}]},{'Elixir.Ecto.Repo.Queryable',all,3,[{file,"lib/ecto/repo/queryable.ex"},{line,17}]},{'Elixir.Ecto.Repo.Queryable','one!',3,[{file,"lib/ecto/repo/queryable.ex"},{line,157}]},{'Elixir.RPX.AMQP.Server','-handle_info/2-fun-0-',4,[{file,"lib/amqp/server.ex"},{line,29}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.491.0>},{id,'Elixir.RPX.AMQP.Server'},{mfargs,{'Elixir.RPX.AMQP.Server',start_link,[[{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-10-19 02:50:59 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.559.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.GetmoreApiChallenge.Application',start,[normal,[]]},{'EXIT',{#{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module GetmoreApiChallenge.Rpx.Server was given as a child to a supervisor but it does not exist.">>},[{'Elixir.Supervisor',init_child,1,[{file,"lib/supervisor.ex"},{line,631}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Supervisor',init,2,[{file,"lib/supervisor.ex"},{line,617}]},{'Elixir.Supervisor',start_link,2,[{file,"lib/supervisor.ex"},{line,556}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,277}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.558.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.560.0>,normal}]
+    links: [<0.558.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 229
+  neighbours:
+2020-10-19 02:59:13 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.GetmoreApiChallenge.RPX.Server:-handle_info/2-fun-0-/0
+    pid: <0.526.0>
+    registered_name: []
+    exception error: bad argument: [{erlang,apply,['Elixir.GetmoreApiChallenge.Getmore','get_product!',1001],[]},{'Elixir.GetmoreApiChallenge.RPX.Server','-handle_info/2-fun-0-',4,[{file,"lib/rpx/server.ex"},{line,30}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]
+    ancestors: ['Elixir.GetmoreApiChallenge.RPX.Server','Elixir.GetmoreApiChallenge.Supervisor',<0.418.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.491.0>]
+    dictionary: [{'$callers',[<0.491.0>]}]
+    trap_exit: false
+    status: running
+    heap_size: 17731
+    stack_size: 28
+    reductions: 4862
+  neighbours:
+    neighbour: [{pid,<0.491.0>},{registered_name,'Elixir.GetmoreApiChallenge.RPX.Server'},{initial_call,{'Elixir.GetmoreApiChallenge.RPX.Server',init,['Argument__1']}},{current_function,{gen_server,loop,7}},{ancestors,['Elixir.GetmoreApiChallenge.Supervisor',<0.418.0>]},{message_queue_len,0},{links,[<0.419.0>,<0.526.0>]},{trap_exit,false},{status,waiting},{heap_size,987},{stack_size,12},{reductions,33642},{current_stacktrace,[{gen_server,loop,7,[{file,"gen_server.erl"},{line,437}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}]
+2020-10-19 02:59:13 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.GetmoreApiChallenge.Supervisor'}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,apply,['Elixir.GetmoreApiChallenge.Getmore','get_product!',1001],[]},{'Elixir.GetmoreApiChallenge.RPX.Server','-handle_info/2-fun-0-',4,[{file,"lib/rpx/server.ex"},{line,30}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.491.0>},{id,'Elixir.GetmoreApiChallenge.RPX.Server'},{mfargs,{'Elixir.GetmoreApiChallenge.RPX.Server',start_link,[[{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-10-19 03:00:42 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.GetmoreApiChallenge.RPX.Server:-handle_info/2-fun-0-/0
+    pid: <0.528.0>
+    registered_name: []
+    exception error: {#{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<"Jason.Encoder protocol must always be explicitly implemented.\n\nIf you own the struct, you can derive the implementation specifying which fields should be encoded to JSON:\n\n    @derive {Jason.Encoder, only: [....]}\n    defstruct ...\n\nIt is also possible to encode all fields, although this should be used carefully to avoid accidentally leaking private information when new fields are added:\n\n    @derive Jason.Encoder\n    defstruct ...\n\nFinally, if you don't own the struct you want to encode to JSON, you may use Protocol.derive/3 placed outside of any module:\n\n    Protocol.derive(Jason.Encoder, NameOfTheStruct, only: [...])\n    Protocol.derive(Jason.Encoder, NameOfTheStruct)\n">>,protocol => 'Elixir.Jason.Encoder',value => #{'__meta__' => #{'__struct__' => 'Elixir.Ecto.Schema.Metadata',context => nil,prefix => nil,schema => 'Elixir.GetmoreApiChallenge.Getmore.Product',source => <<"products">>,state => loaded},'__struct__' => 'Elixir.GetmoreApiChallenge.Getmore.Product',id => <<"7f824f46-834d-4e01-840f-1a63aa40d201">>,inserted_at => #{'__struct__' => 'Elixir.NaiveDateTime',calendar => 'Elixir.Calendar.ISO',day => 18,hour => 18,microsecond => {0,0},minute => 18,month => 10,second => 14,year => 2020},productCategory => <<"Category 2">>,productId => 1001,productImage => <<"https://picsum.photos/400?image=333">>,productName => <<"Product 1">>,productPrice => #{'__struct__' => 'Elixir.Decimal',coef => 1871425,exp => -3,sign => 1},productStock => true,updated_at => #{'__struct__' => 'Elixir.NaiveDateTime',calendar => 'Elixir.Calendar.ISO',day => 18,hour => 18,microsecond => {0,0},minute => 18,month => 10,second => 14,year => 2020}}},[{'Elixir.Jason','encode!',2,[{file,"lib/jason.ex"},{line,150}]},{'Elixir.RPX.AMQP',send,3,[{file,"lib/amqp/amqp.ex"},{line,25}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.GetmoreApiChallenge.RPX.Server','Elixir.GetmoreApiChallenge.Supervisor',<0.418.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.491.0>]
+    dictionary: [{'$callers',[<0.491.0>]}]
+    trap_exit: false
+    status: running
+    heap_size: 10958
+    stack_size: 28
+    reductions: 235569
+  neighbours:
+    neighbour: [{pid,<0.491.0>},{registered_name,'Elixir.GetmoreApiChallenge.RPX.Server'},{initial_call,{'Elixir.GetmoreApiChallenge.RPX.Server',init,['Argument__1']}},{current_function,{gen_server,loop,7}},{ancestors,['Elixir.GetmoreApiChallenge.Supervisor',<0.418.0>]},{message_queue_len,0},{links,[<0.419.0>,<0.528.0>]},{trap_exit,false},{status,waiting},{heap_size,987},{stack_size,12},{reductions,33648},{current_stacktrace,[{gen_server,loop,7,[{file,"gen_server.erl"},{line,437}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}]
+2020-10-19 03:00:42 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.GetmoreApiChallenge.Supervisor'}
+     Context:    child_terminated
+     Reason:     {#{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<"Jason.Encoder protocol must always be explicitly implemented.\n\nIf you own the struct, you can derive the implementation specifying which fields should be encoded to JSON:\n\n    @derive {Jason.Encoder, only: [....]}\n    defstruct ...\n\nIt is also possible to encode all fields, although this should be used carefully to avoid accidentally leaking private information when new fields are added:\n\n    @derive Jason.Encoder\n    defstruct ...\n\nFinally, if you don't own the struct you want to encode to JSON, you may use Protocol.derive/3 placed outside of any module:\n\n    Protocol.derive(Jason.Encoder, NameOfTheStruct, only: [...])\n    Protocol.derive(Jason.Encoder, NameOfTheStruct)\n">>,protocol => 'Elixir.Jason.Encoder',value => #{'__meta__' => #{'__struct__' => 'Elixir.Ecto.Schema.Metadata',context => nil,prefix => nil,schema => 'Elixir.GetmoreApiChallenge.Getmore.Product',source => <<"products">>,state => loaded},'__struct__' => 'Elixir.GetmoreApiChallenge.Getmore.Product',id => <<"7f824f46-834d-4e01-840f-1a63aa40d201">>,inserted_at => #{'__struct__' => 'Elixir.NaiveDateTime',calendar => 'Elixir.Calendar.ISO',day => 18,hour => 18,microsecond => {0,0},minute => 18,month => 10,second => 14,year => 2020},productCategory => <<"Category 2">>,productId => 1001,productImage => <<"https://picsum.photos/400?image=333">>,productName => <<"Product 1">>,productPrice => #{'__struct__' => 'Elixir.Decimal',coef => 1871425,exp => -3,sign => 1},productStock => true,updated_at => #{'__struct__' => 'Elixir.NaiveDateTime',calendar => 'Elixir.Calendar.ISO',day => 18,hour => 18,microsecond => {0,0},minute => 18,month => 10,second => 14,year => 2020}}},[{'Elixir.Jason','encode!',2,[{file,"lib/jason.ex"},{line,150}]},{'Elixir.RPX.AMQP',send,3,[{file,"lib/amqp/amqp.ex"},{line,25}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.491.0>},{id,'Elixir.GetmoreApiChallenge.RPX.Server'},{mfargs,{'Elixir.GetmoreApiChallenge.RPX.Server',start_link,[[{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-10-19 03:08:59 =ERROR REPORT====
+** Generic server <0.502.0> terminating
+** Last message in was {consumer_call,{'basic.deliver',<<"amq.ctag-OtvKC3fgtKT_1tUahXVlwQ">>,2,false,<<>>,<<"products">>},{amqp_msg,{'P_basic',undefined,undefined,undefined,1,undefined,<<"g1hkAA1ub25vZGVAbm9ob3N0AAACJQAAAAAAAAAA,LTU3NjQ2MDc1MjMwMzQyMzIyOQ==">>,<<"amq.rabbitmq.reply-to.g1hkABNyYWJiaXRANzFiMjI3ZjVkZWU3AAAVXwAAAABfjRhu.iwuoEWOmSsl/CeYa5yWMAg==">>,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"{\"params\":[],\"target\":\"list_products\"}">>}}
+** When Server state == {state,amqp_selective_consumer,{state,#{},undefined,#{},none}}
+** Reason for termination == 
+** unexpected_delivery_and_no_default_consumer
+2020-10-19 03:08:59 =CRASH REPORT====
+  crasher:
+    initial call: amqp_gen_consumer:init/1
+    pid: <0.502.0>
+    registered_name: []
+    exception exit: {unexpected_delivery_and_no_default_consumer,[{gen_server2,terminate,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/rabbit_common/src/gen_server2.erl"},{line,1183}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.501.0>,<0.495.0>,<0.493.0>,<0.492.0>,amqp_sup,<0.343.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.501.0>]
+    dictionary: [{process_name,{amqp_gen_consumer,{<<"client 127.0.0.1:43015 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 5921
+  neighbours:
+2020-10-19 03:08:59 =SUPERVISOR REPORT====
+     Supervisor: {<0.501.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     unexpected_delivery_and_no_default_consumer
+     Offender:   [{pid,<0.502.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:43015 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2020-10-19 03:08:59 =SUPERVISOR REPORT====
+     Supervisor: {<0.501.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.502.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:43015 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2020-10-19 03:16:10 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.RPX.AMQP.Server:-handle_info/2-fun-0-/0
+    pid: <0.551.0>
+    registered_name: []
+    exception error: {undef,[{'Elixir.GetmoreApiChallenge.Getmore',list_products,[[]],[]},{'Elixir.RPX.AMQP.Server','-handle_info/2-fun-0-',4,[{file,"lib/amqp/server.ex"},{line,29}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.RPX.AMQP.Server','Elixir.GetmoreApiChallenge.Supervisor',<0.443.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.516.0>]
+    dictionary: [{'$callers',[<0.516.0>]}]
+    trap_exit: false
+    status: running
+    heap_size: 17731
+    stack_size: 28
+    reductions: 4621
+  neighbours:
+    neighbour: [{pid,<0.516.0>},{registered_name,'Elixir.RPX.AMQP.Server'},{initial_call,{'Elixir.RPX.AMQP.Server',init,['Argument__1']}},{current_function,{gen_server,loop,7}},{ancestors,['Elixir.GetmoreApiChallenge.Supervisor',<0.443.0>]},{message_queue_len,0},{links,[<0.444.0>,<0.551.0>]},{trap_exit,false},{status,waiting},{heap_size,987},{stack_size,12},{reductions,33640},{current_stacktrace,[{gen_server,loop,7,[{file,"gen_server.erl"},{line,437}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}]
+2020-10-19 03:16:10 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.GetmoreApiChallenge.Supervisor'}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.GetmoreApiChallenge.Getmore',list_products,[[]],[]},{'Elixir.RPX.AMQP.Server','-handle_info/2-fun-0-',4,[{file,"lib/amqp/server.ex"},{line,29}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.516.0>},{id,'Elixir.RPX.AMQP.Server'},{mfargs,{'Elixir.RPX.AMQP.Server',start_link,[[{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-10-19 03:16:21 =ERROR REPORT====
+** Generic server <0.527.0> terminating
+** Last message in was {consumer_call,{'basic.deliver',<<"amq.ctag-lkpEQvcV3YNF6oIKUKI95Q">>,2,false,<<>>,<<"products">>},{amqp_msg,{'P_basic',undefined,undefined,undefined,1,undefined,<<"g1hkAA1ub25vZGVAbm9ob3N0AAACOQAAAAAAAAAA,LTU3NjQ2MDc1MjMwMzQyMzQyMw==">>,<<"amq.rabbitmq.reply-to.g1hkABNyYWJiaXRANzFiMjI3ZjVkZWU3AAAaHgAAAABfjRhu.v7jhJp1Qt+AY9o/w9vSCDg==">>,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"{\"params\":[],\"target\":\"list_products\"}">>}}
+** When Server state == {state,amqp_selective_consumer,{state,#{},undefined,#{},none}}
+** Reason for termination == 
+** unexpected_delivery_and_no_default_consumer
+2020-10-19 03:16:21 =CRASH REPORT====
+  crasher:
+    initial call: amqp_gen_consumer:init/1
+    pid: <0.527.0>
+    registered_name: []
+    exception exit: {unexpected_delivery_and_no_default_consumer,[{gen_server2,terminate,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/rabbit_common/src/gen_server2.erl"},{line,1183}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.526.0>,<0.520.0>,<0.518.0>,<0.517.0>,amqp_sup,<0.368.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.526.0>]
+    dictionary: [{process_name,{amqp_gen_consumer,{<<"client 127.0.0.1:55221 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 5921
+  neighbours:
+2020-10-19 03:16:21 =SUPERVISOR REPORT====
+     Supervisor: {<0.526.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     unexpected_delivery_and_no_default_consumer
+     Offender:   [{pid,<0.527.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:55221 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2020-10-19 03:16:21 =SUPERVISOR REPORT====
+     Supervisor: {<0.526.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.527.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:55221 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2020-10-19 13:20:37 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.RPX.AMQP.Server:-handle_info/2-fun-0-/0
+    pid: <0.677.0>
+    registered_name: []
+    exception error: {undef,[{'Elixir.GetmoreApiChallenge.Getmore',list_products,[nil],[]},{'Elixir.RPX.AMQP.Server','-handle_info/2-fun-0-',4,[{file,"lib/amqp/server.ex"},{line,29}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.RPX.AMQP.Server','Elixir.GetmoreApiChallenge.Supervisor',<0.568.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.640.0>]
+    dictionary: [{'$callers',[<0.640.0>]}]
+    trap_exit: false
+    status: running
+    heap_size: 17731
+    stack_size: 28
+    reductions: 4570
+  neighbours:
+    neighbour: [{pid,<0.640.0>},{registered_name,'Elixir.RPX.AMQP.Server'},{initial_call,{'Elixir.RPX.AMQP.Server',init,['Argument__1']}},{current_function,{gen_server,loop,7}},{ancestors,['Elixir.GetmoreApiChallenge.Supervisor',<0.568.0>]},{message_queue_len,0},{links,[<0.569.0>,<0.677.0>]},{trap_exit,false},{status,waiting},{heap_size,987},{stack_size,12},{reductions,33627},{current_stacktrace,[{gen_server,loop,7,[{file,"gen_server.erl"},{line,437}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}]
+2020-10-19 13:20:37 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.GetmoreApiChallenge.Supervisor'}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.GetmoreApiChallenge.Getmore',list_products,[nil],[]},{'Elixir.RPX.AMQP.Server','-handle_info/2-fun-0-',4,[{file,"lib/amqp/server.ex"},{line,29}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.640.0>},{id,'Elixir.RPX.AMQP.Server'},{mfargs,{'Elixir.RPX.AMQP.Server',start_link,[[{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-10-19 13:21:25 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.RPX.AMQP.Server:-handle_info/2-fun-0-/0
+    pid: <0.527.0>
+    registered_name: []
+    exception error: {undef,[{'Elixir.GetmoreApiChallenge.Getmore',list_products,[<<>>],[]},{'Elixir.RPX.AMQP.Server','-handle_info/2-fun-0-',4,[{file,"lib/amqp/server.ex"},{line,29}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.RPX.AMQP.Server','Elixir.GetmoreApiChallenge.Supervisor',<0.418.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.491.0>]
+    dictionary: [{'$callers',[<0.491.0>]}]
+    trap_exit: false
+    status: running
+    heap_size: 17731
+    stack_size: 28
+    reductions: 4619
+  neighbours:
+    neighbour: [{pid,<0.491.0>},{registered_name,'Elixir.RPX.AMQP.Server'},{initial_call,{'Elixir.RPX.AMQP.Server',init,['Argument__1']}},{current_function,{gen_server,loop,7}},{ancestors,['Elixir.GetmoreApiChallenge.Supervisor',<0.418.0>]},{message_queue_len,0},{links,[<0.419.0>,<0.527.0>]},{trap_exit,false},{status,waiting},{heap_size,987},{stack_size,12},{reductions,33635},{current_stacktrace,[{gen_server,loop,7,[{file,"gen_server.erl"},{line,437}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}]
+2020-10-19 13:21:25 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.GetmoreApiChallenge.Supervisor'}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.GetmoreApiChallenge.Getmore',list_products,[<<>>],[]},{'Elixir.RPX.AMQP.Server','-handle_info/2-fun-0-',4,[{file,"lib/amqp/server.ex"},{line,29}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.491.0>},{id,'Elixir.RPX.AMQP.Server'},{mfargs,{'Elixir.RPX.AMQP.Server',start_link,[[{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-10-19 13:21:43 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.RPX.AMQP.Server:-handle_info/2-fun-0-/0
+    pid: <0.525.0>
+    registered_name: []
+    exception error: {undef,[{'Elixir.GetmoreApiChallenge.Getmore',list_products,[[]],[]},{'Elixir.RPX.AMQP.Server','-handle_info/2-fun-0-',4,[{file,"lib/amqp/server.ex"},{line,29}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.RPX.AMQP.Server','Elixir.GetmoreApiChallenge.Supervisor',<0.418.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.491.0>]
+    dictionary: [{'$callers',[<0.491.0>]}]
+    trap_exit: false
+    status: running
+    heap_size: 17731
+    stack_size: 28
+    reductions: 4608
+  neighbours:
+    neighbour: [{pid,<0.491.0>},{registered_name,'Elixir.RPX.AMQP.Server'},{initial_call,{'Elixir.RPX.AMQP.Server',init,['Argument__1']}},{current_function,{gen_server,loop,7}},{ancestors,['Elixir.GetmoreApiChallenge.Supervisor',<0.418.0>]},{message_queue_len,0},{links,[<0.419.0>,<0.525.0>]},{trap_exit,false},{status,waiting},{heap_size,987},{stack_size,12},{reductions,33651},{current_stacktrace,[{gen_server,loop,7,[{file,"gen_server.erl"},{line,437}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}]
+2020-10-19 13:21:43 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.GetmoreApiChallenge.Supervisor'}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.GetmoreApiChallenge.Getmore',list_products,[[]],[]},{'Elixir.RPX.AMQP.Server','-handle_info/2-fun-0-',4,[{file,"lib/amqp/server.ex"},{line,29}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.491.0>},{id,'Elixir.RPX.AMQP.Server'},{mfargs,{'Elixir.RPX.AMQP.Server',start_link,[[{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-10-19 13:23:10 =ERROR REPORT====
+** Generic server <0.502.0> terminating
+** Last message in was {consumer_call,{'basic.deliver',<<"amq.ctag-YEcJfocENJIwvv4K3h4Gig">>,2,false,<<>>,<<"products">>},{amqp_msg,{'P_basic',undefined,undefined,undefined,1,undefined,<<"g1hkAA1ub25vZGVAbm9ob3N0AAACHwAAAAAAAAAA,LTU3NjQ2MDc1MjMwMzQyMzQyMw==">>,<<"amq.rabbitmq.reply-to.g1hkABNyYWJiaXRANzFiMjI3ZjVkZWU3AAAGHQAAAABfjbJk.ro5FyYe8f+ys+mELREUezw==">>,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"{\"params\":[],\"target\":\"list_products\"}">>}}
+** When Server state == {state,amqp_selective_consumer,{state,#{},undefined,#{},none}}
+** Reason for termination == 
+** unexpected_delivery_and_no_default_consumer
+2020-10-19 13:23:10 =CRASH REPORT====
+  crasher:
+    initial call: amqp_gen_consumer:init/1
+    pid: <0.502.0>
+    registered_name: []
+    exception exit: {unexpected_delivery_and_no_default_consumer,[{gen_server2,terminate,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/rabbit_common/src/gen_server2.erl"},{line,1183}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.501.0>,<0.495.0>,<0.493.0>,<0.492.0>,amqp_sup,<0.342.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.501.0>]
+    dictionary: [{process_name,{amqp_gen_consumer,{<<"client 127.0.0.1:32845 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 5921
+  neighbours:
+2020-10-19 13:23:10 =SUPERVISOR REPORT====
+     Supervisor: {<0.501.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     unexpected_delivery_and_no_default_consumer
+     Offender:   [{pid,<0.502.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:32845 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2020-10-19 13:23:10 =SUPERVISOR REPORT====
+     Supervisor: {<0.501.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.502.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:32845 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2020-10-19 13:23:26 =SUPERVISOR REPORT====
+     Supervisor: {<0.510.0>,amqp_channel_sup_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{nb_children,1},{name,channel_sup},{mfargs,{amqp_channel_sup,start_link,[network,<0.509.0>,<<"client 127.0.0.1:37201 -> 127.0.0.1:5672">>]}},{restart_type,temporary},{shutdown,infinity},{child_type,supervisor}]
+
+2020-10-19 13:23:49 =ERROR REPORT====
+** Generic server 'Elixir.RPX.AMQP.Client' terminating 
+** Last message in was {send,#{correlation_id => <<"LTU3NjQ2MDc1MjMwMzQyMjkwMw==">>,queue_name => <<"products">>,reply_to => <<"amq.rabbitmq.reply-to">>},#{params => [],target => <<"list_products">>}}
+** When Server state == #{config => #{'__struct__' => 'Elixir.RPX.AMQP',channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.509.0>},custom_consumer => nil,pid => <0.518.0>},connection => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.509.0>}}}
+** Reason for termination ==
+** {{noproc,{gen_server,call,[<0.518.0>,{call,{'basic.publish',0,<<>>,<<"products">>,false,false},{amqp_msg,{'P_basic',undefined,undefined,undefined,1,undefined,<<"g1hkAA1ub25vZGVAbm9ob3N0AAACIwAAAAAAAAAA,LTU3NjQ2MDc1MjMwMzQyMjkwMw==">>,<<"amq.rabbitmq.reply-to">>,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"{\"params\":[],\"target\":\"list_products\"}">>},<0.506.0>},60000]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,246}]},{'Elixir.AMQP.Basic',publish,5,[{file,"lib/amqp/basic.ex"},{line,86}]},{'Elixir.RPX.AMQP.Client',handle_call,3,[{file,"lib/amqp/client.ex"},{line,43}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+** Client <0.547.0> stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1020}]},{'Elixir.RPX.AMQP.Client','-call/3-fun-0-',3,[{file,"lib/amqp/client.ex"},{line,18}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]
+2020-10-19 13:23:49 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.RPX.AMQP.Client:init/1
+    pid: <0.506.0>
+    registered_name: 'Elixir.RPX.AMQP.Client'
+    exception exit: {{noproc,{gen_server,call,[<0.518.0>,{call,{'basic.publish',0,<<>>,<<"products">>,false,false},{amqp_msg,{'P_basic',undefined,undefined,undefined,1,undefined,<<"g1hkAA1ub25vZGVAbm9ob3N0AAACIwAAAAAAAAAA,LTU3NjQ2MDc1MjMwMzQyMjkwMw==">>,<<"amq.rabbitmq.reply-to">>,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"{\"params\":[],\"target\":\"list_products\"}">>},<0.506.0>},60000]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,246}]},{'Elixir.AMQP.Basic',publish,5,[{file,"lib/amqp/basic.ex"},{line,86}]},{'Elixir.RPX.AMQP.Client',handle_call,3,[{file,"lib/amqp/client.ex"},{line,43}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.GetmoreApiChallenge.Supervisor',<0.418.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.419.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 17731
+    stack_size: 28
+    reductions: 47862
+  neighbours:
+2020-10-19 13:23:49 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.GetmoreApiChallenge.Supervisor'}
+     Context:    child_terminated
+     Reason:     {noproc,{gen_server,call,[<0.518.0>,{call,{'basic.publish',0,<<>>,<<"products">>,false,false},{amqp_msg,{'P_basic',undefined,undefined,undefined,1,undefined,<<"g1hkAA1ub25vZGVAbm9ob3N0AAACIwAAAAAAAAAA,LTU3NjQ2MDc1MjMwMzQyMjkwMw==">>,<<"amq.rabbitmq.reply-to">>,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"{\"params\":[],\"target\":\"list_products\"}">>},<0.506.0>},60000]}}
+     Offender:   [{pid,<0.506.0>},{id,'Elixir.RPX.AMQP.Client'},{mfargs,{'Elixir.RPX.AMQP.Client',start_link,[[]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-10-19 13:23:49 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.RPX.AMQP.Client:-call/3-fun-0-/0
+    pid: <0.547.0>
+    registered_name: []
+    exception exit: {{{noproc,{gen_server,call,[<0.518.0>,{call,{'basic.publish',0,<<>>,<<"products">>,false,false},{amqp_msg,{'P_basic',undefined,undefined,undefined,1,undefined,<<"g1hkAA1ub25vZGVAbm9ob3N0AAACIwAAAAAAAAAA,LTU3NjQ2MDc1MjMwMzQyMjkwMw==">>,<<"amq.rabbitmq.reply-to">>,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"{\"params\":[],\"target\":\"list_products\"}">>},<0.506.0>},60000]}},{'Elixir.GenServer',call,['Elixir.RPX.AMQP.Client',{send,#{correlation_id => <<"LTU3NjQ2MDc1MjMwMzQyMjkwMw==">>,queue_name => <<"products">>,reply_to => <<"amq.rabbitmq.reply-to">>},#{params => [],target => <<"list_products">>}},5000]}},[{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1023}]},{'Elixir.RPX.AMQP.Client','-call/3-fun-0-',3,[{file,"lib/amqp/client.ex"},{line,18}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.522.0>,<0.72.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.522.0>]
+    dictionary: [{'$callers',[<0.522.0>]}]
+    trap_exit: false
+    status: running
+    heap_size: 17731
+    stack_size: 28
+    reductions: 9787
+  neighbours:
+    neighbour: [{pid,<0.524.0>},{registered_name,[]},{initial_call,{'Elixir.RPX.AMQP.Client','-call/3-fun-0-',[]}},{current_function,{'Elixir.RPX.AMQP.Client','-call/3-fun-0-',3}},{ancestors,[<0.522.0>,<0.72.0>]},{message_queue_len,0},{links,[<0.522.0>]},{trap_exit,false},{status,waiting},{heap_size,233},{stack_size,23},{reductions,99},{current_stacktrace,[{'Elixir.RPX.AMQP.Client','-call/3-fun-0-',3,[{file,"lib/amqp/client.ex"},{line,18}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}]
+    neighbour: [{pid,<0.543.0>},{registered_name,[]},{initial_call,{'Elixir.RPX.AMQP.Client','-call/3-fun-0-',[]}},{current_function,{'Elixir.RPX.AMQP.Client','-call/3-fun-0-',3}},{ancestors,[<0.522.0>,<0.72.0>]},{message_queue_len,0},{links,[<0.522.0>]},{trap_exit,false},{status,waiting},{heap_size,233},{stack_size,23},{reductions,100},{current_stacktrace,[{'Elixir.RPX.AMQP.Client','-call/3-fun-0-',3,[{file,"lib/amqp/client.ex"},{line,18}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}]
+    neighbour: [{pid,<0.522.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{'Elixir.Task',await,2}},{ancestors,[<0.72.0>]},{message_queue_len,0},{links,[<0.543.0>,<0.547.0>,<0.524.0>]},{trap_exit,false},{status,waiting},{heap_size,1598},{stack_size,54},{reductions,10147},{current_stacktrace,[{'Elixir.Task',await,2,[{file,"lib/task.ex"},{line,592}]},{erl_eval,do_apply,6,[{file,"erl_eval.erl"},{line,680}]},{elixir,recur_eval,3,[{file,"src/elixir.erl"},{line,278}]},{elixir,eval_forms,3,[{file,"src/elixir.erl"},{line,263}]},{'Elixir.IEx.Evaluator',handle_eval,5,[{file,"lib/iex/evaluator.ex"},{line,258}]},{'Elixir.IEx.Evaluator',do_eval,3,[{file,"lib/iex/evaluator.ex"},{line,239}]},{'Elixir.IEx.Evaluator',eval,3,[{file,"lib/iex/evaluator.ex"},{line,217}]},{'Elixir.IEx.Evaluator',loop,1,[{file,"lib/iex/evaluator.ex"},{line,103}]},{'Elixir.IEx.Evaluator',init,4,[{file,"lib/iex/evaluator.ex"},{line,27}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}]
+2020-10-19 13:27:54 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.RPX.AMQP.Server:-handle_info/2-fun-0-/0
+    pid: <0.676.0>
+    registered_name: []
+    exception error: {undef,[{'Elixir.GetmoreApiChallenge.Getmore',list_products,[[]],[]},{'Elixir.RPX.AMQP.Server','-handle_info/2-fun-0-',4,[{file,"lib/amqp/server.ex"},{line,29}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.RPX.AMQP.Server','Elixir.GetmoreApiChallenge.Supervisor',<0.568.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.640.0>]
+    dictionary: [{'$callers',[<0.640.0>]}]
+    trap_exit: false
+    status: running
+    heap_size: 17731
+    stack_size: 28
+    reductions: 4560
+  neighbours:
+    neighbour: [{pid,<0.640.0>},{registered_name,'Elixir.RPX.AMQP.Server'},{initial_call,{'Elixir.RPX.AMQP.Server',init,['Argument__1']}},{current_function,{gen_server,loop,7}},{ancestors,['Elixir.GetmoreApiChallenge.Supervisor',<0.568.0>]},{message_queue_len,0},{links,[<0.569.0>,<0.676.0>]},{trap_exit,false},{status,waiting},{heap_size,987},{stack_size,12},{reductions,33622},{current_stacktrace,[{gen_server,loop,7,[{file,"gen_server.erl"},{line,437}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}]
+2020-10-19 13:27:54 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.GetmoreApiChallenge.Supervisor'}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.GetmoreApiChallenge.Getmore',list_products,[[]],[]},{'Elixir.RPX.AMQP.Server','-handle_info/2-fun-0-',4,[{file,"lib/amqp/server.ex"},{line,29}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.640.0>},{id,'Elixir.RPX.AMQP.Server'},{mfargs,{'Elixir.RPX.AMQP.Server',start_link,[[{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-10-19 13:28:15 =ERROR REPORT====
+** Generic server <0.652.0> terminating
+** Last message in was {consumer_call,{'basic.deliver',<<"amq.ctag-mkUyJXHvUxrE12IPk2FqNw">>,2,false,<<>>,<<"products">>},{amqp_msg,{'P_basic',undefined,undefined,undefined,1,undefined,<<"g1hkAA1ub25vZGVAbm9ob3N0AAACtQAAAAAAAAAA,LTU3NjQ2MDc1MjMwMzQyMTA1Mw==">>,<<"amq.rabbitmq.reply-to.g1hkABNyYWJiaXRANzFiMjI3ZjVkZWU3AAADlgAAAABfjb2N.uPw/TRsQ51KTPR5M1RrJ6g==">>,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"{\"params\":[],\"target\":\"list_products\"}">>}}
+** When Server state == {state,amqp_selective_consumer,{state,#{},undefined,#{},none}}
+** Reason for termination == 
+** unexpected_delivery_and_no_default_consumer
+2020-10-19 13:28:15 =CRASH REPORT====
+  crasher:
+    initial call: amqp_gen_consumer:init/1
+    pid: <0.652.0>
+    registered_name: []
+    exception exit: {unexpected_delivery_and_no_default_consumer,[{gen_server2,terminate,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/rabbit_common/src/gen_server2.erl"},{line,1183}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.651.0>,<0.645.0>,<0.643.0>,<0.642.0>,amqp_sup,<0.492.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.651.0>]
+    dictionary: [{process_name,{amqp_gen_consumer,{<<"client 127.0.0.1:41517 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 5921
+  neighbours:
+2020-10-19 13:28:15 =SUPERVISOR REPORT====
+     Supervisor: {<0.651.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     unexpected_delivery_and_no_default_consumer
+     Offender:   [{pid,<0.652.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:41517 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2020-10-19 13:28:15 =SUPERVISOR REPORT====
+     Supervisor: {<0.651.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.652.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:41517 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2020-10-19 13:29:37 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.RPX.AMQP.Server:-handle_info/2-fun-0-/0
+    pid: <0.526.0>
+    registered_name: []
+    exception error: {undef,[{'Elixir.GetmoreApiChallenge.Getmore',list_products,[[]],[]},{'Elixir.RPX.AMQP.Server','-handle_info/2-fun-0-',4,[{file,"lib/amqp/server.ex"},{line,29}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.RPX.AMQP.Server','Elixir.GetmoreApiChallenge.Supervisor',<0.418.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.491.0>]
+    dictionary: [{'$callers',[<0.491.0>]}]
+    trap_exit: false
+    status: running
+    heap_size: 17731
+    stack_size: 28
+    reductions: 4585
+  neighbours:
+    neighbour: [{pid,<0.491.0>},{registered_name,'Elixir.RPX.AMQP.Server'},{initial_call,{'Elixir.RPX.AMQP.Server',init,['Argument__1']}},{current_function,{gen_server,loop,7}},{ancestors,['Elixir.GetmoreApiChallenge.Supervisor',<0.418.0>]},{message_queue_len,0},{links,[<0.419.0>,<0.526.0>]},{trap_exit,false},{status,waiting},{heap_size,987},{stack_size,12},{reductions,33640},{current_stacktrace,[{gen_server,loop,7,[{file,"gen_server.erl"},{line,437}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}]
+2020-10-19 13:29:37 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.GetmoreApiChallenge.Supervisor'}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.GetmoreApiChallenge.Getmore',list_products,[[]],[]},{'Elixir.RPX.AMQP.Server','-handle_info/2-fun-0-',4,[{file,"lib/amqp/server.ex"},{line,29}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.491.0>},{id,'Elixir.RPX.AMQP.Server'},{mfargs,{'Elixir.RPX.AMQP.Server',start_link,[[{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-10-19 13:31:29 =ERROR REPORT====
+** Generic server 'Elixir.GetmoreApiChallenge.RPX.Server' terminating 
+** Last message in was {#Ref<0.1640465482.4013948939.96944>,ok}
+** When Server state == #{config => #{'__struct__' => 'Elixir.RPX.AMQP',channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.504.0>},custom_consumer => nil,pid => <0.513.0>},connection => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.504.0>}},worker => 'Elixir.GetmoreApiChallenge.Getmore'}
+** Reason for termination ==
+** {function_clause,[{'Elixir.GetmoreApiChallenge.RPX.Server',handle_info,[{#Ref<0.1640465482.4013948939.96944>,ok},#{config => #{'__struct__' => 'Elixir.RPX.AMQP',channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.504.0>},custom_consumer => nil,pid => <0.513.0>},connection => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.504.0>}},worker => 'Elixir.GetmoreApiChallenge.Getmore'}],[{file,"lib/rpx/server.ex"},{line,25}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+2020-10-19 13:31:29 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.GetmoreApiChallenge.RPX.Server:init/1
+    pid: <0.501.0>
+    registered_name: 'Elixir.GetmoreApiChallenge.RPX.Server'
+    exception error: {function_clause,[{'Elixir.GetmoreApiChallenge.RPX.Server',handle_info,[{#Ref<0.1640465482.4013948939.96944>,ok},#{config => #{'__struct__' => 'Elixir.RPX.AMQP',channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.504.0>},custom_consumer => nil,pid => <0.513.0>},connection => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.504.0>}},worker => 'Elixir.GetmoreApiChallenge.Getmore'}],[{file,"lib/rpx/server.ex"},{line,25}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.GetmoreApiChallenge.Supervisor',<0.428.0>]
+    message_queue_len: 1
+    messages: [{'DOWN',#Ref<0.1640465482.4013948939.96944>,process,<0.536.0>,normal}]
+    links: [<0.429.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 40144
+  neighbours:
+2020-10-19 13:31:29 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.GetmoreApiChallenge.Supervisor'}
+     Context:    child_terminated
+     Reason:     {function_clause,[{'Elixir.GetmoreApiChallenge.RPX.Server',handle_info,[{#Ref<0.1640465482.4013948939.96944>,ok},#{config => #{'__struct__' => 'Elixir.RPX.AMQP',channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.504.0>},custom_consumer => nil,pid => <0.513.0>},connection => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.504.0>}},worker => 'Elixir.GetmoreApiChallenge.Getmore'}],[{file,"lib/rpx/server.ex"},{line,25}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.501.0>},{id,'Elixir.GetmoreApiChallenge.RPX.Server'},{mfargs,{'Elixir.GetmoreApiChallenge.RPX.Server',start_link,[[{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-10-19 13:32:18 =ERROR REPORT====
+** Generic server 'Elixir.GetmoreApiChallenge.RPX.Server' terminating 
+** Last message in was {#Ref<0.1471987200.3208904714.134255>,ok}
+** When Server state == #{config => #{'__struct__' => 'Elixir.RPX.AMQP',channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.644.0>},custom_consumer => nil,pid => <0.653.0>},connection => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.644.0>}},worker => 'Elixir.GetmoreApiChallenge.Getmore'}
+** Reason for termination ==
+** {function_clause,[{'Elixir.GetmoreApiChallenge.RPX.Server',handle_info,[{#Ref<0.1471987200.3208904714.134255>,ok},#{config => #{'__struct__' => 'Elixir.RPX.AMQP',channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.644.0>},custom_consumer => nil,pid => <0.653.0>},connection => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.644.0>}},worker => 'Elixir.GetmoreApiChallenge.Getmore'}],[{file,"lib/rpx/server.ex"},{line,25}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+2020-10-19 13:32:18 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.GetmoreApiChallenge.RPX.Server:init/1
+    pid: <0.640.0>
+    registered_name: 'Elixir.GetmoreApiChallenge.RPX.Server'
+    exception error: {function_clause,[{'Elixir.GetmoreApiChallenge.RPX.Server',handle_info,[{#Ref<0.1471987200.3208904714.134255>,ok},#{config => #{'__struct__' => 'Elixir.RPX.AMQP',channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.644.0>},custom_consumer => nil,pid => <0.653.0>},connection => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.644.0>}},worker => 'Elixir.GetmoreApiChallenge.Getmore'}],[{file,"lib/rpx/server.ex"},{line,25}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.GetmoreApiChallenge.Supervisor',<0.568.0>]
+    message_queue_len: 1
+    messages: [{'DOWN',#Ref<0.1471987200.3208904714.134255>,process,<0.677.0>,normal}]
+    links: [<0.569.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 40125
+  neighbours:
+2020-10-19 13:32:18 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.GetmoreApiChallenge.Supervisor'}
+     Context:    child_terminated
+     Reason:     {function_clause,[{'Elixir.GetmoreApiChallenge.RPX.Server',handle_info,[{#Ref<0.1471987200.3208904714.134255>,ok},#{config => #{'__struct__' => 'Elixir.RPX.AMQP',channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.644.0>},custom_consumer => nil,pid => <0.653.0>},connection => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.644.0>}},worker => 'Elixir.GetmoreApiChallenge.Getmore'}],[{file,"lib/rpx/server.ex"},{line,25}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.640.0>},{id,'Elixir.GetmoreApiChallenge.RPX.Server'},{mfargs,{'Elixir.GetmoreApiChallenge.RPX.Server',start_link,[[{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-10-19 13:34:48 =ERROR REPORT====
+** Generic server 'Elixir.GetmoreApiChallenge.RPX.Server' terminating 
+** Last message in was {#Ref<0.3236253687.524550151.62444>,ok}
+** When Server state == #{config => #{'__struct__' => 'Elixir.RPX.AMQP',channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.644.0>},custom_consumer => nil,pid => <0.653.0>},connection => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.644.0>}},worker => 'Elixir.GetmoreApiChallenge.Getmore'}
+** Reason for termination ==
+** {function_clause,[{'Elixir.GetmoreApiChallenge.RPX.Server',handle_info,[{#Ref<0.3236253687.524550151.62444>,ok},#{config => #{'__struct__' => 'Elixir.RPX.AMQP',channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.644.0>},custom_consumer => nil,pid => <0.653.0>},connection => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.644.0>}},worker => 'Elixir.GetmoreApiChallenge.Getmore'}],[{file,"lib/rpx/server.ex"},{line,25}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+2020-10-19 13:34:48 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.GetmoreApiChallenge.RPX.Server:init/1
+    pid: <0.640.0>
+    registered_name: 'Elixir.GetmoreApiChallenge.RPX.Server'
+    exception error: {function_clause,[{'Elixir.GetmoreApiChallenge.RPX.Server',handle_info,[{#Ref<0.3236253687.524550151.62444>,ok},#{config => #{'__struct__' => 'Elixir.RPX.AMQP',channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.644.0>},custom_consumer => nil,pid => <0.653.0>},connection => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.644.0>}},worker => 'Elixir.GetmoreApiChallenge.Getmore'}],[{file,"lib/rpx/server.ex"},{line,25}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.GetmoreApiChallenge.Supervisor',<0.568.0>]
+    message_queue_len: 1
+    messages: [{'DOWN',#Ref<0.3236253687.524550151.62444>,process,<0.676.0>,normal}]
+    links: [<0.569.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 40122
+  neighbours:
+2020-10-19 13:34:48 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.GetmoreApiChallenge.Supervisor'}
+     Context:    child_terminated
+     Reason:     {function_clause,[{'Elixir.GetmoreApiChallenge.RPX.Server',handle_info,[{#Ref<0.3236253687.524550151.62444>,ok},#{config => #{'__struct__' => 'Elixir.RPX.AMQP',channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.644.0>},custom_consumer => nil,pid => <0.653.0>},connection => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.644.0>}},worker => 'Elixir.GetmoreApiChallenge.Getmore'}],[{file,"lib/rpx/server.ex"},{line,25}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.640.0>},{id,'Elixir.GetmoreApiChallenge.RPX.Server'},{mfargs,{'Elixir.GetmoreApiChallenge.RPX.Server',start_link,[[{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-10-19 13:35:16 =SUPERVISOR REPORT====
+     Supervisor: {<0.660.0>,amqp_channel_sup_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{nb_children,1},{name,channel_sup},{mfargs,{amqp_channel_sup,start_link,[network,<0.659.0>,<<"client 127.0.0.1:41925 -> 127.0.0.1:5672">>]}},{restart_type,temporary},{shutdown,infinity},{child_type,supervisor}]
+
+2020-10-19 13:35:42 =ERROR REPORT====
+** Generic server 'Elixir.RPX.AMQP.Client' terminating 
+** Last message in was {send,#{correlation_id => <<"LTU3NjQ2MDc1MjMwMzQyMjg0NQ==">>,queue_name => <<"products">>,reply_to => <<"amq.rabbitmq.reply-to">>},#{params => [],target => <<"list_products">>}}
+** When Server state == #{config => #{'__struct__' => 'Elixir.RPX.AMQP',channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.659.0>},custom_consumer => nil,pid => <0.668.0>},connection => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.659.0>}}}
+** Reason for termination ==
+** {{noproc,{gen_server,call,[<0.668.0>,{call,{'basic.publish',0,<<>>,<<"products">>,false,false},{amqp_msg,{'P_basic',undefined,undefined,undefined,1,undefined,<<"g1hkAA1ub25vZGVAbm9ob3N0AAACtQAAAAAAAAAA,LTU3NjQ2MDc1MjMwMzQyMjg0NQ==">>,<<"amq.rabbitmq.reply-to">>,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"{\"params\":[],\"target\":\"list_products\"}">>},<0.656.0>},60000]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,246}]},{'Elixir.AMQP.Basic',publish,5,[{file,"lib/amqp/basic.ex"},{line,86}]},{'Elixir.RPX.AMQP.Client',handle_call,3,[{file,"lib/amqp/client.ex"},{line,43}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+** Client <0.693.0> stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1020}]},{'Elixir.RPX.AMQP.Client','-call/3-fun-0-',3,[{file,"lib/amqp/client.ex"},{line,18}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]
+2020-10-19 13:35:42 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.RPX.AMQP.Client:init/1
+    pid: <0.656.0>
+    registered_name: 'Elixir.RPX.AMQP.Client'
+    exception exit: {{noproc,{gen_server,call,[<0.668.0>,{call,{'basic.publish',0,<<>>,<<"products">>,false,false},{amqp_msg,{'P_basic',undefined,undefined,undefined,1,undefined,<<"g1hkAA1ub25vZGVAbm9ob3N0AAACtQAAAAAAAAAA,LTU3NjQ2MDc1MjMwMzQyMjg0NQ==">>,<<"amq.rabbitmq.reply-to">>,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"{\"params\":[],\"target\":\"list_products\"}">>},<0.656.0>},60000]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,246}]},{'Elixir.AMQP.Basic',publish,5,[{file,"lib/amqp/basic.ex"},{line,86}]},{'Elixir.RPX.AMQP.Client',handle_call,3,[{file,"lib/amqp/client.ex"},{line,43}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.GetmoreApiChallenge.Supervisor',<0.568.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.569.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 17731
+    stack_size: 28
+    reductions: 47784
+  neighbours:
+2020-10-19 13:35:42 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.GetmoreApiChallenge.Supervisor'}
+     Context:    child_terminated
+     Reason:     {noproc,{gen_server,call,[<0.668.0>,{call,{'basic.publish',0,<<>>,<<"products">>,false,false},{amqp_msg,{'P_basic',undefined,undefined,undefined,1,undefined,<<"g1hkAA1ub25vZGVAbm9ob3N0AAACtQAAAAAAAAAA,LTU3NjQ2MDc1MjMwMzQyMjg0NQ==">>,<<"amq.rabbitmq.reply-to">>,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"{\"params\":[],\"target\":\"list_products\"}">>},<0.656.0>},60000]}}
+     Offender:   [{pid,<0.656.0>},{id,'Elixir.RPX.AMQP.Client'},{mfargs,{'Elixir.RPX.AMQP.Client',start_link,[[]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-10-19 13:35:42 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.RPX.AMQP.Client:-call/3-fun-0-/0
+    pid: <0.693.0>
+    registered_name: []
+    exception exit: {{{noproc,{gen_server,call,[<0.668.0>,{call,{'basic.publish',0,<<>>,<<"products">>,false,false},{amqp_msg,{'P_basic',undefined,undefined,undefined,1,undefined,<<"g1hkAA1ub25vZGVAbm9ob3N0AAACtQAAAAAAAAAA,LTU3NjQ2MDc1MjMwMzQyMjg0NQ==">>,<<"amq.rabbitmq.reply-to">>,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"{\"params\":[],\"target\":\"list_products\"}">>},<0.656.0>},60000]}},{'Elixir.GenServer',call,['Elixir.RPX.AMQP.Client',{send,#{correlation_id => <<"LTU3NjQ2MDc1MjMwMzQyMjg0NQ==">>,queue_name => <<"products">>,reply_to => <<"amq.rabbitmq.reply-to">>},#{params => [],target => <<"list_products">>}},5000]}},[{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1023}]},{'Elixir.RPX.AMQP.Client','-call/3-fun-0-',3,[{file,"lib/amqp/client.ex"},{line,18}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.672.0>,<0.72.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.672.0>]
+    dictionary: [{'$callers',[<0.672.0>]}]
+    trap_exit: false
+    status: running
+    heap_size: 17731
+    stack_size: 28
+    reductions: 9769
+  neighbours:
+    neighbour: [{pid,<0.672.0>},{registered_name,[]},{initial_call,{'Elixir.IEx.Evaluator',init,['Argument__1','Argument__2','Argument__3','Argument__4']}},{current_function,{'Elixir.IEx.Evaluator',loop,1}},{ancestors,[<0.72.0>]},{message_queue_len,2},{links,[<0.693.0>]},{trap_exit,false},{status,waiting},{heap_size,28690},{stack_size,17},{reductions,11330},{current_stacktrace,[{'Elixir.IEx.Evaluator',loop,1,[{file,"lib/iex/evaluator.ex"},{line,100}]},{'Elixir.IEx.Evaluator',init,4,[{file,"lib/iex/evaluator.ex"},{line,27}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}]
+2020-10-19 13:36:50 =ERROR REPORT====
+** Generic server 'Elixir.GetmoreApiChallenge.RPX.Server' terminating 
+** Last message in was {#Ref<0.312981493.4282646535.46466>,ok}
+** When Server state == #{config => #{'__struct__' => 'Elixir.RPX.AMQP',channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.494.0>},custom_consumer => nil,pid => <0.503.0>},connection => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.494.0>}},worker => 'Elixir.GetmoreApiChallenge.Getmore'}
+** Reason for termination ==
+** {function_clause,[{'Elixir.GetmoreApiChallenge.RPX.Server',handle_info,[{#Ref<0.312981493.4282646535.46466>,ok},#{config => #{'__struct__' => 'Elixir.RPX.AMQP',channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.494.0>},custom_consumer => nil,pid => <0.503.0>},connection => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.494.0>}},worker => 'Elixir.GetmoreApiChallenge.Getmore'}],[{file,"lib/rpx/server.ex"},{line,25}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+2020-10-19 13:36:50 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.GetmoreApiChallenge.RPX.Server:init/1
+    pid: <0.490.0>
+    registered_name: 'Elixir.GetmoreApiChallenge.RPX.Server'
+    exception error: {function_clause,[{'Elixir.GetmoreApiChallenge.RPX.Server',handle_info,[{#Ref<0.312981493.4282646535.46466>,ok},#{config => #{'__struct__' => 'Elixir.RPX.AMQP',channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.494.0>},custom_consumer => nil,pid => <0.503.0>},connection => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.494.0>}},worker => 'Elixir.GetmoreApiChallenge.Getmore'}],[{file,"lib/rpx/server.ex"},{line,25}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.GetmoreApiChallenge.Supervisor',<0.418.0>]
+    message_queue_len: 1
+    messages: [{'DOWN',#Ref<0.312981493.4282646535.46466>,process,<0.525.0>,normal}]
+    links: [<0.419.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 40178
+  neighbours:
+2020-10-19 13:36:50 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.GetmoreApiChallenge.Supervisor'}
+     Context:    child_terminated
+     Reason:     {function_clause,[{'Elixir.GetmoreApiChallenge.RPX.Server',handle_info,[{#Ref<0.312981493.4282646535.46466>,ok},#{config => #{'__struct__' => 'Elixir.RPX.AMQP',channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.494.0>},custom_consumer => nil,pid => <0.503.0>},connection => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.494.0>}},worker => 'Elixir.GetmoreApiChallenge.Getmore'}],[{file,"lib/rpx/server.ex"},{line,25}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.490.0>},{id,'Elixir.GetmoreApiChallenge.RPX.Server'},{mfargs,{'Elixir.GetmoreApiChallenge.RPX.Server',start_link,[[{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-10-19 13:39:09 =ERROR REPORT====
+** Generic server 'Elixir.GetmoreApiChallenge.RPX.Server' terminating 
+** Last message in was {#Ref<0.1240569201.4282646529.258866>,ok}
+** When Server state == #{config => #{'__struct__' => 'Elixir.RPX.AMQP',channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.494.0>},custom_consumer => nil,pid => <0.503.0>},connection => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.494.0>}},worker => 'Elixir.GetmoreApiChallenge.Getmore'}
+** Reason for termination ==
+** {function_clause,[{'Elixir.GetmoreApiChallenge.RPX.Server',handle_info,[{#Ref<0.1240569201.4282646529.258866>,ok},#{config => #{'__struct__' => 'Elixir.RPX.AMQP',channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.494.0>},custom_consumer => nil,pid => <0.503.0>},connection => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.494.0>}},worker => 'Elixir.GetmoreApiChallenge.Getmore'}],[{file,"lib/rpx/server.ex"},{line,25}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+2020-10-19 13:39:09 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.GetmoreApiChallenge.RPX.Server:init/1
+    pid: <0.491.0>
+    registered_name: 'Elixir.GetmoreApiChallenge.RPX.Server'
+    exception error: {function_clause,[{'Elixir.GetmoreApiChallenge.RPX.Server',handle_info,[{#Ref<0.1240569201.4282646529.258866>,ok},#{config => #{'__struct__' => 'Elixir.RPX.AMQP',channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.494.0>},custom_consumer => nil,pid => <0.503.0>},connection => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.494.0>}},worker => 'Elixir.GetmoreApiChallenge.Getmore'}],[{file,"lib/rpx/server.ex"},{line,25}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.GetmoreApiChallenge.Supervisor',<0.418.0>]
+    message_queue_len: 1
+    messages: [{'DOWN',#Ref<0.1240569201.4282646529.258866>,process,<0.525.0>,normal}]
+    links: [<0.419.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 40568
+  neighbours:
+2020-10-19 13:39:09 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.GetmoreApiChallenge.Supervisor'}
+     Context:    child_terminated
+     Reason:     {function_clause,[{'Elixir.GetmoreApiChallenge.RPX.Server',handle_info,[{#Ref<0.1240569201.4282646529.258866>,ok},#{config => #{'__struct__' => 'Elixir.RPX.AMQP',channel => #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.494.0>},custom_consumer => nil,pid => <0.503.0>},connection => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.494.0>}},worker => 'Elixir.GetmoreApiChallenge.Getmore'}],[{file,"lib/rpx/server.ex"},{line,25}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.491.0>},{id,'Elixir.GetmoreApiChallenge.RPX.Server'},{mfargs,{'Elixir.GetmoreApiChallenge.RPX.Server',start_link,[[{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-10-19 13:44:14 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.GetmoreApiChallenge.RPX.Server:-handle_info/2-fun-0-/0
+    pid: <0.687.0>
+    registered_name: []
+    exception error: bad argument: [{erlang,apply,['Elixir.GetmoreApiChallenge.Getmore',productId,1020],[]},{'Elixir.GetmoreApiChallenge.RPX.Server','-handle_info/2-fun-0-',4,[{file,"lib/rpx/server.ex"},{line,30}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]
+    ancestors: ['Elixir.GetmoreApiChallenge.RPX.Server','Elixir.GetmoreApiChallenge.Supervisor',<0.568.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.640.0>]
+    dictionary: [{'$callers',[<0.640.0>]}]
+    trap_exit: false
+    status: running
+    heap_size: 17731
+    stack_size: 28
+    reductions: 4802
+  neighbours:
+    neighbour: [{pid,<0.640.0>},{registered_name,'Elixir.GetmoreApiChallenge.RPX.Server'},{initial_call,{'Elixir.GetmoreApiChallenge.RPX.Server',init,['Argument__1']}},{current_function,{gen_server,loop,7}},{ancestors,['Elixir.GetmoreApiChallenge.Supervisor',<0.568.0>]},{message_queue_len,0},{links,[<0.569.0>,<0.687.0>]},{trap_exit,false},{status,waiting},{heap_size,987},{stack_size,12},{reductions,33910},{current_stacktrace,[{gen_server,loop,7,[{file,"gen_server.erl"},{line,437}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}]
+2020-10-19 13:44:14 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.GetmoreApiChallenge.Supervisor'}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,apply,['Elixir.GetmoreApiChallenge.Getmore',productId,1020],[]},{'Elixir.GetmoreApiChallenge.RPX.Server','-handle_info/2-fun-0-',4,[{file,"lib/rpx/server.ex"},{line,30}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.640.0>},{id,'Elixir.GetmoreApiChallenge.RPX.Server'},{mfargs,{'Elixir.GetmoreApiChallenge.RPX.Server',start_link,[[{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-10-19 13:45:09 =ERROR REPORT====
+** Generic server <0.652.0> terminating
+** Last message in was {consumer_call,{'basic.deliver',<<"amq.ctag--dfVUEgktn5D6NDAIGQwNw">>,4,false,<<>>,<<"products">>},{amqp_msg,{'P_basic',undefined,undefined,undefined,1,undefined,<<"g1hkAA1ub25vZGVAbm9ob3N0AAACwAAAAAAAAAAA,LTU3NjQ2MDc1MjMwMzQyMDk5MQ==">>,<<"amq.rabbitmq.reply-to.g1hkABNyYWJiaXRANzFiMjI3ZjVkZWU3AAAD9gAAAABfjcCJ.emWv7fX4ncMyHib9cRVuqw==">>,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"{\"params\":1020,\"target\":\"getProductId!\"}">>}}
+** When Server state == {state,amqp_selective_consumer,{state,#{},undefined,#{},none}}
+** Reason for termination == 
+** unexpected_delivery_and_no_default_consumer
+2020-10-19 13:45:09 =CRASH REPORT====
+  crasher:
+    initial call: amqp_gen_consumer:init/1
+    pid: <0.652.0>
+    registered_name: []
+    exception exit: {unexpected_delivery_and_no_default_consumer,[{gen_server2,terminate,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/rabbit_common/src/gen_server2.erl"},{line,1183}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.651.0>,<0.645.0>,<0.643.0>,<0.642.0>,amqp_sup,<0.493.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.651.0>]
+    dictionary: [{process_name,{amqp_gen_consumer,{<<"client 127.0.0.1:59831 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 6090
+  neighbours:
+2020-10-19 13:45:09 =SUPERVISOR REPORT====
+     Supervisor: {<0.651.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     unexpected_delivery_and_no_default_consumer
+     Offender:   [{pid,<0.652.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:59831 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2020-10-19 13:45:09 =SUPERVISOR REPORT====
+     Supervisor: {<0.651.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.652.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:59831 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2020-10-19 13:45:18 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.GetmoreApiChallenge.RPX.Server:-handle_info/2-fun-0-/0
+    pid: <0.708.0>
+    registered_name: []
+    exception error: bad argument: [{erlang,apply,['Elixir.GetmoreApiChallenge.Getmore',getProductId,1020],[]},{'Elixir.GetmoreApiChallenge.RPX.Server','-handle_info/2-fun-0-',4,[{file,"lib/rpx/server.ex"},{line,30}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]
+    ancestors: ['Elixir.GetmoreApiChallenge.RPX.Server','Elixir.GetmoreApiChallenge.Supervisor',<0.568.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.688.0>]
+    dictionary: [{'$callers',[<0.688.0>]}]
+    trap_exit: false
+    status: running
+    heap_size: 17731
+    stack_size: 28
+    reductions: 4783
+  neighbours:
+    neighbour: [{pid,<0.688.0>},{registered_name,'Elixir.GetmoreApiChallenge.RPX.Server'},{initial_call,{'Elixir.GetmoreApiChallenge.RPX.Server',init,['Argument__1']}},{current_function,{gen_server,loop,7}},{ancestors,['Elixir.GetmoreApiChallenge.Supervisor',<0.568.0>]},{message_queue_len,0},{links,[<0.569.0>,<0.708.0>]},{trap_exit,false},{status,waiting},{heap_size,610},{stack_size,12},{reductions,33269},{current_stacktrace,[{gen_server,loop,7,[{file,"gen_server.erl"},{line,437}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}]
+2020-10-19 13:45:18 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.GetmoreApiChallenge.Supervisor'}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,apply,['Elixir.GetmoreApiChallenge.Getmore',getProductId,1020],[]},{'Elixir.GetmoreApiChallenge.RPX.Server','-handle_info/2-fun-0-',4,[{file,"lib/rpx/server.ex"},{line,30}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.688.0>},{id,'Elixir.GetmoreApiChallenge.RPX.Server'},{mfargs,{'Elixir.GetmoreApiChallenge.RPX.Server',start_link,[[{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-10-19 13:45:40 =ERROR REPORT====
+** Generic server <0.699.0> terminating
+** Last message in was {consumer_call,{'basic.deliver',<<"amq.ctag-ZDPwEhzS0YvOXyTFyhkp_w">>,2,false,<<>>,<<"products">>},{amqp_msg,{'P_basic',undefined,undefined,undefined,1,undefined,<<"g1hkAA1ub25vZGVAbm9ob3N0AAAC1wAAAAAAAAAA,LTU3NjQ2MDc1MjMwMzQyMDYwNw==">>,<<"amq.rabbitmq.reply-to.g1hkABNyYWJiaXRANzFiMjI3ZjVkZWU3AAAD9gAAAABfjcCJ.emWv7fX4ncMyHib9cRVuqw==">>,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"{\"params\":1020,\"target\":\"get_productId!\"}">>}}
+** When Server state == {state,amqp_selective_consumer,{state,#{},undefined,#{},none}}
+** Reason for termination == 
+** unexpected_delivery_and_no_default_consumer
+2020-10-19 13:45:40 =CRASH REPORT====
+  crasher:
+    initial call: amqp_gen_consumer:init/1
+    pid: <0.699.0>
+    registered_name: []
+    exception exit: {unexpected_delivery_and_no_default_consumer,[{gen_server2,terminate,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/rabbit_common/src/gen_server2.erl"},{line,1183}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.698.0>,<0.692.0>,<0.690.0>,<0.689.0>,amqp_sup,<0.493.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.698.0>]
+    dictionary: [{process_name,{amqp_gen_consumer,{<<"client 127.0.0.1:48985 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 5908
+  neighbours:
+2020-10-19 13:45:40 =SUPERVISOR REPORT====
+     Supervisor: {<0.698.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     unexpected_delivery_and_no_default_consumer
+     Offender:   [{pid,<0.699.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:48985 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2020-10-19 13:45:40 =SUPERVISOR REPORT====
+     Supervisor: {<0.698.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.699.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:48985 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2020-10-19 13:47:15 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.GetmoreApiChallenge.RPX.Server:-handle_info/2-fun-0-/0
+    pid: <0.731.0>
+    registered_name: []
+    exception error: bad argument: [{erlang,apply,['Elixir.GetmoreApiChallenge.Getmore','get_product!',1020],[]},{'Elixir.GetmoreApiChallenge.RPX.Server','-handle_info/2-fun-0-',4,[{file,"lib/rpx/server.ex"},{line,30}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]
+    ancestors: ['Elixir.GetmoreApiChallenge.RPX.Server','Elixir.GetmoreApiChallenge.Supervisor',<0.568.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.709.0>]
+    dictionary: [{'$callers',[<0.709.0>]}]
+    trap_exit: false
+    status: running
+    heap_size: 17731
+    stack_size: 28
+    reductions: 4783
+  neighbours:
+    neighbour: [{pid,<0.709.0>},{registered_name,'Elixir.GetmoreApiChallenge.RPX.Server'},{initial_call,{'Elixir.GetmoreApiChallenge.RPX.Server',init,['Argument__1']}},{current_function,{gen_server,loop,7}},{ancestors,['Elixir.GetmoreApiChallenge.Supervisor',<0.568.0>]},{message_queue_len,0},{links,[<0.569.0>,<0.731.0>]},{trap_exit,false},{status,waiting},{heap_size,610},{stack_size,12},{reductions,33285},{current_stacktrace,[{gen_server,loop,7,[{file,"gen_server.erl"},{line,437}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}]
+2020-10-19 13:47:15 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.GetmoreApiChallenge.Supervisor'}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,apply,['Elixir.GetmoreApiChallenge.Getmore','get_product!',1020],[]},{'Elixir.GetmoreApiChallenge.RPX.Server','-handle_info/2-fun-0-',4,[{file,"lib/rpx/server.ex"},{line,30}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.709.0>},{id,'Elixir.GetmoreApiChallenge.RPX.Server'},{mfargs,{'Elixir.GetmoreApiChallenge.RPX.Server',start_link,[[{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-10-19 13:48:02 =ERROR REPORT====
+** Generic server <0.720.0> terminating
+** Last message in was {consumer_call,{'basic.deliver',<<"amq.ctag-9yFSWAF-eMMGfq7sj3dGyQ">>,2,false,<<>>,<<"products">>},{amqp_msg,{'P_basic',undefined,undefined,undefined,1,undefined,<<"g1hkAA1ub25vZGVAbm9ob3N0AAAC8QAAAAAAAAAA,LTU3NjQ2MDc1MjMwMzQyMDE1OQ==">>,<<"amq.rabbitmq.reply-to.g1hkABNyYWJiaXRANzFiMjI3ZjVkZWU3AAAD9gAAAABfjcCJ.emWv7fX4ncMyHib9cRVuqw==">>,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"{\"params\":1001,\"target\":\"get_product\"}">>}}
+** When Server state == {state,amqp_selective_consumer,{state,#{},undefined,#{},none}}
+** Reason for termination == 
+** unexpected_delivery_and_no_default_consumer
+2020-10-19 13:48:02 =CRASH REPORT====
+  crasher:
+    initial call: amqp_gen_consumer:init/1
+    pid: <0.720.0>
+    registered_name: []
+    exception exit: {unexpected_delivery_and_no_default_consumer,[{gen_server2,terminate,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/rabbit_common/src/gen_server2.erl"},{line,1183}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.719.0>,<0.713.0>,<0.711.0>,<0.710.0>,amqp_sup,<0.493.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.719.0>]
+    dictionary: [{process_name,{amqp_gen_consumer,{<<"client 127.0.0.1:43421 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 5882
+  neighbours:
+2020-10-19 13:48:02 =SUPERVISOR REPORT====
+     Supervisor: {<0.719.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     unexpected_delivery_and_no_default_consumer
+     Offender:   [{pid,<0.720.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:43421 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2020-10-19 13:48:02 =SUPERVISOR REPORT====
+     Supervisor: {<0.719.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.720.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:43421 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2020-10-19 13:51:13 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.GetmoreApiChallenge.RPX.Server:-handle_info/2-fun-0-/0
+    pid: <0.773.0>
+    registered_name: []
+    exception error: bad argument: [{erlang,apply,['Elixir.GetmoreApiChallenge.Getmore',get_product,#{<<"number">> => 1048}],[]},{'Elixir.GetmoreApiChallenge.RPX.Server','-handle_info/2-fun-0-',4,[{file,"lib/rpx/server.ex"},{line,30}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]
+    ancestors: ['Elixir.GetmoreApiChallenge.RPX.Server','Elixir.GetmoreApiChallenge.Supervisor',<0.568.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.732.0>]
+    dictionary: [{'$callers',[<0.732.0>]}]
+    trap_exit: false
+    status: running
+    heap_size: 17731
+    stack_size: 28
+    reductions: 4970
+  neighbours:
+    neighbour: [{pid,<0.732.0>},{registered_name,'Elixir.GetmoreApiChallenge.RPX.Server'},{initial_call,{'Elixir.GetmoreApiChallenge.RPX.Server',init,['Argument__1']}},{current_function,{gen_server,loop,7}},{ancestors,['Elixir.GetmoreApiChallenge.Supervisor',<0.568.0>]},{message_queue_len,0},{links,[<0.569.0>,<0.773.0>]},{trap_exit,false},{status,waiting},{heap_size,610},{stack_size,12},{reductions,33423},{current_stacktrace,[{gen_server,loop,7,[{file,"gen_server.erl"},{line,437}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}]
+2020-10-19 13:51:13 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.GetmoreApiChallenge.Supervisor'}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,apply,['Elixir.GetmoreApiChallenge.Getmore',get_product,#{<<"number">> => 1048}],[]},{'Elixir.GetmoreApiChallenge.RPX.Server','-handle_info/2-fun-0-',4,[{file,"lib/rpx/server.ex"},{line,30}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.732.0>},{id,'Elixir.GetmoreApiChallenge.RPX.Server'},{mfargs,{'Elixir.GetmoreApiChallenge.RPX.Server',start_link,[[{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-10-19 13:54:10 =ERROR REPORT====
+** Generic server <0.743.0> terminating
+** Last message in was {consumer_call,{'basic.deliver',<<"amq.ctag-hTA8IaJwBCmO2pAMzgEUpA">>,3,false,<<>>,<<"products">>},{amqp_msg,{'P_basic',undefined,undefined,undefined,1,undefined,<<"g1hkAA1ub25vZGVAbm9ob3N0AAADHwAAAAAAAAAA,LTU3NjQ2MDc1MjMwMzQxOTQ1NQ==">>,<<"amq.rabbitmq.reply-to.g1hkABNyYWJiaXRANzFiMjI3ZjVkZWU3AAAD9gAAAABfjcCJ.emWv7fX4ncMyHib9cRVuqw==">>,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"{\"params\":{\"number\":1001},\"target\":\"get_product\"}">>}}
+** When Server state == {state,amqp_selective_consumer,{state,#{},undefined,#{},none}}
+** Reason for termination == 
+** unexpected_delivery_and_no_default_consumer
+2020-10-19 13:54:10 =CRASH REPORT====
+  crasher:
+    initial call: amqp_gen_consumer:init/1
+    pid: <0.743.0>
+    registered_name: []
+    exception exit: {unexpected_delivery_and_no_default_consumer,[{gen_server2,terminate,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/rabbit_common/src/gen_server2.erl"},{line,1183}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.742.0>,<0.736.0>,<0.734.0>,<0.733.0>,amqp_sup,<0.493.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.742.0>]
+    dictionary: [{process_name,{amqp_gen_consumer,{<<"client 127.0.0.1:35923 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 28
+    reductions: 6181
+  neighbours:
+2020-10-19 13:54:10 =SUPERVISOR REPORT====
+     Supervisor: {<0.742.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     unexpected_delivery_and_no_default_consumer
+     Offender:   [{pid,<0.743.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:35923 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2020-10-19 13:54:10 =SUPERVISOR REPORT====
+     Supervisor: {<0.742.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.743.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:35923 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2020-10-19 13:54:29 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.GetmoreApiChallenge.RPX.Server:-handle_info/2-fun-0-/0
+    pid: <0.804.0>
+    registered_name: []
+    exception error: bad argument: [{erlang,apply,['Elixir.GetmoreApiChallenge.Getmore',get_product,#{<<"number">> => 1020}],[]},{'Elixir.GetmoreApiChallenge.RPX.Server','-handle_info/2-fun-0-',4,[{file,"lib/rpx/server.ex"},{line,30}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]
+    ancestors: ['Elixir.GetmoreApiChallenge.RPX.Server','Elixir.GetmoreApiChallenge.Supervisor',<0.568.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.774.0>]
+    dictionary: [{'$callers',[<0.774.0>]}]
+    trap_exit: false
+    status: running
+    heap_size: 17731
+    stack_size: 28
+    reductions: 4970
+  neighbours:
+    neighbour: [{pid,<0.774.0>},{registered_name,'Elixir.GetmoreApiChallenge.RPX.Server'},{initial_call,{'Elixir.GetmoreApiChallenge.RPX.Server',init,['Argument__1']}},{current_function,{gen_server,loop,7}},{ancestors,['Elixir.GetmoreApiChallenge.Supervisor',<0.568.0>]},{message_queue_len,0},{links,[<0.569.0>,<0.804.0>]},{trap_exit,false},{status,waiting},{heap_size,610},{stack_size,12},{reductions,33284},{current_stacktrace,[{gen_server,loop,7,[{file,"gen_server.erl"},{line,437}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}]
+2020-10-19 13:54:29 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.GetmoreApiChallenge.Supervisor'}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,apply,['Elixir.GetmoreApiChallenge.Getmore',get_product,#{<<"number">> => 1020}],[]},{'Elixir.GetmoreApiChallenge.RPX.Server','-handle_info/2-fun-0-',4,[{file,"lib/rpx/server.ex"},{line,30}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.774.0>},{id,'Elixir.GetmoreApiChallenge.RPX.Server'},{mfargs,{'Elixir.GetmoreApiChallenge.RPX.Server',start_link,[[{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-10-19 14:00:13 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.GetmoreApiChallenge.RPX.Server:-handle_info/2-fun-0-/0
+    pid: <0.677.0>
+    registered_name: []
+    exception error: bad argument: [{erlang,apply,['Elixir.GetmoreApiChallenge.Getmore',get_product,<<"1020">>],[]},{'Elixir.GetmoreApiChallenge.RPX.Server','-handle_info/2-fun-0-',4,[{file,"lib/rpx/server.ex"},{line,30}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]
+    ancestors: ['Elixir.GetmoreApiChallenge.RPX.Server','Elixir.GetmoreApiChallenge.Supervisor',<0.568.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.640.0>]
+    dictionary: [{'$callers',[<0.640.0>]}]
+    trap_exit: false
+    status: running
+    heap_size: 17731
+    stack_size: 28
+    reductions: 4828
+  neighbours:
+    neighbour: [{pid,<0.640.0>},{registered_name,'Elixir.GetmoreApiChallenge.RPX.Server'},{initial_call,{'Elixir.GetmoreApiChallenge.RPX.Server',init,['Argument__1']}},{current_function,{gen_server,loop,7}},{ancestors,['Elixir.GetmoreApiChallenge.Supervisor',<0.568.0>]},{message_queue_len,0},{links,[<0.569.0>,<0.677.0>]},{trap_exit,false},{status,waiting},{heap_size,987},{stack_size,12},{reductions,33625},{current_stacktrace,[{gen_server,loop,7,[{file,"gen_server.erl"},{line,437}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}]
+2020-10-19 14:00:13 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.GetmoreApiChallenge.Supervisor'}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,apply,['Elixir.GetmoreApiChallenge.Getmore',get_product,<<"1020">>],[]},{'Elixir.GetmoreApiChallenge.RPX.Server','-handle_info/2-fun-0-',4,[{file,"lib/rpx/server.ex"},{line,30}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.640.0>},{id,'Elixir.GetmoreApiChallenge.RPX.Server'},{mfargs,{'Elixir.GetmoreApiChallenge.RPX.Server',start_link,[[{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-10-19 14:36:44 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.616.0>
+    registered_name: []
+    exception exit: {{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"cache-control">> => <<"max-age=0">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d">>,<<"host">> => <<"localhost:4000">>,<<"sec-fetch-dest">> => <<"document">>,<<"sec-fetch-mode">> => <<"navigate">>,<<"sec-fetch-site">> => <<"none">>,<<"sec-fetch-user">> => <<"?1">>,<<"upgrade-insecure-requests">> => <<"1">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/">>,path_info => undefined,peer => {{127,0,0,1},59452},pid => <0.615.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 1,version => 'HTTP/1.1'}},assigns => #{},before_send => [#Fun<Elixir.Plug.Telemetry.0.60895335>],body_params => #{},cookies => #{<<"grafana_session">> => <<"5690771943534127d8e42e00c518115d">>},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.616.0>,params => #{},path_info => [],path_params => #{},port => 4000,private => #{'Elixir.GetmoreApiChallengeWeb.Router' => {[],#{}},phoenix_endpoint => 'Elixir.GetmoreApiChallengeWeb.Endpoint',phoenix_request_logger => {<<"request_logger">>,<<"request_logger">>},phoenix_router => 'Elixir.GetmoreApiChallengeWeb.Router',plug_session_fetch => #Fun<Elixir.Plug.Session.1.105793137>},query_params => #{},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{<<"grafana_session">> => <<"5690771943534127d8e42e00c518115d">>},req_headers => [{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"cache-control">>,<<"max-age=0">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d">>},{<<"host">>,<<"localhost:4000">>},{<<"sec-fetch-dest">>,<<"document">>},{<<"sec-fetch-mode">>,<<"navigate">>},{<<"sec-fetch-site">>,<<"none">>},{<<"sec-fetch-user">>,<<"?1">>},{<<"upgrade-insecure-requests">>,<<"1">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>},{<<"x-request-id">>,<<"Fj91VfGMdtWK9E8AAAQC">>}],scheme => http,script_name => [],secret_key_base => <<"2GRNG0zewCLveyKalhyINHiqVvTguf3lXY0S2sT1BFtLqf4GWgZGQ5sOIWF9+/Bn">>,state => unset,status => nil},message => <<"no route found for GET / (GetmoreApiChallengeWeb.Router)">>,plug_status => 404,router => 'Elixir.GetmoreApiChallengeWeb.Router'},[{'Elixir.GetmoreApiChallengeWeb.Router',call,2,[{file,"lib/phoenix/router.ex"},{line,402}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',plug_builder_call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint','call (overridable 3)',2,[{file,"lib/plug/debugger.ex"},{line,132}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.Phoenix.Endpoint.Cowboy2Handler',init,4,[{file,"lib/phoenix/endpoint/cowboy2_handler.ex"},{line,65}]},{cowboy_handler,execute,2,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,300}]},{cowboy_stream_h,request_process,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,291}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"cache-control">> => <<"max-age=0">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d">>,<<"host">> => <<"localhost:4000">>,<<"sec-fetch-dest">> => <<"document">>,<<"sec-fetch-mode">> => <<"navigate">>,<<"sec-fetch-site">> => <<"none">>,<<"sec-fetch-user">> => <<"?1">>,<<"upgrade-insecure-requests">> => <<"1">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/">>,path_info => undefined,peer => {{127,0,0,1},59452},pid => <0.615.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 1,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.616.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"cache-control">>,<<"max-age=0">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d">>},{<<"host">>,<<"localhost:4000">>},{<<"sec-fetch-dest">>,<<"document">>},{<<"sec-fetch-mode">>,<<"navigate">>},{<<"sec-fetch-site">>,<<"none">>},{<<"sec-fetch-user">>,<<"?1">>},{<<"upgrade-insecure-requests">>,<<"1">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}},[]}
+    ancestors: [<0.615.0>,<0.481.0>,<0.480.0>,'Elixir.GetmoreApiChallengeWeb.Endpoint','Elixir.GetmoreApiChallenge.Supervisor',<0.407.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.615.0>]
+    dictionary: [{'$logger_metadata$',#{request_id => <<"Fj91VfGMdtWK9E8AAAQC">>}},{{'Elixir.GetmoreApiChallenge.Repo',dynamic_repo},'Elixir.GetmoreApiChallenge.Repo'}]
+    trap_exit: false
+    status: running
+    heap_size: 17731
+    stack_size: 28
+    reductions: 104394
+  neighbours:
+2020-10-19 14:36:44 =ERROR REPORT====
+Ranch listener 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP', connection process <0.615.0>, stream 1 had its request process <0.616.0> exit with reason {{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"cache-control">> => <<"max-age=0">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d">>,<<"host">> => <<"localhost:4000">>,<<"sec-fetch-dest">> => <<"document">>,<<"sec-fetch-mode">> => <<"navigate">>,<<"sec-fetch-site">> => <<"none">>,<<"sec-fetch-user">> => <<"?1">>,<<"upgrade-insecure-requests">> => <<"1">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/">>,path_info => undefined,peer => {{127,0,0,1},59452},pid => <0.615.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 1,version => 'HTTP/1.1'}},assigns => #{},before_send => [#Fun<Elixir.Plug.Telemetry.0.60895335>],body_params => #{},cookies => #{<<"grafana_session">> => <<"5690771943534127d8e42e00c518115d">>},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.616.0>,params => #{},path_info => [],path_params => #{},port => 4000,private => #{'Elixir.GetmoreApiChallengeWeb.Router' => {[],#{}},phoenix_endpoint => 'Elixir.GetmoreApiChallengeWeb.Endpoint',phoenix_request_logger => {<<"request_logger">>,<<"request_logger">>},phoenix_router => 'Elixir.GetmoreApiChallengeWeb.Router',plug_session_fetch => #Fun<Elixir.Plug.Session.1.105793137>},query_params => #{},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{<<"grafana_session">> => <<"5690771943534127d8e42e00c518115d">>},req_headers => [{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"cache-control">>,<<"max-age=0">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d">>},{<<"host">>,<<"localhost:4000">>},{<<"sec-fetch-dest">>,<<"document">>},{<<"sec-fetch-mode">>,<<"navigate">>},{<<"sec-fetch-site">>,<<"none">>},{<<"sec-fetch-user">>,<<"?1">>},{<<"upgrade-insecure-requests">>,<<"1">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>},{<<"x-request-id">>,<<"Fj91VfGMdtWK9E8AAAQC">>}],scheme => http,script_name => [],secret_key_base => <<"2GRNG0zewCLveyKalhyINHiqVvTguf3lXY0S2sT1BFtLqf4GWgZGQ5sOIWF9+/Bn">>,state => unset,status => nil},message => <<"no route found for GET / (GetmoreApiChallengeWeb.Router)">>,plug_status => 404,router => 'Elixir.GetmoreApiChallengeWeb.Router'},[{'Elixir.GetmoreApiChallengeWeb.Router',call,2,[{file,"lib/phoenix/router.ex"},{line,402}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',plug_builder_call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint','call (overridable 3)',2,[{file,"lib/plug/debugger.ex"},{line,132}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.Phoenix.Endpoint.Cowboy2Handler',init,4,[{file,"lib/phoenix/endpoint/cowboy2_handler.ex"},{line,65}]},{cowboy_handler,execute,2,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,300}]},{cowboy_stream_h,request_process,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,291}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"cache-control">> => <<"max-age=0">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d">>,<<"host">> => <<"localhost:4000">>,<<"sec-fetch-dest">> => <<"document">>,<<"sec-fetch-mode">> => <<"navigate">>,<<"sec-fetch-site">> => <<"none">>,<<"sec-fetch-user">> => <<"?1">>,<<"upgrade-insecure-requests">> => <<"1">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/">>,path_info => undefined,peer => {{127,0,0,1},59452},pid => <0.615.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 1,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.616.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"cache-control">>,<<"max-age=0">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d">>},{<<"host">>,<<"localhost:4000">>},{<<"sec-fetch-dest">>,<<"document">>},{<<"sec-fetch-mode">>,<<"navigate">>},{<<"sec-fetch-site">>,<<"none">>},{<<"sec-fetch-user">>,<<"?1">>},{<<"upgrade-insecure-requests">>,<<"1">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}} and stacktrace []
+2020-10-19 14:36:44 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.618.0>
+    registered_name: []
+    exception exit: {{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"image/avif,image/webp,image/apng,image/*,*/*;q=0.8">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"cache-control">> => <<"no-cache">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d">>,<<"host">> => <<"localhost:4000">>,<<"pragma">> => <<"no-cache">>,<<"referer">> => <<"http://localhost:4000/">>,<<"sec-fetch-dest">> => <<"image">>,<<"sec-fetch-mode">> => <<"no-cors">>,<<"sec-fetch-site">> => <<"same-origin">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/favicon.ico">>,path_info => undefined,peer => {{127,0,0,1},59452},pid => <0.615.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 2,version => 'HTTP/1.1'}},assigns => #{},before_send => [#Fun<Elixir.Plug.Telemetry.0.60895335>],body_params => #{},cookies => #{<<"grafana_session">> => <<"5690771943534127d8e42e00c518115d">>},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.618.0>,params => #{},path_info => [<<"favicon.ico">>],path_params => #{},port => 4000,private => #{'Elixir.GetmoreApiChallengeWeb.Router' => {[],#{}},phoenix_endpoint => 'Elixir.GetmoreApiChallengeWeb.Endpoint',phoenix_request_logger => {<<"request_logger">>,<<"request_logger">>},phoenix_router => 'Elixir.GetmoreApiChallengeWeb.Router',plug_session_fetch => #Fun<Elixir.Plug.Session.1.105793137>},query_params => #{},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{<<"grafana_session">> => <<"5690771943534127d8e42e00c518115d">>},req_headers => [{<<"accept">>,<<"image/avif,image/webp,image/apng,image/*,*/*;q=0.8">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"cache-control">>,<<"no-cache">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d">>},{<<"host">>,<<"localhost:4000">>},{<<"pragma">>,<<"no-cache">>},{<<"referer">>,<<"http://localhost:4000/">>},{<<"sec-fetch-dest">>,<<"image">>},{<<"sec-fetch-mode">>,<<"no-cors">>},{<<"sec-fetch-site">>,<<"same-origin">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/favicon.ico">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>},{<<"x-request-id">>,<<"Fj91VfwhYJ_ckTMAAARC">>}],scheme => http,script_name => [],secret_key_base => <<"2GRNG0zewCLveyKalhyINHiqVvTguf3lXY0S2sT1BFtLqf4GWgZGQ5sOIWF9+/Bn">>,state => unset,status => nil},message => <<"no route found for GET /favicon.ico (GetmoreApiChallengeWeb.Router)">>,plug_status => 404,router => 'Elixir.GetmoreApiChallengeWeb.Router'},[{'Elixir.GetmoreApiChallengeWeb.Router',call,2,[{file,"lib/phoenix/router.ex"},{line,402}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',plug_builder_call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint','call (overridable 3)',2,[{file,"lib/plug/debugger.ex"},{line,132}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.Phoenix.Endpoint.Cowboy2Handler',init,4,[{file,"lib/phoenix/endpoint/cowboy2_handler.ex"},{line,65}]},{cowboy_handler,execute,2,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,300}]},{cowboy_stream_h,request_process,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,291}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"image/avif,image/webp,image/apng,image/*,*/*;q=0.8">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"cache-control">> => <<"no-cache">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d">>,<<"host">> => <<"localhost:4000">>,<<"pragma">> => <<"no-cache">>,<<"referer">> => <<"http://localhost:4000/">>,<<"sec-fetch-dest">> => <<"image">>,<<"sec-fetch-mode">> => <<"no-cors">>,<<"sec-fetch-site">> => <<"same-origin">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/favicon.ico">>,path_info => undefined,peer => {{127,0,0,1},59452},pid => <0.615.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 2,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.618.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [<<"favicon.ico">>],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept">>,<<"image/avif,image/webp,image/apng,image/*,*/*;q=0.8">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"cache-control">>,<<"no-cache">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d">>},{<<"host">>,<<"localhost:4000">>},{<<"pragma">>,<<"no-cache">>},{<<"referer">>,<<"http://localhost:4000/">>},{<<"sec-fetch-dest">>,<<"image">>},{<<"sec-fetch-mode">>,<<"no-cors">>},{<<"sec-fetch-site">>,<<"same-origin">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/favicon.ico">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}},[]}
+    ancestors: [<0.615.0>,<0.481.0>,<0.480.0>,'Elixir.GetmoreApiChallengeWeb.Endpoint','Elixir.GetmoreApiChallenge.Supervisor',<0.407.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.615.0>]
+    dictionary: [{'$logger_metadata$',#{request_id => <<"Fj91VfwhYJ_ckTMAAARC">>}},{{'Elixir.GetmoreApiChallenge.Repo',dynamic_repo},'Elixir.GetmoreApiChallenge.Repo'}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 93935
+  neighbours:
+2020-10-19 14:36:44 =ERROR REPORT====
+Ranch listener 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP', connection process <0.615.0>, stream 2 had its request process <0.618.0> exit with reason {{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"image/avif,image/webp,image/apng,image/*,*/*;q=0.8">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"cache-control">> => <<"no-cache">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d">>,<<"host">> => <<"localhost:4000">>,<<"pragma">> => <<"no-cache">>,<<"referer">> => <<"http://localhost:4000/">>,<<"sec-fetch-dest">> => <<"image">>,<<"sec-fetch-mode">> => <<"no-cors">>,<<"sec-fetch-site">> => <<"same-origin">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/favicon.ico">>,path_info => undefined,peer => {{127,0,0,1},59452},pid => <0.615.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 2,version => 'HTTP/1.1'}},assigns => #{},before_send => [#Fun<Elixir.Plug.Telemetry.0.60895335>],body_params => #{},cookies => #{<<"grafana_session">> => <<"5690771943534127d8e42e00c518115d">>},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.618.0>,params => #{},path_info => [<<"favicon.ico">>],path_params => #{},port => 4000,private => #{'Elixir.GetmoreApiChallengeWeb.Router' => {[],#{}},phoenix_endpoint => 'Elixir.GetmoreApiChallengeWeb.Endpoint',phoenix_request_logger => {<<"request_logger">>,<<"request_logger">>},phoenix_router => 'Elixir.GetmoreApiChallengeWeb.Router',plug_session_fetch => #Fun<Elixir.Plug.Session.1.105793137>},query_params => #{},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{<<"grafana_session">> => <<"5690771943534127d8e42e00c518115d">>},req_headers => [{<<"accept">>,<<"image/avif,image/webp,image/apng,image/*,*/*;q=0.8">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"cache-control">>,<<"no-cache">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d">>},{<<"host">>,<<"localhost:4000">>},{<<"pragma">>,<<"no-cache">>},{<<"referer">>,<<"http://localhost:4000/">>},{<<"sec-fetch-dest">>,<<"image">>},{<<"sec-fetch-mode">>,<<"no-cors">>},{<<"sec-fetch-site">>,<<"same-origin">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/favicon.ico">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>},{<<"x-request-id">>,<<"Fj91VfwhYJ_ckTMAAARC">>}],scheme => http,script_name => [],secret_key_base => <<"2GRNG0zewCLveyKalhyINHiqVvTguf3lXY0S2sT1BFtLqf4GWgZGQ5sOIWF9+/Bn">>,state => unset,status => nil},message => <<"no route found for GET /favicon.ico (GetmoreApiChallengeWeb.Router)">>,plug_status => 404,router => 'Elixir.GetmoreApiChallengeWeb.Router'},[{'Elixir.GetmoreApiChallengeWeb.Router',call,2,[{file,"lib/phoenix/router.ex"},{line,402}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',plug_builder_call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint','call (overridable 3)',2,[{file,"lib/plug/debugger.ex"},{line,132}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.Phoenix.Endpoint.Cowboy2Handler',init,4,[{file,"lib/phoenix/endpoint/cowboy2_handler.ex"},{line,65}]},{cowboy_handler,execute,2,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,300}]},{cowboy_stream_h,request_process,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,291}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"image/avif,image/webp,image/apng,image/*,*/*;q=0.8">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"cache-control">> => <<"no-cache">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d">>,<<"host">> => <<"localhost:4000">>,<<"pragma">> => <<"no-cache">>,<<"referer">> => <<"http://localhost:4000/">>,<<"sec-fetch-dest">> => <<"image">>,<<"sec-fetch-mode">> => <<"no-cors">>,<<"sec-fetch-site">> => <<"same-origin">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/favicon.ico">>,path_info => undefined,peer => {{127,0,0,1},59452},pid => <0.615.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 2,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.618.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [<<"favicon.ico">>],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept">>,<<"image/avif,image/webp,image/apng,image/*,*/*;q=0.8">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"cache-control">>,<<"no-cache">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d">>},{<<"host">>,<<"localhost:4000">>},{<<"pragma">>,<<"no-cache">>},{<<"referer">>,<<"http://localhost:4000/">>},{<<"sec-fetch-dest">>,<<"image">>},{<<"sec-fetch-mode">>,<<"no-cors">>},{<<"sec-fetch-site">>,<<"same-origin">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/favicon.ico">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}} and stacktrace []
+2020-10-19 14:39:31 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.626.0>
+    registered_name: []
+    exception exit: {{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d">>,<<"host">> => <<"localhost:4000">>,<<"sec-fetch-dest">> => <<"document">>,<<"sec-fetch-mode">> => <<"navigate">>,<<"sec-fetch-site">> => <<"cross-site">>,<<"sec-fetch-user">> => <<"?1">>,<<"upgrade-insecure-requests">> => <<"1">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/">>,path_info => undefined,peer => {{127,0,0,1},59502},pid => <0.625.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 1,version => 'HTTP/1.1'}},assigns => #{},before_send => [#Fun<Elixir.Plug.Telemetry.0.60895335>],body_params => #{},cookies => #{<<"grafana_session">> => <<"5690771943534127d8e42e00c518115d">>},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.626.0>,params => #{},path_info => [],path_params => #{},port => 4000,private => #{'Elixir.GetmoreApiChallengeWeb.Router' => {[],#{}},phoenix_endpoint => 'Elixir.GetmoreApiChallengeWeb.Endpoint',phoenix_request_logger => {<<"request_logger">>,<<"request_logger">>},phoenix_router => 'Elixir.GetmoreApiChallengeWeb.Router',plug_session_fetch => #Fun<Elixir.Plug.Session.1.105793137>},query_params => #{},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{<<"grafana_session">> => <<"5690771943534127d8e42e00c518115d">>},req_headers => [{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d">>},{<<"host">>,<<"localhost:4000">>},{<<"sec-fetch-dest">>,<<"document">>},{<<"sec-fetch-mode">>,<<"navigate">>},{<<"sec-fetch-site">>,<<"cross-site">>},{<<"sec-fetch-user">>,<<"?1">>},{<<"upgrade-insecure-requests">>,<<"1">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>},{<<"x-request-id">>,<<"Fj91fMwXiIChAfsAAAAB">>}],scheme => http,script_name => [],secret_key_base => <<"2GRNG0zewCLveyKalhyINHiqVvTguf3lXY0S2sT1BFtLqf4GWgZGQ5sOIWF9+/Bn">>,state => unset,status => nil},message => <<"no route found for GET / (GetmoreApiChallengeWeb.Router)">>,plug_status => 404,router => 'Elixir.GetmoreApiChallengeWeb.Router'},[{'Elixir.GetmoreApiChallengeWeb.Router',call,2,[{file,"lib/phoenix/router.ex"},{line,402}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',plug_builder_call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint','call (overridable 3)',2,[{file,"lib/plug/debugger.ex"},{line,132}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.Phoenix.Endpoint.Cowboy2Handler',init,4,[{file,"lib/phoenix/endpoint/cowboy2_handler.ex"},{line,65}]},{cowboy_handler,execute,2,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,300}]},{cowboy_stream_h,request_process,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,291}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d">>,<<"host">> => <<"localhost:4000">>,<<"sec-fetch-dest">> => <<"document">>,<<"sec-fetch-mode">> => <<"navigate">>,<<"sec-fetch-site">> => <<"cross-site">>,<<"sec-fetch-user">> => <<"?1">>,<<"upgrade-insecure-requests">> => <<"1">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/">>,path_info => undefined,peer => {{127,0,0,1},59502},pid => <0.625.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 1,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.626.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d">>},{<<"host">>,<<"localhost:4000">>},{<<"sec-fetch-dest">>,<<"document">>},{<<"sec-fetch-mode">>,<<"navigate">>},{<<"sec-fetch-site">>,<<"cross-site">>},{<<"sec-fetch-user">>,<<"?1">>},{<<"upgrade-insecure-requests">>,<<"1">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}},[]}
+    ancestors: [<0.625.0>,<0.481.0>,<0.480.0>,'Elixir.GetmoreApiChallengeWeb.Endpoint','Elixir.GetmoreApiChallenge.Supervisor',<0.407.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.625.0>]
+    dictionary: [{'$logger_metadata$',#{request_id => <<"Fj91fMwXiIChAfsAAAAB">>}},{{'Elixir.GetmoreApiChallenge.Repo',dynamic_repo},'Elixir.GetmoreApiChallenge.Repo'}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 94229
+  neighbours:
+2020-10-19 14:39:31 =ERROR REPORT====
+Ranch listener 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP', connection process <0.625.0>, stream 1 had its request process <0.626.0> exit with reason {{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d">>,<<"host">> => <<"localhost:4000">>,<<"sec-fetch-dest">> => <<"document">>,<<"sec-fetch-mode">> => <<"navigate">>,<<"sec-fetch-site">> => <<"cross-site">>,<<"sec-fetch-user">> => <<"?1">>,<<"upgrade-insecure-requests">> => <<"1">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/">>,path_info => undefined,peer => {{127,0,0,1},59502},pid => <0.625.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 1,version => 'HTTP/1.1'}},assigns => #{},before_send => [#Fun<Elixir.Plug.Telemetry.0.60895335>],body_params => #{},cookies => #{<<"grafana_session">> => <<"5690771943534127d8e42e00c518115d">>},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.626.0>,params => #{},path_info => [],path_params => #{},port => 4000,private => #{'Elixir.GetmoreApiChallengeWeb.Router' => {[],#{}},phoenix_endpoint => 'Elixir.GetmoreApiChallengeWeb.Endpoint',phoenix_request_logger => {<<"request_logger">>,<<"request_logger">>},phoenix_router => 'Elixir.GetmoreApiChallengeWeb.Router',plug_session_fetch => #Fun<Elixir.Plug.Session.1.105793137>},query_params => #{},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{<<"grafana_session">> => <<"5690771943534127d8e42e00c518115d">>},req_headers => [{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d">>},{<<"host">>,<<"localhost:4000">>},{<<"sec-fetch-dest">>,<<"document">>},{<<"sec-fetch-mode">>,<<"navigate">>},{<<"sec-fetch-site">>,<<"cross-site">>},{<<"sec-fetch-user">>,<<"?1">>},{<<"upgrade-insecure-requests">>,<<"1">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>},{<<"x-request-id">>,<<"Fj91fMwXiIChAfsAAAAB">>}],scheme => http,script_name => [],secret_key_base => <<"2GRNG0zewCLveyKalhyINHiqVvTguf3lXY0S2sT1BFtLqf4GWgZGQ5sOIWF9+/Bn">>,state => unset,status => nil},message => <<"no route found for GET / (GetmoreApiChallengeWeb.Router)">>,plug_status => 404,router => 'Elixir.GetmoreApiChallengeWeb.Router'},[{'Elixir.GetmoreApiChallengeWeb.Router',call,2,[{file,"lib/phoenix/router.ex"},{line,402}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',plug_builder_call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint','call (overridable 3)',2,[{file,"lib/plug/debugger.ex"},{line,132}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.Phoenix.Endpoint.Cowboy2Handler',init,4,[{file,"lib/phoenix/endpoint/cowboy2_handler.ex"},{line,65}]},{cowboy_handler,execute,2,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,300}]},{cowboy_stream_h,request_process,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,291}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d">>,<<"host">> => <<"localhost:4000">>,<<"sec-fetch-dest">> => <<"document">>,<<"sec-fetch-mode">> => <<"navigate">>,<<"sec-fetch-site">> => <<"cross-site">>,<<"sec-fetch-user">> => <<"?1">>,<<"upgrade-insecure-requests">> => <<"1">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/">>,path_info => undefined,peer => {{127,0,0,1},59502},pid => <0.625.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 1,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.626.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d">>},{<<"host">>,<<"localhost:4000">>},{<<"sec-fetch-dest">>,<<"document">>},{<<"sec-fetch-mode">>,<<"navigate">>},{<<"sec-fetch-site">>,<<"cross-site">>},{<<"sec-fetch-user">>,<<"?1">>},{<<"upgrade-insecure-requests">>,<<"1">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}} and stacktrace []

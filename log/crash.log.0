@@ -1,0 +1,585 @@
+2020-10-18 02:55:25 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.877.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.GetmoreApiChallenge.Application',start,[normal,[]]},{'EXIT',{#{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module GetmoreApiChallenge.RpxFixes.Server was given as a child to a supervisor but it does not exist.">>},[{'Elixir.Supervisor',init_child,1,[{file,"lib/supervisor.ex"},{line,631}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Supervisor',init,2,[{file,"lib/supervisor.ex"},{line,617}]},{'Elixir.Supervisor',start_link,2,[{file,"lib/supervisor.ex"},{line,556}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,277}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.876.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.878.0>,normal}]
+    links: [<0.876.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 229
+  neighbours:
+2020-10-18 03:02:46 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.424.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.GetmoreApiChallenge.Application',start,[normal,[]]},{'EXIT',{#{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module GetmoreApiChallenge.RpxFixes.Server was given as a child to a supervisor but it does not exist.">>},[{'Elixir.Supervisor',init_child,1,[{file,"lib/supervisor.ex"},{line,631}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Supervisor',init,2,[{file,"lib/supervisor.ex"},{line,617}]},{'Elixir.Supervisor',start_link,2,[{file,"lib/supervisor.ex"},{line,556}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,277}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.423.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.425.0>,normal}]
+    links: [<0.423.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 229
+  neighbours:
+2020-10-18 03:10:29 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.414.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.GetmoreApiChallenge.Application',start,[normal,[]]},{'EXIT',{#{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module GetmoreApiChallenge.RpxFixes.Server was given as a child to a supervisor but it does not exist.">>},[{'Elixir.Supervisor',init_child,1,[{file,"lib/supervisor.ex"},{line,631}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Supervisor',init,2,[{file,"lib/supervisor.ex"},{line,617}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,277}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.413.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.415.0>,normal}]
+    links: [<0.413.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 222
+  neighbours:
+2020-10-18 03:17:18 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.544.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.GetmoreApiChallenge.Application',start,[normal,[]]},{'EXIT',{#{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module RPX.Connection was given as a child to a supervisor but it does not exist.">>},[{'Elixir.Supervisor',init_child,1,[{file,"lib/supervisor.ex"},{line,631}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Supervisor',init,2,[{file,"lib/supervisor.ex"},{line,617}]},{'Elixir.Supervisor',start_link,2,[{file,"lib/supervisor.ex"},{line,556}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,277}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.543.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.545.0>,normal}]
+    links: [<0.543.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 229
+  neighbours:
+2020-10-18 03:29:16 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.414.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.GetmoreApiChallenge.Application',start,[normal,[]]},{'EXIT',{#{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module RPX.Connection was given as a child to a supervisor but it does not exist.">>},[{'Elixir.Supervisor',init_child,1,[{file,"lib/supervisor.ex"},{line,631}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Supervisor',init,2,[{file,"lib/supervisor.ex"},{line,617}]},{'Elixir.Supervisor',start_link,2,[{file,"lib/supervisor.ex"},{line,556}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,277}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.413.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.415.0>,normal}]
+    links: [<0.413.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 229
+  neighbours:
+2020-10-18 04:16:00 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.544.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.GetmoreApiChallenge.Application',start,[normal,[]]},{'EXIT',{#{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module RPX.AMPQ.Connection was given as a child to a supervisor but it does not exist.">>},[{'Elixir.Supervisor',init_child,1,[{file,"lib/supervisor.ex"},{line,631}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Supervisor',init,2,[{file,"lib/supervisor.ex"},{line,617}]},{'Elixir.Supervisor',start_link,2,[{file,"lib/supervisor.ex"},{line,556}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,277}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.543.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.545.0>,normal}]
+    links: [<0.543.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 227
+  neighbours:
+2020-10-18 04:16:34 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.414.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.GetmoreApiChallenge.Application',start,[normal,[]]},{'EXIT',{#{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module RPX.AMPQ.Connection was given as a child to a supervisor but it does not exist.">>},[{'Elixir.Supervisor',init_child,1,[{file,"lib/supervisor.ex"},{line,631}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Supervisor',init,2,[{file,"lib/supervisor.ex"},{line,617}]},{'Elixir.Supervisor',start_link,2,[{file,"lib/supervisor.ex"},{line,556}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,277}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.413.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.415.0>,normal}]
+    links: [<0.413.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 229
+  neighbours:
+2020-10-18 04:16:49 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.414.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.GetmoreApiChallenge.Application',start,[normal,[]]},{'EXIT',{#{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module RPX.AMPQ.Connection was given as a child to a supervisor but it does not exist.">>},[{'Elixir.Supervisor',init_child,1,[{file,"lib/supervisor.ex"},{line,631}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Supervisor',init,2,[{file,"lib/supervisor.ex"},{line,617}]},{'Elixir.Supervisor',start_link,2,[{file,"lib/supervisor.ex"},{line,556}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,277}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.413.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.415.0>,normal}]
+    links: [<0.413.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 229
+  neighbours:
+2020-10-18 04:18:14 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.GetmoreApiChallenge.Supervisor'}
+     Context:    start_error
+     Reason:     {function_clause,[{'Elixir.RPX.AMQP.Server',init,[[]],[{file,"lib/amqp/server.ex"},{line,11}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,undefined},{id,'Elixir.RPX.AMQP.Server'},{mfargs,{'Elixir.RPX.AMQP.Server',start_link,[[]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-10-18 04:18:14 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.RPX.AMQP.Server:init/1
+    pid: <0.607.0>
+    registered_name: []
+    exception error: {function_clause,[{'Elixir.RPX.AMQP.Server',init,[[]],[{file,"lib/amqp/server.ex"},{line,11}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.GetmoreApiChallenge.Supervisor',<0.415.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.416.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 197
+  neighbours:
+2020-10-18 04:18:14 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.414.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,'Elixir.RPX.AMQP.Server',{function_clause,[{'Elixir.RPX.AMQP.Server',init,[[]],[{file,"lib/amqp/server.ex"},{line,11}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}}},{'Elixir.GetmoreApiChallenge.Application',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.413.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.415.0>,normal}]
+    links: [<0.413.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 215
+  neighbours:
+2020-10-18 04:19:01 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.609.0>
+    registered_name: []
+    exception exit: {{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d">>,<<"host">> => <<"localhost:4000">>,<<"sec-fetch-dest">> => <<"document">>,<<"sec-fetch-mode">> => <<"navigate">>,<<"sec-fetch-site">> => <<"none">>,<<"sec-fetch-user">> => <<"?1">>,<<"upgrade-insecure-requests">> => <<"1">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/">>,path_info => undefined,peer => {{127,0,0,1},44554},pid => <0.608.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 1,version => 'HTTP/1.1'}},assigns => #{},before_send => [#Fun<Elixir.Plug.Telemetry.0.60895335>],body_params => #{},cookies => #{<<"grafana_session">> => <<"5690771943534127d8e42e00c518115d">>},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.609.0>,params => #{},path_info => [],path_params => #{},port => 4000,private => #{'Elixir.GetmoreApiChallengeWeb.Router' => {[],#{}},phoenix_endpoint => 'Elixir.GetmoreApiChallengeWeb.Endpoint',phoenix_request_logger => {<<"request_logger">>,<<"request_logger">>},phoenix_router => 'Elixir.GetmoreApiChallengeWeb.Router',plug_session_fetch => #Fun<Elixir.Plug.Session.1.105793137>},query_params => #{},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{<<"grafana_session">> => <<"5690771943534127d8e42e00c518115d">>},req_headers => [{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d">>},{<<"host">>,<<"localhost:4000">>},{<<"sec-fetch-dest">>,<<"document">>},{<<"sec-fetch-mode">>,<<"navigate">>},{<<"sec-fetch-site">>,<<"none">>},{<<"sec-fetch-user">>,<<"?1">>},{<<"upgrade-insecure-requests">>,<<"1">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>},{<<"x-request-id">>,<<"Fj8FC_IoCXMQ7D8AAAXB">>}],scheme => http,script_name => [],secret_key_base => <<"2GRNG0zewCLveyKalhyINHiqVvTguf3lXY0S2sT1BFtLqf4GWgZGQ5sOIWF9+/Bn">>,state => unset,status => nil},message => <<"no route found for GET / (GetmoreApiChallengeWeb.Router)">>,plug_status => 404,router => 'Elixir.GetmoreApiChallengeWeb.Router'},[{'Elixir.GetmoreApiChallengeWeb.Router',call,2,[{file,"lib/phoenix/router.ex"},{line,402}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',plug_builder_call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint','call (overridable 3)',2,[{file,"lib/plug/debugger.ex"},{line,132}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.Phoenix.Endpoint.Cowboy2Handler',init,4,[{file,"lib/phoenix/endpoint/cowboy2_handler.ex"},{line,65}]},{cowboy_handler,execute,2,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,300}]},{cowboy_stream_h,request_process,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,291}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d">>,<<"host">> => <<"localhost:4000">>,<<"sec-fetch-dest">> => <<"document">>,<<"sec-fetch-mode">> => <<"navigate">>,<<"sec-fetch-site">> => <<"none">>,<<"sec-fetch-user">> => <<"?1">>,<<"upgrade-insecure-requests">> => <<"1">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/">>,path_info => undefined,peer => {{127,0,0,1},44554},pid => <0.608.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 1,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.609.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d">>},{<<"host">>,<<"localhost:4000">>},{<<"sec-fetch-dest">>,<<"document">>},{<<"sec-fetch-mode">>,<<"navigate">>},{<<"sec-fetch-site">>,<<"none">>},{<<"sec-fetch-user">>,<<"?1">>},{<<"upgrade-insecure-requests">>,<<"1">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}},[]}
+    ancestors: [<0.608.0>,<0.489.0>,<0.488.0>,'Elixir.GetmoreApiChallengeWeb.Endpoint','Elixir.GetmoreApiChallenge.Supervisor',<0.415.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.608.0>]
+    dictionary: [{'$logger_metadata$',#{request_id => <<"Fj8FC_IoCXMQ7D8AAAXB">>}},{{'Elixir.GetmoreApiChallenge.Repo',dynamic_repo},'Elixir.GetmoreApiChallenge.Repo'}]
+    trap_exit: false
+    status: running
+    heap_size: 17731
+    stack_size: 28
+    reductions: 102667
+  neighbours:
+2020-10-18 04:19:01 =ERROR REPORT====
+Ranch listener 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP', connection process <0.608.0>, stream 1 had its request process <0.609.0> exit with reason {{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d">>,<<"host">> => <<"localhost:4000">>,<<"sec-fetch-dest">> => <<"document">>,<<"sec-fetch-mode">> => <<"navigate">>,<<"sec-fetch-site">> => <<"none">>,<<"sec-fetch-user">> => <<"?1">>,<<"upgrade-insecure-requests">> => <<"1">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/">>,path_info => undefined,peer => {{127,0,0,1},44554},pid => <0.608.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 1,version => 'HTTP/1.1'}},assigns => #{},before_send => [#Fun<Elixir.Plug.Telemetry.0.60895335>],body_params => #{},cookies => #{<<"grafana_session">> => <<"5690771943534127d8e42e00c518115d">>},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.609.0>,params => #{},path_info => [],path_params => #{},port => 4000,private => #{'Elixir.GetmoreApiChallengeWeb.Router' => {[],#{}},phoenix_endpoint => 'Elixir.GetmoreApiChallengeWeb.Endpoint',phoenix_request_logger => {<<"request_logger">>,<<"request_logger">>},phoenix_router => 'Elixir.GetmoreApiChallengeWeb.Router',plug_session_fetch => #Fun<Elixir.Plug.Session.1.105793137>},query_params => #{},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{<<"grafana_session">> => <<"5690771943534127d8e42e00c518115d">>},req_headers => [{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d">>},{<<"host">>,<<"localhost:4000">>},{<<"sec-fetch-dest">>,<<"document">>},{<<"sec-fetch-mode">>,<<"navigate">>},{<<"sec-fetch-site">>,<<"none">>},{<<"sec-fetch-user">>,<<"?1">>},{<<"upgrade-insecure-requests">>,<<"1">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>},{<<"x-request-id">>,<<"Fj8FC_IoCXMQ7D8AAAXB">>}],scheme => http,script_name => [],secret_key_base => <<"2GRNG0zewCLveyKalhyINHiqVvTguf3lXY0S2sT1BFtLqf4GWgZGQ5sOIWF9+/Bn">>,state => unset,status => nil},message => <<"no route found for GET / (GetmoreApiChallengeWeb.Router)">>,plug_status => 404,router => 'Elixir.GetmoreApiChallengeWeb.Router'},[{'Elixir.GetmoreApiChallengeWeb.Router',call,2,[{file,"lib/phoenix/router.ex"},{line,402}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',plug_builder_call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint','call (overridable 3)',2,[{file,"lib/plug/debugger.ex"},{line,132}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.Phoenix.Endpoint.Cowboy2Handler',init,4,[{file,"lib/phoenix/endpoint/cowboy2_handler.ex"},{line,65}]},{cowboy_handler,execute,2,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,300}]},{cowboy_stream_h,request_process,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,291}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d">>,<<"host">> => <<"localhost:4000">>,<<"sec-fetch-dest">> => <<"document">>,<<"sec-fetch-mode">> => <<"navigate">>,<<"sec-fetch-site">> => <<"none">>,<<"sec-fetch-user">> => <<"?1">>,<<"upgrade-insecure-requests">> => <<"1">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/">>,path_info => undefined,peer => {{127,0,0,1},44554},pid => <0.608.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 1,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.609.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d">>},{<<"host">>,<<"localhost:4000">>},{<<"sec-fetch-dest">>,<<"document">>},{<<"sec-fetch-mode">>,<<"navigate">>},{<<"sec-fetch-site">>,<<"none">>},{<<"sec-fetch-user">>,<<"?1">>},{<<"upgrade-insecure-requests">>,<<"1">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}} and stacktrace []
+2020-10-18 04:19:10 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.611.0>
+    registered_name: []
+    exception exit: {{{#{'__exception__' => true,'__struct__' => 'Elixir.UndefinedFunctionError',arity => 1,function => list_products,message => nil,module => 'Elixir.GetmoreApiChallenge.Getmore',reason => nil},[{'Elixir.GetmoreApiChallenge.Getmore',list_products,[#{}],[]},{'Elixir.GetmoreApiChallengeWeb.ProductController',index,2,[{file,"lib/getmoreApiChallenge_web/controllers/product_controller.ex"},{line,12}]},{'Elixir.GetmoreApiChallengeWeb.ProductController',action,2,[{file,"lib/getmoreApiChallenge_web/controllers/product_controller.ex"},{line,1}]},{'Elixir.GetmoreApiChallengeWeb.ProductController',phoenix_controller_pipeline,2,[{file,"lib/getmoreApiChallenge_web/controllers/product_controller.ex"},{line,1}]},{'Elixir.Phoenix.Router','__call__',2,[{file,"lib/phoenix/router.ex"},{line,352}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',plug_builder_call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint','call (overridable 3)',2,[{file,"lib/plug/debugger.ex"},{line,132}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.Phoenix.Endpoint.Cowboy2Handler',init,4,[{file,"lib/phoenix/endpoint/cowboy2_handler.ex"},{line,65}]},{cowboy_handler,execute,2,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,300}]},{cowboy_stream_h,request_process,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,291}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d">>,<<"host">> => <<"localhost:4000">>,<<"sec-fetch-dest">> => <<"document">>,<<"sec-fetch-mode">> => <<"navigate">>,<<"sec-fetch-site">> => <<"none">>,<<"upgrade-insecure-requests">> => <<"1">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/api/products">>,path_info => undefined,peer => {{127,0,0,1},44554},pid => <0.608.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 2,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.611.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [<<"api">>,<<"products">>],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d">>},{<<"host">>,<<"localhost:4000">>},{<<"sec-fetch-dest">>,<<"document">>},{<<"sec-fetch-mode">>,<<"navigate">>},{<<"sec-fetch-site">>,<<"none">>},{<<"upgrade-insecure-requests">>,<<"1">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/api/products">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}},[]}
+    ancestors: [<0.608.0>,<0.489.0>,<0.488.0>,'Elixir.GetmoreApiChallengeWeb.Endpoint','Elixir.GetmoreApiChallenge.Supervisor',<0.415.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.608.0>]
+    dictionary: [{'$logger_metadata$',#{request_id => <<"Fj8FDjJ067u_108AAAYB">>}},{{'Elixir.GetmoreApiChallenge.Repo',dynamic_repo},'Elixir.GetmoreApiChallenge.Repo'}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 28
+    reductions: 133536
+  neighbours:
+2020-10-18 04:19:10 =ERROR REPORT====
+Ranch listener 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP', connection process <0.608.0>, stream 2 had its request process <0.611.0> exit with reason {{#{'__exception__' => true,'__struct__' => 'Elixir.UndefinedFunctionError',arity => 1,function => list_products,message => nil,module => 'Elixir.GetmoreApiChallenge.Getmore',reason => nil},[{'Elixir.GetmoreApiChallenge.Getmore',list_products,[#{}],[]},{'Elixir.GetmoreApiChallengeWeb.ProductController',index,2,[{file,"lib/getmoreApiChallenge_web/controllers/product_controller.ex"},{line,12}]},{'Elixir.GetmoreApiChallengeWeb.ProductController',action,2,[{file,"lib/getmoreApiChallenge_web/controllers/product_controller.ex"},{line,1}]},{'Elixir.GetmoreApiChallengeWeb.ProductController',phoenix_controller_pipeline,2,[{file,"lib/getmoreApiChallenge_web/controllers/product_controller.ex"},{line,1}]},{'Elixir.Phoenix.Router','__call__',2,[{file,"lib/phoenix/router.ex"},{line,352}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',plug_builder_call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint','call (overridable 3)',2,[{file,"lib/plug/debugger.ex"},{line,132}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.Phoenix.Endpoint.Cowboy2Handler',init,4,[{file,"lib/phoenix/endpoint/cowboy2_handler.ex"},{line,65}]},{cowboy_handler,execute,2,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,300}]},{cowboy_stream_h,request_process,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,291}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d">>,<<"host">> => <<"localhost:4000">>,<<"sec-fetch-dest">> => <<"document">>,<<"sec-fetch-mode">> => <<"navigate">>,<<"sec-fetch-site">> => <<"none">>,<<"upgrade-insecure-requests">> => <<"1">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/api/products">>,path_info => undefined,peer => {{127,0,0,1},44554},pid => <0.608.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 2,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.611.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [<<"api">>,<<"products">>],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d">>},{<<"host">>,<<"localhost:4000">>},{<<"sec-fetch-dest">>,<<"document">>},{<<"sec-fetch-mode">>,<<"navigate">>},{<<"sec-fetch-site">>,<<"none">>},{<<"upgrade-insecure-requests">>,<<"1">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/api/products">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}} and stacktrace []
+2020-10-18 04:19:54 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.613.0>
+    registered_name: []
+    exception exit: {{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d">>,<<"host">> => <<"localhost:4000">>,<<"sec-fetch-dest">> => <<"document">>,<<"sec-fetch-mode">> => <<"navigate">>,<<"sec-fetch-site">> => <<"none">>,<<"sec-fetch-user">> => <<"?1">>,<<"upgrade-insecure-requests">> => <<"1">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/api/">>,path_info => undefined,peer => {{127,0,0,1},44554},pid => <0.608.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 3,version => 'HTTP/1.1'}},assigns => #{},before_send => [#Fun<Elixir.Plug.Telemetry.0.60895335>],body_params => #{},cookies => #{<<"grafana_session">> => <<"5690771943534127d8e42e00c518115d">>},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.613.0>,params => #{},path_info => [<<"api">>],path_params => #{},port => 4000,private => #{'Elixir.GetmoreApiChallengeWeb.Router' => {[],#{}},phoenix_endpoint => 'Elixir.GetmoreApiChallengeWeb.Endpoint',phoenix_request_logger => {<<"request_logger">>,<<"request_logger">>},phoenix_router => 'Elixir.GetmoreApiChallengeWeb.Router',plug_session_fetch => #Fun<Elixir.Plug.Session.1.105793137>},query_params => #{},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{<<"grafana_session">> => <<"5690771943534127d8e42e00c518115d">>},req_headers => [{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d">>},{<<"host">>,<<"localhost:4000">>},{<<"sec-fetch-dest">>,<<"document">>},{<<"sec-fetch-mode">>,<<"navigate">>},{<<"sec-fetch-site">>,<<"none">>},{<<"sec-fetch-user">>,<<"?1">>},{<<"upgrade-insecure-requests">>,<<"1">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/api/">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>},{<<"x-request-id">>,<<"Fj8FGD-8vg78SJAAAAZB">>}],scheme => http,script_name => [],secret_key_base => <<"2GRNG0zewCLveyKalhyINHiqVvTguf3lXY0S2sT1BFtLqf4GWgZGQ5sOIWF9+/Bn">>,state => unset,status => nil},message => <<"no route found for GET /api (GetmoreApiChallengeWeb.Router)">>,plug_status => 404,router => 'Elixir.GetmoreApiChallengeWeb.Router'},[{'Elixir.GetmoreApiChallengeWeb.Router',call,2,[{file,"lib/phoenix/router.ex"},{line,402}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',plug_builder_call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint','call (overridable 3)',2,[{file,"lib/plug/debugger.ex"},{line,132}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.Phoenix.Endpoint.Cowboy2Handler',init,4,[{file,"lib/phoenix/endpoint/cowboy2_handler.ex"},{line,65}]},{cowboy_handler,execute,2,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,300}]},{cowboy_stream_h,request_process,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,291}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d">>,<<"host">> => <<"localhost:4000">>,<<"sec-fetch-dest">> => <<"document">>,<<"sec-fetch-mode">> => <<"navigate">>,<<"sec-fetch-site">> => <<"none">>,<<"sec-fetch-user">> => <<"?1">>,<<"upgrade-insecure-requests">> => <<"1">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/api/">>,path_info => undefined,peer => {{127,0,0,1},44554},pid => <0.608.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 3,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.613.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [<<"api">>],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d">>},{<<"host">>,<<"localhost:4000">>},{<<"sec-fetch-dest">>,<<"document">>},{<<"sec-fetch-mode">>,<<"navigate">>},{<<"sec-fetch-site">>,<<"none">>},{<<"sec-fetch-user">>,<<"?1">>},{<<"upgrade-insecure-requests">>,<<"1">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/api/">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}},[]}
+    ancestors: [<0.608.0>,<0.489.0>,<0.488.0>,'Elixir.GetmoreApiChallengeWeb.Endpoint','Elixir.GetmoreApiChallenge.Supervisor',<0.415.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.608.0>]
+    dictionary: [{'$logger_metadata$',#{request_id => <<"Fj8FGD-8vg78SJAAAAZB">>}},{{'Elixir.GetmoreApiChallenge.Repo',dynamic_repo},'Elixir.GetmoreApiChallenge.Repo'}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 94065
+  neighbours:
+2020-10-18 04:19:54 =ERROR REPORT====
+Ranch listener 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP', connection process <0.608.0>, stream 3 had its request process <0.613.0> exit with reason {{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d">>,<<"host">> => <<"localhost:4000">>,<<"sec-fetch-dest">> => <<"document">>,<<"sec-fetch-mode">> => <<"navigate">>,<<"sec-fetch-site">> => <<"none">>,<<"sec-fetch-user">> => <<"?1">>,<<"upgrade-insecure-requests">> => <<"1">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/api/">>,path_info => undefined,peer => {{127,0,0,1},44554},pid => <0.608.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 3,version => 'HTTP/1.1'}},assigns => #{},before_send => [#Fun<Elixir.Plug.Telemetry.0.60895335>],body_params => #{},cookies => #{<<"grafana_session">> => <<"5690771943534127d8e42e00c518115d">>},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.613.0>,params => #{},path_info => [<<"api">>],path_params => #{},port => 4000,private => #{'Elixir.GetmoreApiChallengeWeb.Router' => {[],#{}},phoenix_endpoint => 'Elixir.GetmoreApiChallengeWeb.Endpoint',phoenix_request_logger => {<<"request_logger">>,<<"request_logger">>},phoenix_router => 'Elixir.GetmoreApiChallengeWeb.Router',plug_session_fetch => #Fun<Elixir.Plug.Session.1.105793137>},query_params => #{},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{<<"grafana_session">> => <<"5690771943534127d8e42e00c518115d">>},req_headers => [{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d">>},{<<"host">>,<<"localhost:4000">>},{<<"sec-fetch-dest">>,<<"document">>},{<<"sec-fetch-mode">>,<<"navigate">>},{<<"sec-fetch-site">>,<<"none">>},{<<"sec-fetch-user">>,<<"?1">>},{<<"upgrade-insecure-requests">>,<<"1">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/api/">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>},{<<"x-request-id">>,<<"Fj8FGD-8vg78SJAAAAZB">>}],scheme => http,script_name => [],secret_key_base => <<"2GRNG0zewCLveyKalhyINHiqVvTguf3lXY0S2sT1BFtLqf4GWgZGQ5sOIWF9+/Bn">>,state => unset,status => nil},message => <<"no route found for GET /api (GetmoreApiChallengeWeb.Router)">>,plug_status => 404,router => 'Elixir.GetmoreApiChallengeWeb.Router'},[{'Elixir.GetmoreApiChallengeWeb.Router',call,2,[{file,"lib/phoenix/router.ex"},{line,402}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',plug_builder_call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint','call (overridable 3)',2,[{file,"lib/plug/debugger.ex"},{line,132}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.Phoenix.Endpoint.Cowboy2Handler',init,4,[{file,"lib/phoenix/endpoint/cowboy2_handler.ex"},{line,65}]},{cowboy_handler,execute,2,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,300}]},{cowboy_stream_h,request_process,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,291}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d">>,<<"host">> => <<"localhost:4000">>,<<"sec-fetch-dest">> => <<"document">>,<<"sec-fetch-mode">> => <<"navigate">>,<<"sec-fetch-site">> => <<"none">>,<<"sec-fetch-user">> => <<"?1">>,<<"upgrade-insecure-requests">> => <<"1">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/api/">>,path_info => undefined,peer => {{127,0,0,1},44554},pid => <0.608.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 3,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.613.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [<<"api">>],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d">>},{<<"host">>,<<"localhost:4000">>},{<<"sec-fetch-dest">>,<<"document">>},{<<"sec-fetch-mode">>,<<"navigate">>},{<<"sec-fetch-site">>,<<"none">>},{<<"sec-fetch-user">>,<<"?1">>},{<<"upgrade-insecure-requests">>,<<"1">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/api/">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}} and stacktrace []
+2020-10-18 04:20:06 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.615.0>
+    registered_name: []
+    exception exit: {{{#{'__exception__' => true,'__struct__' => 'Elixir.UndefinedFunctionError',arity => 1,function => list_products,message => nil,module => 'Elixir.GetmoreApiChallenge.Getmore',reason => nil},[{'Elixir.GetmoreApiChallenge.Getmore',list_products,[#{}],[]},{'Elixir.GetmoreApiChallengeWeb.ProductController',index,2,[{file,"lib/getmoreApiChallenge_web/controllers/product_controller.ex"},{line,12}]},{'Elixir.GetmoreApiChallengeWeb.ProductController',action,2,[{file,"lib/getmoreApiChallenge_web/controllers/product_controller.ex"},{line,1}]},{'Elixir.GetmoreApiChallengeWeb.ProductController',phoenix_controller_pipeline,2,[{file,"lib/getmoreApiChallenge_web/controllers/product_controller.ex"},{line,1}]},{'Elixir.Phoenix.Router','__call__',2,[{file,"lib/phoenix/router.ex"},{line,352}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',plug_builder_call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint','call (overridable 3)',2,[{file,"lib/plug/debugger.ex"},{line,132}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.Phoenix.Endpoint.Cowboy2Handler',init,4,[{file,"lib/phoenix/endpoint/cowboy2_handler.ex"},{line,65}]},{cowboy_handler,execute,2,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,300}]},{cowboy_stream_h,request_process,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,291}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d">>,<<"host">> => <<"localhost:4000">>,<<"sec-fetch-dest">> => <<"document">>,<<"sec-fetch-mode">> => <<"navigate">>,<<"sec-fetch-site">> => <<"none">>,<<"upgrade-insecure-requests">> => <<"1">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/api/products">>,path_info => undefined,peer => {{127,0,0,1},44554},pid => <0.608.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 4,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.615.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [<<"api">>,<<"products">>],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d">>},{<<"host">>,<<"localhost:4000">>},{<<"sec-fetch-dest">>,<<"document">>},{<<"sec-fetch-mode">>,<<"navigate">>},{<<"sec-fetch-site">>,<<"none">>},{<<"upgrade-insecure-requests">>,<<"1">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/api/products">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}},[]}
+    ancestors: [<0.608.0>,<0.489.0>,<0.488.0>,'Elixir.GetmoreApiChallengeWeb.Endpoint','Elixir.GetmoreApiChallenge.Supervisor',<0.415.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.608.0>]
+    dictionary: [{'$logger_metadata$',#{request_id => <<"Fj8FGzv0uxPJ8MUAAAAD">>}},{{'Elixir.GetmoreApiChallenge.Repo',dynamic_repo},'Elixir.GetmoreApiChallenge.Repo'}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 28
+    reductions: 133296
+  neighbours:
+2020-10-18 04:20:06 =ERROR REPORT====
+Ranch listener 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP', connection process <0.608.0>, stream 4 had its request process <0.615.0> exit with reason {{#{'__exception__' => true,'__struct__' => 'Elixir.UndefinedFunctionError',arity => 1,function => list_products,message => nil,module => 'Elixir.GetmoreApiChallenge.Getmore',reason => nil},[{'Elixir.GetmoreApiChallenge.Getmore',list_products,[#{}],[]},{'Elixir.GetmoreApiChallengeWeb.ProductController',index,2,[{file,"lib/getmoreApiChallenge_web/controllers/product_controller.ex"},{line,12}]},{'Elixir.GetmoreApiChallengeWeb.ProductController',action,2,[{file,"lib/getmoreApiChallenge_web/controllers/product_controller.ex"},{line,1}]},{'Elixir.GetmoreApiChallengeWeb.ProductController',phoenix_controller_pipeline,2,[{file,"lib/getmoreApiChallenge_web/controllers/product_controller.ex"},{line,1}]},{'Elixir.Phoenix.Router','__call__',2,[{file,"lib/phoenix/router.ex"},{line,352}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',plug_builder_call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint','call (overridable 3)',2,[{file,"lib/plug/debugger.ex"},{line,132}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.Phoenix.Endpoint.Cowboy2Handler',init,4,[{file,"lib/phoenix/endpoint/cowboy2_handler.ex"},{line,65}]},{cowboy_handler,execute,2,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,300}]},{cowboy_stream_h,request_process,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,291}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d">>,<<"host">> => <<"localhost:4000">>,<<"sec-fetch-dest">> => <<"document">>,<<"sec-fetch-mode">> => <<"navigate">>,<<"sec-fetch-site">> => <<"none">>,<<"upgrade-insecure-requests">> => <<"1">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/api/products">>,path_info => undefined,peer => {{127,0,0,1},44554},pid => <0.608.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 4,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.615.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [<<"api">>,<<"products">>],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d">>},{<<"host">>,<<"localhost:4000">>},{<<"sec-fetch-dest">>,<<"document">>},{<<"sec-fetch-mode">>,<<"navigate">>},{<<"sec-fetch-site">>,<<"none">>},{<<"upgrade-insecure-requests">>,<<"1">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/api/products">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}} and stacktrace []
+2020-10-18 04:20:12 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.617.0>
+    registered_name: []
+    exception exit: {{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d">>,<<"host">> => <<"localhost:4000">>,<<"sec-fetch-dest">> => <<"document">>,<<"sec-fetch-mode">> => <<"navigate">>,<<"sec-fetch-site">> => <<"none">>,<<"sec-fetch-user">> => <<"?1">>,<<"upgrade-insecure-requests">> => <<"1">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/api/products1">>,path_info => undefined,peer => {{127,0,0,1},44554},pid => <0.608.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 5,version => 'HTTP/1.1'}},assigns => #{},before_send => [#Fun<Elixir.Plug.Telemetry.0.60895335>],body_params => #{},cookies => #{<<"grafana_session">> => <<"5690771943534127d8e42e00c518115d">>},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.617.0>,params => #{},path_info => [<<"api">>,<<"products1">>],path_params => #{},port => 4000,private => #{'Elixir.GetmoreApiChallengeWeb.Router' => {[],#{}},phoenix_endpoint => 'Elixir.GetmoreApiChallengeWeb.Endpoint',phoenix_request_logger => {<<"request_logger">>,<<"request_logger">>},phoenix_router => 'Elixir.GetmoreApiChallengeWeb.Router',plug_session_fetch => #Fun<Elixir.Plug.Session.1.105793137>},query_params => #{},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{<<"grafana_session">> => <<"5690771943534127d8e42e00c518115d">>},req_headers => [{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d">>},{<<"host">>,<<"localhost:4000">>},{<<"sec-fetch-dest">>,<<"document">>},{<<"sec-fetch-mode">>,<<"navigate">>},{<<"sec-fetch-site">>,<<"none">>},{<<"sec-fetch-user">>,<<"?1">>},{<<"upgrade-insecure-requests">>,<<"1">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/api/products1">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>},{<<"x-request-id">>,<<"Fj8FHIR4TRYKOXkAAAAF">>}],scheme => http,script_name => [],secret_key_base => <<"2GRNG0zewCLveyKalhyINHiqVvTguf3lXY0S2sT1BFtLqf4GWgZGQ5sOIWF9+/Bn">>,state => unset,status => nil},message => <<"no route found for GET /api/products1 (GetmoreApiChallengeWeb.Router)">>,plug_status => 404,router => 'Elixir.GetmoreApiChallengeWeb.Router'},[{'Elixir.GetmoreApiChallengeWeb.Router',call,2,[{file,"lib/phoenix/router.ex"},{line,402}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',plug_builder_call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint','call (overridable 3)',2,[{file,"lib/plug/debugger.ex"},{line,132}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.Phoenix.Endpoint.Cowboy2Handler',init,4,[{file,"lib/phoenix/endpoint/cowboy2_handler.ex"},{line,65}]},{cowboy_handler,execute,2,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,300}]},{cowboy_stream_h,request_process,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,291}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d">>,<<"host">> => <<"localhost:4000">>,<<"sec-fetch-dest">> => <<"document">>,<<"sec-fetch-mode">> => <<"navigate">>,<<"sec-fetch-site">> => <<"none">>,<<"sec-fetch-user">> => <<"?1">>,<<"upgrade-insecure-requests">> => <<"1">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/api/products1">>,path_info => undefined,peer => {{127,0,0,1},44554},pid => <0.608.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 5,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.617.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [<<"api">>,<<"products1">>],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d">>},{<<"host">>,<<"localhost:4000">>},{<<"sec-fetch-dest">>,<<"document">>},{<<"sec-fetch-mode">>,<<"navigate">>},{<<"sec-fetch-site">>,<<"none">>},{<<"sec-fetch-user">>,<<"?1">>},{<<"upgrade-insecure-requests">>,<<"1">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/api/products1">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}},[]}
+    ancestors: [<0.608.0>,<0.489.0>,<0.488.0>,'Elixir.GetmoreApiChallengeWeb.Endpoint','Elixir.GetmoreApiChallenge.Supervisor',<0.415.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.608.0>]
+    dictionary: [{'$logger_metadata$',#{request_id => <<"Fj8FHIR4TRYKOXkAAAAF">>}},{{'Elixir.GetmoreApiChallenge.Repo',dynamic_repo},'Elixir.GetmoreApiChallenge.Repo'}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 94037
+  neighbours:
+2020-10-18 04:20:12 =ERROR REPORT====
+Ranch listener 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP', connection process <0.608.0>, stream 5 had its request process <0.617.0> exit with reason {{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d">>,<<"host">> => <<"localhost:4000">>,<<"sec-fetch-dest">> => <<"document">>,<<"sec-fetch-mode">> => <<"navigate">>,<<"sec-fetch-site">> => <<"none">>,<<"sec-fetch-user">> => <<"?1">>,<<"upgrade-insecure-requests">> => <<"1">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/api/products1">>,path_info => undefined,peer => {{127,0,0,1},44554},pid => <0.608.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 5,version => 'HTTP/1.1'}},assigns => #{},before_send => [#Fun<Elixir.Plug.Telemetry.0.60895335>],body_params => #{},cookies => #{<<"grafana_session">> => <<"5690771943534127d8e42e00c518115d">>},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.617.0>,params => #{},path_info => [<<"api">>,<<"products1">>],path_params => #{},port => 4000,private => #{'Elixir.GetmoreApiChallengeWeb.Router' => {[],#{}},phoenix_endpoint => 'Elixir.GetmoreApiChallengeWeb.Endpoint',phoenix_request_logger => {<<"request_logger">>,<<"request_logger">>},phoenix_router => 'Elixir.GetmoreApiChallengeWeb.Router',plug_session_fetch => #Fun<Elixir.Plug.Session.1.105793137>},query_params => #{},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{<<"grafana_session">> => <<"5690771943534127d8e42e00c518115d">>},req_headers => [{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d">>},{<<"host">>,<<"localhost:4000">>},{<<"sec-fetch-dest">>,<<"document">>},{<<"sec-fetch-mode">>,<<"navigate">>},{<<"sec-fetch-site">>,<<"none">>},{<<"sec-fetch-user">>,<<"?1">>},{<<"upgrade-insecure-requests">>,<<"1">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/api/products1">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>},{<<"x-request-id">>,<<"Fj8FHIR4TRYKOXkAAAAF">>}],scheme => http,script_name => [],secret_key_base => <<"2GRNG0zewCLveyKalhyINHiqVvTguf3lXY0S2sT1BFtLqf4GWgZGQ5sOIWF9+/Bn">>,state => unset,status => nil},message => <<"no route found for GET /api/products1 (GetmoreApiChallengeWeb.Router)">>,plug_status => 404,router => 'Elixir.GetmoreApiChallengeWeb.Router'},[{'Elixir.GetmoreApiChallengeWeb.Router',call,2,[{file,"lib/phoenix/router.ex"},{line,402}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',plug_builder_call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint','call (overridable 3)',2,[{file,"lib/plug/debugger.ex"},{line,132}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.Phoenix.Endpoint.Cowboy2Handler',init,4,[{file,"lib/phoenix/endpoint/cowboy2_handler.ex"},{line,65}]},{cowboy_handler,execute,2,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,300}]},{cowboy_stream_h,request_process,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,291}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d">>,<<"host">> => <<"localhost:4000">>,<<"sec-fetch-dest">> => <<"document">>,<<"sec-fetch-mode">> => <<"navigate">>,<<"sec-fetch-site">> => <<"none">>,<<"sec-fetch-user">> => <<"?1">>,<<"upgrade-insecure-requests">> => <<"1">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/api/products1">>,path_info => undefined,peer => {{127,0,0,1},44554},pid => <0.608.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 5,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.617.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [<<"api">>,<<"products1">>],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept">>,<<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d">>},{<<"host">>,<<"localhost:4000">>},{<<"sec-fetch-dest">>,<<"document">>},{<<"sec-fetch-mode">>,<<"navigate">>},{<<"sec-fetch-site">>,<<"none">>},{<<"sec-fetch-user">>,<<"?1">>},{<<"upgrade-insecure-requests">>,<<"1">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/api/products1">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}} and stacktrace []
+2020-10-18 14:36:02 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.414.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.GetmoreApiChallenge.Application',start,[normal,[]]},{'EXIT',{#{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module RPX.AMPQ.Connection was given as a child to a supervisor but it does not exist.">>},[{'Elixir.Supervisor',init_child,1,[{file,"lib/supervisor.ex"},{line,631}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Supervisor',init,2,[{file,"lib/supervisor.ex"},{line,617}]},{'Elixir.Supervisor',start_link,2,[{file,"lib/supervisor.ex"},{line,556}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,277}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.413.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.415.0>,normal}]
+    links: [<0.413.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 229
+  neighbours:
+2020-10-18 14:36:19 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.GetmoreApiChallenge.Supervisor'}
+     Context:    start_error
+     Reason:     {function_clause,[{'Elixir.RPX.AMQP.Server',init,[[]],[{file,"lib/amqp/server.ex"},{line,11}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,undefined},{id,'Elixir.RPX.AMQP.Server'},{mfargs,{'Elixir.RPX.AMQP.Server',start_link,[[]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-10-18 14:36:19 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.RPX.AMQP.Server:init/1
+    pid: <0.607.0>
+    registered_name: []
+    exception error: {function_clause,[{'Elixir.RPX.AMQP.Server',init,[[]],[{file,"lib/amqp/server.ex"},{line,11}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.GetmoreApiChallenge.Supervisor',<0.415.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.416.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 197
+  neighbours:
+2020-10-18 14:36:19 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.414.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,'Elixir.RPX.AMQP.Server',{function_clause,[{'Elixir.RPX.AMQP.Server',init,[[]],[{file,"lib/amqp/server.ex"},{line,11}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}}},{'Elixir.GetmoreApiChallenge.Application',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.413.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.415.0>,normal}]
+    links: [<0.413.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 215
+  neighbours:
+2020-10-18 14:43:56 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.GetmoreApiChallenge.Supervisor'}
+     Context:    start_error
+     Reason:     {function_clause,[{'Elixir.RPX.AMQP.Server',init,[[]],[{file,"lib/amqp/server.ex"},{line,11}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,undefined},{id,'Elixir.RPX.AMQP.Server'},{mfargs,{'Elixir.RPX.AMQP.Server',start_link,[[]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-10-18 14:43:56 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.RPX.AMQP.Server:init/1
+    pid: <0.597.0>
+    registered_name: []
+    exception error: {function_clause,[{'Elixir.RPX.AMQP.Server',init,[[]],[{file,"lib/amqp/server.ex"},{line,11}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.GetmoreApiChallenge.Supervisor',<0.405.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.406.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 197
+  neighbours:
+2020-10-18 14:43:56 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.404.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,'Elixir.RPX.AMQP.Server',{function_clause,[{'Elixir.RPX.AMQP.Server',init,[[]],[{file,"lib/amqp/server.ex"},{line,11}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}}},{'Elixir.GetmoreApiChallenge.Application',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.403.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.405.0>,normal}]
+    links: [<0.403.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 215
+  neighbours:
+2020-10-18 14:44:21 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.GetmoreApiChallenge.Supervisor'}
+     Context:    start_error
+     Reason:     {function_clause,[{'Elixir.RPX.AMQP.Server',init,[[]],[{file,"lib/amqp/server.ex"},{line,11}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,undefined},{id,'Elixir.RPX.AMQP.Server'},{mfargs,{'Elixir.RPX.AMQP.Server',start_link,[[]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-10-18 14:44:21 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.RPX.AMQP.Server:init/1
+    pid: <0.737.0>
+    registered_name: []
+    exception error: {function_clause,[{'Elixir.RPX.AMQP.Server',init,[[]],[{file,"lib/amqp/server.ex"},{line,11}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.GetmoreApiChallenge.Supervisor',<0.545.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.546.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 197
+  neighbours:
+2020-10-18 14:44:21 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.544.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,'Elixir.RPX.AMQP.Server',{function_clause,[{'Elixir.RPX.AMQP.Server',init,[[]],[{file,"lib/amqp/server.ex"},{line,11}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}}},{'Elixir.GetmoreApiChallenge.Application',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.543.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.545.0>,normal}]
+    links: [<0.543.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 215
+  neighbours:
+2020-10-18 14:47:54 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.GetmoreApiChallenge.Supervisor'}
+     Context:    start_error
+     Reason:     {function_clause,[{'Elixir.RPX.AMQP.Server',init,[[]],[{file,"lib/amqp/server.ex"},{line,11}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,undefined},{id,'Elixir.RPX.AMQP.Server'},{mfargs,{'Elixir.RPX.AMQP.Server',start_link,[[]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-10-18 14:47:54 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.RPX.AMQP.Server:init/1
+    pid: <0.597.0>
+    registered_name: []
+    exception error: {function_clause,[{'Elixir.RPX.AMQP.Server',init,[[]],[{file,"lib/amqp/server.ex"},{line,11}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.GetmoreApiChallenge.Supervisor',<0.405.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.406.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 197
+  neighbours:
+2020-10-18 14:47:54 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.404.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,'Elixir.RPX.AMQP.Server',{function_clause,[{'Elixir.RPX.AMQP.Server',init,[[]],[{file,"lib/amqp/server.ex"},{line,11}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}}},{'Elixir.GetmoreApiChallenge.Application',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.403.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.405.0>,normal}]
+    links: [<0.403.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 211
+  neighbours:
+2020-10-18 15:37:35 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.610.0>
+    registered_name: []
+    exception exit: {{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"image/avif,image/webp,image/apng,image/*,*/*;q=0.8">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d; m=2258:Z3Vlc3Q6Z3Vlc3Q%253D">>,<<"host">> => <<"localhost:4000">>,<<"referer">> => <<"http://localhost:4000/api/products">>,<<"sec-fetch-dest">> => <<"image">>,<<"sec-fetch-mode">> => <<"no-cors">>,<<"sec-fetch-site">> => <<"same-origin">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/favicon.ico">>,path_info => undefined,peer => {{127,0,0,1},55260},pid => <0.607.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 2,version => 'HTTP/1.1'}},assigns => #{},before_send => [#Fun<Elixir.Plug.Telemetry.0.60895335>],body_params => #{},cookies => #{<<"grafana_session">> => <<"5690771943534127d8e42e00c518115d">>,<<"m">> => <<"2258:Z3Vlc3Q6Z3Vlc3Q%253D">>},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.610.0>,params => #{},path_info => [<<"favicon.ico">>],path_params => #{},port => 4000,private => #{'Elixir.GetmoreApiChallengeWeb.Router' => {[],#{}},phoenix_endpoint => 'Elixir.GetmoreApiChallengeWeb.Endpoint',phoenix_request_logger => {<<"request_logger">>,<<"request_logger">>},phoenix_router => 'Elixir.GetmoreApiChallengeWeb.Router',plug_session_fetch => #Fun<Elixir.Plug.Session.1.105793137>},query_params => #{},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{<<"grafana_session">> => <<"5690771943534127d8e42e00c518115d">>,<<"m">> => <<"2258:Z3Vlc3Q6Z3Vlc3Q%253D">>},req_headers => [{<<"accept">>,<<"image/avif,image/webp,image/apng,image/*,*/*;q=0.8">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d; m=2258:Z3Vlc3Q6Z3Vlc3Q%253D">>},{<<"host">>,<<"localhost:4000">>},{<<"referer">>,<<"http://localhost:4000/api/products">>},{<<"sec-fetch-dest">>,<<"image">>},{<<"sec-fetch-mode">>,<<"no-cors">>},{<<"sec-fetch-site">>,<<"same-origin">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/favicon.ico">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>},{<<"x-request-id">>,<<"Fj8qE3AmXK1HxBgAAAJF">>}],scheme => http,script_name => [],secret_key_base => <<"2GRNG0zewCLveyKalhyINHiqVvTguf3lXY0S2sT1BFtLqf4GWgZGQ5sOIWF9+/Bn">>,state => unset,status => nil},message => <<"no route found for GET /favicon.ico (GetmoreApiChallengeWeb.Router)">>,plug_status => 404,router => 'Elixir.GetmoreApiChallengeWeb.Router'},[{'Elixir.GetmoreApiChallengeWeb.Router',call,2,[{file,"lib/phoenix/router.ex"},{line,402}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',plug_builder_call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint','call (overridable 3)',2,[{file,"lib/plug/debugger.ex"},{line,132}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.Phoenix.Endpoint.Cowboy2Handler',init,4,[{file,"lib/phoenix/endpoint/cowboy2_handler.ex"},{line,65}]},{cowboy_handler,execute,2,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,300}]},{cowboy_stream_h,request_process,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,291}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"image/avif,image/webp,image/apng,image/*,*/*;q=0.8">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d; m=2258:Z3Vlc3Q6Z3Vlc3Q%253D">>,<<"host">> => <<"localhost:4000">>,<<"referer">> => <<"http://localhost:4000/api/products">>,<<"sec-fetch-dest">> => <<"image">>,<<"sec-fetch-mode">> => <<"no-cors">>,<<"sec-fetch-site">> => <<"same-origin">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/favicon.ico">>,path_info => undefined,peer => {{127,0,0,1},55260},pid => <0.607.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 2,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.610.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [<<"favicon.ico">>],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept">>,<<"image/avif,image/webp,image/apng,image/*,*/*;q=0.8">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d; m=2258:Z3Vlc3Q6Z3Vlc3Q%253D">>},{<<"host">>,<<"localhost:4000">>},{<<"referer">>,<<"http://localhost:4000/api/products">>},{<<"sec-fetch-dest">>,<<"image">>},{<<"sec-fetch-mode">>,<<"no-cors">>},{<<"sec-fetch-site">>,<<"same-origin">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/favicon.ico">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}},[]}
+    ancestors: [<0.607.0>,<0.479.0>,<0.478.0>,'Elixir.GetmoreApiChallengeWeb.Endpoint','Elixir.GetmoreApiChallenge.Supervisor',<0.405.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.607.0>]
+    dictionary: [{{'Elixir.GetmoreApiChallenge.Repo',dynamic_repo},'Elixir.GetmoreApiChallenge.Repo'},{'$logger_metadata$',#{request_id => <<"Fj8qE3AmXK1HxBgAAAJF">>}}]
+    trap_exit: false
+    status: running
+    heap_size: 17731
+    stack_size: 28
+    reductions: 93754
+  neighbours:
+2020-10-18 15:37:35 =ERROR REPORT====
+Ranch listener 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP', connection process <0.607.0>, stream 2 had its request process <0.610.0> exit with reason {{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"image/avif,image/webp,image/apng,image/*,*/*;q=0.8">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d; m=2258:Z3Vlc3Q6Z3Vlc3Q%253D">>,<<"host">> => <<"localhost:4000">>,<<"referer">> => <<"http://localhost:4000/api/products">>,<<"sec-fetch-dest">> => <<"image">>,<<"sec-fetch-mode">> => <<"no-cors">>,<<"sec-fetch-site">> => <<"same-origin">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/favicon.ico">>,path_info => undefined,peer => {{127,0,0,1},55260},pid => <0.607.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 2,version => 'HTTP/1.1'}},assigns => #{},before_send => [#Fun<Elixir.Plug.Telemetry.0.60895335>],body_params => #{},cookies => #{<<"grafana_session">> => <<"5690771943534127d8e42e00c518115d">>,<<"m">> => <<"2258:Z3Vlc3Q6Z3Vlc3Q%253D">>},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.610.0>,params => #{},path_info => [<<"favicon.ico">>],path_params => #{},port => 4000,private => #{'Elixir.GetmoreApiChallengeWeb.Router' => {[],#{}},phoenix_endpoint => 'Elixir.GetmoreApiChallengeWeb.Endpoint',phoenix_request_logger => {<<"request_logger">>,<<"request_logger">>},phoenix_router => 'Elixir.GetmoreApiChallengeWeb.Router',plug_session_fetch => #Fun<Elixir.Plug.Session.1.105793137>},query_params => #{},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{<<"grafana_session">> => <<"5690771943534127d8e42e00c518115d">>,<<"m">> => <<"2258:Z3Vlc3Q6Z3Vlc3Q%253D">>},req_headers => [{<<"accept">>,<<"image/avif,image/webp,image/apng,image/*,*/*;q=0.8">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d; m=2258:Z3Vlc3Q6Z3Vlc3Q%253D">>},{<<"host">>,<<"localhost:4000">>},{<<"referer">>,<<"http://localhost:4000/api/products">>},{<<"sec-fetch-dest">>,<<"image">>},{<<"sec-fetch-mode">>,<<"no-cors">>},{<<"sec-fetch-site">>,<<"same-origin">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/favicon.ico">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>},{<<"x-request-id">>,<<"Fj8qE3AmXK1HxBgAAAJF">>}],scheme => http,script_name => [],secret_key_base => <<"2GRNG0zewCLveyKalhyINHiqVvTguf3lXY0S2sT1BFtLqf4GWgZGQ5sOIWF9+/Bn">>,state => unset,status => nil},message => <<"no route found for GET /favicon.ico (GetmoreApiChallengeWeb.Router)">>,plug_status => 404,router => 'Elixir.GetmoreApiChallengeWeb.Router'},[{'Elixir.GetmoreApiChallengeWeb.Router',call,2,[{file,"lib/phoenix/router.ex"},{line,402}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',plug_builder_call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint','call (overridable 3)',2,[{file,"lib/plug/debugger.ex"},{line,132}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,2,[{file,"lib/getmoreApiChallenge_web/endpoint.ex"},{line,1}]},{'Elixir.Phoenix.Endpoint.Cowboy2Handler',init,4,[{file,"lib/phoenix/endpoint/cowboy2_handler.ex"},{line,65}]},{cowboy_handler,execute,2,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,300}]},{cowboy_stream_h,request_process,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/cowboy/src/cowboy_stream_h.erl"},{line,291}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.GetmoreApiChallengeWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"image/avif,image/webp,image/apng,image/*,*/*;q=0.8">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=5690771943534127d8e42e00c518115d; m=2258:Z3Vlc3Q6Z3Vlc3Q%253D">>,<<"host">> => <<"localhost:4000">>,<<"referer">> => <<"http://localhost:4000/api/products">>,<<"sec-fetch-dest">> => <<"image">>,<<"sec-fetch-mode">> => <<"no-cors">>,<<"sec-fetch-site">> => <<"same-origin">>,<<"user-agent">> => <<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/favicon.ico">>,path_info => undefined,peer => {{127,0,0,1},55260},pid => <0.607.0>,port => 4000,qs => <<>>,ref => 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 2,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.610.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [<<"favicon.ico">>],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<>>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept">>,<<"image/avif,image/webp,image/apng,image/*,*/*;q=0.8">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"accept-language">>,<<"en-US,en;q=0.9">>},{<<"connection">>,<<"keep-alive">>},{<<"cookie">>,<<"grafana_session=5690771943534127d8e42e00c518115d; m=2258:Z3Vlc3Q6Z3Vlc3Q%253D">>},{<<"host">>,<<"localhost:4000">>},{<<"referer">>,<<"http://localhost:4000/api/products">>},{<<"sec-fetch-dest">>,<<"image">>},{<<"sec-fetch-mode">>,<<"no-cors">>},{<<"sec-fetch-site">>,<<"same-origin">>},{<<"user-agent">>,<<"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36">>}],request_path => <<"/favicon.ico">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}} and stacktrace []
+2020-10-18 16:35:58 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.555.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.GetmoreApiChallenge.Application',start,[normal,[]]},{'EXIT',{#{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module GetmoreApiChallenge.RPX.AMQP.Server was given as a child to a supervisor but it does not exist.">>},[{'Elixir.Supervisor',init_child,1,[{file,"lib/supervisor.ex"},{line,631}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Supervisor',init,2,[{file,"lib/supervisor.ex"},{line,617}]},{'Elixir.Supervisor',start_link,2,[{file,"lib/supervisor.ex"},{line,556}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,277}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.554.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.556.0>,normal}]
+    links: [<0.554.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 227
+  neighbours:
+2020-10-18 16:53:00 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.RPX.AMQP.Server:-handle_info/2-fun-0-/0
+    pid: <0.527.0>
+    registered_name: []
+    exception error: {undef,[{'Elixir.GetmoreApiChallenge.Getmore',list_products,[[]],[]},{'Elixir.RPX.AMQP.Server','-handle_info/2-fun-0-',4,[{file,"lib/amqp/server.ex"},{line,29}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.RPX.AMQP.Server','Elixir.GetmoreApiChallenge.Supervisor',<0.416.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.489.0>]
+    dictionary: [{'$callers',[<0.489.0>]}]
+    trap_exit: false
+    status: running
+    heap_size: 17731
+    stack_size: 28
+    reductions: 4798
+  neighbours:
+    neighbour: [{pid,<0.489.0>},{registered_name,'Elixir.RPX.AMQP.Server'},{initial_call,{'Elixir.RPX.AMQP.Server',init,['Argument__1']}},{current_function,{gen_server,loop,7}},{ancestors,['Elixir.GetmoreApiChallenge.Supervisor',<0.416.0>]},{message_queue_len,0},{links,[<0.417.0>,<0.527.0>]},{trap_exit,false},{status,waiting},{heap_size,987},{stack_size,12},{reductions,33651},{current_stacktrace,[{gen_server,loop,7,[{file,"gen_server.erl"},{line,437}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}]
+2020-10-18 16:53:00 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.GetmoreApiChallenge.Supervisor'}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.GetmoreApiChallenge.Getmore',list_products,[[]],[]},{'Elixir.RPX.AMQP.Server','-handle_info/2-fun-0-',4,[{file,"lib/amqp/server.ex"},{line,29}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.489.0>},{id,'Elixir.RPX.AMQP.Server'},{mfargs,{'Elixir.RPX.AMQP.Server',start_link,[[{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-10-18 16:55:30 =ERROR REPORT====
+** Generic server <0.500.0> terminating
+** Last message in was {consumer_call,{'basic.deliver',<<"amq.ctag-kcuipvYuBSf0Es4NRyGJ-w">>,2,false,<<>>,<<"products">>},{amqp_msg,{'P_basic',undefined,undefined,undefined,1,undefined,<<"g1hkAA1ub25vZGVAbm9ob3N0AAACIAAAAAAAAAAA,LTU3NjQ2MDc1MjMwMzQyMjM5OQ==">>,<<"amq.rabbitmq.reply-to.g1hkABNyYWJiaXRAM2VlOWMxZTQ5ODJjAAAS6gAAAABfjH+n.A4vBG/asJ7ERDlzbJVYmyA==">>,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"{\"params\":[],\"target\":\"list_products\"}">>}}
+** When Server state == {state,amqp_selective_consumer,{state,#{},undefined,#{},none}}
+** Reason for termination == 
+** unexpected_delivery_and_no_default_consumer
+2020-10-18 16:55:30 =CRASH REPORT====
+  crasher:
+    initial call: amqp_gen_consumer:init/1
+    pid: <0.500.0>
+    registered_name: []
+    exception exit: {unexpected_delivery_and_no_default_consumer,[{gen_server2,terminate,3,[{file,"/home/rodrigo/Developer/git/Elixir/getmoreApiChallenge/deps/rabbit_common/src/gen_server2.erl"},{line,1183}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.499.0>,<0.493.0>,<0.491.0>,<0.490.0>,amqp_sup,<0.347.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.499.0>]
+    dictionary: [{process_name,{amqp_gen_consumer,{<<"client 127.0.0.1:36283 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 5921
+  neighbours:
+2020-10-18 16:55:30 =SUPERVISOR REPORT====
+     Supervisor: {<0.499.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     unexpected_delivery_and_no_default_consumer
+     Offender:   [{pid,<0.500.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:36283 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2020-10-18 16:55:30 =SUPERVISOR REPORT====
+     Supervisor: {<0.499.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.500.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:36283 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2020-10-18 16:55:49 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.RPX.AMQP.Server:-handle_info/2-fun-0-/0
+    pid: <0.548.0>
+    registered_name: []
+    exception error: {undef,[{'Elixir.GetmoreApiChallenge.Getmore','/api/products',[[]],[]},{'Elixir.RPX.AMQP.Server','-handle_info/2-fun-0-',4,[{file,"lib/amqp/server.ex"},{line,29}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.RPX.AMQP.Server','Elixir.GetmoreApiChallenge.Supervisor',<0.416.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.528.0>]
+    dictionary: [{'$callers',[<0.528.0>]}]
+    trap_exit: false
+    status: running
+    heap_size: 17731
+    stack_size: 28
+    reductions: 4868
+  neighbours:
+    neighbour: [{pid,<0.528.0>},{registered_name,'Elixir.RPX.AMQP.Server'},{initial_call,{'Elixir.RPX.AMQP.Server',init,['Argument__1']}},{current_function,{gen_server,loop,7}},{ancestors,['Elixir.GetmoreApiChallenge.Supervisor',<0.416.0>]},{message_queue_len,0},{links,[<0.417.0>,<0.548.0>]},{trap_exit,false},{status,waiting},{heap_size,610},{stack_size,12},{reductions,33266},{current_stacktrace,[{gen_server,loop,7,[{file,"gen_server.erl"},{line,437}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}]
+2020-10-18 16:55:49 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.GetmoreApiChallenge.Supervisor'}
+     Context:    child_terminated
+     Reason:     {undef,[{'Elixir.GetmoreApiChallenge.Getmore','/api/products',[[]],[]},{'Elixir.RPX.AMQP.Server','-handle_info/2-fun-0-',4,[{file,"lib/amqp/server.ex"},{line,29}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,"lib/task/supervised.ex"},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,"lib/task/supervised.ex"},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.528.0>},{id,'Elixir.RPX.AMQP.Server'},{mfargs,{'Elixir.RPX.AMQP.Server',start_link,[[{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-10-18 17:00:46 =SUPERVISOR REPORT====
+     Supervisor: {<0.553.0>,amqp_channel_sup_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{nb_children,1},{name,channel_sup},{mfargs,{amqp_channel_sup,start_link,[network,<0.552.0>,<<"client 127.0.0.1:36093 -> 127.0.0.1:5672">>]}},{restart_type,temporary},{shutdown,infinity},{child_type,supervisor}]
+
+2020-10-18 17:00:46 =SUPERVISOR REPORT====
+     Supervisor: {<0.508.0>,amqp_channel_sup_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{nb_children,1},{name,channel_sup},{mfargs,{amqp_channel_sup,start_link,[network,<0.507.0>,<<"client 127.0.0.1:36205 -> 127.0.0.1:5672">>]}},{restart_type,temporary},{shutdown,infinity},{child_type,supervisor}]
+
+2020-10-18 17:00:46 =SUPERVISOR REPORT====
+     Supervisor: {<0.532.0>,amqp_channel_sup_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{nb_children,1},{name,channel_sup},{mfargs,{amqp_channel_sup,start_link,[network,<0.531.0>,<<"client 127.0.0.1:44151 -> 127.0.0.1:5672">>]}},{restart_type,temporary},{shutdown,infinity},{child_type,supervisor}]
+

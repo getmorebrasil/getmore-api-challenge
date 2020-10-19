@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+
+  postgres:
+    image: 'postgres:12.4'
+    container_name: 'postgres_getmore'
+    restart: 'always'
+    ports:
+      - '5432:5432'
+    environment:
+      POSTGRES_DB: 'getmoreApiChallenge'
+      POSTGRES_USER: 'postgres'
+      POSTGRES_PASSWORD: 'postgres'
+
+  rabbit:
+    image: 'rabbitmq:3-management'
+    container_name: 'my-rabbit'
+    restart: 'always'
+    ports:
+      - '15672:15672'
+      - '5672:5672' 

@@ -1,0 +1,961 @@
+2020-10-19 01:48:57.336 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-10-19 01:48:57.339 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-10-19 01:48:57.344 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-10-19 01:48:57.346 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-10-19 01:48:57.347 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-10-19 01:48:57.349 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-10-19 01:48:57.350 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-10-19 01:48:57.361 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-19 01:48:57.361 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-10-19 01:48:57.364 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-10-19 01:48:57.365 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-10-19 01:48:57.365 [info] <0.44.0> Application rpx started on node nonode@nohost
+2020-10-19 01:48:57.367 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-10-19 01:48:57.370 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-10-19 01:48:57.373 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-10-19 01:48:57.376 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-10-19 01:48:57.376 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-10-19 01:48:57.378 [info] <0.44.0> Application cowlib started on node nonode@nohost
+2020-10-19 01:48:57.380 [info] <0.44.0> Application cowboy started on node nonode@nohost
+2020-10-19 01:48:57.380 [info] <0.44.0> Application cowboy_telemetry started on node nonode@nohost
+2020-10-19 01:48:57.381 [info] <0.44.0> Application plug_cowboy started on node nonode@nohost
+2020-10-19 01:48:57.381 [info] <0.44.0> Application scrivener_headers started on node nonode@nohost
+2020-10-19 01:48:57.382 [info] <0.44.0> Application phoenix_html started on node nonode@nohost
+2020-10-19 01:48:57.383 [info] <0.44.0> Application phoenix_live_view started on node nonode@nohost
+2020-10-19 01:48:57.385 [info] <0.44.0> Application phoenix_live_dashboard started on node nonode@nohost
+2020-10-19 01:48:57.386 [info] <0.44.0> Application phoenix_ecto started on node nonode@nohost
+2020-10-19 01:48:57.507 [info] <0.44.0> Application getmoreApiChallenge started on node nonode@nohost
+2020-10-19 01:49:36.894 [error] <0.756.0> CRASH REPORT Process <0.756.0> with 0 neighbours exited with reason: {{{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"host">> => <<"localhost:4000">>,<<"sec-fetch-dest">> => <<"empty">>,<<"sec-fetch-mode">> => <<"no-cors">>,...},...}},...},...},...},...},...},...}
+2020-10-19 01:49:36.895 [error] <0.756.0> Cowboy stream 1 with ranch listener 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP' and connection process <0.755.0> had its request process exit with reason: {{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"host">> => <<"localhost:4000">>,<<"sec-fetch-dest">> => <<"empty">>,<<"sec-fetch-mode">> => <<"no-cors">>,...},...}},...},...},...},...},...}
+2020-10-19 01:49:42.840 [error] <0.759.0> CRASH REPORT Process <0.759.0> with 0 neighbours exited with reason: {{{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US...">>,...},...}},...},...},...},...},...},...}
+2020-10-19 01:49:42.840 [error] <0.759.0> Cowboy stream 1 with ranch listener 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP' and connection process <0.758.0> had its request process exit with reason: {{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,e...">>,...},...}},...},...},...},...},...}
+2020-10-19 01:49:43.009 [error] <0.761.0> CRASH REPORT Process <0.761.0> with 0 neighbours exited with reason: {{{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"image/avif,image/webp,image/apng,image/*,*/*;q=0.8">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=...">>,...},...}},...},...},...},...},...},...}
+2020-10-19 01:49:43.009 [error] <0.761.0> Cowboy stream 2 with ranch listener 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP' and connection process <0.758.0> had its request process exit with reason: {{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"image/avif,image/webp,image/apng,image/*,*/*;q=0.8">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"cookie">> => <<"grafana_session=56...">>,...},...}},...},...},...},...},...}
+2020-10-19 02:16:14.867 [error] <0.724.0> gen_server 'Elixir.RPX.AMQP.Server' terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.Jason.DecodeError',data => <<>>,position => 0,token => nil} in 'Elixir.Jason':'decode!'/2 line 78
+2020-10-19 02:16:14.868 [error] <0.724.0> CRASH REPORT Process 'Elixir.RPX.AMQP.Server' with 0 neighbours crashed with reason: #{'__exception__' => true,'__struct__' => 'Elixir.Jason.DecodeError',data => <<>>,position => 0,token => nil} in 'Elixir.Jason':'decode!'/2 line 78
+2020-10-19 02:16:14.868 [error] <0.548.0> Supervisor 'Elixir.GetmoreApiChallenge.Supervisor' had child 'Elixir.RPX.AMQP.Server' started with 'Elixir.RPX.AMQP.Server':start_link([{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]) at <0.724.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.Jason.DecodeError',data => <<>>,position => 0,token => nil} in 'Elixir.Jason':'decode!'/2 line 78 in context child_terminated
+2020-10-19 02:18:45.317 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-10-19 02:18:45.320 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-10-19 02:18:45.326 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-10-19 02:18:45.328 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-10-19 02:18:45.329 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-10-19 02:18:45.331 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-10-19 02:18:45.332 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-10-19 02:18:45.343 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-19 02:18:45.343 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-10-19 02:18:45.347 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-10-19 02:18:45.348 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-10-19 02:18:45.348 [info] <0.44.0> Application rpx started on node nonode@nohost
+2020-10-19 02:18:45.349 [info] <0.44.0> Application telemetry_metrics started on node nonode@nohost
+2020-10-19 02:18:45.352 [info] <0.44.0> Application telemetry_poller started on node nonode@nohost
+2020-10-19 02:18:45.355 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-10-19 02:18:45.357 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-10-19 02:18:45.360 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-10-19 02:18:45.364 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-10-19 02:18:45.366 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-10-19 02:18:45.367 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-10-19 02:18:45.368 [info] <0.44.0> Application cowlib started on node nonode@nohost
+2020-10-19 02:18:45.370 [info] <0.44.0> Application cowboy started on node nonode@nohost
+2020-10-19 02:18:45.370 [info] <0.44.0> Application cowboy_telemetry started on node nonode@nohost
+2020-10-19 02:18:45.371 [info] <0.44.0> Application plug_cowboy started on node nonode@nohost
+2020-10-19 02:18:45.372 [info] <0.44.0> Application scrivener_headers started on node nonode@nohost
+2020-10-19 02:18:45.372 [info] <0.44.0> Application phoenix_html started on node nonode@nohost
+2020-10-19 02:18:45.373 [info] <0.44.0> Application phoenix_live_view started on node nonode@nohost
+2020-10-19 02:18:45.375 [info] <0.44.0> Application phoenix_live_dashboard started on node nonode@nohost
+2020-10-19 02:18:45.375 [info] <0.44.0> Application phoenix_ecto started on node nonode@nohost
+2020-10-19 02:18:45.468 [info] <0.44.0> Application getmoreApiChallenge started on node nonode@nohost
+2020-10-19 02:22:17.673 [warning] <0.448.0> Unexpected error_logger event {error_msg,<0.557.0>,{<0.667.0>,[42,42,32,84,97,115,107,32,126,112,32,116,101,114,109,105,110,97,116,105,110,103,126,110,42,42,32,83,116,97,114,116,101,100,32,102,114,111,109,32,126,112,126,110,42,42,32,87,104,101,110,32,102,117,110,99,116,105,111,110,32,32,61,61,32,126,112,126,110,42,42,32,32,32,32,32,32,97,114,103,117,109,101,110,116,115,32,61,61,32,126,112,126,110,42,42,32,82,101,97,115,111,110,32,102,111,114,32,116,101,114,109,105,110,97,116,105,111,110,32,61,61,32,126,110,42,42,32,126,112,126,110],['Elixir.RPX.AMQP.Server',<0.667.0>,#Fun<Elixir.RPX.AMQP.Server.0.89682643>,[],{'function not exported',[{'Elixir.GetmoreApiChallenge.Getmore',list_products,[[]],[]},{'Elixir.RPX.AMQP.Server','-handle_info/2-fun-0-',4,[{file,[108,105,98,47,97,109,113,112,47,115,101,114,118,101,114,46,101,120]},{line,29}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,[108,105,98,47,116,97,115,107,47,115,117,112,101,114,118,105,115,101,100,46,101,120]},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,[108,105,98,47,116,97,115,107,47,115,117,112,101,114,118,105,115,101,100,46,101,120]},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,[112,114,111,99,95,108,105,98,46,101,114,108]},{line,226}]}]}]}}
+2020-10-19 02:22:17.677 [error] <0.667.0>@Elixir.GetmoreApiChallenge.Getmore:list_products CRASH REPORT Process <0.667.0> with 1 neighbours crashed with reason: call to undefined function 'Elixir.GetmoreApiChallenge.Getmore':list_products([])
+2020-10-19 02:22:17.677 [error] <0.559.0>@Elixir.GetmoreApiChallenge.Getmore:list_products Supervisor 'Elixir.GetmoreApiChallenge.Supervisor' had child 'Elixir.RPX.AMQP.Server' started with 'Elixir.RPX.AMQP.Server':start_link([{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]) at <0.630.0> exit with reason call to undefined function 'Elixir.GetmoreApiChallenge.Getmore':list_products([]) in context child_terminated
+2020-10-19 02:23:36.268 [error] <0.642.0> gen_server <0.642.0> terminated with reason: unexpected_delivery_and_no_default_consumer
+2020-10-19 02:23:36.269 [error] <0.642.0> CRASH REPORT Process <0.642.0> with 0 neighbours exited with reason: unexpected_delivery_and_no_default_consumer in gen_server2:terminate/3 line 1183
+2020-10-19 02:23:36.270 [error] <0.641.0> Supervisor {<0.641.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:41203 -> 127.0.0.1:5672">>,1}) at <0.642.0> exit with reason unexpected_delivery_and_no_default_consumer in context child_terminated
+2020-10-19 02:23:36.270 [error] <0.641.0> Supervisor {<0.641.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:41203 -> 127.0.0.1:5672">>,1}) at <0.642.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-10-19 02:28:12.103 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-10-19 02:28:12.106 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-10-19 02:28:12.112 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-10-19 02:28:12.113 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-10-19 02:28:12.114 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-10-19 02:28:12.117 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-10-19 02:28:12.118 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-10-19 02:28:12.129 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-19 02:28:12.129 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-10-19 02:28:12.132 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-10-19 02:28:12.133 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-10-19 02:28:12.133 [info] <0.44.0> Application rpx started on node nonode@nohost
+2020-10-19 02:28:12.134 [info] <0.44.0> Application telemetry_metrics started on node nonode@nohost
+2020-10-19 02:28:12.136 [info] <0.44.0> Application telemetry_poller started on node nonode@nohost
+2020-10-19 02:28:12.138 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-10-19 02:28:12.140 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-10-19 02:28:12.143 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-10-19 02:28:12.147 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-10-19 02:28:12.149 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-10-19 02:28:12.149 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-10-19 02:28:12.151 [info] <0.44.0> Application cowlib started on node nonode@nohost
+2020-10-19 02:28:12.152 [info] <0.44.0> Application cowboy started on node nonode@nohost
+2020-10-19 02:28:12.153 [info] <0.44.0> Application cowboy_telemetry started on node nonode@nohost
+2020-10-19 02:28:12.154 [info] <0.44.0> Application plug_cowboy started on node nonode@nohost
+2020-10-19 02:28:12.154 [info] <0.44.0> Application scrivener_headers started on node nonode@nohost
+2020-10-19 02:28:12.155 [info] <0.44.0> Application phoenix_html started on node nonode@nohost
+2020-10-19 02:28:12.155 [info] <0.44.0> Application phoenix_live_view started on node nonode@nohost
+2020-10-19 02:28:12.157 [info] <0.44.0> Application phoenix_live_dashboard started on node nonode@nohost
+2020-10-19 02:28:12.158 [info] <0.44.0> Application phoenix_ecto started on node nonode@nohost
+2020-10-19 02:28:12.234 [info] <0.44.0> Application getmoreApiChallenge started on node nonode@nohost
+2020-10-19 02:28:47.062 [warning] <0.324.0> Unexpected error_logger event {error_msg,<0.433.0>,{<0.542.0>,[42,42,32,84,97,115,107,32,126,112,32,116,101,114,109,105,110,97,116,105,110,103,126,110,42,42,32,83,116,97,114,116,101,100,32,102,114,111,109,32,126,112,126,110,42,42,32,87,104,101,110,32,102,117,110,99,116,105,111,110,32,32,61,61,32,126,112,126,110,42,42,32,32,32,32,32,32,97,114,103,117,109,101,110,116,115,32,61,61,32,126,112,126,110,42,42,32,82,101,97,115,111,110,32,102,111,114,32,116,101,114,109,105,110,97,116,105,111,110,32,61,61,32,126,110,42,42,32,126,112,126,110],['Elixir.RPX.AMQP.Server',<0.542.0>,#Fun<Elixir.RPX.AMQP.Server.0.89682643>,[],{'function not exported',[{'Elixir.GetmoreApiChallenge.Getmore',list_products,[[]],[]},{'Elixir.RPX.AMQP.Server','-handle_info/2-fun-0-',4,[{file,[108,105,98,47,97,109,113,112,47,115,101,114,118,101,114,46,101,120]},{line,29}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,[108,105,98,47,116,97,115,107,47,115,117,112,101,114,118,105,115,101,100,46,101,120]},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,[108,105,98,47,116,97,115,107,47,115,117,112,101,114,118,105,115,101,100,46,101,120]},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,[112,114,111,99,95,108,105,98,46,101,114,108]},{line,226}]}]}]}}
+2020-10-19 02:28:47.063 [error] <0.542.0>@Elixir.GetmoreApiChallenge.Getmore:list_products CRASH REPORT Process <0.542.0> with 1 neighbours crashed with reason: call to undefined function 'Elixir.GetmoreApiChallenge.Getmore':list_products([])
+2020-10-19 02:28:47.063 [error] <0.435.0>@Elixir.GetmoreApiChallenge.Getmore:list_products Supervisor 'Elixir.GetmoreApiChallenge.Supervisor' had child 'Elixir.RPX.AMQP.Server' started with 'Elixir.RPX.AMQP.Server':start_link([{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]) at <0.507.0> exit with reason call to undefined function 'Elixir.GetmoreApiChallenge.Getmore':list_products([]) in context child_terminated
+2020-10-19 02:30:32.814 [error] <0.518.0> gen_server <0.518.0> terminated with reason: unexpected_delivery_and_no_default_consumer
+2020-10-19 02:30:32.814 [error] <0.518.0> CRASH REPORT Process <0.518.0> with 0 neighbours exited with reason: unexpected_delivery_and_no_default_consumer in gen_server2:terminate/3 line 1183
+2020-10-19 02:30:32.814 [error] <0.517.0> Supervisor {<0.517.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:44777 -> 127.0.0.1:5672">>,1}) at <0.518.0> exit with reason unexpected_delivery_and_no_default_consumer in context child_terminated
+2020-10-19 02:30:32.815 [error] <0.517.0> Supervisor {<0.517.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:44777 -> 127.0.0.1:5672">>,1}) at <0.518.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-10-19 02:32:43.309 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-10-19 02:32:43.312 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-10-19 02:32:43.318 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-10-19 02:32:43.319 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-10-19 02:32:43.320 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-10-19 02:32:43.322 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-10-19 02:32:43.323 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-10-19 02:32:43.334 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-19 02:32:43.334 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-10-19 02:32:43.337 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-10-19 02:32:43.338 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-10-19 02:32:43.338 [info] <0.44.0> Application rpx started on node nonode@nohost
+2020-10-19 02:32:43.339 [info] <0.44.0> Application telemetry_metrics started on node nonode@nohost
+2020-10-19 02:32:43.341 [info] <0.44.0> Application telemetry_poller started on node nonode@nohost
+2020-10-19 02:32:43.342 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-10-19 02:32:43.345 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-10-19 02:32:43.347 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-10-19 02:32:43.351 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-10-19 02:32:43.354 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-10-19 02:32:43.354 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-10-19 02:32:43.356 [info] <0.44.0> Application cowlib started on node nonode@nohost
+2020-10-19 02:32:43.357 [info] <0.44.0> Application cowboy started on node nonode@nohost
+2020-10-19 02:32:43.358 [info] <0.44.0> Application cowboy_telemetry started on node nonode@nohost
+2020-10-19 02:32:43.359 [info] <0.44.0> Application plug_cowboy started on node nonode@nohost
+2020-10-19 02:32:43.359 [info] <0.44.0> Application scrivener_headers started on node nonode@nohost
+2020-10-19 02:32:43.360 [info] <0.44.0> Application phoenix_html started on node nonode@nohost
+2020-10-19 02:32:43.361 [info] <0.44.0> Application phoenix_live_view started on node nonode@nohost
+2020-10-19 02:32:43.362 [info] <0.44.0> Application phoenix_live_dashboard started on node nonode@nohost
+2020-10-19 02:32:43.363 [info] <0.44.0> Application phoenix_ecto started on node nonode@nohost
+2020-10-19 02:32:43.441 [info] <0.44.0> Application getmoreApiChallenge started on node nonode@nohost
+2020-10-19 02:33:34.549 [warning] <0.308.0> Unexpected error_logger event {error_msg,<0.417.0>,{<0.527.0>,[42,42,32,84,97,115,107,32,126,112,32,116,101,114,109,105,110,97,116,105,110,103,126,110,42,42,32,83,116,97,114,116,101,100,32,102,114,111,109,32,126,112,126,110,42,42,32,87,104,101,110,32,102,117,110,99,116,105,111,110,32,32,61,61,32,126,112,126,110,42,42,32,32,32,32,32,32,97,114,103,117,109,101,110,116,115,32,61,61,32,126,112,126,110,42,42,32,82,101,97,115,111,110,32,102,111,114,32,116,101,114,109,105,110,97,116,105,111,110,32,61,61,32,126,110,42,42,32,126,112,126,110],['Elixir.RPX.AMQP.Server',<0.527.0>,#Fun<Elixir.RPX.AMQP.Server.0.89682643>,[],{#{'__exception__' => true,'__struct__' => 'Elixir.Ecto.Query.CastError',message => <<100,101,112,115,47,101,99,116,111,47,108,105,98,47,101,99,116,111,47,114,101,112,111,47,113,117,101,114,121,97,98,108,101,46,101,120,58,52,53,49,58,32,118,97,108,117,101,32,96,49,48,48,49,96,32,105,110,32,96,119,104,101,114,101,96,32,99,97,110,110,111,116,32,98,101,32,99,97,115,116,32,116,111,32,116,121,112,101,32,58,98,105,110,97,114,121,95,105,100,32,105,110,32,113,117,101,114,121,58,10,10,102,114,111,109,32,112,48,32,105,110,32,71,101,116,109,111,114,101,65,112,105,67,104,97,108,108,101,110,103,101,46,71,101,116,109,111,114,101,46,80,114,111,100,117,99,116,44,10,32,32,119,104,101,114,101,58,32,112,48,46,105,100,32,61,61,32,94,49,48,48,49,44,10,32,32,115,101,108,101,99,116,58,32,112,48,10>>,type => binary_id,value => 1001},[{'Elixir.Enum','-reduce/3-lists^foldl/2-0-',3,[{file,[108,105,98,47,101,110,117,109,46,101,120]},{line,2111}]},{'Elixir.Enum','-map_reduce/3-lists^mapfoldl/2-0-',3,[{file,[108,105,98,47,101,110,117,109,46,101,120]},{line,1520}]},{'Elixir.Enum','-reduce/3-lists^foldl/2-0-',3,[{file,[108,105,98,47,101,110,117,109,46,101,120]},{line,2111}]},{'Elixir.Ecto.Repo.Queryable',execute,4,[{file,[108,105,98,47,101,99,116,111,47,114,101,112,111,47,113,117,101,114,121,97,98,108,101,46,101,120]},{line,213}]},{'Elixir.Ecto.Repo.Queryable',all,3,[{file,[108,105,98,47,101,99,116,111,47,114,101,112,111,47,113,117,101,114,121,97,98,108,101,46,101,120]},{line,17}]},{'Elixir.Ecto.Repo.Queryable','one!',3,[{file,[108,105,98,47,101,99,116,111,47,114,101,112,111,47,113,117,101,114,121,97,98,108,101,46,101,120]},{line,157}]},{'Elixir.RPX.AMQP.Server','-handle_info/2-fun-0-',4,[{file,[108,105,98,47,97,109,113,112,47,115,101,114,118,101,114,46,101,120]},{line,29}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,[108,105,98,47,116,97,115,107,47,115,117,112,101,114,118,105,115,101,100,46,101,120]},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,[108,105,98,47,116,97,115,107,47,115,117,112,101,114,118,105,115,101,100,46,101,120]},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,[112,114,111,99,95,108,105,98,46,101,114,108]},{line,226}]}]}]}}
+2020-10-19 02:33:34.550 [error] <0.527.0> CRASH REPORT Process <0.527.0> with 1 neighbours crashed with reason: #{'__exception__' => true,'__struct__' => 'Elixir.Ecto.Query.CastError',message => <<"deps/ecto/lib/ecto/repo/queryable.ex:451: value `1001` in `where` cannot be cast to type :binary_id in query:\n\nfrom p0 in GetmoreApiChallenge.Getmore.Product,\n  where: p0.id == ^1001,\n  select: p0\n">>,type => binary_id,value => 1001} in 'Elixir.Enum':'-reduce/3-lists^foldl/2-0-'/3 line 2111
+2020-10-19 02:33:34.550 [error] <0.419.0> Supervisor 'Elixir.GetmoreApiChallenge.Supervisor' had child 'Elixir.RPX.AMQP.Server' started with 'Elixir.RPX.AMQP.Server':start_link([{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]) at <0.491.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.Ecto.Query.CastError',message => <<"deps/ecto/lib/ecto/repo/queryable.ex:451: value `1001` in `where` cannot be cast to type :binary_id in query:\n\nfrom p0 in GetmoreApiChallenge.Getmore.Product,\n  where: p0.id == ^1001,\n  select: p0\n">>,type => binary_id,value => 1001} in 'Elixir.Enum':'-reduce/3-lists^foldl/2-0-'/3 line 2111 in context child_terminated
+2020-10-19 02:50:59.684 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-10-19 02:50:59.685 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-10-19 02:50:59.691 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-10-19 02:50:59.693 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-10-19 02:50:59.694 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-10-19 02:50:59.697 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-10-19 02:50:59.697 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-10-19 02:50:59.709 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-19 02:50:59.709 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-10-19 02:50:59.712 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-10-19 02:50:59.713 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-10-19 02:50:59.713 [info] <0.44.0> Application rpx started on node nonode@nohost
+2020-10-19 02:50:59.714 [info] <0.44.0> Application telemetry_metrics started on node nonode@nohost
+2020-10-19 02:50:59.716 [info] <0.44.0> Application telemetry_poller started on node nonode@nohost
+2020-10-19 02:50:59.718 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-10-19 02:50:59.720 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-10-19 02:50:59.723 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-10-19 02:50:59.726 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-10-19 02:50:59.729 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-10-19 02:50:59.729 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-10-19 02:50:59.731 [info] <0.44.0> Application cowlib started on node nonode@nohost
+2020-10-19 02:50:59.733 [info] <0.44.0> Application cowboy started on node nonode@nohost
+2020-10-19 02:50:59.733 [info] <0.44.0> Application cowboy_telemetry started on node nonode@nohost
+2020-10-19 02:50:59.734 [info] <0.44.0> Application plug_cowboy started on node nonode@nohost
+2020-10-19 02:50:59.734 [info] <0.44.0> Application scrivener_headers started on node nonode@nohost
+2020-10-19 02:50:59.735 [info] <0.44.0> Application phoenix_html started on node nonode@nohost
+2020-10-19 02:50:59.736 [info] <0.44.0> Application phoenix_live_view started on node nonode@nohost
+2020-10-19 02:50:59.737 [info] <0.44.0> Application phoenix_live_dashboard started on node nonode@nohost
+2020-10-19 02:50:59.738 [info] <0.44.0> Application phoenix_ecto started on node nonode@nohost
+2020-10-19 02:50:59.742 [error] <0.559.0> CRASH REPORT Process <0.559.0> with 0 neighbours exited with reason: #{'__exception__' => true,'__struct__' => 'Elixir.ArgumentError',message => <<"The module GetmoreApiChallenge.Rpx.Server was given as a child to a supervisor but it does not exist.">>} in 'Elixir.Supervisor':init_child/1 line 631 in application_master:init/4 line 138
+2020-10-19 02:58:30.033 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-10-19 02:58:30.035 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-10-19 02:58:30.041 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-10-19 02:58:30.042 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-10-19 02:58:30.043 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-10-19 02:58:30.045 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-10-19 02:58:30.046 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-10-19 02:58:30.057 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-19 02:58:30.057 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-10-19 02:58:30.060 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-10-19 02:58:30.061 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-10-19 02:58:30.061 [info] <0.44.0> Application rpx started on node nonode@nohost
+2020-10-19 02:58:30.061 [info] <0.44.0> Application telemetry_metrics started on node nonode@nohost
+2020-10-19 02:58:30.064 [info] <0.44.0> Application telemetry_poller started on node nonode@nohost
+2020-10-19 02:58:30.065 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-10-19 02:58:30.067 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-10-19 02:58:30.070 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-10-19 02:58:30.074 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-10-19 02:58:30.076 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-10-19 02:58:30.076 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-10-19 02:58:30.078 [info] <0.44.0> Application cowlib started on node nonode@nohost
+2020-10-19 02:58:30.079 [info] <0.44.0> Application cowboy started on node nonode@nohost
+2020-10-19 02:58:30.080 [info] <0.44.0> Application cowboy_telemetry started on node nonode@nohost
+2020-10-19 02:58:30.081 [info] <0.44.0> Application plug_cowboy started on node nonode@nohost
+2020-10-19 02:58:30.081 [info] <0.44.0> Application scrivener_headers started on node nonode@nohost
+2020-10-19 02:58:30.082 [info] <0.44.0> Application phoenix_html started on node nonode@nohost
+2020-10-19 02:58:30.083 [info] <0.44.0> Application phoenix_live_view started on node nonode@nohost
+2020-10-19 02:58:30.084 [info] <0.44.0> Application phoenix_live_dashboard started on node nonode@nohost
+2020-10-19 02:58:30.085 [info] <0.44.0> Application phoenix_ecto started on node nonode@nohost
+2020-10-19 02:58:30.172 [info] <0.44.0> Application getmoreApiChallenge started on node nonode@nohost
+2020-10-19 02:58:36.604 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-10-19 02:58:36.607 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-10-19 02:58:36.612 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-10-19 02:58:36.614 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-10-19 02:58:36.615 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-10-19 02:58:36.617 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-10-19 02:58:36.618 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-10-19 02:58:36.629 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-19 02:58:36.629 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-10-19 02:58:36.632 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-10-19 02:58:36.633 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-10-19 02:58:36.634 [info] <0.44.0> Application rpx started on node nonode@nohost
+2020-10-19 02:58:36.635 [info] <0.44.0> Application telemetry_metrics started on node nonode@nohost
+2020-10-19 02:58:36.638 [info] <0.44.0> Application telemetry_poller started on node nonode@nohost
+2020-10-19 02:58:36.639 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-10-19 02:58:36.642 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-10-19 02:58:36.646 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-10-19 02:58:36.650 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-10-19 02:58:36.653 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-10-19 02:58:36.654 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-10-19 02:58:36.655 [info] <0.44.0> Application cowlib started on node nonode@nohost
+2020-10-19 02:58:36.657 [info] <0.44.0> Application cowboy started on node nonode@nohost
+2020-10-19 02:58:36.657 [info] <0.44.0> Application cowboy_telemetry started on node nonode@nohost
+2020-10-19 02:58:36.658 [info] <0.44.0> Application plug_cowboy started on node nonode@nohost
+2020-10-19 02:58:36.658 [info] <0.44.0> Application scrivener_headers started on node nonode@nohost
+2020-10-19 02:58:36.659 [info] <0.44.0> Application phoenix_html started on node nonode@nohost
+2020-10-19 02:58:36.660 [info] <0.44.0> Application phoenix_live_view started on node nonode@nohost
+2020-10-19 02:58:36.661 [info] <0.44.0> Application phoenix_live_dashboard started on node nonode@nohost
+2020-10-19 02:58:36.662 [info] <0.44.0> Application phoenix_ecto started on node nonode@nohost
+2020-10-19 02:58:36.743 [info] <0.44.0> Application getmoreApiChallenge started on node nonode@nohost
+2020-10-19 02:59:13.518 [warning] <0.308.0> Unexpected error_logger event {error_msg,<0.417.0>,{<0.526.0>,[42,42,32,84,97,115,107,32,126,112,32,116,101,114,109,105,110,97,116,105,110,103,126,110,42,42,32,83,116,97,114,116,101,100,32,102,114,111,109,32,126,112,126,110,42,42,32,87,104,101,110,32,102,117,110,99,116,105,111,110,32,32,61,61,32,126,112,126,110,42,42,32,32,32,32,32,32,97,114,103,117,109,101,110,116,115,32,61,61,32,126,112,126,110,42,42,32,82,101,97,115,111,110,32,102,111,114,32,116,101,114,109,105,110,97,116,105,111,110,32,61,61,32,126,110,42,42,32,126,112,126,110],['Elixir.GetmoreApiChallenge.RPX.Server',<0.526.0>,#Fun<Elixir.GetmoreApiChallenge.RPX.Server.0.66557456>,[],{badarg,[{erlang,apply,['Elixir.GetmoreApiChallenge.Getmore','get_product!',1001],[]},{'Elixir.GetmoreApiChallenge.RPX.Server','-handle_info/2-fun-0-',4,[{file,[108,105,98,47,114,112,120,47,115,101,114,118,101,114,46,101,120]},{line,30}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,[108,105,98,47,116,97,115,107,47,115,117,112,101,114,118,105,115,101,100,46,101,120]},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,[108,105,98,47,116,97,115,107,47,115,117,112,101,114,118,105,115,101,100,46,101,120]},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,[112,114,111,99,95,108,105,98,46,101,114,108]},{line,226}]}]}]}}
+2020-10-19 02:59:13.521 [error] <0.526.0>@Elixir.GetmoreApiChallenge.RPX.Server:-handle_info/2-fun-0-:30 CRASH REPORT Process <0.526.0> with 1 neighbours crashed with reason: bad argument in call to erlang:apply('Elixir.GetmoreApiChallenge.Getmore', 'get_product!', 1001) in 'Elixir.GetmoreApiChallenge.RPX.Server':'-handle_info/2-fun-0-'/4 line 30
+2020-10-19 02:59:13.521 [error] <0.419.0>@Elixir.GetmoreApiChallenge.RPX.Server:-handle_info/2-fun-0-:30 Supervisor 'Elixir.GetmoreApiChallenge.Supervisor' had child 'Elixir.GetmoreApiChallenge.RPX.Server' started with 'Elixir.GetmoreApiChallenge.RPX.Server':start_link([{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]) at <0.491.0> exit with reason bad argument in call to erlang:apply('Elixir.GetmoreApiChallenge.Getmore', 'get_product!', 1001) in 'Elixir.GetmoreApiChallenge.RPX.Server':'-handle_info/2-fun-0-'/4 line 30 in context child_terminated
+2020-10-19 02:59:48.039 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-10-19 02:59:48.042 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-10-19 02:59:48.047 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-10-19 02:59:48.049 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-10-19 02:59:48.050 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-10-19 02:59:48.052 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-10-19 02:59:48.053 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-10-19 02:59:48.064 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-19 02:59:48.064 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-10-19 02:59:48.067 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-10-19 02:59:48.068 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-10-19 02:59:48.068 [info] <0.44.0> Application rpx started on node nonode@nohost
+2020-10-19 02:59:48.069 [info] <0.44.0> Application telemetry_metrics started on node nonode@nohost
+2020-10-19 02:59:48.071 [info] <0.44.0> Application telemetry_poller started on node nonode@nohost
+2020-10-19 02:59:48.072 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-10-19 02:59:48.075 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-10-19 02:59:48.077 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-10-19 02:59:48.081 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-10-19 02:59:48.083 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-10-19 02:59:48.084 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-10-19 02:59:48.085 [info] <0.44.0> Application cowlib started on node nonode@nohost
+2020-10-19 02:59:48.087 [info] <0.44.0> Application cowboy started on node nonode@nohost
+2020-10-19 02:59:48.087 [info] <0.44.0> Application cowboy_telemetry started on node nonode@nohost
+2020-10-19 02:59:48.088 [info] <0.44.0> Application plug_cowboy started on node nonode@nohost
+2020-10-19 02:59:48.088 [info] <0.44.0> Application scrivener_headers started on node nonode@nohost
+2020-10-19 02:59:48.089 [info] <0.44.0> Application phoenix_html started on node nonode@nohost
+2020-10-19 02:59:48.090 [info] <0.44.0> Application phoenix_live_view started on node nonode@nohost
+2020-10-19 02:59:48.091 [info] <0.44.0> Application phoenix_live_dashboard started on node nonode@nohost
+2020-10-19 02:59:48.092 [info] <0.44.0> Application phoenix_ecto started on node nonode@nohost
+2020-10-19 02:59:48.173 [info] <0.44.0> Application getmoreApiChallenge started on node nonode@nohost
+2020-10-19 03:00:42.791 [warning] <0.308.0> Unexpected error_logger event {error_msg,<0.417.0>,{<0.528.0>,[42,42,32,84,97,115,107,32,126,112,32,116,101,114,109,105,110,97,116,105,110,103,126,110,42,42,32,83,116,97,114,116,101,100,32,102,114,111,109,32,126,112,126,110,42,42,32,87,104,101,110,32,102,117,110,99,116,105,111,110,32,32,61,61,32,126,112,126,110,42,42,32,32,32,32,32,32,97,114,103,117,109,101,110,116,115,32,61,61,32,126,112,126,110,42,42,32,82,101,97,115,111,110,32,102,111,114,32,116,101,114,109,105,110,97,116,105,111,110,32,61,61,32,126,110,42,42,32,126,112,126,110],['Elixir.GetmoreApiChallenge.RPX.Server',<0.528.0>,#Fun<Elixir.GetmoreApiChallenge.RPX.Server.0.66557456>,[],{#{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<74,97,115,111,110,46,69,110,99,111,100,101,114,32,112,114,111,116,111,99,111,108,32,109,117,115,116,32,97,108,119,97,121,115,32,98,101,32,101,120,112,108,105,99,105,116,108,121,32,105,109,112,108,101,109,101,110,116,101,100,46,10,10,73,102,32,121,111,117,32,111,119,110,32,116,104,101,32,115,116,114,117,99,116,44,32,121,111,117,32,99,97,110,32,100,101,114,105,118,101,32,116,104,101,32,105,109,112,108,101,109,101,110,116,97,116,105,111,110,32,115,112,101,99,105,102,121,105,110,103,32,119,104,105,99,104,32,102,105,101,108,100,115,32,115,104,111,117,108,100,32,98,101,32,101,110,99,111,100,101,100,32,116,111,32,74,83,79,78,58,10,10,32,32,32,32,64,100,101,114,105,118,101,32,123,74,97,115,111,110,46,69,110,99,111,100,101,114,44,32,111,110,108,121,58,32,91,46,46,46,46,93,125,10,32,32,32,32,100,101,102,115,116,114,117,99,116,32,46,46,46,10,10,73,116,32,105,115,32,97,108,115,111,32,112,111,115,115,105,98,108,101,32,116,111,32,101,110,99,111,100,101,32,97,108,108,32,102,105,101,108,100,115,44,32,97,108,116,104,111,117,103,104,32,116,104,105,115,32,115,104,111,117,108,100,32,98,101,32,117,115,101,100,32,99,97,114,101,102,117,108,108,121,32,116,111,32,97,118,111,105,100,32,97,99,99,105,100,101,110,116,97,108,108,121,32,108,101,97,107,105,110,103,32,112,114,105,118,97,116,101,32,105,110,102,111,114,109,97,116,105,111,110,32,119,104,101,110,32,110,101,119,32,102,105,101,108,100,115,32,97,114,101,32,97,100,100,101,100,58,10,10,32,32,32,32,64,100,101,114,105,118,101,32,74,97,115,111,110,46,69,110,99,111,100,101,114,10,32,32,32,32,100,101,102,115,116,114,117,99,116,32,46,46,46,10,10,70,105,110,97,108,108,121,44,32,105,102,32,121,111,117,32,100,111,110,39,116,32,111,119,110,32,116,104,101,32,115,116,114,117,99,116,32,121,111,117,32,119,97,110,116,32,116,111,32,101,110,99,111,100,101,32,116,111,32,74,83,79,78,44,32,121,111,117,32,109,97,121,32,117,115,101,32,80,114,111,116,111,99,111,108,46,100,101,114,105,118,101,47,51,32,112,108,97,99,101,100,32,111,117,116,115,105,100,101,32,111,102,32,97,110,121,32,109,111,100,117,108,101,58,10,10,32,32,32,32,80,114,111,116,111,99,111,108,46,100,101,114,105,118,101,40,74,97,115,111,110,46,69,110,99,111,100,101,114,44,32,78,97,109,101,79,102,84,104,101,83,116,114,117,99,116,44,32,111,110,108,121,58,32,91,46,46,46,93,41,10,32,32,32,32,80,114,111,116,111,99,111,108,46,100,101,114,105,118,101,40,74,97,115,111,110,46,69,110,99,111,100,101,114,44,32,78,97,109,101,79,102,84,104,101,83,116,114,117,99,116,41,10>>,protocol => 'Elixir.Jason.Encoder',value => #{'__meta__' => #{'__struct__' => 'Elixir.Ecto.Schema.Metadata',context => nil,prefix => nil,schema => 'Elixir.GetmoreApiChallenge.Getmore.Product',source => <<112,114,111,100,117,99,116,115>>,state => loaded},'__struct__' => 'Elixir.GetmoreApiChallenge.Getmore.Product',id => <<55,102,56,50,52,102,52,54,45,56,51,52,100,45,52,101,48,49,45,56,52,48,102,45,49,97,54,51,97,97,52,48,100,50,48,49>>,inserted_at => #{'__struct__' => 'Elixir.NaiveDateTime',calendar => 'Elixir.Calendar.ISO',day => 18,hour => 18,microsecond => {0,0},minute => 18,month => 10,second => 14,year => 2020},productCategory => <<67,97,116,101,103,111,114,121,32,50>>,productId => 1001,productImage => <<104,116,116,112,115,58,47,47,112,105,99,115,117,109,46,112,104,111,116,111,115,47,52,48,48,63,105,109,97,103,101,61,51,51,51>>,productName => ...,...}},...}]}}
+2020-10-19 03:00:42.792 [error] <0.528.0> CRASH REPORT Process <0.528.0> with 1 neighbours crashed with reason: #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<"Jason.Encoder protocol must always be explicitly implemented.\n\nIf you own the struct, you can derive the implementation specifying which fields should be encoded to JSON:\n\n    @derive {Jason.Encoder, only: [....]}\n    defstruct ...\n\nIt is also possible to encode all fields, although this should be used carefully to avoid accidentally leaking private information when new fields are added:\n\n    @derive ...">>,...} in 'Elixir.Jason':'encode!'/2 line 150
+2020-10-19 03:00:42.792 [error] <0.419.0> Supervisor 'Elixir.GetmoreApiChallenge.Supervisor' had child 'Elixir.GetmoreApiChallenge.RPX.Server' started with 'Elixir.GetmoreApiChallenge.RPX.Server':start_link([{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]) at <0.491.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<"Jason.Encoder protocol must always be explicitly implemented.\n\nIf you own the struct, you can derive the implementation specifying which fields should be encoded to JSON:\n\n    @derive {Jason.Encoder, only: [....]}\n    defstruct ...\n\nIt is also possible to encode all fields, although this should be used carefully to avoid accidentally leaking private information when new fields are added:\n\n    @derive ...">>,...} in 'Elixir.Jason':'encode!'/2 line 150 in context child_terminated
+2020-10-19 03:08:59.205 [error] <0.502.0> gen_server <0.502.0> terminated with reason: unexpected_delivery_and_no_default_consumer
+2020-10-19 03:08:59.206 [error] <0.502.0> CRASH REPORT Process <0.502.0> with 0 neighbours exited with reason: unexpected_delivery_and_no_default_consumer in gen_server2:terminate/3 line 1183
+2020-10-19 03:08:59.206 [error] <0.501.0> Supervisor {<0.501.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:43015 -> 127.0.0.1:5672">>,1}) at <0.502.0> exit with reason unexpected_delivery_and_no_default_consumer in context child_terminated
+2020-10-19 03:08:59.207 [error] <0.501.0> Supervisor {<0.501.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:43015 -> 127.0.0.1:5672">>,1}) at <0.502.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-10-19 03:09:44.463 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-10-19 03:09:44.466 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-10-19 03:09:44.472 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-10-19 03:09:44.473 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-10-19 03:09:44.474 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-10-19 03:09:44.477 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-10-19 03:09:44.478 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-10-19 03:09:44.489 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-19 03:09:44.489 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-10-19 03:09:44.492 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-10-19 03:09:44.493 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-10-19 03:09:44.493 [info] <0.44.0> Application rpx started on node nonode@nohost
+2020-10-19 03:09:44.494 [info] <0.44.0> Application telemetry_metrics started on node nonode@nohost
+2020-10-19 03:09:44.496 [info] <0.44.0> Application telemetry_poller started on node nonode@nohost
+2020-10-19 03:09:44.497 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-10-19 03:09:44.499 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-10-19 03:09:44.502 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-10-19 03:09:44.506 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-10-19 03:09:44.509 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-10-19 03:09:44.509 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-10-19 03:09:44.511 [info] <0.44.0> Application cowlib started on node nonode@nohost
+2020-10-19 03:09:44.512 [info] <0.44.0> Application cowboy started on node nonode@nohost
+2020-10-19 03:09:44.513 [info] <0.44.0> Application cowboy_telemetry started on node nonode@nohost
+2020-10-19 03:09:44.514 [info] <0.44.0> Application plug_cowboy started on node nonode@nohost
+2020-10-19 03:09:44.514 [info] <0.44.0> Application scrivener_headers started on node nonode@nohost
+2020-10-19 03:09:44.515 [info] <0.44.0> Application phoenix_html started on node nonode@nohost
+2020-10-19 03:09:44.516 [info] <0.44.0> Application phoenix_live_view started on node nonode@nohost
+2020-10-19 03:09:44.517 [info] <0.44.0> Application phoenix_live_dashboard started on node nonode@nohost
+2020-10-19 03:09:44.518 [info] <0.44.0> Application phoenix_ecto started on node nonode@nohost
+2020-10-19 03:09:44.593 [info] <0.44.0> Application getmoreApiChallenge started on node nonode@nohost
+2020-10-19 03:15:53.832 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-10-19 03:15:53.834 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-10-19 03:15:53.840 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-10-19 03:15:53.842 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-10-19 03:15:53.843 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-10-19 03:15:53.845 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-10-19 03:15:53.846 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-10-19 03:15:53.857 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-19 03:15:53.858 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-10-19 03:15:53.861 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-10-19 03:15:53.862 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-10-19 03:15:53.862 [info] <0.44.0> Application rpx started on node nonode@nohost
+2020-10-19 03:15:53.863 [info] <0.44.0> Application telemetry_metrics started on node nonode@nohost
+2020-10-19 03:15:53.865 [info] <0.44.0> Application telemetry_poller started on node nonode@nohost
+2020-10-19 03:15:53.866 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-10-19 03:15:53.869 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-10-19 03:15:53.872 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-10-19 03:15:53.875 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-10-19 03:15:53.878 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-10-19 03:15:53.878 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-10-19 03:15:53.880 [info] <0.44.0> Application cowlib started on node nonode@nohost
+2020-10-19 03:15:53.882 [info] <0.44.0> Application cowboy started on node nonode@nohost
+2020-10-19 03:15:53.883 [info] <0.44.0> Application cowboy_telemetry started on node nonode@nohost
+2020-10-19 03:15:53.884 [info] <0.44.0> Application plug_cowboy started on node nonode@nohost
+2020-10-19 03:15:53.884 [info] <0.44.0> Application scrivener_headers started on node nonode@nohost
+2020-10-19 03:15:53.885 [info] <0.44.0> Application phoenix_html started on node nonode@nohost
+2020-10-19 03:15:53.885 [info] <0.44.0> Application phoenix_live_view started on node nonode@nohost
+2020-10-19 03:15:53.887 [info] <0.44.0> Application phoenix_live_dashboard started on node nonode@nohost
+2020-10-19 03:15:53.888 [info] <0.44.0> Application phoenix_ecto started on node nonode@nohost
+2020-10-19 03:15:53.968 [info] <0.44.0> Application getmoreApiChallenge started on node nonode@nohost
+2020-10-19 03:16:10.424 [warning] <0.333.0> Unexpected error_logger event {error_msg,<0.442.0>,{<0.551.0>,[42,42,32,84,97,115,107,32,126,112,32,116,101,114,109,105,110,97,116,105,110,103,126,110,42,42,32,83,116,97,114,116,101,100,32,102,114,111,109,32,126,112,126,110,42,42,32,87,104,101,110,32,102,117,110,99,116,105,111,110,32,32,61,61,32,126,112,126,110,42,42,32,32,32,32,32,32,97,114,103,117,109,101,110,116,115,32,61,61,32,126,112,126,110,42,42,32,82,101,97,115,111,110,32,102,111,114,32,116,101,114,109,105,110,97,116,105,111,110,32,61,61,32,126,110,42,42,32,126,112,126,110],['Elixir.RPX.AMQP.Server',<0.551.0>,#Fun<Elixir.RPX.AMQP.Server.0.89682643>,[],{'function not exported',[{'Elixir.GetmoreApiChallenge.Getmore',list_products,[[]],[]},{'Elixir.RPX.AMQP.Server','-handle_info/2-fun-0-',4,[{file,[108,105,98,47,97,109,113,112,47,115,101,114,118,101,114,46,101,120]},{line,29}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,[108,105,98,47,116,97,115,107,47,115,117,112,101,114,118,105,115,101,100,46,101,120]},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,[108,105,98,47,116,97,115,107,47,115,117,112,101,114,118,105,115,101,100,46,101,120]},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,[112,114,111,99,95,108,105,98,46,101,114,108]},{line,226}]}]}]}}
+2020-10-19 03:16:10.429 [error] <0.551.0>@Elixir.GetmoreApiChallenge.Getmore:list_products CRASH REPORT Process <0.551.0> with 1 neighbours crashed with reason: call to undefined function 'Elixir.GetmoreApiChallenge.Getmore':list_products([])
+2020-10-19 03:16:10.429 [error] <0.444.0>@Elixir.GetmoreApiChallenge.Getmore:list_products Supervisor 'Elixir.GetmoreApiChallenge.Supervisor' had child 'Elixir.RPX.AMQP.Server' started with 'Elixir.RPX.AMQP.Server':start_link([{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]) at <0.516.0> exit with reason call to undefined function 'Elixir.GetmoreApiChallenge.Getmore':list_products([]) in context child_terminated
+2020-10-19 03:16:21.167 [error] <0.527.0> gen_server <0.527.0> terminated with reason: unexpected_delivery_and_no_default_consumer
+2020-10-19 03:16:21.167 [error] <0.527.0> CRASH REPORT Process <0.527.0> with 0 neighbours exited with reason: unexpected_delivery_and_no_default_consumer in gen_server2:terminate/3 line 1183
+2020-10-19 03:16:21.167 [error] <0.526.0> Supervisor {<0.526.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:55221 -> 127.0.0.1:5672">>,1}) at <0.527.0> exit with reason unexpected_delivery_and_no_default_consumer in context child_terminated
+2020-10-19 03:16:21.167 [error] <0.526.0> Supervisor {<0.526.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:55221 -> 127.0.0.1:5672">>,1}) at <0.527.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-10-19 03:25:29.503 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-10-19 03:25:29.505 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-10-19 03:25:29.511 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-10-19 03:25:29.512 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-10-19 03:25:29.513 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-10-19 03:25:29.516 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-10-19 03:25:29.517 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-10-19 03:25:29.528 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-19 03:25:29.528 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-10-19 03:25:29.531 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-10-19 03:25:29.532 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-10-19 03:25:29.532 [info] <0.44.0> Application rpx started on node nonode@nohost
+2020-10-19 03:25:29.533 [info] <0.44.0> Application telemetry_metrics started on node nonode@nohost
+2020-10-19 03:25:29.535 [info] <0.44.0> Application telemetry_poller started on node nonode@nohost
+2020-10-19 03:25:29.536 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-10-19 03:25:29.539 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-10-19 03:25:29.542 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-10-19 03:25:29.546 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-10-19 03:25:29.548 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-10-19 03:25:29.549 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-10-19 03:25:29.551 [info] <0.44.0> Application cowlib started on node nonode@nohost
+2020-10-19 03:25:29.552 [info] <0.44.0> Application cowboy started on node nonode@nohost
+2020-10-19 03:25:29.553 [info] <0.44.0> Application cowboy_telemetry started on node nonode@nohost
+2020-10-19 03:25:29.553 [info] <0.44.0> Application plug_cowboy started on node nonode@nohost
+2020-10-19 03:25:29.554 [info] <0.44.0> Application scrivener_headers started on node nonode@nohost
+2020-10-19 03:25:29.555 [info] <0.44.0> Application phoenix_html started on node nonode@nohost
+2020-10-19 03:25:29.555 [info] <0.44.0> Application phoenix_live_view started on node nonode@nohost
+2020-10-19 03:25:29.557 [info] <0.44.0> Application phoenix_live_dashboard started on node nonode@nohost
+2020-10-19 03:25:29.557 [info] <0.44.0> Application phoenix_ecto started on node nonode@nohost
+2020-10-19 03:25:29.654 [info] <0.44.0> Application getmoreApiChallenge started on node nonode@nohost
+2020-10-19 13:12:39.056 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-10-19 13:12:39.059 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-10-19 13:12:39.066 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-10-19 13:12:39.067 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-10-19 13:12:39.068 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-10-19 13:12:39.071 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-10-19 13:12:39.072 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-10-19 13:12:39.082 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-19 13:12:39.082 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-10-19 13:12:39.085 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-10-19 13:12:39.087 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-10-19 13:12:39.088 [info] <0.44.0> Application jason started on node nonode@nohost
+2020-10-19 13:12:39.088 [info] <0.44.0> Application rpx started on node nonode@nohost
+2020-10-19 13:12:39.089 [info] <0.44.0> Application telemetry_metrics started on node nonode@nohost
+2020-10-19 13:12:39.091 [info] <0.44.0> Application telemetry_poller started on node nonode@nohost
+2020-10-19 13:12:39.093 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-10-19 13:12:39.096 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-10-19 13:12:39.099 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-10-19 13:12:39.103 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-10-19 13:12:39.106 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-10-19 13:12:39.106 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-10-19 13:12:39.108 [info] <0.44.0> Application cowlib started on node nonode@nohost
+2020-10-19 13:12:39.109 [info] <0.44.0> Application cowboy started on node nonode@nohost
+2020-10-19 13:12:39.110 [info] <0.44.0> Application cowboy_telemetry started on node nonode@nohost
+2020-10-19 13:12:39.111 [info] <0.44.0> Application plug_cowboy started on node nonode@nohost
+2020-10-19 13:12:39.111 [info] <0.44.0> Application scrivener_headers started on node nonode@nohost
+2020-10-19 13:12:39.112 [info] <0.44.0> Application phoenix_html started on node nonode@nohost
+2020-10-19 13:12:39.113 [info] <0.44.0> Application phoenix_live_view started on node nonode@nohost
+2020-10-19 13:12:39.115 [info] <0.44.0> Application phoenix_live_dashboard started on node nonode@nohost
+2020-10-19 13:12:39.115 [info] <0.44.0> Application phoenix_ecto started on node nonode@nohost
+2020-10-19 13:12:39.191 [info] <0.44.0> Application getmoreApiChallenge started on node nonode@nohost
+2020-10-19 13:19:12.273 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-10-19 13:19:12.275 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-10-19 13:19:12.281 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-10-19 13:19:12.282 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-10-19 13:19:12.283 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-10-19 13:19:12.286 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-10-19 13:19:12.287 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-10-19 13:19:12.297 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-19 13:19:12.297 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-10-19 13:19:12.301 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-10-19 13:19:12.302 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-10-19 13:19:12.303 [info] <0.44.0> Application jason started on node nonode@nohost
+2020-10-19 13:19:12.303 [info] <0.44.0> Application rpx started on node nonode@nohost
+2020-10-19 13:19:12.305 [info] <0.44.0> Application telemetry_metrics started on node nonode@nohost
+2020-10-19 13:19:12.307 [info] <0.44.0> Application telemetry_poller started on node nonode@nohost
+2020-10-19 13:19:12.310 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-10-19 13:19:12.312 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-10-19 13:19:12.314 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-10-19 13:19:12.318 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-10-19 13:19:12.320 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-10-19 13:19:12.321 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-10-19 13:19:12.323 [info] <0.44.0> Application cowlib started on node nonode@nohost
+2020-10-19 13:19:12.324 [info] <0.44.0> Application cowboy started on node nonode@nohost
+2020-10-19 13:19:12.325 [info] <0.44.0> Application cowboy_telemetry started on node nonode@nohost
+2020-10-19 13:19:12.326 [info] <0.44.0> Application plug_cowboy started on node nonode@nohost
+2020-10-19 13:19:12.326 [info] <0.44.0> Application scrivener_headers started on node nonode@nohost
+2020-10-19 13:19:12.327 [info] <0.44.0> Application phoenix_html started on node nonode@nohost
+2020-10-19 13:19:12.327 [info] <0.44.0> Application phoenix_live_view started on node nonode@nohost
+2020-10-19 13:19:12.329 [info] <0.44.0> Application phoenix_live_dashboard started on node nonode@nohost
+2020-10-19 13:19:12.330 [info] <0.44.0> Application phoenix_ecto started on node nonode@nohost
+2020-10-19 13:19:12.404 [info] <0.44.0> Application getmoreApiChallenge started on node nonode@nohost
+2020-10-19 13:20:37.502 [warning] <0.457.0> Unexpected error_logger event {error_msg,<0.567.0>,{<0.677.0>,[42,42,32,84,97,115,107,32,126,112,32,116,101,114,109,105,110,97,116,105,110,103,126,110,42,42,32,83,116,97,114,116,101,100,32,102,114,111,109,32,126,112,126,110,42,42,32,87,104,101,110,32,102,117,110,99,116,105,111,110,32,32,61,61,32,126,112,126,110,42,42,32,32,32,32,32,32,97,114,103,117,109,101,110,116,115,32,61,61,32,126,112,126,110,42,42,32,82,101,97,115,111,110,32,102,111,114,32,116,101,114,109,105,110,97,116,105,111,110,32,61,61,32,126,110,42,42,32,126,112,126,110],['Elixir.RPX.AMQP.Server',<0.677.0>,#Fun<Elixir.RPX.AMQP.Server.0.89682643>,[],{'function not exported',[{'Elixir.GetmoreApiChallenge.Getmore',list_products,[nil],[]},{'Elixir.RPX.AMQP.Server','-handle_info/2-fun-0-',4,[{file,[108,105,98,47,97,109,113,112,47,115,101,114,118,101,114,46,101,120]},{line,29}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,[108,105,98,47,116,97,115,107,47,115,117,112,101,114,118,105,115,101,100,46,101,120]},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,[108,105,98,47,116,97,115,107,47,115,117,112,101,114,118,105,115,101,100,46,101,120]},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,[112,114,111,99,95,108,105,98,46,101,114,108]},{line,226}]}]}]}}
+2020-10-19 13:20:37.504 [error] <0.677.0>@Elixir.GetmoreApiChallenge.Getmore:list_products CRASH REPORT Process <0.677.0> with 1 neighbours crashed with reason: call to undefined function 'Elixir.GetmoreApiChallenge.Getmore':list_products(nil)
+2020-10-19 13:20:37.504 [error] <0.569.0>@Elixir.GetmoreApiChallenge.Getmore:list_products Supervisor 'Elixir.GetmoreApiChallenge.Supervisor' had child 'Elixir.RPX.AMQP.Server' started with 'Elixir.RPX.AMQP.Server':start_link([{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]) at <0.640.0> exit with reason call to undefined function 'Elixir.GetmoreApiChallenge.Getmore':list_products(nil) in context child_terminated
+2020-10-19 13:20:54.205 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-10-19 13:20:54.206 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-10-19 13:20:54.212 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-10-19 13:20:54.214 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-10-19 13:20:54.214 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-10-19 13:20:54.217 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-10-19 13:20:54.217 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-10-19 13:20:54.228 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-19 13:20:54.228 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-10-19 13:20:54.231 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-10-19 13:20:54.231 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-10-19 13:20:54.233 [info] <0.44.0> Application jason started on node nonode@nohost
+2020-10-19 13:20:54.233 [info] <0.44.0> Application rpx started on node nonode@nohost
+2020-10-19 13:20:54.234 [info] <0.44.0> Application telemetry_metrics started on node nonode@nohost
+2020-10-19 13:20:54.236 [info] <0.44.0> Application telemetry_poller started on node nonode@nohost
+2020-10-19 13:20:54.237 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-10-19 13:20:54.240 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-10-19 13:20:54.243 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-10-19 13:20:54.247 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-10-19 13:20:54.249 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-10-19 13:20:54.250 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-10-19 13:20:54.252 [info] <0.44.0> Application cowlib started on node nonode@nohost
+2020-10-19 13:20:54.253 [info] <0.44.0> Application cowboy started on node nonode@nohost
+2020-10-19 13:20:54.254 [info] <0.44.0> Application cowboy_telemetry started on node nonode@nohost
+2020-10-19 13:20:54.254 [info] <0.44.0> Application plug_cowboy started on node nonode@nohost
+2020-10-19 13:20:54.255 [info] <0.44.0> Application scrivener_headers started on node nonode@nohost
+2020-10-19 13:20:54.255 [info] <0.44.0> Application phoenix_html started on node nonode@nohost
+2020-10-19 13:20:54.256 [info] <0.44.0> Application phoenix_live_view started on node nonode@nohost
+2020-10-19 13:20:54.258 [info] <0.44.0> Application phoenix_live_dashboard started on node nonode@nohost
+2020-10-19 13:20:54.258 [info] <0.44.0> Application phoenix_ecto started on node nonode@nohost
+2020-10-19 13:20:54.336 [info] <0.44.0> Application getmoreApiChallenge started on node nonode@nohost
+2020-10-19 13:21:25.401 [warning] <0.307.0> Unexpected error_logger event {error_msg,<0.417.0>,{<0.527.0>,[42,42,32,84,97,115,107,32,126,112,32,116,101,114,109,105,110,97,116,105,110,103,126,110,42,42,32,83,116,97,114,116,101,100,32,102,114,111,109,32,126,112,126,110,42,42,32,87,104,101,110,32,102,117,110,99,116,105,111,110,32,32,61,61,32,126,112,126,110,42,42,32,32,32,32,32,32,97,114,103,117,109,101,110,116,115,32,61,61,32,126,112,126,110,42,42,32,82,101,97,115,111,110,32,102,111,114,32,116,101,114,109,105,110,97,116,105,111,110,32,61,61,32,126,110,42,42,32,126,112,126,110],['Elixir.RPX.AMQP.Server',<0.527.0>,#Fun<Elixir.RPX.AMQP.Server.0.89682643>,[],{'function not exported',[{'Elixir.GetmoreApiChallenge.Getmore',list_products,[<<>>],[]},{'Elixir.RPX.AMQP.Server','-handle_info/2-fun-0-',4,[{file,[108,105,98,47,97,109,113,112,47,115,101,114,118,101,114,46,101,120]},{line,29}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,[108,105,98,47,116,97,115,107,47,115,117,112,101,114,118,105,115,101,100,46,101,120]},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,[108,105,98,47,116,97,115,107,47,115,117,112,101,114,118,105,115,101,100,46,101,120]},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,[112,114,111,99,95,108,105,98,46,101,114,108]},{line,226}]}]}]}}
+2020-10-19 13:21:25.404 [error] <0.527.0>@Elixir.GetmoreApiChallenge.Getmore:list_products CRASH REPORT Process <0.527.0> with 1 neighbours crashed with reason: call to undefined function 'Elixir.GetmoreApiChallenge.Getmore':list_products(<<>>)
+2020-10-19 13:21:25.404 [error] <0.419.0>@Elixir.GetmoreApiChallenge.Getmore:list_products Supervisor 'Elixir.GetmoreApiChallenge.Supervisor' had child 'Elixir.RPX.AMQP.Server' started with 'Elixir.RPX.AMQP.Server':start_link([{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]) at <0.491.0> exit with reason call to undefined function 'Elixir.GetmoreApiChallenge.Getmore':list_products(<<>>) in context child_terminated
+2020-10-19 13:21:35.429 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-10-19 13:21:35.431 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-10-19 13:21:35.437 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-10-19 13:21:35.438 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-10-19 13:21:35.439 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-10-19 13:21:35.442 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-10-19 13:21:35.443 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-10-19 13:21:35.453 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-19 13:21:35.453 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-10-19 13:21:35.456 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-10-19 13:21:35.457 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-10-19 13:21:35.458 [info] <0.44.0> Application jason started on node nonode@nohost
+2020-10-19 13:21:35.458 [info] <0.44.0> Application rpx started on node nonode@nohost
+2020-10-19 13:21:35.459 [info] <0.44.0> Application telemetry_metrics started on node nonode@nohost
+2020-10-19 13:21:35.462 [info] <0.44.0> Application telemetry_poller started on node nonode@nohost
+2020-10-19 13:21:35.462 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-10-19 13:21:35.465 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-10-19 13:21:35.468 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-10-19 13:21:35.473 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-10-19 13:21:35.476 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-10-19 13:21:35.476 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-10-19 13:21:35.478 [info] <0.44.0> Application cowlib started on node nonode@nohost
+2020-10-19 13:21:35.480 [info] <0.44.0> Application cowboy started on node nonode@nohost
+2020-10-19 13:21:35.480 [info] <0.44.0> Application cowboy_telemetry started on node nonode@nohost
+2020-10-19 13:21:35.481 [info] <0.44.0> Application plug_cowboy started on node nonode@nohost
+2020-10-19 13:21:35.481 [info] <0.44.0> Application scrivener_headers started on node nonode@nohost
+2020-10-19 13:21:35.482 [info] <0.44.0> Application phoenix_html started on node nonode@nohost
+2020-10-19 13:21:35.483 [info] <0.44.0> Application phoenix_live_view started on node nonode@nohost
+2020-10-19 13:21:35.485 [info] <0.44.0> Application phoenix_live_dashboard started on node nonode@nohost
+2020-10-19 13:21:35.485 [info] <0.44.0> Application phoenix_ecto started on node nonode@nohost
+2020-10-19 13:21:35.564 [info] <0.44.0> Application getmoreApiChallenge started on node nonode@nohost
+2020-10-19 13:21:43.065 [warning] <0.307.0> Unexpected error_logger event {error_msg,<0.417.0>,{<0.525.0>,[42,42,32,84,97,115,107,32,126,112,32,116,101,114,109,105,110,97,116,105,110,103,126,110,42,42,32,83,116,97,114,116,101,100,32,102,114,111,109,32,126,112,126,110,42,42,32,87,104,101,110,32,102,117,110,99,116,105,111,110,32,32,61,61,32,126,112,126,110,42,42,32,32,32,32,32,32,97,114,103,117,109,101,110,116,115,32,61,61,32,126,112,126,110,42,42,32,82,101,97,115,111,110,32,102,111,114,32,116,101,114,109,105,110,97,116,105,111,110,32,61,61,32,126,110,42,42,32,126,112,126,110],['Elixir.RPX.AMQP.Server',<0.525.0>,#Fun<Elixir.RPX.AMQP.Server.0.89682643>,[],{'function not exported',[{'Elixir.GetmoreApiChallenge.Getmore',list_products,[[]],[]},{'Elixir.RPX.AMQP.Server','-handle_info/2-fun-0-',4,[{file,[108,105,98,47,97,109,113,112,47,115,101,114,118,101,114,46,101,120]},{line,29}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,[108,105,98,47,116,97,115,107,47,115,117,112,101,114,118,105,115,101,100,46,101,120]},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,[108,105,98,47,116,97,115,107,47,115,117,112,101,114,118,105,115,101,100,46,101,120]},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,[112,114,111,99,95,108,105,98,46,101,114,108]},{line,226}]}]}]}}
+2020-10-19 13:21:43.068 [error] <0.525.0>@Elixir.GetmoreApiChallenge.Getmore:list_products CRASH REPORT Process <0.525.0> with 1 neighbours crashed with reason: call to undefined function 'Elixir.GetmoreApiChallenge.Getmore':list_products([])
+2020-10-19 13:21:43.068 [error] <0.419.0>@Elixir.GetmoreApiChallenge.Getmore:list_products Supervisor 'Elixir.GetmoreApiChallenge.Supervisor' had child 'Elixir.RPX.AMQP.Server' started with 'Elixir.RPX.AMQP.Server':start_link([{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]) at <0.491.0> exit with reason call to undefined function 'Elixir.GetmoreApiChallenge.Getmore':list_products([]) in context child_terminated
+2020-10-19 13:23:10.957 [error] <0.502.0> gen_server <0.502.0> terminated with reason: unexpected_delivery_and_no_default_consumer
+2020-10-19 13:23:10.958 [error] <0.502.0> CRASH REPORT Process <0.502.0> with 0 neighbours exited with reason: unexpected_delivery_and_no_default_consumer in gen_server2:terminate/3 line 1183
+2020-10-19 13:23:10.958 [error] <0.501.0> Supervisor {<0.501.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:32845 -> 127.0.0.1:5672">>,1}) at <0.502.0> exit with reason unexpected_delivery_and_no_default_consumer in context child_terminated
+2020-10-19 13:23:10.959 [error] <0.501.0> Supervisor {<0.501.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:32845 -> 127.0.0.1:5672">>,1}) at <0.502.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-10-19 13:23:26.374 [warning] <0.530.0> Connection (<0.530.0>) closing: received hard error {'connection.close',320,<<"CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'">>,0,0} from server
+2020-10-19 13:23:26.374 [warning] <0.509.0> Connection (<0.509.0>) closing: received hard error {'connection.close',320,<<"CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'">>,0,0} from server
+2020-10-19 13:23:26.375 [warning] <0.494.0> Connection (<0.494.0>) closing: received hard error {'connection.close',320,<<"CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'">>,0,0} from server
+2020-10-19 13:23:26.377 [error] <0.510.0> Supervisor {<0.510.0>,amqp_channel_sup_sup} had child channel_sup started with amqp_channel_sup:start_link(network, <0.509.0>, <<"client 127.0.0.1:37201 -> 127.0.0.1:5672">>) at undefined exit with reason shutdown in context shutdown_error
+2020-10-19 13:23:49.750 [error] <0.506.0>@gen_server:call gen_server 'Elixir.RPX.AMQP.Client' terminated with reason: no such process or port in call to gen_server:call(<0.518.0>, {call,{'basic.publish',0,<<>>,<<"products">>,false,false},{amqp_msg,{'P_basic',undefined,undefined,...},...},...}, 60000) in gen_server:call/3 line 246
+2020-10-19 13:23:49.753 [error] <0.506.0>@gen_server:call CRASH REPORT Process 'Elixir.RPX.AMQP.Client' with 0 neighbours exited with reason: no such process or port in call to gen_server:call(<0.518.0>, {call,{'basic.publish',0,<<>>,<<"products">>,false,false},{amqp_msg,{'P_basic',undefined,undefined,...},...},...}, 60000) in gen_server:call/3 line 246
+2020-10-19 13:23:49.754 [warning] <0.307.0> Unexpected error_logger event {error_msg,<0.67.0>,{<0.547.0>,[42,42,32,84,97,115,107,32,126,112,32,116,101,114,109,105,110,97,116,105,110,103,126,110,42,42,32,83,116,97,114,116,101,100,32,102,114,111,109,32,126,112,126,110,42,42,32,87,104,101,110,32,102,117,110,99,116,105,111,110,32,32,61,61,32,126,112,126,110,42,42,32,32,32,32,32,32,97,114,103,117,109,101,110,116,115,32,61,61,32,126,112,126,110,42,42,32,82,101,97,115,111,110,32,102,111,114,32,116,101,114,109,105,110,97,116,105,111,110,32,61,61,32,126,110,42,42,32,126,112,126,110],[<0.522.0>,<0.547.0>,#Fun<Elixir.RPX.AMQP.Client.1.103814798>,[],{{{noproc,{gen_server,call,[<0.518.0>,{call,{'basic.publish',0,<<>>,<<112,114,111,100,117,99,116,115>>,false,false},{amqp_msg,{'P_basic',undefined,undefined,undefined,1,undefined,<<103,49,104,107,65,65,49,117,98,50,53,118,90,71,86,65,98,109,57,111,98,51,78,48,65,65,65,67,73,119,65,65,65,65,65,65,65,65,65,65,44,76,84,85,51,78,106,81,50,77,68,99,49,77,106,77,119,77,122,81,121,77,106,107,119,77,119,61,61>>,<<97,109,113,46,114,97,98,98,105,116,109,113,46,114,101,112,108,121,45,116,111>>,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<123,34,112,97,114,97,109,115,34,58,91,93,44,34,116,97,114,103,101,116,34,58,34,108,105,115,116,95,112,114,111,100,117,99,116,115,34,125>>},<0.506.0>},60000]}},{'Elixir.GenServer',call,['Elixir.RPX.AMQP.Client',{send,#{correlation_id => <<76,84,85,51,78,106,81,50,77,68,99,49,77,106,77,119,77,122,81,121,77,106,107,119,77,119,61,61>>,queue_name => <<112,114,111,100,117,99,116,115>>,reply_to => <<97,109,113,46,114,97,98,98,105,116,109,113,46,114,101,112,108,121,45,116,111>>},#{params => [],target => <<108,105,115,116,95,112,114,111,100,117,99,116,115>>}},5000]}},[{'Elixir.GenServer',call,3,[{file,[108,105,98,47,103,101,110,95,115,101,114,118,101,114,46,101,120]},{line,1023}]},{'Elixir.RPX.AMQP.Client','-call/3-fun-0-',3,[{file,[108,105,98,47,97,109,113,112,47,99,108,105,101,110,116,46,101,120]},{line,18}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,[108,105,98,47,116,97,115,107,47,115,117,112,101,114,118,105,115,101,100,46,101,120]},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,[108,105,98,47,116,97,115,107,47,115,117,112,101,114,118,105,115,101,100,46,101,120]},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,[112,114,111,99,95,108,105,98,46,101,114,108]},{line,226}]}]}]}}
+2020-10-19 13:23:49.754 [error] <0.419.0>@gen_server:call Supervisor 'Elixir.GetmoreApiChallenge.Supervisor' had child 'Elixir.RPX.AMQP.Client' started with 'Elixir.RPX.AMQP.Client':start_link([]) at <0.506.0> exit with reason no such process or port in call to gen_server:call(<0.518.0>, {call,{'basic.publish',0,<<>>,<<"products">>,false,false},{amqp_msg,{'P_basic',undefined,undefined,...},...},...}, 60000) in context child_terminated
+2020-10-19 13:23:49.754 [error] <0.547.0> CRASH REPORT Process <0.547.0> with 3 neighbours exited with reason: {{noproc,{gen_server,call,[<0.518.0>,{call,{'basic.publish',0,<<>>,<<"products">>,false,false},{amqp_msg,{'P_basic',undefined,undefined,undefined,1,undefined,<<"g1hkAA1ub25vZGVAbm9ob3N0AAACIwAAAAAAAAAA,LTU3NjQ2MDc1MjMwMzQyMjkwMw==">>,<<"amq.rabbitmq.reply-to">>,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"{\"params\":[],\"target\":\"list_products\"}">>},<0.506.0>},60000]}},{'Elixir.GenServer',call,['Elixir.RPX.AMQP.Client',{send,#{correlation_id => <<"LTU3NjQ2MDc1...">>,...},...},...]}} in 'Elixir.GenServer':call/3 line 1023
+2020-10-19 13:26:36.071 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-10-19 13:26:36.072 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-10-19 13:26:36.078 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-10-19 13:26:36.079 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-10-19 13:26:36.080 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-10-19 13:26:36.083 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-10-19 13:26:36.084 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-10-19 13:26:36.095 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-19 13:26:36.095 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-10-19 13:26:36.098 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-10-19 13:26:36.100 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-10-19 13:26:36.101 [info] <0.44.0> Application jason started on node nonode@nohost
+2020-10-19 13:26:36.101 [info] <0.44.0> Application rpx started on node nonode@nohost
+2020-10-19 13:26:36.102 [info] <0.44.0> Application telemetry_metrics started on node nonode@nohost
+2020-10-19 13:26:36.105 [info] <0.44.0> Application telemetry_poller started on node nonode@nohost
+2020-10-19 13:26:36.107 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-10-19 13:26:36.109 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-10-19 13:26:36.112 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-10-19 13:26:36.115 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-10-19 13:26:36.118 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-10-19 13:26:36.118 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-10-19 13:26:36.120 [info] <0.44.0> Application cowlib started on node nonode@nohost
+2020-10-19 13:26:36.122 [info] <0.44.0> Application cowboy started on node nonode@nohost
+2020-10-19 13:26:36.122 [info] <0.44.0> Application cowboy_telemetry started on node nonode@nohost
+2020-10-19 13:26:36.123 [info] <0.44.0> Application plug_cowboy started on node nonode@nohost
+2020-10-19 13:26:36.124 [info] <0.44.0> Application scrivener_headers started on node nonode@nohost
+2020-10-19 13:26:36.124 [info] <0.44.0> Application phoenix_html started on node nonode@nohost
+2020-10-19 13:26:36.125 [info] <0.44.0> Application phoenix_live_view started on node nonode@nohost
+2020-10-19 13:26:36.127 [info] <0.44.0> Application phoenix_live_dashboard started on node nonode@nohost
+2020-10-19 13:26:36.127 [info] <0.44.0> Application phoenix_ecto started on node nonode@nohost
+2020-10-19 13:26:36.201 [info] <0.44.0> Application getmoreApiChallenge started on node nonode@nohost
+2020-10-19 13:27:54.832 [warning] <0.457.0> Unexpected error_logger event {error_msg,<0.567.0>,{<0.676.0>,[42,42,32,84,97,115,107,32,126,112,32,116,101,114,109,105,110,97,116,105,110,103,126,110,42,42,32,83,116,97,114,116,101,100,32,102,114,111,109,32,126,112,126,110,42,42,32,87,104,101,110,32,102,117,110,99,116,105,111,110,32,32,61,61,32,126,112,126,110,42,42,32,32,32,32,32,32,97,114,103,117,109,101,110,116,115,32,61,61,32,126,112,126,110,42,42,32,82,101,97,115,111,110,32,102,111,114,32,116,101,114,109,105,110,97,116,105,111,110,32,61,61,32,126,110,42,42,32,126,112,126,110],['Elixir.RPX.AMQP.Server',<0.676.0>,#Fun<Elixir.RPX.AMQP.Server.0.89682643>,[],{'function not exported',[{'Elixir.GetmoreApiChallenge.Getmore',list_products,[[]],[]},{'Elixir.RPX.AMQP.Server','-handle_info/2-fun-0-',4,[{file,[108,105,98,47,97,109,113,112,47,115,101,114,118,101,114,46,101,120]},{line,29}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,[108,105,98,47,116,97,115,107,47,115,117,112,101,114,118,105,115,101,100,46,101,120]},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,[108,105,98,47,116,97,115,107,47,115,117,112,101,114,118,105,115,101,100,46,101,120]},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,[112,114,111,99,95,108,105,98,46,101,114,108]},{line,226}]}]}]}}
+2020-10-19 13:27:54.835 [error] <0.676.0>@Elixir.GetmoreApiChallenge.Getmore:list_products CRASH REPORT Process <0.676.0> with 1 neighbours crashed with reason: call to undefined function 'Elixir.GetmoreApiChallenge.Getmore':list_products([])
+2020-10-19 13:27:54.835 [error] <0.569.0>@Elixir.GetmoreApiChallenge.Getmore:list_products Supervisor 'Elixir.GetmoreApiChallenge.Supervisor' had child 'Elixir.RPX.AMQP.Server' started with 'Elixir.RPX.AMQP.Server':start_link([{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]) at <0.640.0> exit with reason call to undefined function 'Elixir.GetmoreApiChallenge.Getmore':list_products([]) in context child_terminated
+2020-10-19 13:28:15.873 [error] <0.652.0> gen_server <0.652.0> terminated with reason: unexpected_delivery_and_no_default_consumer
+2020-10-19 13:28:15.874 [error] <0.652.0> CRASH REPORT Process <0.652.0> with 0 neighbours exited with reason: unexpected_delivery_and_no_default_consumer in gen_server2:terminate/3 line 1183
+2020-10-19 13:28:15.874 [error] <0.651.0> Supervisor {<0.651.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:41517 -> 127.0.0.1:5672">>,1}) at <0.652.0> exit with reason unexpected_delivery_and_no_default_consumer in context child_terminated
+2020-10-19 13:28:15.875 [error] <0.651.0> Supervisor {<0.651.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:41517 -> 127.0.0.1:5672">>,1}) at <0.652.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-10-19 13:29:02.389 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-10-19 13:29:02.391 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-10-19 13:29:02.397 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-10-19 13:29:02.398 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-10-19 13:29:02.399 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-10-19 13:29:02.402 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-10-19 13:29:02.403 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-10-19 13:29:02.413 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-19 13:29:02.413 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-10-19 13:29:02.416 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-10-19 13:29:02.418 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-10-19 13:29:02.419 [info] <0.44.0> Application jason started on node nonode@nohost
+2020-10-19 13:29:02.419 [info] <0.44.0> Application rpx started on node nonode@nohost
+2020-10-19 13:29:02.420 [info] <0.44.0> Application telemetry_metrics started on node nonode@nohost
+2020-10-19 13:29:02.423 [info] <0.44.0> Application telemetry_poller started on node nonode@nohost
+2020-10-19 13:29:02.424 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-10-19 13:29:02.426 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-10-19 13:29:02.429 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-10-19 13:29:02.433 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-10-19 13:29:02.435 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-10-19 13:29:02.436 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-10-19 13:29:02.438 [info] <0.44.0> Application cowlib started on node nonode@nohost
+2020-10-19 13:29:02.439 [info] <0.44.0> Application cowboy started on node nonode@nohost
+2020-10-19 13:29:02.440 [info] <0.44.0> Application cowboy_telemetry started on node nonode@nohost
+2020-10-19 13:29:02.441 [info] <0.44.0> Application plug_cowboy started on node nonode@nohost
+2020-10-19 13:29:02.441 [info] <0.44.0> Application scrivener_headers started on node nonode@nohost
+2020-10-19 13:29:02.442 [info] <0.44.0> Application phoenix_html started on node nonode@nohost
+2020-10-19 13:29:02.443 [info] <0.44.0> Application phoenix_live_view started on node nonode@nohost
+2020-10-19 13:29:02.445 [info] <0.44.0> Application phoenix_live_dashboard started on node nonode@nohost
+2020-10-19 13:29:02.445 [info] <0.44.0> Application phoenix_ecto started on node nonode@nohost
+2020-10-19 13:29:02.520 [info] <0.44.0> Application getmoreApiChallenge started on node nonode@nohost
+2020-10-19 13:29:34.760 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-10-19 13:29:34.761 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-10-19 13:29:34.767 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-10-19 13:29:34.769 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-10-19 13:29:34.770 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-10-19 13:29:34.772 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-10-19 13:29:34.773 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-10-19 13:29:34.783 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-19 13:29:34.783 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-10-19 13:29:34.786 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-10-19 13:29:34.787 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-10-19 13:29:34.788 [info] <0.44.0> Application jason started on node nonode@nohost
+2020-10-19 13:29:34.788 [info] <0.44.0> Application rpx started on node nonode@nohost
+2020-10-19 13:29:34.789 [info] <0.44.0> Application telemetry_metrics started on node nonode@nohost
+2020-10-19 13:29:34.792 [info] <0.44.0> Application telemetry_poller started on node nonode@nohost
+2020-10-19 13:29:34.793 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-10-19 13:29:34.795 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-10-19 13:29:34.798 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-10-19 13:29:34.801 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-10-19 13:29:34.804 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-10-19 13:29:34.804 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-10-19 13:29:34.806 [info] <0.44.0> Application cowlib started on node nonode@nohost
+2020-10-19 13:29:34.807 [info] <0.44.0> Application cowboy started on node nonode@nohost
+2020-10-19 13:29:34.808 [info] <0.44.0> Application cowboy_telemetry started on node nonode@nohost
+2020-10-19 13:29:34.809 [info] <0.44.0> Application plug_cowboy started on node nonode@nohost
+2020-10-19 13:29:34.809 [info] <0.44.0> Application scrivener_headers started on node nonode@nohost
+2020-10-19 13:29:34.810 [info] <0.44.0> Application phoenix_html started on node nonode@nohost
+2020-10-19 13:29:34.810 [info] <0.44.0> Application phoenix_live_view started on node nonode@nohost
+2020-10-19 13:29:34.812 [info] <0.44.0> Application phoenix_live_dashboard started on node nonode@nohost
+2020-10-19 13:29:34.812 [info] <0.44.0> Application phoenix_ecto started on node nonode@nohost
+2020-10-19 13:29:34.892 [info] <0.44.0> Application getmoreApiChallenge started on node nonode@nohost
+2020-10-19 13:29:37.100 [warning] <0.307.0> Unexpected error_logger event {error_msg,<0.417.0>,{<0.526.0>,[42,42,32,84,97,115,107,32,126,112,32,116,101,114,109,105,110,97,116,105,110,103,126,110,42,42,32,83,116,97,114,116,101,100,32,102,114,111,109,32,126,112,126,110,42,42,32,87,104,101,110,32,102,117,110,99,116,105,111,110,32,32,61,61,32,126,112,126,110,42,42,32,32,32,32,32,32,97,114,103,117,109,101,110,116,115,32,61,61,32,126,112,126,110,42,42,32,82,101,97,115,111,110,32,102,111,114,32,116,101,114,109,105,110,97,116,105,111,110,32,61,61,32,126,110,42,42,32,126,112,126,110],['Elixir.RPX.AMQP.Server',<0.526.0>,#Fun<Elixir.RPX.AMQP.Server.0.89682643>,[],{'function not exported',[{'Elixir.GetmoreApiChallenge.Getmore',list_products,[[]],[]},{'Elixir.RPX.AMQP.Server','-handle_info/2-fun-0-',4,[{file,[108,105,98,47,97,109,113,112,47,115,101,114,118,101,114,46,101,120]},{line,29}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,[108,105,98,47,116,97,115,107,47,115,117,112,101,114,118,105,115,101,100,46,101,120]},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,[108,105,98,47,116,97,115,107,47,115,117,112,101,114,118,105,115,101,100,46,101,120]},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,[112,114,111,99,95,108,105,98,46,101,114,108]},{line,226}]}]}]}}
+2020-10-19 13:29:37.103 [error] <0.526.0>@Elixir.GetmoreApiChallenge.Getmore:list_products CRASH REPORT Process <0.526.0> with 1 neighbours crashed with reason: call to undefined function 'Elixir.GetmoreApiChallenge.Getmore':list_products([])
+2020-10-19 13:29:37.104 [error] <0.419.0>@Elixir.GetmoreApiChallenge.Getmore:list_products Supervisor 'Elixir.GetmoreApiChallenge.Supervisor' had child 'Elixir.RPX.AMQP.Server' started with 'Elixir.RPX.AMQP.Server':start_link([{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]) at <0.491.0> exit with reason call to undefined function 'Elixir.GetmoreApiChallenge.Getmore':list_products([]) in context child_terminated
+2020-10-19 13:31:10.239 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-10-19 13:31:10.242 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-10-19 13:31:10.247 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-10-19 13:31:10.249 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-10-19 13:31:10.250 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-10-19 13:31:10.253 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-10-19 13:31:10.254 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-10-19 13:31:10.264 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-19 13:31:10.264 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-10-19 13:31:10.267 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-10-19 13:31:10.268 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-10-19 13:31:10.270 [info] <0.44.0> Application jason started on node nonode@nohost
+2020-10-19 13:31:10.270 [info] <0.44.0> Application rpx started on node nonode@nohost
+2020-10-19 13:31:10.271 [info] <0.44.0> Application telemetry_metrics started on node nonode@nohost
+2020-10-19 13:31:10.273 [info] <0.44.0> Application telemetry_poller started on node nonode@nohost
+2020-10-19 13:31:10.274 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-10-19 13:31:10.277 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-10-19 13:31:10.279 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-10-19 13:31:10.283 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-10-19 13:31:10.285 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-10-19 13:31:10.286 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-10-19 13:31:10.288 [info] <0.44.0> Application cowlib started on node nonode@nohost
+2020-10-19 13:31:10.289 [info] <0.44.0> Application cowboy started on node nonode@nohost
+2020-10-19 13:31:10.290 [info] <0.44.0> Application cowboy_telemetry started on node nonode@nohost
+2020-10-19 13:31:10.290 [info] <0.44.0> Application plug_cowboy started on node nonode@nohost
+2020-10-19 13:31:10.291 [info] <0.44.0> Application scrivener_headers started on node nonode@nohost
+2020-10-19 13:31:10.291 [info] <0.44.0> Application phoenix_html started on node nonode@nohost
+2020-10-19 13:31:10.292 [info] <0.44.0> Application phoenix_live_view started on node nonode@nohost
+2020-10-19 13:31:10.294 [info] <0.44.0> Application phoenix_live_dashboard started on node nonode@nohost
+2020-10-19 13:31:10.294 [info] <0.44.0> Application phoenix_ecto started on node nonode@nohost
+2020-10-19 13:31:10.374 [info] <0.44.0> Application getmoreApiChallenge started on node nonode@nohost
+2020-10-19 13:31:29.582 [error] <0.501.0>@Elixir.GetmoreApiChallenge.RPX.Server:handle_info:25 gen_server 'Elixir.GetmoreApiChallenge.RPX.Server' terminated with reason: no function clause matching 'Elixir.GetmoreApiChallenge.RPX.Server':handle_info({#Ref<0.1640465482.4013948939.96944>,ok}, #{config => #{'__struct__' => 'Elixir.RPX.AMQP',channel => #{'__struct__' => 'Elixir.AMQP.Channel',...},...},...}) line 25
+2020-10-19 13:31:29.585 [error] <0.501.0>@Elixir.GetmoreApiChallenge.RPX.Server:handle_info:25 CRASH REPORT Process 'Elixir.GetmoreApiChallenge.RPX.Server' with 0 neighbours crashed with reason: no function clause matching 'Elixir.GetmoreApiChallenge.RPX.Server':handle_info({#Ref<0.1640465482.4013948939.96944>,ok}, #{config => #{'__struct__' => 'Elixir.RPX.AMQP',channel => #{'__struct__' => 'Elixir.AMQP.Channel',...},...},...}) line 25
+2020-10-19 13:31:29.585 [error] <0.429.0>@Elixir.GetmoreApiChallenge.RPX.Server:handle_info:25 Supervisor 'Elixir.GetmoreApiChallenge.Supervisor' had child 'Elixir.GetmoreApiChallenge.RPX.Server' started with 'Elixir.GetmoreApiChallenge.RPX.Server':start_link([{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]) at <0.501.0> exit with reason no function clause matching 'Elixir.GetmoreApiChallenge.RPX.Server':handle_info({#Ref<0.1640465482.4013948939.96944>,ok}, #{config => #{'__struct__' => 'Elixir.RPX.AMQP',channel => #{'__struct__' => 'Elixir.AMQP.Channel',...},...},...}) line 25 in context child_terminated
+2020-10-19 13:32:11.859 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-10-19 13:32:11.861 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-10-19 13:32:11.867 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-10-19 13:32:11.869 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-10-19 13:32:11.869 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-10-19 13:32:11.872 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-10-19 13:32:11.873 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-10-19 13:32:11.883 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-19 13:32:11.884 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-10-19 13:32:11.887 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-10-19 13:32:11.888 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-10-19 13:32:11.889 [info] <0.44.0> Application jason started on node nonode@nohost
+2020-10-19 13:32:11.889 [info] <0.44.0> Application rpx started on node nonode@nohost
+2020-10-19 13:32:11.890 [info] <0.44.0> Application telemetry_metrics started on node nonode@nohost
+2020-10-19 13:32:11.893 [info] <0.44.0> Application telemetry_poller started on node nonode@nohost
+2020-10-19 13:32:11.893 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-10-19 13:32:11.897 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-10-19 13:32:11.899 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-10-19 13:32:11.903 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-10-19 13:32:11.906 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-10-19 13:32:11.906 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-10-19 13:32:11.908 [info] <0.44.0> Application cowlib started on node nonode@nohost
+2020-10-19 13:32:11.910 [info] <0.44.0> Application cowboy started on node nonode@nohost
+2020-10-19 13:32:11.910 [info] <0.44.0> Application cowboy_telemetry started on node nonode@nohost
+2020-10-19 13:32:11.911 [info] <0.44.0> Application plug_cowboy started on node nonode@nohost
+2020-10-19 13:32:11.911 [info] <0.44.0> Application scrivener_headers started on node nonode@nohost
+2020-10-19 13:32:11.912 [info] <0.44.0> Application phoenix_html started on node nonode@nohost
+2020-10-19 13:32:11.913 [info] <0.44.0> Application phoenix_live_view started on node nonode@nohost
+2020-10-19 13:32:11.915 [info] <0.44.0> Application phoenix_live_dashboard started on node nonode@nohost
+2020-10-19 13:32:11.915 [info] <0.44.0> Application phoenix_ecto started on node nonode@nohost
+2020-10-19 13:32:11.985 [info] <0.44.0> Application getmoreApiChallenge started on node nonode@nohost
+2020-10-19 13:32:18.461 [error] <0.640.0>@Elixir.GetmoreApiChallenge.RPX.Server:handle_info:25 gen_server 'Elixir.GetmoreApiChallenge.RPX.Server' terminated with reason: no function clause matching 'Elixir.GetmoreApiChallenge.RPX.Server':handle_info({#Ref<0.1471987200.3208904714.134255>,ok}, #{config => #{'__struct__' => 'Elixir.RPX.AMQP',channel => #{'__struct__' => 'Elixir.AMQP.Channel',...},...},...}) line 25
+2020-10-19 13:32:18.464 [error] <0.640.0>@Elixir.GetmoreApiChallenge.RPX.Server:handle_info:25 CRASH REPORT Process 'Elixir.GetmoreApiChallenge.RPX.Server' with 0 neighbours crashed with reason: no function clause matching 'Elixir.GetmoreApiChallenge.RPX.Server':handle_info({#Ref<0.1471987200.3208904714.134255>,ok}, #{config => #{'__struct__' => 'Elixir.RPX.AMQP',channel => #{'__struct__' => 'Elixir.AMQP.Channel',...},...},...}) line 25
+2020-10-19 13:32:18.464 [error] <0.569.0>@Elixir.GetmoreApiChallenge.RPX.Server:handle_info:25 Supervisor 'Elixir.GetmoreApiChallenge.Supervisor' had child 'Elixir.GetmoreApiChallenge.RPX.Server' started with 'Elixir.GetmoreApiChallenge.RPX.Server':start_link([{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]) at <0.640.0> exit with reason no function clause matching 'Elixir.GetmoreApiChallenge.RPX.Server':handle_info({#Ref<0.1471987200.3208904714.134255>,ok}, #{config => #{'__struct__' => 'Elixir.RPX.AMQP',channel => #{'__struct__' => 'Elixir.AMQP.Channel',...},...},...}) line 25 in context child_terminated
+2020-10-19 13:34:41.429 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-10-19 13:34:41.432 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-10-19 13:34:41.437 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-10-19 13:34:41.439 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-10-19 13:34:41.440 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-10-19 13:34:41.442 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-10-19 13:34:41.443 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-10-19 13:34:41.454 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-19 13:34:41.454 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-10-19 13:34:41.457 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-10-19 13:34:41.458 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-10-19 13:34:41.458 [info] <0.44.0> Application rpx started on node nonode@nohost
+2020-10-19 13:34:41.459 [info] <0.44.0> Application telemetry_metrics started on node nonode@nohost
+2020-10-19 13:34:41.462 [info] <0.44.0> Application telemetry_poller started on node nonode@nohost
+2020-10-19 13:34:41.463 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-10-19 13:34:41.466 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-10-19 13:34:41.468 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-10-19 13:34:41.472 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-10-19 13:34:41.474 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-10-19 13:34:41.475 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-10-19 13:34:41.477 [info] <0.44.0> Application cowlib started on node nonode@nohost
+2020-10-19 13:34:41.478 [info] <0.44.0> Application cowboy started on node nonode@nohost
+2020-10-19 13:34:41.479 [info] <0.44.0> Application cowboy_telemetry started on node nonode@nohost
+2020-10-19 13:34:41.480 [info] <0.44.0> Application plug_cowboy started on node nonode@nohost
+2020-10-19 13:34:41.480 [info] <0.44.0> Application scrivener_headers started on node nonode@nohost
+2020-10-19 13:34:41.481 [info] <0.44.0> Application phoenix_html started on node nonode@nohost
+2020-10-19 13:34:41.481 [info] <0.44.0> Application phoenix_live_view started on node nonode@nohost
+2020-10-19 13:34:41.483 [info] <0.44.0> Application phoenix_live_dashboard started on node nonode@nohost
+2020-10-19 13:34:41.484 [info] <0.44.0> Application phoenix_ecto started on node nonode@nohost
+2020-10-19 13:34:41.557 [info] <0.44.0> Application getmoreApiChallenge started on node nonode@nohost
+2020-10-19 13:34:48.154 [error] <0.640.0>@Elixir.GetmoreApiChallenge.RPX.Server:handle_info:25 gen_server 'Elixir.GetmoreApiChallenge.RPX.Server' terminated with reason: no function clause matching 'Elixir.GetmoreApiChallenge.RPX.Server':handle_info({#Ref<0.3236253687.524550151.62444>,ok}, #{config => #{'__struct__' => 'Elixir.RPX.AMQP',channel => #{'__struct__' => 'Elixir.AMQP.Channel',...},...},...}) line 25
+2020-10-19 13:34:48.157 [error] <0.640.0>@Elixir.GetmoreApiChallenge.RPX.Server:handle_info:25 CRASH REPORT Process 'Elixir.GetmoreApiChallenge.RPX.Server' with 0 neighbours crashed with reason: no function clause matching 'Elixir.GetmoreApiChallenge.RPX.Server':handle_info({#Ref<0.3236253687.524550151.62444>,ok}, #{config => #{'__struct__' => 'Elixir.RPX.AMQP',channel => #{'__struct__' => 'Elixir.AMQP.Channel',...},...},...}) line 25
+2020-10-19 13:34:48.157 [error] <0.569.0>@Elixir.GetmoreApiChallenge.RPX.Server:handle_info:25 Supervisor 'Elixir.GetmoreApiChallenge.Supervisor' had child 'Elixir.GetmoreApiChallenge.RPX.Server' started with 'Elixir.GetmoreApiChallenge.RPX.Server':start_link([{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]) at <0.640.0> exit with reason no function clause matching 'Elixir.GetmoreApiChallenge.RPX.Server':handle_info({#Ref<0.3236253687.524550151.62444>,ok}, #{config => #{'__struct__' => 'Elixir.RPX.AMQP',channel => #{'__struct__' => 'Elixir.AMQP.Channel',...},...},...}) line 25 in context child_terminated
+2020-10-19 13:35:16.677 [warning] <0.659.0> Connection (<0.659.0>) closing: received hard error {'connection.close',320,<<"CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'">>,0,0} from server
+2020-10-19 13:35:16.677 [warning] <0.644.0> Connection (<0.644.0>) closing: received hard error {'connection.close',320,<<"CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'">>,0,0} from server
+2020-10-19 13:35:16.677 [warning] <0.680.0> Connection (<0.680.0>) closing: received hard error {'connection.close',320,<<"CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'">>,0,0} from server
+2020-10-19 13:35:16.679 [error] <0.660.0> Supervisor {<0.660.0>,amqp_channel_sup_sup} had child channel_sup started with amqp_channel_sup:start_link(network, <0.659.0>, <<"client 127.0.0.1:41925 -> 127.0.0.1:5672">>) at undefined exit with reason shutdown in context shutdown_error
+2020-10-19 13:35:42.869 [error] <0.656.0>@gen_server:call gen_server 'Elixir.RPX.AMQP.Client' terminated with reason: no such process or port in call to gen_server:call(<0.668.0>, {call,{'basic.publish',0,<<>>,<<"products">>,false,false},{amqp_msg,{'P_basic',undefined,undefined,...},...},...}, 60000) in gen_server:call/3 line 246
+2020-10-19 13:35:42.872 [error] <0.656.0>@gen_server:call CRASH REPORT Process 'Elixir.RPX.AMQP.Client' with 0 neighbours exited with reason: no such process or port in call to gen_server:call(<0.668.0>, {call,{'basic.publish',0,<<>>,<<"products">>,false,false},{amqp_msg,{'P_basic',undefined,undefined,...},...},...}, 60000) in gen_server:call/3 line 246
+2020-10-19 13:35:42.872 [error] <0.569.0>@gen_server:call Supervisor 'Elixir.GetmoreApiChallenge.Supervisor' had child 'Elixir.RPX.AMQP.Client' started with 'Elixir.RPX.AMQP.Client':start_link([]) at <0.656.0> exit with reason no such process or port in call to gen_server:call(<0.668.0>, {call,{'basic.publish',0,<<>>,<<"products">>,false,false},{amqp_msg,{'P_basic',undefined,undefined,...},...},...}, 60000) in context child_terminated
+2020-10-19 13:35:42.873 [warning] <0.458.0> Unexpected error_logger event {error_msg,<0.67.0>,{<0.693.0>,[42,42,32,84,97,115,107,32,126,112,32,116,101,114,109,105,110,97,116,105,110,103,126,110,42,42,32,83,116,97,114,116,101,100,32,102,114,111,109,32,126,112,126,110,42,42,32,87,104,101,110,32,102,117,110,99,116,105,111,110,32,32,61,61,32,126,112,126,110,42,42,32,32,32,32,32,32,97,114,103,117,109,101,110,116,115,32,61,61,32,126,112,126,110,42,42,32,82,101,97,115,111,110,32,102,111,114,32,116,101,114,109,105,110,97,116,105,111,110,32,61,61,32,126,110,42,42,32,126,112,126,110],[<0.672.0>,<0.693.0>,#Fun<Elixir.RPX.AMQP.Client.1.103814798>,[],{{{noproc,{gen_server,call,[<0.668.0>,{call,{'basic.publish',0,<<>>,<<112,114,111,100,117,99,116,115>>,false,false},{amqp_msg,{'P_basic',undefined,undefined,undefined,1,undefined,<<103,49,104,107,65,65,49,117,98,50,53,118,90,71,86,65,98,109,57,111,98,51,78,48,65,65,65,67,116,81,65,65,65,65,65,65,65,65,65,65,44,76,84,85,51,78,106,81,50,77,68,99,49,77,106,77,119,77,122,81,121,77,106,103,48,78,81,61,61>>,<<97,109,113,46,114,97,98,98,105,116,109,113,46,114,101,112,108,121,45,116,111>>,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<123,34,112,97,114,97,109,115,34,58,91,93,44,34,116,97,114,103,101,116,34,58,34,108,105,115,116,95,112,114,111,100,117,99,116,115,34,125>>},<0.656.0>},60000]}},{'Elixir.GenServer',call,['Elixir.RPX.AMQP.Client',{send,#{correlation_id => <<76,84,85,51,78,106,81,50,77,68,99,49,77,106,77,119,77,122,81,121,77,106,103,48,78,81,61,61>>,queue_name => <<112,114,111,100,117,99,116,115>>,reply_to => <<97,109,113,46,114,97,98,98,105,116,109,113,46,114,101,112,108,121,45,116,111>>},#{params => [],target => <<108,105,115,116,95,112,114,111,100,117,99,116,115>>}},5000]}},[{'Elixir.GenServer',call,3,[{file,[108,105,98,47,103,101,110,95,115,101,114,118,101,114,46,101,120]},{line,1023}]},{'Elixir.RPX.AMQP.Client','-call/3-fun-0-',3,[{file,[108,105,98,47,97,109,113,112,47,99,108,105,101,110,116,46,101,120]},{line,18}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,[108,105,98,47,116,97,115,107,47,115,117,112,101,114,118,105,115,101,100,46,101,120]},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,[108,105,98,47,116,97,115,107,47,115,117,112,101,114,118,105,115,101,100,46,101,120]},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,[112,114,111,99,95,108,105,98,46,101,114,108]},{line,226}]}]}]}}
+2020-10-19 13:35:42.873 [error] <0.693.0> CRASH REPORT Process <0.693.0> with 1 neighbours exited with reason: {{noproc,{gen_server,call,[<0.668.0>,{call,{'basic.publish',0,<<>>,<<"products">>,false,false},{amqp_msg,{'P_basic',undefined,undefined,undefined,1,undefined,<<"g1hkAA1ub25vZGVAbm9ob3N0AAACtQAAAAAAAAAA,LTU3NjQ2MDc1MjMwMzQyMjg0NQ==">>,<<"amq.rabbitmq.reply-to">>,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"{\"params\":[],\"target\":\"list_products\"}">>},<0.656.0>},60000]}},{'Elixir.GenServer',call,['Elixir.RPX.AMQP.Client',{send,#{correlation_id => <<"LTU3NjQ2MDc1...">>,...},...},...]}} in 'Elixir.GenServer':call/3 line 1023
+2020-10-19 13:36:14.874 [warning] <0.698.0> Connection (<0.698.0>) closing: received hard error {'connection.close',320,<<"CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'">>,0,0} from server
+2020-10-19 13:36:30.628 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-10-19 13:36:30.630 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-10-19 13:36:30.636 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-10-19 13:36:30.637 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-10-19 13:36:30.638 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-10-19 13:36:30.641 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-10-19 13:36:30.642 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-10-19 13:36:30.652 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-19 13:36:30.652 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-10-19 13:36:30.656 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-10-19 13:36:30.657 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-10-19 13:36:30.657 [info] <0.44.0> Application rpx started on node nonode@nohost
+2020-10-19 13:36:30.658 [info] <0.44.0> Application telemetry_metrics started on node nonode@nohost
+2020-10-19 13:36:30.660 [info] <0.44.0> Application telemetry_poller started on node nonode@nohost
+2020-10-19 13:36:30.661 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-10-19 13:36:30.664 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-10-19 13:36:30.667 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-10-19 13:36:30.671 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-10-19 13:36:30.673 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-10-19 13:36:30.674 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-10-19 13:36:30.676 [info] <0.44.0> Application cowlib started on node nonode@nohost
+2020-10-19 13:36:30.677 [info] <0.44.0> Application cowboy started on node nonode@nohost
+2020-10-19 13:36:30.678 [info] <0.44.0> Application cowboy_telemetry started on node nonode@nohost
+2020-10-19 13:36:30.679 [info] <0.44.0> Application plug_cowboy started on node nonode@nohost
+2020-10-19 13:36:30.679 [info] <0.44.0> Application scrivener_headers started on node nonode@nohost
+2020-10-19 13:36:30.680 [info] <0.44.0> Application phoenix_html started on node nonode@nohost
+2020-10-19 13:36:30.681 [info] <0.44.0> Application phoenix_live_view started on node nonode@nohost
+2020-10-19 13:36:30.682 [info] <0.44.0> Application phoenix_live_dashboard started on node nonode@nohost
+2020-10-19 13:36:30.683 [info] <0.44.0> Application phoenix_ecto started on node nonode@nohost
+2020-10-19 13:36:30.763 [info] <0.44.0> Application getmoreApiChallenge started on node nonode@nohost
+2020-10-19 13:36:50.757 [error] <0.490.0>@Elixir.GetmoreApiChallenge.RPX.Server:handle_info:25 gen_server 'Elixir.GetmoreApiChallenge.RPX.Server' terminated with reason: no function clause matching 'Elixir.GetmoreApiChallenge.RPX.Server':handle_info({#Ref<0.312981493.4282646535.46466>,ok}, #{config => #{'__struct__' => 'Elixir.RPX.AMQP',channel => #{'__struct__' => 'Elixir.AMQP.Channel',...},...},...}) line 25
+2020-10-19 13:36:50.761 [error] <0.490.0>@Elixir.GetmoreApiChallenge.RPX.Server:handle_info:25 CRASH REPORT Process 'Elixir.GetmoreApiChallenge.RPX.Server' with 0 neighbours crashed with reason: no function clause matching 'Elixir.GetmoreApiChallenge.RPX.Server':handle_info({#Ref<0.312981493.4282646535.46466>,ok}, #{config => #{'__struct__' => 'Elixir.RPX.AMQP',channel => #{'__struct__' => 'Elixir.AMQP.Channel',...},...},...}) line 25
+2020-10-19 13:36:50.761 [error] <0.419.0>@Elixir.GetmoreApiChallenge.RPX.Server:handle_info:25 Supervisor 'Elixir.GetmoreApiChallenge.Supervisor' had child 'Elixir.GetmoreApiChallenge.RPX.Server' started with 'Elixir.GetmoreApiChallenge.RPX.Server':start_link([{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]) at <0.490.0> exit with reason no function clause matching 'Elixir.GetmoreApiChallenge.RPX.Server':handle_info({#Ref<0.312981493.4282646535.46466>,ok}, #{config => #{'__struct__' => 'Elixir.RPX.AMQP',channel => #{'__struct__' => 'Elixir.AMQP.Channel',...},...},...}) line 25 in context child_terminated
+2020-10-19 13:38:54.472 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-10-19 13:38:54.474 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-10-19 13:38:54.479 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-10-19 13:38:54.481 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-10-19 13:38:54.482 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-10-19 13:38:54.484 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-10-19 13:38:54.485 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-10-19 13:38:54.495 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-19 13:38:54.495 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-10-19 13:38:54.498 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-10-19 13:38:54.499 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-10-19 13:38:54.499 [info] <0.44.0> Application rpx started on node nonode@nohost
+2020-10-19 13:38:54.500 [info] <0.44.0> Application telemetry_metrics started on node nonode@nohost
+2020-10-19 13:38:54.502 [info] <0.44.0> Application telemetry_poller started on node nonode@nohost
+2020-10-19 13:38:54.503 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-10-19 13:38:54.506 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-10-19 13:38:54.508 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-10-19 13:38:54.512 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-10-19 13:38:54.515 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-10-19 13:38:54.515 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-10-19 13:38:54.517 [info] <0.44.0> Application cowlib started on node nonode@nohost
+2020-10-19 13:38:54.518 [info] <0.44.0> Application cowboy started on node nonode@nohost
+2020-10-19 13:38:54.519 [info] <0.44.0> Application cowboy_telemetry started on node nonode@nohost
+2020-10-19 13:38:54.520 [info] <0.44.0> Application plug_cowboy started on node nonode@nohost
+2020-10-19 13:38:54.520 [info] <0.44.0> Application scrivener_headers started on node nonode@nohost
+2020-10-19 13:38:54.521 [info] <0.44.0> Application phoenix_html started on node nonode@nohost
+2020-10-19 13:38:54.521 [info] <0.44.0> Application phoenix_live_view started on node nonode@nohost
+2020-10-19 13:38:54.523 [info] <0.44.0> Application phoenix_live_dashboard started on node nonode@nohost
+2020-10-19 13:38:54.523 [info] <0.44.0> Application phoenix_ecto started on node nonode@nohost
+2020-10-19 13:38:54.602 [info] <0.44.0> Application getmoreApiChallenge started on node nonode@nohost
+2020-10-19 13:39:09.929 [error] <0.491.0>@Elixir.GetmoreApiChallenge.RPX.Server:handle_info:25 gen_server 'Elixir.GetmoreApiChallenge.RPX.Server' terminated with reason: no function clause matching 'Elixir.GetmoreApiChallenge.RPX.Server':handle_info({#Ref<0.1240569201.4282646529.258866>,ok}, #{config => #{'__struct__' => 'Elixir.RPX.AMQP',channel => #{'__struct__' => 'Elixir.AMQP.Channel',...},...},...}) line 25
+2020-10-19 13:39:09.934 [error] <0.491.0>@Elixir.GetmoreApiChallenge.RPX.Server:handle_info:25 CRASH REPORT Process 'Elixir.GetmoreApiChallenge.RPX.Server' with 0 neighbours crashed with reason: no function clause matching 'Elixir.GetmoreApiChallenge.RPX.Server':handle_info({#Ref<0.1240569201.4282646529.258866>,ok}, #{config => #{'__struct__' => 'Elixir.RPX.AMQP',channel => #{'__struct__' => 'Elixir.AMQP.Channel',...},...},...}) line 25
+2020-10-19 13:39:09.934 [error] <0.419.0>@Elixir.GetmoreApiChallenge.RPX.Server:handle_info:25 Supervisor 'Elixir.GetmoreApiChallenge.Supervisor' had child 'Elixir.GetmoreApiChallenge.RPX.Server' started with 'Elixir.GetmoreApiChallenge.RPX.Server':start_link([{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]) at <0.491.0> exit with reason no function clause matching 'Elixir.GetmoreApiChallenge.RPX.Server':handle_info({#Ref<0.1240569201.4282646529.258866>,ok}, #{config => #{'__struct__' => 'Elixir.RPX.AMQP',channel => #{'__struct__' => 'Elixir.AMQP.Channel',...},...},...}) line 25 in context child_terminated
+2020-10-19 13:42:10.462 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-10-19 13:42:10.463 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-10-19 13:42:10.470 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-10-19 13:42:10.471 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-10-19 13:42:10.472 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-10-19 13:42:10.475 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-10-19 13:42:10.476 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-10-19 13:42:10.486 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-19 13:42:10.487 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-10-19 13:42:10.490 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-10-19 13:42:10.491 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-10-19 13:42:10.491 [info] <0.44.0> Application rpx started on node nonode@nohost
+2020-10-19 13:42:10.492 [info] <0.44.0> Application telemetry_metrics started on node nonode@nohost
+2020-10-19 13:42:10.494 [info] <0.44.0> Application telemetry_poller started on node nonode@nohost
+2020-10-19 13:42:10.495 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-10-19 13:42:10.498 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-10-19 13:42:10.501 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-10-19 13:42:10.505 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-10-19 13:42:10.507 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-10-19 13:42:10.508 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-10-19 13:42:10.510 [info] <0.44.0> Application cowlib started on node nonode@nohost
+2020-10-19 13:42:10.511 [info] <0.44.0> Application cowboy started on node nonode@nohost
+2020-10-19 13:42:10.512 [info] <0.44.0> Application cowboy_telemetry started on node nonode@nohost
+2020-10-19 13:42:10.513 [info] <0.44.0> Application plug_cowboy started on node nonode@nohost
+2020-10-19 13:42:10.513 [info] <0.44.0> Application scrivener_headers started on node nonode@nohost
+2020-10-19 13:42:10.514 [info] <0.44.0> Application phoenix_html started on node nonode@nohost
+2020-10-19 13:42:10.515 [info] <0.44.0> Application phoenix_live_view started on node nonode@nohost
+2020-10-19 13:42:10.516 [info] <0.44.0> Application phoenix_live_dashboard started on node nonode@nohost
+2020-10-19 13:42:10.517 [info] <0.44.0> Application phoenix_ecto started on node nonode@nohost
+2020-10-19 13:42:10.588 [info] <0.44.0> Application getmoreApiChallenge started on node nonode@nohost
+2020-10-19 13:44:14.057 [warning] <0.458.0> Unexpected error_logger event {error_msg,<0.567.0>,{<0.687.0>,[42,42,32,84,97,115,107,32,126,112,32,116,101,114,109,105,110,97,116,105,110,103,126,110,42,42,32,83,116,97,114,116,101,100,32,102,114,111,109,32,126,112,126,110,42,42,32,87,104,101,110,32,102,117,110,99,116,105,111,110,32,32,61,61,32,126,112,126,110,42,42,32,32,32,32,32,32,97,114,103,117,109,101,110,116,115,32,61,61,32,126,112,126,110,42,42,32,82,101,97,115,111,110,32,102,111,114,32,116,101,114,109,105,110,97,116,105,111,110,32,61,61,32,126,110,42,42,32,126,112,126,110],['Elixir.GetmoreApiChallenge.RPX.Server',<0.687.0>,#Fun<Elixir.GetmoreApiChallenge.RPX.Server.0.66557456>,[],{badarg,[{erlang,apply,['Elixir.GetmoreApiChallenge.Getmore',productId,1020],[]},{'Elixir.GetmoreApiChallenge.RPX.Server','-handle_info/2-fun-0-',4,[{file,[108,105,98,47,114,112,120,47,115,101,114,118,101,114,46,101,120]},{line,30}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,[108,105,98,47,116,97,115,107,47,115,117,112,101,114,118,105,115,101,100,46,101,120]},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,[108,105,98,47,116,97,115,107,47,115,117,112,101,114,118,105,115,101,100,46,101,120]},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,[112,114,111,99,95,108,105,98,46,101,114,108]},{line,226}]}]}]}}
+2020-10-19 13:44:14.061 [error] <0.687.0>@Elixir.GetmoreApiChallenge.RPX.Server:-handle_info/2-fun-0-:30 CRASH REPORT Process <0.687.0> with 1 neighbours crashed with reason: bad argument in call to erlang:apply('Elixir.GetmoreApiChallenge.Getmore', productId, 1020) in 'Elixir.GetmoreApiChallenge.RPX.Server':'-handle_info/2-fun-0-'/4 line 30
+2020-10-19 13:44:14.061 [error] <0.569.0>@Elixir.GetmoreApiChallenge.RPX.Server:-handle_info/2-fun-0-:30 Supervisor 'Elixir.GetmoreApiChallenge.Supervisor' had child 'Elixir.GetmoreApiChallenge.RPX.Server' started with 'Elixir.GetmoreApiChallenge.RPX.Server':start_link([{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]) at <0.640.0> exit with reason bad argument in call to erlang:apply('Elixir.GetmoreApiChallenge.Getmore', productId, 1020) in 'Elixir.GetmoreApiChallenge.RPX.Server':'-handle_info/2-fun-0-'/4 line 30 in context child_terminated
+2020-10-19 13:45:09.075 [error] <0.652.0> gen_server <0.652.0> terminated with reason: unexpected_delivery_and_no_default_consumer
+2020-10-19 13:45:09.076 [error] <0.652.0> CRASH REPORT Process <0.652.0> with 0 neighbours exited with reason: unexpected_delivery_and_no_default_consumer in gen_server2:terminate/3 line 1183
+2020-10-19 13:45:09.076 [error] <0.651.0> Supervisor {<0.651.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:59831 -> 127.0.0.1:5672">>,1}) at <0.652.0> exit with reason unexpected_delivery_and_no_default_consumer in context child_terminated
+2020-10-19 13:45:09.077 [error] <0.651.0> Supervisor {<0.651.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:59831 -> 127.0.0.1:5672">>,1}) at <0.652.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-10-19 13:45:18.149 [warning] <0.458.0> Unexpected error_logger event {error_msg,<0.567.0>,{<0.708.0>,[42,42,32,84,97,115,107,32,126,112,32,116,101,114,109,105,110,97,116,105,110,103,126,110,42,42,32,83,116,97,114,116,101,100,32,102,114,111,109,32,126,112,126,110,42,42,32,87,104,101,110,32,102,117,110,99,116,105,111,110,32,32,61,61,32,126,112,126,110,42,42,32,32,32,32,32,32,97,114,103,117,109,101,110,116,115,32,61,61,32,126,112,126,110,42,42,32,82,101,97,115,111,110,32,102,111,114,32,116,101,114,109,105,110,97,116,105,111,110,32,61,61,32,126,110,42,42,32,126,112,126,110],['Elixir.GetmoreApiChallenge.RPX.Server',<0.708.0>,#Fun<Elixir.GetmoreApiChallenge.RPX.Server.0.66557456>,[],{badarg,[{erlang,apply,['Elixir.GetmoreApiChallenge.Getmore',getProductId,1020],[]},{'Elixir.GetmoreApiChallenge.RPX.Server','-handle_info/2-fun-0-',4,[{file,[108,105,98,47,114,112,120,47,115,101,114,118,101,114,46,101,120]},{line,30}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,[108,105,98,47,116,97,115,107,47,115,117,112,101,114,118,105,115,101,100,46,101,120]},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,[108,105,98,47,116,97,115,107,47,115,117,112,101,114,118,105,115,101,100,46,101,120]},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,[112,114,111,99,95,108,105,98,46,101,114,108]},{line,226}]}]}]}}
+2020-10-19 13:45:18.150 [error] <0.708.0>@Elixir.GetmoreApiChallenge.RPX.Server:-handle_info/2-fun-0-:30 CRASH REPORT Process <0.708.0> with 1 neighbours crashed with reason: bad argument in call to erlang:apply('Elixir.GetmoreApiChallenge.Getmore', getProductId, 1020) in 'Elixir.GetmoreApiChallenge.RPX.Server':'-handle_info/2-fun-0-'/4 line 30
+2020-10-19 13:45:18.151 [error] <0.569.0>@Elixir.GetmoreApiChallenge.RPX.Server:-handle_info/2-fun-0-:30 Supervisor 'Elixir.GetmoreApiChallenge.Supervisor' had child 'Elixir.GetmoreApiChallenge.RPX.Server' started with 'Elixir.GetmoreApiChallenge.RPX.Server':start_link([{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]) at <0.688.0> exit with reason bad argument in call to erlang:apply('Elixir.GetmoreApiChallenge.Getmore', getProductId, 1020) in 'Elixir.GetmoreApiChallenge.RPX.Server':'-handle_info/2-fun-0-'/4 line 30 in context child_terminated
+2020-10-19 13:45:31.264 [info] <0.646.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,45,100,102,86,85,69,103,107,116,110,53,68,54,78,68,65,73,71,81,119,78,119,0,0,0,0,0,0,0,5,0,0,8,112,114,111,100,117,99,116,115>>} for invalid or closed channel number 1
+2020-10-19 13:45:31.264 [info] <0.646.0> Dropping frame {content_header,60,0,40,<<22,0,1,69,103,49,104,107,65,65,49,117,98,50,53,118,90,71,86,65,98,109,57,111,98,51,78,48,65,65,65,67,49,81,65,65,65,65,65,65,65,65,65,65,44,76,84,85,51,78,106,81,50,77,68,99,49,77,106,77,119,77,122,81,121,77,68,99,122,78,81,61,61,95,97,109,113,46,114,97,98,98,105,116,109,113,46,114,101,112,108,121,45,116,111,46,103,49,104,107,65,66,78,121,89,87,74,105,97,88,82,65,78,122,70,105,77,106,73,51,90,106,86,107,90,87,85,51,65,65,65,68,57,103,65,65,65,65,66,102,106,99,67,74,46,101,109,87,118,55,102,88,52,110,99,77,121,72,105,98,57,99,82,86,117,113,119,61,61>>} for invalid or closed channel number 1
+2020-10-19 13:45:31.264 [info] <0.646.0> Dropping frame {content_body,<<"{\"params\":1020,\"target\":\"get_productId\"}">>} for invalid or closed channel number 1
+2020-10-19 13:45:40.510 [error] <0.699.0> gen_server <0.699.0> terminated with reason: unexpected_delivery_and_no_default_consumer
+2020-10-19 13:45:40.511 [error] <0.699.0> CRASH REPORT Process <0.699.0> with 0 neighbours exited with reason: unexpected_delivery_and_no_default_consumer in gen_server2:terminate/3 line 1183
+2020-10-19 13:45:40.512 [error] <0.698.0> Supervisor {<0.698.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:48985 -> 127.0.0.1:5672">>,1}) at <0.699.0> exit with reason unexpected_delivery_and_no_default_consumer in context child_terminated
+2020-10-19 13:45:40.512 [error] <0.698.0> Supervisor {<0.698.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:48985 -> 127.0.0.1:5672">>,1}) at <0.699.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-10-19 13:47:15.151 [warning] <0.458.0> Unexpected error_logger event {error_msg,<0.567.0>,{<0.731.0>,[42,42,32,84,97,115,107,32,126,112,32,116,101,114,109,105,110,97,116,105,110,103,126,110,42,42,32,83,116,97,114,116,101,100,32,102,114,111,109,32,126,112,126,110,42,42,32,87,104,101,110,32,102,117,110,99,116,105,111,110,32,32,61,61,32,126,112,126,110,42,42,32,32,32,32,32,32,97,114,103,117,109,101,110,116,115,32,61,61,32,126,112,126,110,42,42,32,82,101,97,115,111,110,32,102,111,114,32,116,101,114,109,105,110,97,116,105,111,110,32,61,61,32,126,110,42,42,32,126,112,126,110],['Elixir.GetmoreApiChallenge.RPX.Server',<0.731.0>,#Fun<Elixir.GetmoreApiChallenge.RPX.Server.0.66557456>,[],{badarg,[{erlang,apply,['Elixir.GetmoreApiChallenge.Getmore','get_product!',1020],[]},{'Elixir.GetmoreApiChallenge.RPX.Server','-handle_info/2-fun-0-',4,[{file,[108,105,98,47,114,112,120,47,115,101,114,118,101,114,46,101,120]},{line,30}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,[108,105,98,47,116,97,115,107,47,115,117,112,101,114,118,105,115,101,100,46,101,120]},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,[108,105,98,47,116,97,115,107,47,115,117,112,101,114,118,105,115,101,100,46,101,120]},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,[112,114,111,99,95,108,105,98,46,101,114,108]},{line,226}]}]}]}}
+2020-10-19 13:47:15.152 [error] <0.731.0>@Elixir.GetmoreApiChallenge.RPX.Server:-handle_info/2-fun-0-:30 CRASH REPORT Process <0.731.0> with 1 neighbours crashed with reason: bad argument in call to erlang:apply('Elixir.GetmoreApiChallenge.Getmore', 'get_product!', 1020) in 'Elixir.GetmoreApiChallenge.RPX.Server':'-handle_info/2-fun-0-'/4 line 30
+2020-10-19 13:47:15.153 [error] <0.569.0>@Elixir.GetmoreApiChallenge.RPX.Server:-handle_info/2-fun-0-:30 Supervisor 'Elixir.GetmoreApiChallenge.Supervisor' had child 'Elixir.GetmoreApiChallenge.RPX.Server' started with 'Elixir.GetmoreApiChallenge.RPX.Server':start_link([{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]) at <0.709.0> exit with reason bad argument in call to erlang:apply('Elixir.GetmoreApiChallenge.Getmore', 'get_product!', 1020) in 'Elixir.GetmoreApiChallenge.RPX.Server':'-handle_info/2-fun-0-'/4 line 30 in context child_terminated
+2020-10-19 13:47:25.470 [info] <0.646.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,45,100,102,86,85,69,103,107,116,110,53,68,54,78,68,65,73,71,81,119,78,119,0,0,0,0,0,0,0,6,0,0,8,112,114,111,100,117,99,116,115>>} for invalid or closed channel number 1
+2020-10-19 13:47:25.470 [info] <0.646.0> Dropping frame {content_header,60,0,38,<<22,0,1,69,103,49,104,107,65,65,49,117,98,50,53,118,90,71,86,65,98,109,57,111,98,51,78,48,65,65,65,67,55,65,65,65,65,65,65,65,65,65,65,65,44,76,84,85,51,78,106,81,50,77,68,99,49,77,106,77,119,77,122,81,121,77,122,65,121,79,81,61,61,95,97,109,113,46,114,97,98,98,105,116,109,113,46,114,101,112,108,121,45,116,111,46,103,49,104,107,65,66,78,121,89,87,74,105,97,88,82,65,78,122,70,105,77,106,73,51,90,106,86,107,90,87,85,51,65,65,65,68,57,103,65,65,65,65,66,102,106,99,67,74,46,101,109,87,118,55,102,88,52,110,99,77,121,72,105,98,57,99,82,86,117,113,119,61,61>>} for invalid or closed channel number 1
+2020-10-19 13:47:25.470 [info] <0.646.0> Dropping frame {content_body,<<"{\"params\":1020,\"target\":\"get_product\"}">>} for invalid or closed channel number 1
+2020-10-19 13:47:41.126 [info] <0.693.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,90,68,80,119,69,104,122,83,48,89,118,79,88,121,84,70,121,104,107,112,95,119,0,0,0,0,0,0,0,3,0,0,8,112,114,111,100,117,99,116,115>>} for invalid or closed channel number 1
+2020-10-19 13:47:41.127 [info] <0.693.0> Dropping frame {content_header,60,0,38,<<22,0,1,69,103,49,104,107,65,65,49,117,98,50,53,118,90,71,86,65,98,109,57,111,98,51,78,48,65,65,65,67,55,103,65,65,65,65,65,65,65,65,65,65,44,76,84,85,51,78,106,81,50,77,68,99,49,77,106,77,119,77,122,81,121,77,68,77,49,77,81,61,61,95,97,109,113,46,114,97,98,98,105,116,109,113,46,114,101,112,108,121,45,116,111,46,103,49,104,107,65,66,78,121,89,87,74,105,97,88,82,65,78,122,70,105,77,106,73,51,90,106,86,107,90,87,85,51,65,65,65,68,57,103,65,65,65,65,66,102,106,99,67,74,46,101,109,87,118,55,102,88,52,110,99,77,121,72,105,98,57,99,82,86,117,113,119,61,61>>} for invalid or closed channel number 1
+2020-10-19 13:47:41.128 [info] <0.693.0> Dropping frame {content_body,<<"{\"params\":1001,\"target\":\"get_product\"}">>} for invalid or closed channel number 1
+2020-10-19 13:48:02.456 [error] <0.720.0> gen_server <0.720.0> terminated with reason: unexpected_delivery_and_no_default_consumer
+2020-10-19 13:48:02.457 [error] <0.720.0> CRASH REPORT Process <0.720.0> with 0 neighbours exited with reason: unexpected_delivery_and_no_default_consumer in gen_server2:terminate/3 line 1183
+2020-10-19 13:48:02.457 [error] <0.719.0> Supervisor {<0.719.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:43421 -> 127.0.0.1:5672">>,1}) at <0.720.0> exit with reason unexpected_delivery_and_no_default_consumer in context child_terminated
+2020-10-19 13:48:02.458 [error] <0.719.0> Supervisor {<0.719.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:43421 -> 127.0.0.1:5672">>,1}) at <0.720.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-10-19 13:48:30.094 [info] <0.646.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,45,100,102,86,85,69,103,107,116,110,53,68,54,78,68,65,73,71,81,119,78,119,0,0,0,0,0,0,0,7,0,0,8,112,114,111,100,117,99,116,115>>} for invalid or closed channel number 1
+2020-10-19 13:48:30.094 [info] <0.646.0> Dropping frame {content_header,60,0,38,<<22,0,1,69,103,49,104,107,65,65,49,117,98,50,53,118,90,71,86,65,98,109,57,111,98,51,78,48,65,65,65,67,45,65,65,65,65,65,65,65,65,65,65,65,44,76,84,85,51,78,106,81,50,77,68,99,49,77,106,77,119,77,122,81,120,79,84,107,119,77,119,61,61,95,97,109,113,46,114,97,98,98,105,116,109,113,46,114,101,112,108,121,45,116,111,46,103,49,104,107,65,66,78,121,89,87,74,105,97,88,82,65,78,122,70,105,77,106,73,51,90,106,86,107,90,87,85,51,65,65,65,68,57,103,65,65,65,65,66,102,106,99,67,74,46,101,109,87,118,55,102,88,52,110,99,77,121,72,105,98,57,99,82,86,117,113,119,61,61>>} for invalid or closed channel number 1
+2020-10-19 13:48:30.095 [info] <0.646.0> Dropping frame {content_body,<<"{\"params\":1048,\"target\":\"get_product\"}">>} for invalid or closed channel number 1
+2020-10-19 13:48:49.885 [info] <0.693.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,90,68,80,119,69,104,122,83,48,89,118,79,88,121,84,70,121,104,107,112,95,119,0,0,0,0,0,0,0,4,0,0,8,112,114,111,100,117,99,116,115>>} for invalid or closed channel number 1
+2020-10-19 13:48:49.886 [info] <0.693.0> Dropping frame {content_header,60,0,38,<<22,0,1,69,103,49,104,107,65,65,49,117,98,50,53,118,90,71,86,65,98,109,57,111,98,51,78,48,65,65,65,67,45,103,65,65,65,65,65,65,65,65,65,65,44,76,84,85,51,78,106,81,50,77,68,99,49,77,106,77,119,77,122,81,120,79,84,103,122,79,81,61,61,95,97,109,113,46,114,97,98,98,105,116,109,113,46,114,101,112,108,121,45,116,111,46,103,49,104,107,65,66,78,121,89,87,74,105,97,88,82,65,78,122,70,105,77,106,73,51,90,106,86,107,90,87,85,51,65,65,65,68,57,103,65,65,65,65,66,102,106,99,67,74,46,101,109,87,118,55,102,88,52,110,99,77,121,72,105,98,57,99,82,86,117,113,119,61,61>>} for invalid or closed channel number 1
+2020-10-19 13:48:49.886 [info] <0.693.0> Dropping frame {content_body,<<"{\"params\":1048,\"target\":\"get_product\"}">>} for invalid or closed channel number 1
+2020-10-19 13:49:24.023 [info] <0.714.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,57,121,70,83,87,65,70,45,101,77,77,71,102,113,55,115,106,51,100,71,121,81,0,0,0,0,0,0,0,3,0,0,8,112,114,111,100,117,99,116,115>>} for invalid or closed channel number 1
+2020-10-19 13:49:24.024 [info] <0.714.0> Dropping frame {content_header,60,0,39,<<22,0,1,69,103,49,104,107,65,65,49,117,98,50,53,118,90,71,86,65,98,109,57,111,98,51,78,48,65,65,65,67,95,103,65,65,65,65,65,65,65,65,65,65,44,76,84,85,51,78,106,81,50,77,68,99,49,77,106,77,119,77,122,81,120,79,84,99,51,78,81,61,61,95,97,109,113,46,114,97,98,98,105,116,109,113,46,114,101,112,108,121,45,116,111,46,103,49,104,107,65,66,78,121,89,87,74,105,97,88,82,65,78,122,70,105,77,106,73,51,90,106,86,107,90,87,85,51,65,65,65,68,57,103,65,65,65,65,66,102,106,99,67,74,46,101,109,87,118,55,102,88,52,110,99,77,121,72,105,98,57,99,82,86,117,113,119,61,61>>} for invalid or closed channel number 1
+2020-10-19 13:49:24.024 [info] <0.714.0> Dropping frame {content_body,<<"{\"params\":false,\"target\":\"get_product\"}">>} for invalid or closed channel number 1
+2020-10-19 13:51:13.310 [warning] <0.458.0> Unexpected error_logger event {error_msg,<0.567.0>,{<0.773.0>,[42,42,32,84,97,115,107,32,126,112,32,116,101,114,109,105,110,97,116,105,110,103,126,110,42,42,32,83,116,97,114,116,101,100,32,102,114,111,109,32,126,112,126,110,42,42,32,87,104,101,110,32,102,117,110,99,116,105,111,110,32,32,61,61,32,126,112,126,110,42,42,32,32,32,32,32,32,97,114,103,117,109,101,110,116,115,32,61,61,32,126,112,126,110,42,42,32,82,101,97,115,111,110,32,102,111,114,32,116,101,114,109,105,110,97,116,105,111,110,32,61,61,32,126,110,42,42,32,126,112,126,110],['Elixir.GetmoreApiChallenge.RPX.Server',<0.773.0>,#Fun<Elixir.GetmoreApiChallenge.RPX.Server.0.66557456>,[],{badarg,[{erlang,apply,['Elixir.GetmoreApiChallenge.Getmore',get_product,#{<<110,117,109,98,101,114>> => 1048}],[]},{'Elixir.GetmoreApiChallenge.RPX.Server','-handle_info/2-fun-0-',4,[{file,[108,105,98,47,114,112,120,47,115,101,114,118,101,114,46,101,120]},{line,30}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,[108,105,98,47,116,97,115,107,47,115,117,112,101,114,118,105,115,101,100,46,101,120]},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,[108,105,98,47,116,97,115,107,47,115,117,112,101,114,118,105,115,101,100,46,101,120]},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,[112,114,111,99,95,108,105,98,46,101,114,108]},{line,226}]}]}]}}
+2020-10-19 13:51:13.311 [error] <0.773.0>@Elixir.GetmoreApiChallenge.RPX.Server:-handle_info/2-fun-0-:30 CRASH REPORT Process <0.773.0> with 1 neighbours crashed with reason: bad argument in call to erlang:apply('Elixir.GetmoreApiChallenge.Getmore', get_product, #{<<"number">> => 1048}) in 'Elixir.GetmoreApiChallenge.RPX.Server':'-handle_info/2-fun-0-'/4 line 30
+2020-10-19 13:51:13.311 [error] <0.569.0>@Elixir.GetmoreApiChallenge.RPX.Server:-handle_info/2-fun-0-:30 Supervisor 'Elixir.GetmoreApiChallenge.Supervisor' had child 'Elixir.GetmoreApiChallenge.RPX.Server' started with 'Elixir.GetmoreApiChallenge.RPX.Server':start_link([{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]) at <0.732.0> exit with reason bad argument in call to erlang:apply('Elixir.GetmoreApiChallenge.Getmore', get_product, #{<<"number">> => 1048}) in 'Elixir.GetmoreApiChallenge.RPX.Server':'-handle_info/2-fun-0-'/4 line 30 in context child_terminated
+2020-10-19 13:52:03.680 [info] <0.646.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,45,100,102,86,85,69,103,107,116,110,53,68,54,78,68,65,73,71,81,119,78,119,0,0,0,0,0,0,0,8,0,0,8,112,114,111,100,117,99,116,115>>} for invalid or closed channel number 1
+2020-10-19 13:52:03.681 [info] <0.646.0> Dropping frame {content_header,60,0,49,<<22,0,1,69,103,49,104,107,65,65,49,117,98,50,53,118,90,71,86,65,98,109,57,111,98,51,78,48,65,65,65,68,70,119,65,65,65,65,65,65,65,65,65,65,44,76,84,85,51,78,106,81,50,77,68,99,49,77,106,77,119,77,122,81,120,79,84,89,48,78,119,61,61,95,97,109,113,46,114,97,98,98,105,116,109,113,46,114,101,112,108,121,45,116,111,46,103,49,104,107,65,66,78,121,89,87,74,105,97,88,82,65,78,122,70,105,77,106,73,51,90,106,86,107,90,87,85,51,65,65,65,68,57,103,65,65,65,65,66,102,106,99,67,74,46,101,109,87,118,55,102,88,52,110,99,77,121,72,105,98,57,99,82,86,117,113,119,61,61>>} for invalid or closed channel number 1
+2020-10-19 13:52:03.682 [info] <0.646.0> Dropping frame {content_body,<<"{\"params\":{\"number\":1048},\"target\":\"get_product\"}">>} for invalid or closed channel number 1
+2020-10-19 13:52:31.728 [info] <0.693.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,90,68,80,119,69,104,122,83,48,89,118,79,88,121,84,70,121,104,107,112,95,119,0,0,0,0,0,0,0,5,0,0,8,112,114,111,100,117,99,116,115>>} for invalid or closed channel number 1
+2020-10-19 13:52:31.729 [info] <0.693.0> Dropping frame {content_header,60,0,48,<<22,0,1,69,103,49,104,107,65,65,49,117,98,50,53,118,90,71,86,65,98,109,57,111,98,51,78,48,65,65,65,68,71,103,65,65,65,65,65,65,65,65,65,65,44,76,84,85,51,78,106,81,50,77,68,99,49,77,106,77,119,77,122,81,120,79,84,85,52,77,119,61,61,95,97,109,113,46,114,97,98,98,105,116,109,113,46,114,101,112,108,121,45,116,111,46,103,49,104,107,65,66,78,121,89,87,74,105,97,88,82,65,78,122,70,105,77,106,73,51,90,106,86,107,90,87,85,51,65,65,65,68,57,103,65,65,65,65,66,102,106,99,67,74,46,101,109,87,118,55,102,88,52,110,99,77,121,72,105,98,57,99,82,86,117,113,119,61,61>>} for invalid or closed channel number 1
+2020-10-19 13:52:31.730 [info] <0.693.0> Dropping frame {content_body,<<"{\"params\":{\"strin\":1048},\"target\":\"get_product\"}">>} for invalid or closed channel number 1
+2020-10-19 13:52:36.272 [info] <0.714.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,57,121,70,83,87,65,70,45,101,77,77,71,102,113,55,115,106,51,100,71,121,81,0,0,0,0,0,0,0,4,0,0,8,112,114,111,100,117,99,116,115>>} for invalid or closed channel number 1
+2020-10-19 13:52:36.273 [info] <0.714.0> Dropping frame {content_header,60,0,49,<<22,0,1,69,103,49,104,107,65,65,49,117,98,50,53,118,90,71,86,65,98,109,57,111,98,51,78,48,65,65,65,68,72,65,65,65,65,65,65,65,65,65,65,65,44,76,84,85,51,78,106,81,50,77,68,99,49,77,106,77,119,77,122,81,120,79,84,85,120,79,81,61,61,95,97,109,113,46,114,97,98,98,105,116,109,113,46,114,101,112,108,121,45,116,111,46,103,49,104,107,65,66,78,121,89,87,74,105,97,88,82,65,78,122,70,105,77,106,73,51,90,106,86,107,90,87,85,51,65,65,65,68,57,103,65,65,65,65,66,102,106,99,67,74,46,101,109,87,118,55,102,88,52,110,99,77,121,72,105,98,57,99,82,86,117,113,119,61,61>>} for invalid or closed channel number 1
+2020-10-19 13:52:36.273 [info] <0.714.0> Dropping frame {content_body,<<"{\"params\":{\"string\":1048},\"target\":\"get_product\"}">>} for invalid or closed channel number 1
+2020-10-19 13:54:10.280 [error] <0.743.0> gen_server <0.743.0> terminated with reason: unexpected_delivery_and_no_default_consumer
+2020-10-19 13:54:10.280 [error] <0.743.0> CRASH REPORT Process <0.743.0> with 0 neighbours exited with reason: unexpected_delivery_and_no_default_consumer in gen_server2:terminate/3 line 1183
+2020-10-19 13:54:10.281 [error] <0.742.0> Supervisor {<0.742.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:35923 -> 127.0.0.1:5672">>,1}) at <0.743.0> exit with reason unexpected_delivery_and_no_default_consumer in context child_terminated
+2020-10-19 13:54:10.281 [error] <0.742.0> Supervisor {<0.742.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:35923 -> 127.0.0.1:5672">>,1}) at <0.743.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-10-19 13:54:29.982 [warning] <0.458.0> Unexpected error_logger event {error_msg,<0.567.0>,{<0.804.0>,[42,42,32,84,97,115,107,32,126,112,32,116,101,114,109,105,110,97,116,105,110,103,126,110,42,42,32,83,116,97,114,116,101,100,32,102,114,111,109,32,126,112,126,110,42,42,32,87,104,101,110,32,102,117,110,99,116,105,111,110,32,32,61,61,32,126,112,126,110,42,42,32,32,32,32,32,32,97,114,103,117,109,101,110,116,115,32,61,61,32,126,112,126,110,42,42,32,82,101,97,115,111,110,32,102,111,114,32,116,101,114,109,105,110,97,116,105,111,110,32,61,61,32,126,110,42,42,32,126,112,126,110],['Elixir.GetmoreApiChallenge.RPX.Server',<0.804.0>,#Fun<Elixir.GetmoreApiChallenge.RPX.Server.0.66557456>,[],{badarg,[{erlang,apply,['Elixir.GetmoreApiChallenge.Getmore',get_product,#{<<110,117,109,98,101,114>> => 1020}],[]},{'Elixir.GetmoreApiChallenge.RPX.Server','-handle_info/2-fun-0-',4,[{file,[108,105,98,47,114,112,120,47,115,101,114,118,101,114,46,101,120]},{line,30}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,[108,105,98,47,116,97,115,107,47,115,117,112,101,114,118,105,115,101,100,46,101,120]},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,[108,105,98,47,116,97,115,107,47,115,117,112,101,114,118,105,115,101,100,46,101,120]},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,[112,114,111,99,95,108,105,98,46,101,114,108]},{line,226}]}]}]}}
+2020-10-19 13:54:29.983 [error] <0.804.0>@Elixir.GetmoreApiChallenge.RPX.Server:-handle_info/2-fun-0-:30 CRASH REPORT Process <0.804.0> with 1 neighbours crashed with reason: bad argument in call to erlang:apply('Elixir.GetmoreApiChallenge.Getmore', get_product, #{<<"number">> => 1020}) in 'Elixir.GetmoreApiChallenge.RPX.Server':'-handle_info/2-fun-0-'/4 line 30
+2020-10-19 13:54:29.984 [error] <0.569.0>@Elixir.GetmoreApiChallenge.RPX.Server:-handle_info/2-fun-0-:30 Supervisor 'Elixir.GetmoreApiChallenge.Supervisor' had child 'Elixir.GetmoreApiChallenge.RPX.Server' started with 'Elixir.GetmoreApiChallenge.RPX.Server':start_link([{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]) at <0.774.0> exit with reason bad argument in call to erlang:apply('Elixir.GetmoreApiChallenge.Getmore', get_product, #{<<"number">> => 1020}) in 'Elixir.GetmoreApiChallenge.RPX.Server':'-handle_info/2-fun-0-'/4 line 30 in context child_terminated
+2020-10-19 13:55:14.924 [info] <0.646.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,45,100,102,86,85,69,103,107,116,110,53,68,54,78,68,65,73,71,81,119,78,119,0,0,0,0,0,0,0,9,0,0,8,112,114,111,100,117,99,116,115>>} for invalid or closed channel number 1
+2020-10-19 13:55:14.925 [info] <0.646.0> Dropping frame {content_header,60,0,50,<<22,0,1,69,103,49,104,107,65,65,49,117,98,50,53,118,90,71,86,65,98,109,57,111,98,51,78,48,65,65,65,68,78,81,65,65,65,65,65,65,65,65,65,65,44,76,84,85,51,78,106,81,50,77,68,99,49,77,106,77,119,77,122,81,120,79,84,77,121,78,119,61,61,95,97,109,113,46,114,97,98,98,105,116,109,113,46,114,101,112,108,121,45,116,111,46,103,49,104,107,65,66,78,121,89,87,74,105,97,88,82,65,78,122,70,105,77,106,73,51,90,106,86,107,90,87,85,51,65,65,65,68,57,103,65,65,65,65,66,102,106,99,67,74,46,101,109,87,118,55,102,88,52,110,99,77,121,72,105,98,57,99,82,86,117,113,119,61,61>>} for invalid or closed channel number 1
+2020-10-19 13:55:14.925 [info] <0.646.0> Dropping frame {content_body,<<"{\"params\":{\"integer\":1020},\"target\":\"get_product\"}">>} for invalid or closed channel number 1
+2020-10-19 13:59:29.773 [info] <0.693.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,90,68,80,119,69,104,122,83,48,89,118,79,88,121,84,70,121,104,107,112,95,119,0,0,0,0,0,0,0,6,0,0,8,112,114,111,100,117,99,116,115>>} for invalid or closed channel number 1
+2020-10-19 13:59:29.774 [info] <0.693.0> Dropping frame {content_header,60,0,50,<<22,0,1,69,103,49,104,107,65,65,49,117,98,50,53,118,90,71,86,65,98,109,57,111,98,51,78,48,65,65,65,68,79,103,65,65,65,65,65,65,65,65,65,65,44,76,84,85,51,78,106,81,50,77,68,99,49,77,106,77,119,77,122,81,120,79,84,73,50,77,119,61,61,95,97,109,113,46,114,97,98,98,105,116,109,113,46,114,101,112,108,121,45,116,111,46,103,49,104,107,65,66,78,121,89,87,74,105,97,88,82,65,78,122,70,105,77,106,73,51,90,106,86,107,90,87,85,51,65,65,65,68,57,103,65,65,65,65,66,102,106,99,67,74,46,101,109,87,118,55,102,88,52,110,99,77,121,72,105,98,57,99,82,86,117,113,119,61,61>>} for invalid or closed channel number 1
+2020-10-19 13:59:29.774 [info] <0.693.0> Dropping frame {content_body,<<"{\"params\":{\"decimal\":1020},\"target\":\"get_product\"}">>} for invalid or closed channel number 1
+2020-10-19 13:59:40.342 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-10-19 13:59:40.346 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-10-19 13:59:40.351 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-10-19 13:59:40.353 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-10-19 13:59:40.354 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-10-19 13:59:40.356 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-10-19 13:59:40.357 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-10-19 13:59:40.368 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-19 13:59:40.368 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-10-19 13:59:40.371 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-10-19 13:59:40.372 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-10-19 13:59:40.372 [info] <0.44.0> Application rpx started on node nonode@nohost
+2020-10-19 13:59:40.373 [info] <0.44.0> Application telemetry_metrics started on node nonode@nohost
+2020-10-19 13:59:40.376 [info] <0.44.0> Application telemetry_poller started on node nonode@nohost
+2020-10-19 13:59:40.377 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-10-19 13:59:40.379 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-10-19 13:59:40.382 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-10-19 13:59:40.386 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-10-19 13:59:40.388 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-10-19 13:59:40.389 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-10-19 13:59:40.391 [info] <0.44.0> Application cowlib started on node nonode@nohost
+2020-10-19 13:59:40.392 [info] <0.44.0> Application cowboy started on node nonode@nohost
+2020-10-19 13:59:40.393 [info] <0.44.0> Application cowboy_telemetry started on node nonode@nohost
+2020-10-19 13:59:40.394 [info] <0.44.0> Application plug_cowboy started on node nonode@nohost
+2020-10-19 13:59:40.394 [info] <0.44.0> Application scrivener_headers started on node nonode@nohost
+2020-10-19 13:59:40.395 [info] <0.44.0> Application phoenix_html started on node nonode@nohost
+2020-10-19 13:59:40.395 [info] <0.44.0> Application phoenix_live_view started on node nonode@nohost
+2020-10-19 13:59:40.397 [info] <0.44.0> Application phoenix_live_dashboard started on node nonode@nohost
+2020-10-19 13:59:40.398 [info] <0.44.0> Application phoenix_ecto started on node nonode@nohost
+2020-10-19 13:59:40.471 [info] <0.44.0> Application getmoreApiChallenge started on node nonode@nohost
+2020-10-19 14:00:13.285 [warning] <0.458.0> Unexpected error_logger event {error_msg,<0.567.0>,{<0.677.0>,[42,42,32,84,97,115,107,32,126,112,32,116,101,114,109,105,110,97,116,105,110,103,126,110,42,42,32,83,116,97,114,116,101,100,32,102,114,111,109,32,126,112,126,110,42,42,32,87,104,101,110,32,102,117,110,99,116,105,111,110,32,32,61,61,32,126,112,126,110,42,42,32,32,32,32,32,32,97,114,103,117,109,101,110,116,115,32,61,61,32,126,112,126,110,42,42,32,82,101,97,115,111,110,32,102,111,114,32,116,101,114,109,105,110,97,116,105,111,110,32,61,61,32,126,110,42,42,32,126,112,126,110],['Elixir.GetmoreApiChallenge.RPX.Server',<0.677.0>,#Fun<Elixir.GetmoreApiChallenge.RPX.Server.0.66557456>,[],{badarg,[{erlang,apply,['Elixir.GetmoreApiChallenge.Getmore',get_product,<<49,48,50,48>>],[]},{'Elixir.GetmoreApiChallenge.RPX.Server','-handle_info/2-fun-0-',4,[{file,[108,105,98,47,114,112,120,47,115,101,114,118,101,114,46,101,120]},{line,30}]},{'Elixir.Task.Supervised',invoke_mfa,2,[{file,[108,105,98,47,116,97,115,107,47,115,117,112,101,114,118,105,115,101,100,46,101,120]},{line,90}]},{'Elixir.Task.Supervised',reply,5,[{file,[108,105,98,47,116,97,115,107,47,115,117,112,101,114,118,105,115,101,100,46,101,120]},{line,35}]},{proc_lib,init_p_do_apply,3,[{file,[112,114,111,99,95,108,105,98,46,101,114,108]},{line,226}]}]}]}}
+2020-10-19 14:00:13.286 [error] <0.677.0>@Elixir.GetmoreApiChallenge.RPX.Server:-handle_info/2-fun-0-:30 CRASH REPORT Process <0.677.0> with 1 neighbours crashed with reason: bad argument in call to erlang:apply('Elixir.GetmoreApiChallenge.Getmore', get_product, <<"1020">>) in 'Elixir.GetmoreApiChallenge.RPX.Server':'-handle_info/2-fun-0-'/4 line 30
+2020-10-19 14:00:13.286 [error] <0.569.0>@Elixir.GetmoreApiChallenge.RPX.Server:-handle_info/2-fun-0-:30 Supervisor 'Elixir.GetmoreApiChallenge.Supervisor' had child 'Elixir.GetmoreApiChallenge.RPX.Server' started with 'Elixir.GetmoreApiChallenge.RPX.Server':start_link([{worker,'Elixir.GetmoreApiChallenge.Getmore'},{queue_name,<<"products">>}]) at <0.640.0> exit with reason bad argument in call to erlang:apply('Elixir.GetmoreApiChallenge.Getmore', get_product, <<"1020">>) in 'Elixir.GetmoreApiChallenge.RPX.Server':'-handle_info/2-fun-0-'/4 line 30 in context child_terminated
+2020-10-19 14:36:40.340 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-10-19 14:36:40.343 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-10-19 14:36:40.349 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-10-19 14:36:40.350 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-10-19 14:36:40.351 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-10-19 14:36:40.354 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-10-19 14:36:40.354 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-10-19 14:36:40.367 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-19 14:36:40.367 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-10-19 14:36:40.370 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-10-19 14:36:40.371 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-10-19 14:36:40.371 [info] <0.44.0> Application rpx started on node nonode@nohost
+2020-10-19 14:36:40.372 [info] <0.44.0> Application telemetry_metrics started on node nonode@nohost
+2020-10-19 14:36:40.374 [info] <0.44.0> Application telemetry_poller started on node nonode@nohost
+2020-10-19 14:36:40.376 [info] <0.44.0> Application decimal started on node nonode@nohost
+2020-10-19 14:36:40.378 [info] <0.44.0> Application connection started on node nonode@nohost
+2020-10-19 14:36:40.381 [info] <0.44.0> Application db_connection started on node nonode@nohost
+2020-10-19 14:36:40.384 [info] <0.44.0> Application postgrex started on node nonode@nohost
+2020-10-19 14:36:40.387 [info] <0.44.0> Application ecto started on node nonode@nohost
+2020-10-19 14:36:40.387 [info] <0.44.0> Application ecto_sql started on node nonode@nohost
+2020-10-19 14:36:40.389 [info] <0.44.0> Application cowlib started on node nonode@nohost
+2020-10-19 14:36:40.390 [info] <0.44.0> Application cowboy started on node nonode@nohost
+2020-10-19 14:36:40.391 [info] <0.44.0> Application cowboy_telemetry started on node nonode@nohost
+2020-10-19 14:36:40.392 [info] <0.44.0> Application plug_cowboy started on node nonode@nohost
+2020-10-19 14:36:40.392 [info] <0.44.0> Application scrivener_headers started on node nonode@nohost
+2020-10-19 14:36:40.393 [info] <0.44.0> Application phoenix_html started on node nonode@nohost
+2020-10-19 14:36:40.393 [info] <0.44.0> Application phoenix_live_view started on node nonode@nohost
+2020-10-19 14:36:40.395 [info] <0.44.0> Application phoenix_live_dashboard started on node nonode@nohost
+2020-10-19 14:36:40.396 [info] <0.44.0> Application phoenix_ecto started on node nonode@nohost
+2020-10-19 14:36:40.484 [info] <0.44.0> Application getmoreApiChallenge started on node nonode@nohost
+2020-10-19 14:36:44.371 [error] <0.616.0> CRASH REPORT Process <0.616.0> with 0 neighbours exited with reason: {{{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US...">>,...},...}},...},...},...},...},...},...}
+2020-10-19 14:36:44.371 [error] <0.616.0> Cowboy stream 1 with ranch listener 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP' and connection process <0.615.0> had its request process exit with reason: {{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,e...">>,...},...}},...},...},...},...},...}
+2020-10-19 14:36:44.533 [error] <0.618.0> CRASH REPORT Process <0.618.0> with 0 neighbours exited with reason: {{{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"image/avif,image/webp,image/apng,image/*,*/*;q=0.8">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"cache-control">> => <<"no-cache">>,<<"connection">> => <<"keep-alive">>,...},...}},...},...},...},...},...},...}
+2020-10-19 14:36:44.533 [error] <0.618.0> Cowboy stream 2 with ranch listener 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP' and connection process <0.615.0> had its request process exit with reason: {{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"image/avif,image/webp,image/apng,image/*,*/*;q=0.8">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,en;q=0.9">>,<<"cache-control">> => <<"no-cache">>,<<"connection">> => <<"keep-alive">>,...},...}},...},...},...},...},...}
+2020-10-19 14:39:31.230 [error] <0.626.0> CRASH REPORT Process <0.626.0> with 0 neighbours exited with reason: {{{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US...">>,...},...}},...},...},...},...},...},...}
+2020-10-19 14:39:31.230 [error] <0.626.0> Cowboy stream 1 with ranch listener 'Elixir.GetmoreApiChallengeWeb.Endpoint.HTTP' and connection process <0.625.0> had its request process exit with reason: {{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"en-US,e...">>,...},...}},...},...},...},...},...}
+2020-10-19 14:40:11.141 [warning] <0.602.0> Connection (<0.602.0>) closing: received hard error {'connection.close',320,<<"CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'">>,0,0} from server
+2020-10-19 14:40:11.141 [warning] <0.587.0> Connection (<0.587.0>) closing: received hard error {'connection.close',320,<<"CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'">>,0,0} from server
