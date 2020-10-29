@@ -6,7 +6,7 @@ defmodule Products.Product.Consumer do
 
   use GenServer
   use AMQP
-  alias Products.Product.{Publisher, HandleMessage}
+  alias Products.Product.HandleMessage
 
   def start_link(opts \\ [name: __MODULE__]) do
     GenServer.start_link(__MODULE__, nil, opts)
@@ -25,7 +25,7 @@ defmodule Products.Product.Consumer do
     setup_queue(chan)
 
     # Limit unacknowledged messages to 1
-    :ok = Basic.qos(chan, prefetch_count: 1)
+    :ok = Basic.qos(chan, prefetch_count: 100)
     # Register the GenServer process as a consumer
     {:ok, _consumer_tag} = Basic.consume(chan, @queue)
     {:ok, chan}
@@ -48,7 +48,7 @@ defmodule Products.Product.Consumer do
 
   # Handle the messages in the queue
   def handle_info({:basic_deliver, payload, meta}, chan) do
-    consume(chan, meta)
+    consume(chan, payload, meta)
     {:noreply, chan}
   end
 
@@ -67,19 +67,29 @@ defmodule Products.Product.Consumer do
   end
 
   # Handle messages and return the content required
-  defp consume(channel, meta) do
+  defp consume(channel, payload, meta) do
     response =
-      meta.payload
+      payload
       |> HandleMessage.handle_message()
 
-    IO.puts(response)
+    AMQP.Basic.ack(channel, meta.delivery_tag)
 
+    opts = [correlation_id: meta.correlation_id, content_type: "application/json"]
     AMQP.Basic.publish(channel,
                       "",
                       meta.reply_to,
                       response,
-                      [correlation_id: meta.correlation_id,
-                      content_type: "application/json"])
-    AMQP.Basic.ack(channel, meta.tag)
+                      opts)
+  rescue
+    # Requeue unless it's a redelivered message.
+    # This means we will retry consuming a message once in case of exception
+    # before we give up and have it moved to the error queue
+    #
+    # You might also want to catch :exit signal in production code.
+    # Make sure you call ack, nack or reject otherwise comsumer will stop
+    # receiving messages.
+    exception ->
+      :ok = Basic.reject channel, meta.delivery_tag, requeue: not meta.redelivered
+      IO.inspect(exception)
   end
 end

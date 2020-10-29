@@ -14,3 +14,1062 @@
 2020-10-29 08:25:02.978 [error] <0.355.0> CRASH REPORT Process <0.355.0> with 0 neighbours exited with reason: {socket_error,timeout} in gen_server:handle_common_reply/8 line 751
 2020-10-29 08:25:02.986 [error] <0.353.0> Supervisor {<0.353.0>,amqp_connection_sup} had child connection started with amqp_gen_connection:start_link(<0.354.0>, {amqp_params_network,<<"guest">>,{plaintext,<<"guest">>},<<"/">>,"localhost",5672,0,0,10,50000,none,...}) at <0.355.0> exit with reason {socket_error,timeout} in context child_terminated
 2020-10-29 08:25:02.986 [error] <0.353.0> Supervisor {<0.353.0>,amqp_connection_sup} had child connection started with amqp_gen_connection:start_link(<0.354.0>, {amqp_params_network,<<"guest">>,{plaintext,<<"guest">>},<<"/">>,"localhost",5672,0,0,10,50000,none,...}) at <0.355.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-10-29 17:01:43.788 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 17:01:43.820 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 17:01:43.867 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 17:01:43.882 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 17:01:43.898 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 17:01:43.913 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 17:01:43.913 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 17:01:44.070 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 17:01:44.070 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 17:01:44.070 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 17:01:44.085 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 17:01:44.085 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 17:01:44.101 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 17:01:44.101 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 17:01:44.117 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 17:01:44.132 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 17:01:44.148 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 17:01:44.163 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 17:01:44.163 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 17:01:44.163 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 17:01:44.163 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 17:01:44.523 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 17:02:26.054 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 17:02:26.069 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 17:02:26.085 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 17:02:26.100 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 17:02:26.100 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 17:02:26.116 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 17:02:26.116 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 17:02:26.241 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 17:02:26.241 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 17:02:26.241 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 17:02:26.241 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 17:02:26.257 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 17:02:26.273 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 17:02:26.286 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 17:02:26.298 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 17:02:26.298 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 17:02:26.314 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 17:02:26.314 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 17:02:26.314 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 17:02:26.329 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 17:02:26.329 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 17:02:26.658 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 17:10:19.788 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 17:10:19.803 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 17:10:19.819 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 17:10:19.835 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 17:10:19.850 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 17:10:19.850 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 17:10:19.866 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 17:10:19.975 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 17:10:19.975 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 17:10:19.991 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 17:10:19.991 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 17:10:20.007 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 17:10:20.007 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 17:10:20.022 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 17:10:20.038 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 17:10:20.053 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 17:10:20.053 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 17:10:20.069 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 17:10:20.069 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 17:10:20.085 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 17:10:20.085 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 17:10:20.444 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 17:13:49.717 [error] <0.322.0>@Elixir.Products.Product.HandleMessage:read_message:26 gen_server <0.322.0> terminated with reason: no function clause matching 'Elixir.Products.Product.HandleMessage':read_message(4) line 26
+2020-10-29 17:13:49.732 [error] <0.322.0>@Elixir.Products.Product.HandleMessage:read_message:26 CRASH REPORT Process <0.322.0> with 0 neighbours crashed with reason: no function clause matching 'Elixir.Products.Product.HandleMessage':read_message(4) line 26
+2020-10-29 17:13:49.732 [error] <0.308.0>@Elixir.Products.Product.HandleMessage:read_message:26 Supervisor 'Elixir.Products.Supervisor' had child 'Elixir.Products.Product.Consumer' started with 'Elixir.Products.Product.Consumer':start_link([]) at <0.322.0> exit with reason no function clause matching 'Elixir.Products.Product.HandleMessage':read_message(4) line 26 in context child_terminated
+2020-10-29 17:13:56.584 [error] <0.337.0> gen_server <0.337.0> terminated with reason: unexpected_delivery_and_no_default_consumer
+2020-10-29 17:13:56.584 [error] <0.337.0> CRASH REPORT Process <0.337.0> with 0 neighbours exited with reason: unexpected_delivery_and_no_default_consumer in gen_server2:terminate/3 line 1183
+2020-10-29 17:13:56.584 [error] <0.336.0> Supervisor {<0.336.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:54555 -> 127.0.0.1:5672">>,1}) at <0.337.0> exit with reason unexpected_delivery_and_no_default_consumer in context child_terminated
+2020-10-29 17:13:56.584 [error] <0.336.0> Supervisor {<0.336.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:54555 -> 127.0.0.1:5672">>,1}) at <0.337.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-10-29 17:13:57.431 [error] <0.343.0>@Elixir.Products.Product.HandleMessage:read_message:26 gen_server <0.343.0> terminated with reason: no function clause matching 'Elixir.Products.Product.HandleMessage':read_message(4) line 26
+2020-10-29 17:13:57.431 [error] <0.343.0>@Elixir.Products.Product.HandleMessage:read_message:26 CRASH REPORT Process <0.343.0> with 0 neighbours crashed with reason: no function clause matching 'Elixir.Products.Product.HandleMessage':read_message(4) line 26
+2020-10-29 17:13:57.431 [error] <0.308.0>@Elixir.Products.Product.HandleMessage:read_message:26 Supervisor 'Elixir.Products.Supervisor' had child 'Elixir.Products.Product.Consumer' started with 'Elixir.Products.Product.Consumer':start_link([]) at <0.343.0> exit with reason no function clause matching 'Elixir.Products.Product.HandleMessage':read_message(4) line 26 in context child_terminated
+2020-10-29 17:15:08.380 [info] <0.331.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,81,80,110,102,55,73,70,115,107,87,72,108,88,52,101,72,45,81,101,97,71,119,0,0,0,0,0,0,0,3,0,16,112,114,111,100,117,99,116,95,99,111,110,115,117,109,101,114,0>>} for invalid or closed channel number 1
+2020-10-29 17:15:08.380 [info] <0.331.0> Dropping frame {content_header,60,0,1,<<16,0,1>>} for invalid or closed channel number 1
+2020-10-29 17:15:08.380 [info] <0.331.0> Dropping frame {content_body,<<"4">>} for invalid or closed channel number 1
+2020-10-29 17:15:14.697 [error] <0.354.0> gen_server <0.354.0> terminated with reason: unexpected_delivery_and_no_default_consumer
+2020-10-29 17:15:14.697 [error] <0.354.0> CRASH REPORT Process <0.354.0> with 0 neighbours exited with reason: unexpected_delivery_and_no_default_consumer in gen_server2:terminate/3 line 1183
+2020-10-29 17:15:14.697 [error] <0.353.0> Supervisor {<0.353.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:54582 -> 127.0.0.1:5672">>,1}) at <0.354.0> exit with reason unexpected_delivery_and_no_default_consumer in context child_terminated
+2020-10-29 17:15:14.697 [error] <0.353.0> Supervisor {<0.353.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:54582 -> 127.0.0.1:5672">>,1}) at <0.354.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-10-29 17:15:37.444 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 17:15:37.459 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 17:15:37.475 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 17:15:37.491 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 17:15:37.491 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 17:15:37.506 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 17:15:37.506 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 17:15:37.631 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 17:15:37.631 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 17:15:37.631 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 17:15:37.647 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 17:15:37.647 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 17:15:37.662 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 17:15:37.678 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 17:15:37.694 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 17:15:37.709 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 17:15:37.725 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 17:15:37.741 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 17:15:37.741 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 17:15:37.741 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 17:15:37.741 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 17:15:38.131 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 17:15:38.147 [error] <0.323.0>@Elixir.Products.Product.HandleMessage:read_message:28 gen_server <0.323.0> terminated with reason: no function clause matching 'Elixir.Products.Product.HandleMessage':read_message(4) line 28
+2020-10-29 17:15:38.162 [error] <0.323.0>@Elixir.Products.Product.HandleMessage:read_message:28 CRASH REPORT Process <0.323.0> with 0 neighbours crashed with reason: no function clause matching 'Elixir.Products.Product.HandleMessage':read_message(4) line 28
+2020-10-29 17:15:38.162 [error] <0.309.0>@Elixir.Products.Product.HandleMessage:read_message:28 Supervisor 'Elixir.Products.Supervisor' had child 'Elixir.Products.Product.Consumer' started with 'Elixir.Products.Product.Consumer':start_link([]) at <0.323.0> exit with reason no function clause matching 'Elixir.Products.Product.HandleMessage':read_message(4) line 28 in context child_terminated
+2020-10-29 17:16:39.163 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 17:16:39.179 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 17:16:39.194 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 17:16:39.210 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 17:16:39.210 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 17:16:39.225 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 17:16:39.225 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 17:16:39.350 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 17:16:39.350 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 17:16:39.350 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 17:16:39.350 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 17:16:39.366 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 17:16:39.366 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 17:16:39.382 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 17:16:39.397 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 17:16:39.413 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 17:16:39.413 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 17:16:39.429 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 17:16:39.429 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 17:16:39.429 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 17:16:39.429 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 17:16:39.772 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 17:16:39.772 [error] <0.323.0>@Elixir.Products.Product.HandleMessage:read_message:35 gen_server <0.323.0> terminated with reason: no function clause matching 'Elixir.Products.Product.HandleMessage':read_message(ok) line 35
+2020-10-29 17:16:39.804 [error] <0.323.0>@Elixir.Products.Product.HandleMessage:read_message:35 CRASH REPORT Process <0.323.0> with 0 neighbours crashed with reason: no function clause matching 'Elixir.Products.Product.HandleMessage':read_message(ok) line 35
+2020-10-29 17:16:39.804 [error] <0.309.0>@Elixir.Products.Product.HandleMessage:read_message:35 Supervisor 'Elixir.Products.Supervisor' had child 'Elixir.Products.Product.Consumer' started with 'Elixir.Products.Product.Consumer':start_link([]) at <0.323.0> exit with reason no function clause matching 'Elixir.Products.Product.HandleMessage':read_message(ok) line 35 in context child_terminated
+2020-10-29 17:17:15.100 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 17:17:15.116 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 17:17:15.147 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 17:17:15.147 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 17:17:15.163 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 17:17:15.163 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 17:17:15.179 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 17:17:15.288 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 17:17:15.288 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 17:17:15.304 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 17:17:15.304 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 17:17:15.319 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 17:17:15.319 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 17:17:15.335 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 17:17:15.350 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 17:17:15.350 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 17:17:15.366 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 17:17:15.382 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 17:17:15.382 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 17:17:15.382 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 17:17:15.382 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 17:17:15.710 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 17:17:15.710 [error] <0.323.0> gen_server <0.323.0> terminated with reason: {badkey,tag,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-wBOdFvemKjczybfQnOEdvA">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 1,exchange => <<"product_consumer">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => true,reply_to => undefined,routing_key => <<>>,timestamp => undefined,type => undefined,user_id => undefined}} in 'Elixir.Products.Product.Consumer':consume/3 line 83
+2020-10-29 17:17:15.741 [error] <0.323.0> CRASH REPORT Process <0.323.0> with 0 neighbours crashed with reason: {badkey,tag,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-wBOdFvemKjczybfQnOEdvA">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 1,exchange => <<"product_consumer">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => true,reply_to => undefined,routing_key => <<>>,timestamp => undefined,type => undefined,user_id => undefined}} in 'Elixir.Products.Product.Consumer':consume/3 line 83
+2020-10-29 17:17:15.741 [error] <0.309.0> Supervisor 'Elixir.Products.Supervisor' had child 'Elixir.Products.Product.Consumer' started with 'Elixir.Products.Product.Consumer':start_link([]) at <0.323.0> exit with reason {badkey,tag,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-wBOdFvemKjczybfQnOEdvA">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 1,exchange => <<"product_consumer">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => true,reply_to => undefined,routing_key => <<>>,timestamp => undefined,type => undefined,user_id => undefined}} in 'Elixir.Products.Product.Consumer':consume/3 line 83 in context child_terminated
+2020-10-29 17:17:31.219 [error] <0.338.0> gen_server <0.338.0> terminated with reason: unexpected_delivery_and_no_default_consumer
+2020-10-29 17:17:31.219 [error] <0.338.0> CRASH REPORT Process <0.338.0> with 0 neighbours exited with reason: unexpected_delivery_and_no_default_consumer in gen_server2:terminate/3 line 1183
+2020-10-29 17:17:31.219 [error] <0.339.0> gen_server <0.339.0> terminated with reason: {unexpected_delivery_and_no_default_consumer,{gen_server2,call,[<0.338.0>,{consumer_call,{'basic.deliver',<<"amq.ctag-wBOdFvemKjczybfQnOEdvA">>,6,false,<<"product_consumer">>,<<>>},{amqp_msg,{'P_basic',undefined,undefined,undefined,1,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"4">>}},60000]}} in gen_server2:call/3 line 346
+2020-10-29 17:17:31.219 [error] <0.337.0> Supervisor {<0.337.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:54645 -> 127.0.0.1:5672">>,1}) at <0.338.0> exit with reason unexpected_delivery_and_no_default_consumer in context child_terminated
+2020-10-29 17:17:31.219 [error] <0.337.0> Supervisor {<0.337.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:54645 -> 127.0.0.1:5672">>,1}) at <0.338.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-10-29 18:11:26.642 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 18:11:26.657 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 18:11:26.689 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 18:11:26.704 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 18:11:26.704 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 18:11:26.720 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 18:11:26.720 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 18:11:26.868 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 18:11:26.868 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 18:11:26.880 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 18:11:26.882 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 18:11:26.892 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 18:11:26.899 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 18:11:26.915 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 18:11:26.932 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 18:11:26.942 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 18:11:26.956 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 18:11:26.965 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 18:11:26.967 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 18:11:26.974 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 18:11:26.974 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 18:11:27.347 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 18:11:27.377 [error] <0.334.0> gen_server <0.334.0> terminated with reason: {badkey,tag,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-PvHC2lmM08UdVw1ngEeszA">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 1,exchange => <<"product_consumer">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => true,reply_to => undefined,routing_key => <<>>,timestamp => undefined,type => undefined,user_id => undefined}} in 'Elixir.Products.Product.Consumer':consume/3 line 94
+2020-10-29 18:11:27.429 [error] <0.334.0> CRASH REPORT Process <0.334.0> with 0 neighbours crashed with reason: {badkey,tag,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-PvHC2lmM08UdVw1ngEeszA">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 1,exchange => <<"product_consumer">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => true,reply_to => undefined,routing_key => <<>>,timestamp => undefined,type => undefined,user_id => undefined}} in 'Elixir.Products.Product.Consumer':consume/3 line 94
+2020-10-29 18:11:27.429 [error] <0.320.0> Supervisor 'Elixir.Products.Supervisor' had child 'Elixir.Products.Product.Consumer' started with 'Elixir.Products.Product.Consumer':start_link([]) at <0.334.0> exit with reason {badkey,tag,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-PvHC2lmM08UdVw1ngEeszA">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 1,exchange => <<"product_consumer">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => true,reply_to => undefined,routing_key => <<>>,timestamp => undefined,type => undefined,user_id => undefined}} in 'Elixir.Products.Product.Consumer':consume/3 line 94 in context child_terminated
+2020-10-29 18:12:23.423 [error] <0.349.0> gen_server <0.349.0> terminated with reason: unexpected_delivery_and_no_default_consumer
+2020-10-29 18:12:23.438 [error] <0.349.0> CRASH REPORT Process <0.349.0> with 0 neighbours exited with reason: unexpected_delivery_and_no_default_consumer in gen_server2:terminate/3 line 1183
+2020-10-29 18:12:23.438 [error] <0.348.0> Supervisor {<0.348.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:49597 -> 127.0.0.1:5672">>,1}) at <0.349.0> exit with reason unexpected_delivery_and_no_default_consumer in context child_terminated
+2020-10-29 18:12:23.438 [error] <0.350.0> gen_server <0.350.0> terminated with reason: {unexpected_delivery_and_no_default_consumer,{gen_server2,call,[<0.349.0>,{consumer_call,{'basic.deliver',<<"amq.ctag-PvHC2lmM08UdVw1ngEeszA">>,7,false,<<"product_consumer">>,<<>>},{amqp_msg,{'P_basic',undefined,undefined,undefined,1,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"4">>}},60000]}} in gen_server2:call/3 line 346
+2020-10-29 18:12:23.438 [error] <0.348.0> Supervisor {<0.348.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:49597 -> 127.0.0.1:5672">>,1}) at <0.349.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-10-29 18:12:32.049 [info] <0.343.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,80,118,72,67,50,108,109,77,48,56,85,100,86,119,49,110,103,69,101,115,122,65,0,0,0,0,0,0,0,8,0,16,112,114,111,100,117,99,116,95,99,111,110,115,117,109,101,114,0>>} for invalid or closed channel number 1
+2020-10-29 18:12:32.049 [info] <0.343.0> Dropping frame {content_header,60,0,1,<<16,0,1>>} for invalid or closed channel number 1
+2020-10-29 18:12:32.049 [info] <0.343.0> Dropping frame {content_body,<<"4">>} for invalid or closed channel number 1
+2020-10-29 18:12:34.491 [info] <0.343.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,80,118,72,67,50,108,109,77,48,56,85,100,86,119,49,110,103,69,101,115,122,65,0,0,0,0,0,0,0,9,0,16,112,114,111,100,117,99,116,95,99,111,110,115,117,109,101,114,0>>} for invalid or closed channel number 1
+2020-10-29 18:12:34.491 [info] <0.343.0> Dropping frame {content_header,60,0,1,<<16,0,1>>} for invalid or closed channel number 1
+2020-10-29 18:12:34.491 [info] <0.343.0> Dropping frame {content_body,<<"4">>} for invalid or closed channel number 1
+2020-10-29 18:13:37.073 [info] <0.343.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,80,118,72,67,50,108,109,77,48,56,85,100,86,119,49,110,103,69,101,115,122,65,0,0,0,0,0,0,0,10,0,16,112,114,111,100,117,99,116,95,99,111,110,115,117,109,101,114,0>>} for invalid or closed channel number 1
+2020-10-29 18:13:37.073 [info] <0.343.0> Dropping frame {content_header,60,0,1,<<16,0,1>>} for invalid or closed channel number 1
+2020-10-29 18:13:37.073 [info] <0.343.0> Dropping frame {content_body,<<"4">>} for invalid or closed channel number 1
+2020-10-29 18:13:45.295 [error] <0.364.0> gen_server <0.364.0> terminated with reason: {badkey,tag,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-5EEfHMFZd-U_yZxfsn_F6Q">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 1,exchange => <<"product_consumer">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => false,reply_to => undefined,routing_key => <<>>,timestamp => undefined,type => undefined,user_id => undefined}} in 'Elixir.Products.Product.Consumer':consume/3 line 94
+2020-10-29 18:13:45.296 [error] <0.364.0> CRASH REPORT Process <0.364.0> with 0 neighbours crashed with reason: {badkey,tag,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-5EEfHMFZd-U_yZxfsn_F6Q">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 1,exchange => <<"product_consumer">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => false,reply_to => undefined,routing_key => <<>>,timestamp => undefined,type => undefined,user_id => undefined}} in 'Elixir.Products.Product.Consumer':consume/3 line 94
+2020-10-29 18:13:45.296 [error] <0.320.0> Supervisor 'Elixir.Products.Supervisor' had child 'Elixir.Products.Product.Consumer' started with 'Elixir.Products.Product.Consumer':start_link([]) at <0.364.0> exit with reason {badkey,tag,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-5EEfHMFZd-U_yZxfsn_F6Q">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 1,exchange => <<"product_consumer">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => false,reply_to => undefined,routing_key => <<>>,timestamp => undefined,type => undefined,user_id => undefined}} in 'Elixir.Products.Product.Consumer':consume/3 line 94 in context child_terminated
+2020-10-29 18:13:49.501 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 18:13:49.516 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 18:13:49.548 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 18:13:49.579 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 18:13:49.579 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 18:13:49.594 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 18:13:49.594 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 18:13:49.735 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 18:13:49.735 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 18:13:49.751 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 18:13:49.751 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 18:13:49.766 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 18:13:49.782 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 18:13:49.798 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 18:13:49.813 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 18:13:49.829 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 18:13:49.829 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 18:13:49.844 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 18:13:49.844 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 18:13:49.860 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 18:13:49.860 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 18:13:50.266 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 18:13:50.298 [error] <0.311.0> gen_server <0.311.0> terminated with reason: {badkey,tag,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-Ok3nMq7QZVltXTK7OgVuBw">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 1,exchange => <<"product_consumer">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => true,reply_to => undefined,routing_key => <<>>,timestamp => undefined,type => undefined,user_id => undefined}} in 'Elixir.Products.Product.Consumer':consume/3 line 94
+2020-10-29 18:13:50.313 [error] <0.311.0> CRASH REPORT Process <0.311.0> with 0 neighbours crashed with reason: {badkey,tag,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-Ok3nMq7QZVltXTK7OgVuBw">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 1,exchange => <<"product_consumer">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => true,reply_to => undefined,routing_key => <<>>,timestamp => undefined,type => undefined,user_id => undefined}} in 'Elixir.Products.Product.Consumer':consume/3 line 94
+2020-10-29 18:13:50.313 [error] <0.297.0> Supervisor 'Elixir.Products.Supervisor' had child 'Elixir.Products.Product.Consumer' started with 'Elixir.Products.Product.Consumer':start_link([]) at <0.311.0> exit with reason {badkey,tag,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-Ok3nMq7QZVltXTK7OgVuBw">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 1,exchange => <<"product_consumer">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => true,reply_to => undefined,routing_key => <<>>,timestamp => undefined,type => undefined,user_id => undefined}} in 'Elixir.Products.Product.Consumer':consume/3 line 94 in context child_terminated
+2020-10-29 18:15:04.391 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 18:15:04.406 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 18:15:04.438 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 18:15:04.453 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 18:15:04.453 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 18:15:04.469 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 18:15:04.469 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 18:15:04.594 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 18:15:04.594 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 18:15:04.609 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 18:15:04.609 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 18:15:04.625 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 18:15:04.625 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 18:15:04.656 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 18:15:04.672 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 18:15:04.672 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 18:15:04.688 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 18:15:04.703 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 18:15:04.703 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 18:15:04.703 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 18:15:04.703 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 18:15:05.126 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 18:15:05.150 [error] <0.322.0> gen_server <0.322.0> terminated with reason: {badkey,tag,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-RzTFOyrACK8ObntVVEyaeA">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 1,exchange => <<"product_consumer">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => true,reply_to => undefined,routing_key => <<>>,timestamp => undefined,type => undefined,user_id => undefined}} in 'Elixir.Products.Product.Consumer':consume/3 line 94
+2020-10-29 18:15:05.165 [error] <0.322.0> CRASH REPORT Process <0.322.0> with 0 neighbours crashed with reason: {badkey,tag,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-RzTFOyrACK8ObntVVEyaeA">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 1,exchange => <<"product_consumer">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => true,reply_to => undefined,routing_key => <<>>,timestamp => undefined,type => undefined,user_id => undefined}} in 'Elixir.Products.Product.Consumer':consume/3 line 94
+2020-10-29 18:15:05.165 [error] <0.307.0> Supervisor 'Elixir.Products.Supervisor' had child 'Elixir.Products.Product.Consumer' started with 'Elixir.Products.Product.Consumer':start_link([]) at <0.322.0> exit with reason {badkey,tag,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-RzTFOyrACK8ObntVVEyaeA">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 1,exchange => <<"product_consumer">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => true,reply_to => undefined,routing_key => <<>>,timestamp => undefined,type => undefined,user_id => undefined}} in 'Elixir.Products.Product.Consumer':consume/3 line 94 in context child_terminated
+2020-10-29 18:17:14.939 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 18:17:14.954 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 18:17:14.985 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 18:17:14.985 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 18:17:15.001 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 18:17:15.001 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 18:17:15.017 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 18:17:15.142 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 18:17:15.142 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 18:17:15.142 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 18:17:15.142 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 18:17:15.157 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 18:17:15.157 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 18:17:15.173 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 18:17:15.189 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 18:17:15.189 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 18:17:15.204 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 18:17:15.220 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 18:17:15.220 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 18:17:15.220 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 18:17:15.220 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 18:17:15.610 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 18:26:22.813 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 18:26:22.829 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 18:26:22.860 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 18:26:22.876 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 18:26:22.876 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 18:26:22.891 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 18:26:22.891 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 18:26:23.016 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 18:26:23.016 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 18:26:23.016 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 18:26:23.016 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 18:26:23.032 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 18:26:23.032 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 18:26:23.047 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 18:26:23.063 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 18:26:23.079 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 18:26:23.079 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 18:26:23.094 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 18:26:23.094 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 18:26:23.094 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 18:26:23.094 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 18:26:23.454 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 18:50:57.651 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 18:50:57.666 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 18:50:57.691 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 18:50:57.706 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 18:50:57.706 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 18:50:57.726 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 18:50:57.726 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 18:50:57.869 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 18:50:57.869 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 18:50:57.880 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 18:50:57.884 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 18:50:57.894 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 18:50:57.900 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 18:50:57.916 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 18:50:57.929 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 18:50:57.941 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 18:50:57.953 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 18:50:57.963 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 18:50:57.964 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 18:50:57.972 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 18:50:57.972 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 18:50:58.429 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 18:51:19.952 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 18:51:19.965 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 18:51:19.991 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 18:51:20.001 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 18:51:20.007 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 18:51:20.018 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 18:51:20.024 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 18:51:20.690 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 18:51:20.690 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 18:51:20.699 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 18:51:20.703 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 18:51:20.712 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 18:51:20.719 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 18:51:20.734 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 18:51:20.746 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 18:51:20.758 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 18:51:20.771 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 18:51:20.779 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 18:51:20.782 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 18:51:20.782 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 18:51:20.782 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 18:51:21.235 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 19:05:10.971 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 19:05:10.986 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 19:05:11.012 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 19:05:11.024 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 19:05:11.030 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 19:05:11.041 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 19:05:11.048 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 19:05:11.168 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 19:05:11.168 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 19:05:11.175 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 19:05:11.178 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 19:05:11.188 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 19:05:11.194 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 19:05:11.207 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 19:05:11.219 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 19:05:11.230 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 19:05:11.241 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 19:05:11.248 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 19:05:11.250 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 19:05:11.256 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 19:05:11.256 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 19:05:11.623 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 19:05:11.714 [error] <0.324.0> gen_server <0.324.0> terminated with reason: {badkey,tag,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-YXIPq4-O3tlLN3CWw_UD4Q">>,content_encoding => undefined,content_type => <<"application/json">>,correlation_id => undefined,delivery_tag => 26,exchange => <<"product_consumer">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => true,reply_to => undefined,routing_key => <<>>,timestamp => undefined,type => undefined,user_id => undefined}} in 'Elixir.Products.Product.Consumer':consume/3 line 97
+2020-10-29 19:05:11.730 [error] <0.324.0> CRASH REPORT Process <0.324.0> with 0 neighbours crashed with reason: {badkey,tag,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-YXIPq4-O3tlLN3CWw_UD4Q">>,content_encoding => undefined,content_type => <<"application/json">>,correlation_id => undefined,delivery_tag => 26,exchange => <<"product_consumer">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => true,reply_to => undefined,routing_key => <<>>,timestamp => undefined,type => undefined,user_id => undefined}} in 'Elixir.Products.Product.Consumer':consume/3 line 97
+2020-10-29 19:05:11.730 [error] <0.309.0> Supervisor 'Elixir.Products.Supervisor' had child 'Elixir.Products.Product.Consumer' started with 'Elixir.Products.Product.Consumer':start_link([]) at <0.324.0> exit with reason {badkey,tag,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-YXIPq4-O3tlLN3CWw_UD4Q">>,content_encoding => undefined,content_type => <<"application/json">>,correlation_id => undefined,delivery_tag => 26,exchange => <<"product_consumer">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => true,reply_to => undefined,routing_key => <<>>,timestamp => undefined,type => undefined,user_id => undefined}} in 'Elixir.Products.Product.Consumer':consume/3 line 97 in context child_terminated
+2020-10-29 19:06:00.313 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 19:06:00.329 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 19:06:00.344 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 19:06:00.360 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 19:06:00.360 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 19:06:00.376 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 19:06:00.391 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 19:06:00.501 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 19:06:00.501 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 19:06:00.516 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 19:06:00.516 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 19:06:00.532 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 19:06:00.532 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 19:06:00.547 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 19:06:00.563 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 19:06:00.563 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 19:06:00.579 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 19:06:00.594 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 19:06:00.594 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 19:06:00.594 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 19:06:00.594 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 19:06:00.969 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 19:06:01.063 [error] <0.312.0> gen_server <0.312.0> terminated with reason: {badkey,tag,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-gNSQv2us0A_0qXrt8FFPqA">>,content_encoding => undefined,content_type => <<"application/json">>,correlation_id => undefined,delivery_tag => 26,exchange => <<"product_consumer">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => true,reply_to => undefined,routing_key => <<>>,timestamp => undefined,type => undefined,user_id => undefined}} in 'Elixir.Products.Product.Consumer':consume/3 line 97
+2020-10-29 19:06:01.079 [error] <0.312.0> CRASH REPORT Process <0.312.0> with 0 neighbours crashed with reason: {badkey,tag,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-gNSQv2us0A_0qXrt8FFPqA">>,content_encoding => undefined,content_type => <<"application/json">>,correlation_id => undefined,delivery_tag => 26,exchange => <<"product_consumer">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => true,reply_to => undefined,routing_key => <<>>,timestamp => undefined,type => undefined,user_id => undefined}} in 'Elixir.Products.Product.Consumer':consume/3 line 97
+2020-10-29 19:06:01.079 [error] <0.297.0> Supervisor 'Elixir.Products.Supervisor' had child 'Elixir.Products.Product.Consumer' started with 'Elixir.Products.Product.Consumer':start_link([]) at <0.312.0> exit with reason {badkey,tag,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-gNSQv2us0A_0qXrt8FFPqA">>,content_encoding => undefined,content_type => <<"application/json">>,correlation_id => undefined,delivery_tag => 26,exchange => <<"product_consumer">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => true,reply_to => undefined,routing_key => <<>>,timestamp => undefined,type => undefined,user_id => undefined}} in 'Elixir.Products.Product.Consumer':consume/3 line 97 in context child_terminated
+2020-10-29 19:06:08.641 [error] <0.336.0> gen_server <0.336.0> terminated with reason: unexpected_delivery_and_no_default_consumer
+2020-10-29 19:06:08.641 [error] <0.336.0> CRASH REPORT Process <0.336.0> with 0 neighbours exited with reason: unexpected_delivery_and_no_default_consumer in gen_server2:terminate/3 line 1183
+2020-10-29 19:06:08.641 [error] <0.337.0> gen_server <0.337.0> terminated with reason: {unexpected_delivery_and_no_default_consumer,{gen_server2,call,[<0.336.0>,{consumer_call,{'basic.deliver',<<"amq.ctag-gNSQv2us0A_0qXrt8FFPqA">>,29,false,<<"product_consumer">>,<<>>},{amqp_msg,{'P_basic',<<"application/json">>,undefined,undefined,1,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"{\"name\":\"S\"}">>}},60000]}} in gen_server2:call/3 line 346
+2020-10-29 19:06:08.641 [error] <0.335.0> Supervisor {<0.335.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:50974 -> 127.0.0.1:5672">>,1}) at <0.336.0> exit with reason unexpected_delivery_and_no_default_consumer in context child_terminated
+2020-10-29 19:06:08.641 [error] <0.335.0> Supervisor {<0.335.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:50974 -> 127.0.0.1:5672">>,1}) at <0.336.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-10-29 19:06:14.557 [error] <0.341.0> gen_server <0.341.0> terminated with reason: {badkey,tag,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-eIc0hAT1rfBSpksxASPDLA">>,content_encoding => undefined,content_type => <<"application/json">>,correlation_id => undefined,delivery_tag => 1,exchange => <<"product_consumer">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => false,reply_to => undefined,routing_key => <<>>,timestamp => undefined,type => undefined,user_id => undefined}} in 'Elixir.Products.Product.Consumer':consume/3 line 97
+2020-10-29 19:06:14.557 [error] <0.341.0> CRASH REPORT Process <0.341.0> with 0 neighbours crashed with reason: {badkey,tag,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-eIc0hAT1rfBSpksxASPDLA">>,content_encoding => undefined,content_type => <<"application/json">>,correlation_id => undefined,delivery_tag => 1,exchange => <<"product_consumer">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => false,reply_to => undefined,routing_key => <<>>,timestamp => undefined,type => undefined,user_id => undefined}} in 'Elixir.Products.Product.Consumer':consume/3 line 97
+2020-10-29 19:06:14.557 [error] <0.297.0> Supervisor 'Elixir.Products.Supervisor' had child 'Elixir.Products.Product.Consumer' started with 'Elixir.Products.Product.Consumer':start_link([]) at <0.341.0> exit with reason {badkey,tag,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-eIc0hAT1rfBSpksxASPDLA">>,content_encoding => undefined,content_type => <<"application/json">>,correlation_id => undefined,delivery_tag => 1,exchange => <<"product_consumer">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => false,reply_to => undefined,routing_key => <<>>,timestamp => undefined,type => undefined,user_id => undefined}} in 'Elixir.Products.Product.Consumer':consume/3 line 97 in context child_terminated
+2020-10-29 19:08:45.564 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 19:08:45.580 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 19:08:45.626 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 19:08:45.642 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 19:08:45.642 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 19:08:45.658 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 19:08:45.658 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 19:08:45.783 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 19:08:45.783 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 19:08:45.798 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 19:08:45.798 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 19:08:45.798 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 19:08:45.814 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 19:08:45.830 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 19:08:45.830 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 19:08:45.845 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 19:08:45.861 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 19:08:45.861 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 19:08:45.861 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 19:08:45.876 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 19:08:45.876 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 19:08:46.236 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 19:08:46.267 [error] <0.323.0> gen_server <0.323.0> terminated with reason: {badkey,tag,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-Mh6LfSF-i0wpH0zrPA9yyQ">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 1,exchange => <<"product_consumer">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => true,reply_to => undefined,routing_key => <<>>,timestamp => undefined,type => undefined,user_id => undefined}} in 'Elixir.Products.Product.Consumer':consume/3 line 98
+2020-10-29 19:08:46.283 [error] <0.323.0> CRASH REPORT Process <0.323.0> with 0 neighbours crashed with reason: {badkey,tag,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-Mh6LfSF-i0wpH0zrPA9yyQ">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 1,exchange => <<"product_consumer">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => true,reply_to => undefined,routing_key => <<>>,timestamp => undefined,type => undefined,user_id => undefined}} in 'Elixir.Products.Product.Consumer':consume/3 line 98
+2020-10-29 19:08:46.283 [error] <0.308.0> Supervisor 'Elixir.Products.Supervisor' had child 'Elixir.Products.Product.Consumer' started with 'Elixir.Products.Product.Consumer':start_link([]) at <0.323.0> exit with reason {badkey,tag,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-Mh6LfSF-i0wpH0zrPA9yyQ">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 1,exchange => <<"product_consumer">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => true,reply_to => undefined,routing_key => <<>>,timestamp => undefined,type => undefined,user_id => undefined}} in 'Elixir.Products.Product.Consumer':consume/3 line 98 in context child_terminated
+2020-10-29 19:09:38.313 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 19:09:38.329 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 19:09:38.360 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 19:09:38.360 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 19:09:38.376 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 19:09:38.376 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 19:09:38.391 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 19:09:38.501 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 19:09:38.501 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 19:09:38.516 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 19:09:38.516 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 19:09:38.516 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 19:09:38.532 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 19:09:38.548 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 19:09:38.548 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 19:09:38.563 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 19:09:38.579 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 19:09:38.579 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 19:09:38.579 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 19:09:38.594 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 19:09:38.594 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 19:09:38.969 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 19:09:38.985 [error] <0.323.0> gen_server <0.323.0> terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.String.Chars',value => #{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-Jcplyh3SG3G76hhUxR-FNg">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 1,exchange => <<"product_consumer">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => ...,...}} in 'Elixir.String.Chars':'impl_for!'/1 line 3
+2020-10-29 19:09:39.001 [error] <0.323.0> CRASH REPORT Process <0.323.0> with 0 neighbours crashed with reason: #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.String.Chars',value => #{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-Jcplyh3SG3G76hhUxR-FNg">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 1,exchange => <<"product_consumer">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => ...,...}} in 'Elixir.String.Chars':'impl_for!'/1 line 3
+2020-10-29 19:09:39.001 [error] <0.308.0> Supervisor 'Elixir.Products.Supervisor' had child 'Elixir.Products.Product.Consumer' started with 'Elixir.Products.Product.Consumer':start_link([]) at <0.323.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.String.Chars',value => #{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-Jcplyh3SG3G76hhUxR-FNg">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 1,exchange => <<"product_consumer">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => ...,...}} in 'Elixir.String.Chars':'impl_for!'/1 line 3 in context child_terminated
+2020-10-29 19:11:36.500 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 19:11:36.516 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 19:11:36.532 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 19:11:36.547 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 19:11:36.563 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 19:11:36.563 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 19:11:36.578 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 19:11:36.688 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 19:11:36.688 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 19:11:36.703 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 19:11:36.703 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 19:11:36.719 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 19:11:36.719 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 19:11:36.735 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 19:11:36.750 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 19:11:36.750 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 19:11:36.766 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 19:11:36.766 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 19:11:36.766 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 19:11:36.782 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 19:11:36.782 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 19:11:37.141 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 19:11:37.157 [error] <0.323.0> gen_server <0.323.0> terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.String.Chars',value => #{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-XTf5YsD26ksxaGRYLFyo0A">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 1,exchange => <<"product_consumer">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => ...,...}} in 'Elixir.String.Chars':'impl_for!'/1 line 3
+2020-10-29 19:11:37.172 [error] <0.323.0> CRASH REPORT Process <0.323.0> with 0 neighbours crashed with reason: #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.String.Chars',value => #{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-XTf5YsD26ksxaGRYLFyo0A">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 1,exchange => <<"product_consumer">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => ...,...}} in 'Elixir.String.Chars':'impl_for!'/1 line 3
+2020-10-29 19:11:37.172 [error] <0.308.0> Supervisor 'Elixir.Products.Supervisor' had child 'Elixir.Products.Product.Consumer' started with 'Elixir.Products.Product.Consumer':start_link([]) at <0.323.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.String.Chars',value => #{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-XTf5YsD26ksxaGRYLFyo0A">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 1,exchange => <<"product_consumer">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => ...,...}} in 'Elixir.String.Chars':'impl_for!'/1 line 3 in context child_terminated
+2020-10-29 19:11:58.783 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 19:11:58.798 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 19:11:58.830 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 19:11:58.845 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 19:11:58.845 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 19:11:58.861 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 19:11:58.876 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 19:11:59.001 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 19:11:59.001 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 19:11:59.001 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 19:11:59.017 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 19:11:59.017 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 19:11:59.033 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 19:11:59.048 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 19:11:59.064 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 19:11:59.080 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 19:11:59.095 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 19:11:59.111 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 19:11:59.111 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 19:11:59.126 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 19:11:59.126 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 19:11:59.580 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 19:12:29.471 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 19:12:29.485 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 19:12:29.511 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 19:12:29.523 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 19:12:29.528 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 19:12:29.541 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 19:12:29.548 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 19:12:29.663 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 19:12:29.664 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 19:12:29.671 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 19:12:29.673 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 19:12:29.683 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 19:12:29.689 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 19:12:29.703 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 19:12:29.714 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 19:12:29.726 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 19:12:29.737 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 19:12:29.743 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 19:12:29.744 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 19:12:29.753 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 19:12:29.753 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 19:12:30.127 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 19:13:46.876 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 19:13:46.890 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 19:13:46.917 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 19:13:46.928 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 19:13:46.934 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 19:13:46.946 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 19:13:46.952 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 19:13:47.070 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 19:13:47.070 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 19:13:47.077 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 19:13:47.080 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 19:13:47.089 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 19:13:47.095 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 19:13:47.109 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 19:13:47.120 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 19:13:47.131 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 19:13:47.141 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 19:13:47.149 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 19:13:47.150 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 19:13:47.157 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 19:13:47.157 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 19:13:47.532 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 19:14:08.969 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 19:14:08.985 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 19:14:09.016 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 19:14:09.016 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 19:14:09.032 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 19:14:09.032 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 19:14:09.048 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 19:14:09.173 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 19:14:09.173 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 19:14:09.173 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 19:14:09.188 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 19:14:09.188 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 19:14:09.204 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 19:14:09.219 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 19:14:09.235 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 19:14:09.251 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 19:14:09.266 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 19:14:09.282 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 19:14:09.282 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 19:14:09.282 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 19:14:09.282 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 19:14:09.688 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 19:15:07.720 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 19:15:07.736 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 19:15:07.752 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 19:15:07.767 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 19:15:07.767 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 19:15:07.790 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 19:15:07.797 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 19:15:07.917 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 19:15:07.917 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 19:15:07.924 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 19:15:07.927 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 19:15:07.937 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 19:15:07.943 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 19:15:07.957 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 19:15:07.970 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 19:15:07.980 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 19:15:07.993 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 19:15:08.002 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 19:15:08.003 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 19:15:08.010 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 19:15:08.011 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 19:15:08.449 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 19:17:48.923 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 19:17:48.938 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 19:17:48.970 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 19:17:48.970 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 19:17:48.985 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 19:17:49.001 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 19:17:49.001 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 19:17:49.110 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 19:17:49.110 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 19:17:49.126 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 19:17:49.126 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 19:17:49.142 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 19:17:49.142 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 19:17:49.157 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 19:17:49.173 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 19:17:49.173 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 19:17:49.188 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 19:17:49.188 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 19:17:49.188 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 19:17:49.204 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 19:17:49.204 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 19:17:49.563 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 19:19:42.875 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 19:19:42.891 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 19:19:42.906 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 19:19:42.922 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 19:19:42.938 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 19:19:42.938 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 19:19:42.953 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 19:19:43.063 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 19:19:43.063 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 19:19:43.078 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 19:19:43.078 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 19:19:43.078 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 19:19:43.094 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 19:19:43.110 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 19:19:43.110 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 19:19:43.125 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 19:19:43.141 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 19:19:43.141 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 19:19:43.141 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 19:19:43.156 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 19:19:43.156 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 19:19:43.516 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 19:20:44.048 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 19:20:44.064 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 19:20:44.079 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 19:20:44.095 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 19:20:44.095 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 19:20:44.111 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 19:20:44.126 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 19:20:44.236 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 19:20:44.236 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 19:20:44.251 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 19:20:44.251 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 19:20:44.251 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 19:20:44.267 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 19:20:44.283 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 19:20:44.283 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 19:20:44.298 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 19:20:44.314 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 19:20:44.314 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 19:20:44.314 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 19:20:44.329 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 19:20:44.329 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 19:20:44.689 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 19:21:16.601 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 19:21:16.616 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 19:21:16.641 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 19:21:16.656 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 19:21:16.661 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 19:21:16.676 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 19:21:16.681 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 19:21:16.810 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 19:21:16.810 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 19:21:16.821 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 19:21:16.825 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 19:21:16.836 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 19:21:16.845 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 19:21:16.863 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 19:21:16.878 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 19:21:16.890 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 19:21:16.904 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 19:21:16.915 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 19:21:16.916 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 19:21:16.926 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 19:21:16.926 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 19:21:17.347 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 19:21:20.233 [error] <0.323.0> gen_server <0.323.0> terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.Scrivener.Paginater',value => []} in 'Elixir.Scrivener.Paginater':'impl_for!'/1 line 1
+2020-10-29 19:21:20.247 [error] <0.323.0> CRASH REPORT Process <0.323.0> with 0 neighbours crashed with reason: #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.Scrivener.Paginater',value => []} in 'Elixir.Scrivener.Paginater':'impl_for!'/1 line 1
+2020-10-29 19:21:20.247 [error] <0.308.0> Supervisor 'Elixir.Products.Supervisor' had child 'Elixir.Products.Product.Consumer' started with 'Elixir.Products.Product.Consumer':start_link([]) at <0.323.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.Scrivener.Paginater',value => []} in 'Elixir.Scrivener.Paginater':'impl_for!'/1 line 1 in context child_terminated
+2020-10-29 19:25:35.657 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 19:25:35.672 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 19:25:35.704 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 19:25:35.719 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 19:25:35.719 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 19:25:35.735 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 19:25:35.735 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 19:25:35.876 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 19:25:35.876 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 19:25:35.876 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 19:25:35.876 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 19:25:35.891 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 19:25:35.907 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 19:25:35.922 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 19:25:35.938 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 19:25:35.938 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 19:25:35.954 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 19:25:35.969 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 19:25:35.969 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 19:25:35.969 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 19:25:35.969 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 19:25:36.433 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 19:25:36.608 [error] <0.330.0> gen_server <0.330.0> terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.String.Chars',value => {error,#{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<"Jason.Encoder protocol must always be explicitly implemented.\n\nIf you own the struct, you can derive the implementation specifying which fields should be encoded to JSON:\n\n    @derive {Jason.Encoder, only: [....]}\n    defstruct ...\n\nIt is also possible to en...">>,...}}} in 'Elixir.String.Chars':'impl_for!'/1 line 3
+2020-10-29 19:25:36.623 [error] <0.330.0> CRASH REPORT Process <0.330.0> with 0 neighbours crashed with reason: #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.String.Chars',value => {error,#{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<"Jason.Encoder protocol must always be explicitly implemented.\n\nIf you own the struct, you can derive the implementation specifying which fields should be encoded to JSON:\n\n    @derive {Jason.Encoder, only: [....]}\n    defstruct ...\n\nIt is also possible to en...">>,...}}} in 'Elixir.String.Chars':'impl_for!'/1 line 3
+2020-10-29 19:25:36.623 [error] <0.315.0> Supervisor 'Elixir.Products.Supervisor' had child 'Elixir.Products.Product.Consumer' started with 'Elixir.Products.Product.Consumer':start_link([]) at <0.330.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.String.Chars',value => {error,#{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<"Jason.Encoder protocol must always be explicitly implemented.\n\nIf you own the struct, you can derive the implementation specifying which fields should be encoded to JSON:\n\n    @derive {Jason.Encoder, only: [....]}\n    defstruct ...\n\nIt is also possible to en...">>,...}}} in 'Elixir.String.Chars':'impl_for!'/1 line 3 in context child_terminated
+2020-10-29 19:26:24.126 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 19:26:24.141 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 19:26:24.157 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 19:26:24.172 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 19:26:24.188 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 19:26:24.188 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 19:26:24.204 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 19:26:24.313 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 19:26:24.313 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 19:26:24.329 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 19:26:24.329 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 19:26:24.344 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 19:26:24.344 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 19:26:24.360 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 19:26:24.376 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 19:26:24.376 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 19:26:24.391 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 19:26:24.407 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 19:26:24.407 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 19:26:24.407 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 19:26:24.407 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 19:26:24.766 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 19:26:24.840 [error] <0.325.0> gen_server <0.325.0> terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.String.Chars',value => {error,#{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<"Jason.Encoder protocol must always be explicitly implemented.\n\nIf you own the struct, you can derive the implementation specifying which fields should be encoded to JSON:\n\n    @derive {Jason.Encoder, only: [....]}\n    defstruct ...\n\nIt is also possible to en...">>,...}}} in 'Elixir.String.Chars':'impl_for!'/1 line 3
+2020-10-29 19:26:24.857 [error] <0.325.0> CRASH REPORT Process <0.325.0> with 0 neighbours crashed with reason: #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.String.Chars',value => {error,#{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<"Jason.Encoder protocol must always be explicitly implemented.\n\nIf you own the struct, you can derive the implementation specifying which fields should be encoded to JSON:\n\n    @derive {Jason.Encoder, only: [....]}\n    defstruct ...\n\nIt is also possible to en...">>,...}}} in 'Elixir.String.Chars':'impl_for!'/1 line 3
+2020-10-29 19:26:24.857 [error] <0.310.0> Supervisor 'Elixir.Products.Supervisor' had child 'Elixir.Products.Product.Consumer' started with 'Elixir.Products.Product.Consumer':start_link([]) at <0.325.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.String.Chars',value => {error,#{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<"Jason.Encoder protocol must always be explicitly implemented.\n\nIf you own the struct, you can derive the implementation specifying which fields should be encoded to JSON:\n\n    @derive {Jason.Encoder, only: [....]}\n    defstruct ...\n\nIt is also possible to en...">>,...}}} in 'Elixir.String.Chars':'impl_for!'/1 line 3 in context child_terminated
+2020-10-29 19:27:39.328 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 19:27:39.344 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 19:27:39.360 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 19:27:39.375 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 19:27:39.391 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 19:27:39.391 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 19:27:39.407 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 19:27:39.532 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 19:27:39.532 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 19:27:39.532 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 19:27:39.532 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 19:27:39.547 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 19:27:39.547 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 19:27:39.563 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 19:27:39.578 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 19:27:39.594 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 19:27:39.610 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 19:27:39.610 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 19:27:39.610 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 19:27:39.625 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 19:27:39.625 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 19:27:39.985 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 19:27:40.047 [error] <0.325.0> gen_server <0.325.0> terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.String.Chars',value => {ok,<<"{\"entries\":[],\"page_number\":1,\"page_size\":10,\"total_entries\":0,\"total_pages\":1}">>}} in 'Elixir.String.Chars':'impl_for!'/1 line 3
+2020-10-29 19:27:40.047 [error] <0.325.0> CRASH REPORT Process <0.325.0> with 0 neighbours crashed with reason: #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.String.Chars',value => {ok,<<"{\"entries\":[],\"page_number\":1,\"page_size\":10,\"total_entries\":0,\"total_pages\":1}">>}} in 'Elixir.String.Chars':'impl_for!'/1 line 3
+2020-10-29 19:27:40.063 [error] <0.310.0> Supervisor 'Elixir.Products.Supervisor' had child 'Elixir.Products.Product.Consumer' started with 'Elixir.Products.Product.Consumer':start_link([]) at <0.325.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.String.Chars',value => {ok,<<"{\"entries\":[],\"page_number\":1,\"page_size\":10,\"total_entries\":0,\"total_pages\":1}">>}} in 'Elixir.String.Chars':'impl_for!'/1 line 3 in context child_terminated
+2020-10-29 19:28:11.458 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 19:28:11.474 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 19:28:11.505 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 19:28:11.521 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 19:28:11.521 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 19:28:11.536 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 19:28:11.536 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 19:28:11.676 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 19:28:11.676 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 19:28:11.684 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 19:28:11.686 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 19:28:11.696 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 19:28:11.702 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 19:28:11.716 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 19:28:11.730 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 19:28:11.742 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 19:28:11.757 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 19:28:11.764 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 19:28:11.765 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 19:28:11.772 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 19:28:11.772 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 19:28:12.169 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 19:28:12.237 [error] <0.325.0>@Elixir.Products.Product.Queries:get_page:13 gen_server <0.325.0> terminated with reason: no match of right hand value #{entries => [],page_number => 1,page_size => 10,total_entries => 0,total_pages => 1} in 'Elixir.Products.Product.Queries':get_page/1 line 13
+2020-10-29 19:28:12.259 [error] <0.325.0>@Elixir.Products.Product.Queries:get_page:13 CRASH REPORT Process <0.325.0> with 0 neighbours crashed with reason: no match of right hand value #{entries => [],page_number => 1,page_size => 10,total_entries => 0,total_pages => 1} in 'Elixir.Products.Product.Queries':get_page/1 line 13
+2020-10-29 19:28:12.259 [error] <0.310.0>@Elixir.Products.Product.Queries:get_page:13 Supervisor 'Elixir.Products.Supervisor' had child 'Elixir.Products.Product.Consumer' started with 'Elixir.Products.Product.Consumer':start_link([]) at <0.325.0> exit with reason no match of right hand value #{entries => [],page_number => 1,page_size => 10,total_entries => 0,total_pages => 1} in 'Elixir.Products.Product.Queries':get_page/1 line 13 in context child_terminated
+2020-10-29 19:29:32.314 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 19:29:32.329 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 19:29:32.345 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 19:29:32.360 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 19:29:32.360 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 19:29:32.376 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 19:29:32.376 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 19:29:32.501 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 19:29:32.501 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 19:29:32.501 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 19:29:32.501 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 19:29:32.517 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 19:29:32.517 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 19:29:32.532 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 19:29:32.548 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 19:29:32.564 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 19:29:32.564 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 19:29:32.579 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 19:29:32.579 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 19:29:32.579 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 19:29:32.579 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 19:29:32.939 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 19:29:33.001 [error] <0.325.0> gen_server <0.325.0> terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.String.Chars',value => {ok,<<"{\"entries\":[],\"page_number\":1,\"page_size\":10,\"total_entries\":0,\"total_pages\":1}">>}} in 'Elixir.String.Chars':'impl_for!'/1 line 3
+2020-10-29 19:29:33.017 [error] <0.325.0> CRASH REPORT Process <0.325.0> with 0 neighbours crashed with reason: #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.String.Chars',value => {ok,<<"{\"entries\":[],\"page_number\":1,\"page_size\":10,\"total_entries\":0,\"total_pages\":1}">>}} in 'Elixir.String.Chars':'impl_for!'/1 line 3
+2020-10-29 19:29:33.017 [error] <0.310.0> Supervisor 'Elixir.Products.Supervisor' had child 'Elixir.Products.Product.Consumer' started with 'Elixir.Products.Product.Consumer':start_link([]) at <0.325.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.String.Chars',value => {ok,<<"{\"entries\":[],\"page_number\":1,\"page_size\":10,\"total_entries\":0,\"total_pages\":1}">>}} in 'Elixir.String.Chars':'impl_for!'/1 line 3 in context child_terminated
+2020-10-29 19:30:40.892 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 19:30:40.907 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 19:30:40.923 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 19:30:40.938 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 19:30:40.938 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 19:30:40.954 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 19:30:40.970 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 19:30:41.079 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 19:30:41.079 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 19:30:41.095 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 19:30:41.095 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 19:30:41.095 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 19:30:41.110 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 19:30:41.126 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 19:30:41.142 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 19:30:41.142 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 19:30:41.157 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 19:30:41.173 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 19:30:41.173 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 19:30:41.173 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 19:30:41.173 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 19:30:41.610 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 19:30:41.673 [error] <0.325.0> gen_server <0.325.0> terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.String.Chars',value => {ok,<<"{\"entries\":[],\"page_number\":1,\"page_size\":10,\"total_entries\":0,\"total_pages\":1}">>}} in 'Elixir.String.Chars':'impl_for!'/1 line 3
+2020-10-29 19:30:41.688 [error] <0.325.0> CRASH REPORT Process <0.325.0> with 0 neighbours crashed with reason: #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.String.Chars',value => {ok,<<"{\"entries\":[],\"page_number\":1,\"page_size\":10,\"total_entries\":0,\"total_pages\":1}">>}} in 'Elixir.String.Chars':'impl_for!'/1 line 3
+2020-10-29 19:30:41.688 [error] <0.310.0> Supervisor 'Elixir.Products.Supervisor' had child 'Elixir.Products.Product.Consumer' started with 'Elixir.Products.Product.Consumer':start_link([]) at <0.325.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.String.Chars',value => {ok,<<"{\"entries\":[],\"page_number\":1,\"page_size\":10,\"total_entries\":0,\"total_pages\":1}">>}} in 'Elixir.String.Chars':'impl_for!'/1 line 3 in context child_terminated
+2020-10-29 19:31:03.551 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 19:31:03.566 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 19:31:03.597 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 19:31:03.597 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 19:31:03.613 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 19:31:03.613 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 19:31:03.629 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 19:31:03.754 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 19:31:03.754 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 19:31:03.754 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 19:31:03.754 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 19:31:03.769 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 19:31:03.769 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 19:31:03.796 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 19:31:03.806 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 19:31:03.818 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 19:31:03.829 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 19:31:03.837 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 19:31:03.838 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 19:31:03.845 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 19:31:03.845 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 19:31:04.271 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 19:31:04.335 [error] <0.325.0> gen_server <0.325.0> terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.String.Chars',value => {ok,<<"{\"entries\":[],\"page_number\":1,\"page_size\":10,\"total_entries\":0,\"total_pages\":1}">>}} in 'Elixir.String.Chars':'impl_for!'/1 line 3
+2020-10-29 19:31:04.349 [error] <0.325.0> CRASH REPORT Process <0.325.0> with 0 neighbours crashed with reason: #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.String.Chars',value => {ok,<<"{\"entries\":[],\"page_number\":1,\"page_size\":10,\"total_entries\":0,\"total_pages\":1}">>}} in 'Elixir.String.Chars':'impl_for!'/1 line 3
+2020-10-29 19:31:04.350 [error] <0.310.0> Supervisor 'Elixir.Products.Supervisor' had child 'Elixir.Products.Product.Consumer' started with 'Elixir.Products.Product.Consumer':start_link([]) at <0.325.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.String.Chars',value => {ok,<<"{\"entries\":[],\"page_number\":1,\"page_size\":10,\"total_entries\":0,\"total_pages\":1}">>}} in 'Elixir.String.Chars':'impl_for!'/1 line 3 in context child_terminated
+2020-10-29 19:31:28.891 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 19:31:28.891 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 19:31:28.922 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 19:31:28.938 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 19:31:28.938 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 19:31:28.953 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 19:31:28.953 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 19:31:29.078 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 19:31:29.078 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 19:31:29.094 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 19:31:29.094 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 19:31:29.094 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 19:31:29.110 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 19:31:29.125 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 19:31:29.156 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 19:31:29.156 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 19:31:29.172 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 19:31:29.188 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 19:31:29.188 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 19:31:29.188 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 19:31:29.188 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 19:31:29.547 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 19:31:29.610 [error] <0.325.0> gen_server <0.325.0> terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.String.Chars',value => {ok,<<"\"ok\"">>}} in 'Elixir.String.Chars':'impl_for!'/1 line 3
+2020-10-29 19:31:29.625 [error] <0.325.0> CRASH REPORT Process <0.325.0> with 0 neighbours crashed with reason: #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.String.Chars',value => {ok,<<"\"ok\"">>}} in 'Elixir.String.Chars':'impl_for!'/1 line 3
+2020-10-29 19:31:29.625 [error] <0.310.0> Supervisor 'Elixir.Products.Supervisor' had child 'Elixir.Products.Product.Consumer' started with 'Elixir.Products.Product.Consumer':start_link([]) at <0.325.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.String.Chars',value => {ok,<<"\"ok\"">>}} in 'Elixir.String.Chars':'impl_for!'/1 line 3 in context child_terminated
+2020-10-29 19:32:42.486 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 19:32:42.501 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 19:32:42.533 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 19:32:42.548 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 19:32:42.548 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 19:32:42.564 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 19:32:42.564 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 19:32:42.689 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 19:32:42.689 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 19:32:42.689 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 19:32:42.689 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 19:32:42.705 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 19:32:42.705 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 19:32:42.720 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 19:32:42.736 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 19:32:42.736 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 19:32:42.751 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 19:32:42.767 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 19:32:42.767 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 19:32:42.767 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 19:32:42.767 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 19:32:43.126 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 20:19:53.799 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 20:19:53.815 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 20:19:53.853 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 20:19:53.868 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 20:19:53.868 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 20:19:53.900 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 20:19:53.900 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 20:19:54.038 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 20:19:54.038 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 20:19:54.069 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 20:19:54.069 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 20:19:54.085 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 20:19:54.085 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 20:19:54.116 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 20:19:54.138 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 20:19:54.154 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 20:19:54.185 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 20:19:54.200 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 20:19:54.200 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 20:19:54.216 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 20:19:54.216 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 20:19:55.091 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 20:25:11.073 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 20:25:11.111 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 20:25:11.164 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 20:25:11.184 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 20:25:11.192 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 20:25:11.214 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 20:25:11.222 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 20:25:11.382 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 20:25:11.382 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 20:25:11.424 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 20:25:11.434 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 20:25:11.443 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 20:25:11.450 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 20:25:11.488 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 20:25:11.538 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 20:25:11.557 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 20:25:11.577 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 20:25:11.592 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 20:25:11.601 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 20:25:11.608 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 20:25:11.609 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 20:25:12.469 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 20:25:54.824 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 20:25:54.840 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 20:25:54.856 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 20:25:54.878 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 20:25:54.878 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 20:25:54.893 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 20:25:54.893 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 20:25:55.009 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 20:25:55.009 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 20:25:55.009 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 20:25:55.025 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 20:25:55.025 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 20:25:55.040 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 20:25:55.040 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 20:25:55.056 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 20:25:55.072 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 20:25:55.078 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 20:25:55.094 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 20:25:55.094 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 20:25:55.094 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 20:25:55.094 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 20:25:55.457 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 20:26:29.114 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 20:26:29.129 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 20:26:29.151 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 20:26:29.167 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 20:26:29.167 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 20:26:29.183 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 20:26:29.183 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 20:26:29.298 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 20:26:29.298 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 20:26:29.298 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 20:26:29.314 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 20:26:29.314 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 20:26:29.314 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 20:26:29.330 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 20:26:29.352 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 20:26:29.352 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 20:26:29.368 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 20:26:29.368 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 20:26:29.383 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 20:26:29.383 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 20:26:29.383 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 20:26:29.749 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 20:26:53.232 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 20:26:53.247 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 20:26:53.285 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 20:26:53.285 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 20:26:53.301 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 20:26:53.316 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 20:26:53.332 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 20:26:53.448 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 20:26:53.448 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 20:26:53.448 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 20:26:53.463 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 20:26:53.479 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 20:26:53.486 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 20:26:53.501 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 20:26:53.525 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 20:26:53.532 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 20:26:53.548 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 20:26:53.548 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 20:26:53.548 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 20:26:53.564 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 20:26:53.564 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 20:26:53.963 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 20:26:59.827 [error] <0.323.0> gen_server <0.323.0> terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.Enumerable',value => 30} in 'Elixir.Enumerable':'impl_for!'/1 line 1
+2020-10-29 20:26:59.865 [error] <0.323.0> CRASH REPORT Process <0.323.0> with 0 neighbours crashed with reason: #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.Enumerable',value => 30} in 'Elixir.Enumerable':'impl_for!'/1 line 1
+2020-10-29 20:26:59.865 [error] <0.308.0> Supervisor 'Elixir.Products.Supervisor' had child 'Elixir.Products.Product.Consumer' started with 'Elixir.Products.Product.Consumer':start_link([]) at <0.323.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.Enumerable',value => 30} in 'Elixir.Enumerable':'impl_for!'/1 line 1 in context child_terminated
+2020-10-29 20:33:31.892 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 20:33:31.907 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 20:33:31.938 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 20:33:31.938 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 20:33:31.954 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 20:33:31.961 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 20:33:31.961 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 20:33:32.076 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 20:33:32.076 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 20:33:32.092 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 20:33:32.092 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 20:33:32.092 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 20:33:32.108 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 20:33:32.123 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 20:33:32.123 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 20:33:32.139 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 20:33:32.155 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 20:33:32.161 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 20:33:32.161 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 20:33:32.161 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 20:33:32.161 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 20:33:32.518 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-29 20:33:32.549 [error] <0.312.0> gen_server <0.312.0> terminated with reason: #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.Enumerable',value => 30} in 'Elixir.Enumerable':'impl_for!'/1 line 1
+2020-10-29 20:33:32.565 [error] <0.312.0> CRASH REPORT Process <0.312.0> with 0 neighbours crashed with reason: #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.Enumerable',value => 30} in 'Elixir.Enumerable':'impl_for!'/1 line 1
+2020-10-29 20:33:32.565 [error] <0.297.0> Supervisor 'Elixir.Products.Supervisor' had child 'Elixir.Products.Product.Consumer' started with 'Elixir.Products.Product.Consumer':start_link([]) at <0.312.0> exit with reason #{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<>>,protocol => 'Elixir.Enumerable',value => 30} in 'Elixir.Enumerable':'impl_for!'/1 line 1 in context child_terminated
+2020-10-29 20:34:31.384 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 20:34:31.400 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 20:34:31.422 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 20:34:31.437 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 20:34:31.453 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 20:34:31.453 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 20:34:31.469 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 20:34:31.569 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 20:34:31.569 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 20:34:31.585 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 20:34:31.585 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 20:34:31.585 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-29 20:34:31.600 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-29 20:34:31.616 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-29 20:34:31.622 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-29 20:34:31.622 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-29 20:34:31.638 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-29 20:34:31.654 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-29 20:34:31.654 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-29 20:34:31.654 [info] <0.43.0> Application scrivener started on node nonode@nohost
+2020-10-29 20:34:31.654 [info] <0.43.0> Application scrivener_ecto started on node nonode@nohost
+2020-10-29 20:34:32.034 [info] <0.43.0> Application products started on node nonode@nohost

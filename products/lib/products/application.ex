@@ -6,6 +6,7 @@ defmodule Products.Application do
   def start(_type, _args) do
     children = [
       Products.Repo,
+      Products.Connection,
       Products.Product.Consumer
     ]
 
