@@ -1,0 +1,145 @@
+2020-10-28 21:05:57.517 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-28 21:05:57.532 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-28 21:05:57.564 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-28 21:05:57.579 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-28 21:05:57.579 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-28 21:05:57.595 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-28 21:05:57.610 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-28 21:05:57.720 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-28 21:05:57.720 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-28 21:05:57.736 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-28 21:05:57.736 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-28 21:05:57.736 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-28 21:05:57.751 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-28 21:05:57.767 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-28 21:05:57.782 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-28 21:05:57.798 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-28 21:05:57.814 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-28 21:05:57.814 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-28 21:05:57.814 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-28 21:05:58.173 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-28 21:07:10.165 [error] <0.339.0>@rabbit_framing_amqp_0_9_1:shortstr_size:178 CRASH REPORT Process <0.339.0> with 0 neighbours crashed with reason: bad argument in call to erlang:size(undefined) in rabbit_framing_amqp_0_9_1:shortstr_size/1 line 178
+2020-10-28 21:07:10.165 [error] <0.336.0>@rabbit_framing_amqp_0_9_1:shortstr_size:178 Supervisor {<0.336.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.15>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.338.0>, {<<"client 127.0.0.1:50948 -> 127.0.0.1:5672">>,1}, false, 1000000000) at <0.339.0> exit with reason bad argument in call to erlang:size(undefined) in rabbit_framing_amqp_0_9_1:shortstr_size/1 line 178 in context child_terminated
+2020-10-28 21:07:10.165 [error] <0.336.0> Supervisor {<0.336.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.15>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.338.0>, {<<"client 127.0.0.1:50948 -> 127.0.0.1:5672">>,1}, false, 1000000000) at <0.339.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-10-28 21:07:18.754 [error] <0.352.0>@rabbit_framing_amqp_0_9_1:shortstr_size:178 CRASH REPORT Process <0.352.0> with 0 neighbours crashed with reason: bad argument in call to erlang:size(undefined) in rabbit_framing_amqp_0_9_1:shortstr_size/1 line 178
+2020-10-28 21:07:18.754 [error] <0.349.0>@rabbit_framing_amqp_0_9_1:shortstr_size:178 Supervisor {<0.349.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.16>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.351.0>, {<<"client 127.0.0.1:50953 -> 127.0.0.1:5672">>,1}, false, 1000000000) at <0.352.0> exit with reason bad argument in call to erlang:size(undefined) in rabbit_framing_amqp_0_9_1:shortstr_size/1 line 178 in context child_terminated
+2020-10-28 21:07:18.754 [error] <0.349.0> Supervisor {<0.349.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.16>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.351.0>, {<<"client 127.0.0.1:50953 -> 127.0.0.1:5672">>,1}, false, 1000000000) at <0.352.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-10-28 21:08:03.352 [error] <0.366.0>@rabbit_framing_amqp_0_9_1:shortstr_size:178 CRASH REPORT Process <0.366.0> with 0 neighbours crashed with reason: bad argument in call to erlang:size(undefined) in rabbit_framing_amqp_0_9_1:shortstr_size/1 line 178
+2020-10-28 21:08:03.352 [error] <0.363.0>@rabbit_framing_amqp_0_9_1:shortstr_size:178 Supervisor {<0.363.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.17>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.365.0>, {<<"client 127.0.0.1:50954 -> 127.0.0.1:5672">>,1}, false, 1000000000) at <0.366.0> exit with reason bad argument in call to erlang:size(undefined) in rabbit_framing_amqp_0_9_1:shortstr_size/1 line 178 in context child_terminated
+2020-10-28 21:08:03.352 [error] <0.363.0> Supervisor {<0.363.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.17>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.365.0>, {<<"client 127.0.0.1:50954 -> 127.0.0.1:5672">>,1}, false, 1000000000) at <0.366.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-10-28 21:08:08.312 [error] <0.379.0>@rabbit_framing_amqp_0_9_1:shortstr_size:178 CRASH REPORT Process <0.379.0> with 0 neighbours crashed with reason: bad argument in call to erlang:size(undefined) in rabbit_framing_amqp_0_9_1:shortstr_size/1 line 178
+2020-10-28 21:08:08.312 [error] <0.376.0>@rabbit_framing_amqp_0_9_1:shortstr_size:178 Supervisor {<0.376.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.18>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.378.0>, {<<"client 127.0.0.1:50955 -> 127.0.0.1:5672">>,1}, false, 1000000000) at <0.379.0> exit with reason bad argument in call to erlang:size(undefined) in rabbit_framing_amqp_0_9_1:shortstr_size/1 line 178 in context child_terminated
+2020-10-28 21:08:08.312 [error] <0.376.0> Supervisor {<0.376.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.18>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.378.0>, {<<"client 127.0.0.1:50955 -> 127.0.0.1:5672">>,1}, false, 1000000000) at <0.379.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-10-28 21:09:02.204 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-28 21:09:02.220 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-28 21:09:02.251 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-28 21:09:02.251 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-28 21:09:02.266 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-28 21:09:02.282 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-28 21:09:02.282 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-28 21:09:02.392 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-28 21:09:02.392 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-28 21:09:02.392 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-28 21:09:02.392 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-28 21:09:02.407 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-28 21:09:02.407 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-28 21:09:02.423 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-28 21:09:02.438 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-28 21:09:02.454 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-28 21:09:02.470 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-28 21:09:02.470 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-28 21:09:02.470 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-28 21:09:02.845 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-28 21:14:26.831 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-28 21:14:26.846 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-28 21:14:26.878 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-28 21:14:26.878 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-28 21:14:26.893 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-28 21:14:26.893 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-28 21:14:26.909 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-28 21:14:27.034 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-28 21:14:27.034 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-28 21:14:27.034 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-28 21:14:27.050 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-28 21:14:27.050 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-28 21:14:27.065 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-28 21:14:27.081 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-28 21:14:27.081 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-28 21:14:27.096 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-28 21:14:27.112 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-28 21:14:27.112 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-28 21:14:27.112 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-28 21:14:27.456 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-28 21:19:58.416 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-28 21:19:58.431 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-28 21:19:58.463 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-28 21:19:58.463 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-28 21:19:58.478 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-28 21:19:58.478 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-28 21:19:58.494 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-28 21:19:58.603 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-28 21:19:58.603 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-28 21:19:58.603 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-28 21:19:58.603 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-28 21:19:58.619 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-28 21:19:58.619 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-28 21:19:58.634 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-28 21:19:58.650 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-28 21:19:58.666 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-28 21:19:58.666 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-28 21:19:58.681 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-28 21:19:58.681 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-28 21:19:59.040 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-28 21:21:45.008 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-28 21:21:45.024 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-28 21:21:45.039 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-28 21:21:45.055 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-28 21:21:45.055 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-28 21:21:45.071 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-28 21:21:45.071 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-28 21:21:45.180 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-28 21:21:45.180 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-28 21:21:45.180 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-28 21:21:45.180 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-28 21:21:45.196 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-28 21:21:45.196 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-28 21:21:45.211 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-28 21:21:45.227 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-28 21:21:45.227 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-28 21:21:45.242 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-28 21:21:45.242 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-28 21:21:45.242 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-28 21:21:45.586 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-28 21:22:25.329 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-28 21:22:25.344 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-28 21:22:25.376 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-28 21:22:25.376 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-28 21:22:25.391 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-28 21:22:25.391 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-28 21:22:25.407 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-28 21:22:25.516 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-28 21:22:25.516 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-28 21:22:25.516 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-28 21:22:25.532 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-28 21:22:25.532 [info] <0.43.0> Application connection started on node nonode@nohost
+2020-10-28 21:22:25.547 [info] <0.43.0> Application decimal started on node nonode@nohost
+2020-10-28 21:22:25.563 [info] <0.43.0> Application db_connection started on node nonode@nohost
+2020-10-28 21:22:25.579 [info] <0.43.0> Application postgrex started on node nonode@nohost
+2020-10-28 21:22:25.579 [info] <0.43.0> Application eex started on node nonode@nohost
+2020-10-28 21:22:25.594 [info] <0.43.0> Application telemetry started on node nonode@nohost
+2020-10-28 21:22:25.615 [info] <0.43.0> Application ecto started on node nonode@nohost
+2020-10-28 21:22:25.621 [info] <0.43.0> Application ecto_sql started on node nonode@nohost
+2020-10-28 21:22:26.044 [info] <0.43.0> Application products started on node nonode@nohost
+2020-10-28 21:22:44.425 [error] <0.339.0>@rabbit_framing_amqp_0_9_1:shortstr_size:178 CRASH REPORT Process <0.339.0> with 0 neighbours crashed with reason: bad argument in call to erlang:size(undefined) in rabbit_framing_amqp_0_9_1:shortstr_size/1 line 178
+2020-10-28 21:22:44.425 [error] <0.336.0>@rabbit_framing_amqp_0_9_1:shortstr_size:178 Supervisor {<0.336.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.15>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.338.0>, {<<"client 127.0.0.1:51239 -> 127.0.0.1:5672">>,1}, false, 1000000000) at <0.339.0> exit with reason bad argument in call to erlang:size(undefined) in rabbit_framing_amqp_0_9_1:shortstr_size/1 line 178 in context child_terminated
+2020-10-28 21:22:44.425 [error] <0.336.0> Supervisor {<0.336.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.15>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.338.0>, {<<"client 127.0.0.1:51239 -> 127.0.0.1:5672">>,1}, false, 1000000000) at <0.339.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-10-28 21:23:10.079 [error] <0.352.0>@rabbit_framing_amqp_0_9_1:shortstr_size:178 CRASH REPORT Process <0.352.0> with 0 neighbours crashed with reason: bad argument in call to erlang:size(undefined) in rabbit_framing_amqp_0_9_1:shortstr_size/1 line 178
+2020-10-28 21:23:10.079 [error] <0.349.0>@rabbit_framing_amqp_0_9_1:shortstr_size:178 Supervisor {<0.349.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.16>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.351.0>, {<<"client 127.0.0.1:51240 -> 127.0.0.1:5672">>,1}, false, 1000000000) at <0.352.0> exit with reason bad argument in call to erlang:size(undefined) in rabbit_framing_amqp_0_9_1:shortstr_size/1 line 178 in context child_terminated
+2020-10-28 21:23:10.079 [error] <0.349.0> Supervisor {<0.349.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.16>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.351.0>, {<<"client 127.0.0.1:51240 -> 127.0.0.1:5672">>,1}, false, 1000000000) at <0.352.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-10-28 21:23:16.437 [error] <0.365.0>@rabbit_framing_amqp_0_9_1:shortstr_size:178 CRASH REPORT Process <0.365.0> with 0 neighbours crashed with reason: bad argument in call to erlang:size(undefined) in rabbit_framing_amqp_0_9_1:shortstr_size/1 line 178
+2020-10-28 21:23:16.437 [error] <0.362.0>@rabbit_framing_amqp_0_9_1:shortstr_size:178 Supervisor {<0.362.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.17>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.364.0>, {<<"client 127.0.0.1:51241 -> 127.0.0.1:5672">>,1}, false, 1000000000) at <0.365.0> exit with reason bad argument in call to erlang:size(undefined) in rabbit_framing_amqp_0_9_1:shortstr_size/1 line 178 in context child_terminated
+2020-10-28 21:23:16.437 [error] <0.362.0> Supervisor {<0.362.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.17>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.364.0>, {<<"client 127.0.0.1:51241 -> 127.0.0.1:5672">>,1}, false, 1000000000) at <0.365.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-10-29 08:25:02.687 [error] <0.318.0> gen_server <0.318.0> terminated with reason: {socket_error,timeout}
+2020-10-29 08:25:02.687 [error] <0.359.0> gen_server <0.359.0> terminated with reason: {socket_error,timeout}
+2020-10-29 08:25:02.687 [error] <0.355.0> gen_server <0.355.0> terminated with reason: {socket_error,timeout}
+2020-10-29 08:25:02.687 [error] <0.312.0> gen_server <0.312.0> terminated with reason: {socket_error,timeout}

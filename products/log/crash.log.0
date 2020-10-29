@@ -1,0 +1,227 @@
+2020-10-28 21:07:10 =CRASH REPORT====
+  crasher:
+    initial call: rabbit_writer:enter_mainloop/2
+    pid: <0.339.0>
+    registered_name: []
+    exception error: bad argument: [{erlang,size,[undefined],[]},{rabbit_framing_amqp_0_9_1,shortstr_size,1,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_framing_amqp_0_9_1.erl"},{line,178}]},{rabbit_framing_amqp_0_9_1,encode_method_fields,1,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_framing_amqp_0_9_1.erl"},{line,1122}]},{rabbit_binary_generator,build_simple_method_frame,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_binary_generator.erl"},{line,50}]},{rabbit_writer,assemble_frames,5,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,329}]},{rabbit_writer,internal_send_command_async,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,362}]},{rabbit_writer,handle_message,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,229}]},{rabbit_writer,mainloop1,2,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,213}]}]
+    ancestors: [<0.336.0>,<0.330.0>,<0.328.0>,<0.327.0>,amqp_sup,<0.247.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.336.0>]
+    dictionary: [{process_name,{rabbit_writer,{<<"client 127.0.0.1:50948 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 441
+  neighbours:
+2020-10-28 21:07:10 =SUPERVISOR REPORT====
+     Supervisor: {<0.336.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,size,[undefined],[]},{rabbit_framing_amqp_0_9_1,shortstr_size,1,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_framing_amqp_0_9_1.erl"},{line,178}]},{rabbit_framing_amqp_0_9_1,encode_method_fields,1,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_framing_amqp_0_9_1.erl"},{line,1122}]},{rabbit_binary_generator,build_simple_method_frame,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_binary_generator.erl"},{line,50}]},{rabbit_writer,assemble_frames,5,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,329}]},{rabbit_writer,internal_send_command_async,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,362}]},{rabbit_writer,handle_message,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,229}]},{rabbit_writer,mainloop1,2,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,213}]}]}
+     Offender:   [{pid,<0.339.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.15>,1,131072,rabbit_framing_amqp_0_9_1,<0.338.0>,{<<"client 127.0.0.1:50948 -> 127.0.0.1:5672">>,1},false,1000000000]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2020-10-28 21:07:10 =SUPERVISOR REPORT====
+     Supervisor: {<0.336.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.339.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.15>,1,131072,rabbit_framing_amqp_0_9_1,<0.338.0>,{<<"client 127.0.0.1:50948 -> 127.0.0.1:5672">>,1},false,1000000000]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2020-10-28 21:07:18 =CRASH REPORT====
+  crasher:
+    initial call: rabbit_writer:enter_mainloop/2
+    pid: <0.352.0>
+    registered_name: []
+    exception error: bad argument: [{erlang,size,[undefined],[]},{rabbit_framing_amqp_0_9_1,shortstr_size,1,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_framing_amqp_0_9_1.erl"},{line,178}]},{rabbit_framing_amqp_0_9_1,encode_method_fields,1,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_framing_amqp_0_9_1.erl"},{line,1122}]},{rabbit_binary_generator,build_simple_method_frame,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_binary_generator.erl"},{line,50}]},{rabbit_writer,assemble_frames,5,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,329}]},{rabbit_writer,internal_send_command_async,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,362}]},{rabbit_writer,handle_message,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,229}]},{rabbit_writer,mainloop1,2,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,213}]}]
+    ancestors: [<0.349.0>,<0.343.0>,<0.341.0>,<0.340.0>,amqp_sup,<0.247.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.349.0>]
+    dictionary: [{process_name,{rabbit_writer,{<<"client 127.0.0.1:50953 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 424
+  neighbours:
+2020-10-28 21:07:18 =SUPERVISOR REPORT====
+     Supervisor: {<0.349.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,size,[undefined],[]},{rabbit_framing_amqp_0_9_1,shortstr_size,1,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_framing_amqp_0_9_1.erl"},{line,178}]},{rabbit_framing_amqp_0_9_1,encode_method_fields,1,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_framing_amqp_0_9_1.erl"},{line,1122}]},{rabbit_binary_generator,build_simple_method_frame,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_binary_generator.erl"},{line,50}]},{rabbit_writer,assemble_frames,5,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,329}]},{rabbit_writer,internal_send_command_async,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,362}]},{rabbit_writer,handle_message,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,229}]},{rabbit_writer,mainloop1,2,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,213}]}]}
+     Offender:   [{pid,<0.352.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.16>,1,131072,rabbit_framing_amqp_0_9_1,<0.351.0>,{<<"client 127.0.0.1:50953 -> 127.0.0.1:5672">>,1},false,1000000000]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2020-10-28 21:07:18 =SUPERVISOR REPORT====
+     Supervisor: {<0.349.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.352.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.16>,1,131072,rabbit_framing_amqp_0_9_1,<0.351.0>,{<<"client 127.0.0.1:50953 -> 127.0.0.1:5672">>,1},false,1000000000]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2020-10-28 21:08:03 =CRASH REPORT====
+  crasher:
+    initial call: rabbit_writer:enter_mainloop/2
+    pid: <0.366.0>
+    registered_name: []
+    exception error: bad argument: [{erlang,size,[undefined],[]},{rabbit_framing_amqp_0_9_1,shortstr_size,1,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_framing_amqp_0_9_1.erl"},{line,178}]},{rabbit_framing_amqp_0_9_1,encode_method_fields,1,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_framing_amqp_0_9_1.erl"},{line,1122}]},{rabbit_binary_generator,build_simple_method_frame,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_binary_generator.erl"},{line,50}]},{rabbit_writer,assemble_frames,5,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,329}]},{rabbit_writer,internal_send_command_async,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,362}]},{rabbit_writer,handle_message,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,229}]},{rabbit_writer,mainloop1,2,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,213}]}]
+    ancestors: [<0.363.0>,<0.357.0>,<0.355.0>,<0.354.0>,amqp_sup,<0.247.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.363.0>]
+    dictionary: [{process_name,{rabbit_writer,{<<"client 127.0.0.1:50954 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 424
+  neighbours:
+2020-10-28 21:08:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.363.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,size,[undefined],[]},{rabbit_framing_amqp_0_9_1,shortstr_size,1,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_framing_amqp_0_9_1.erl"},{line,178}]},{rabbit_framing_amqp_0_9_1,encode_method_fields,1,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_framing_amqp_0_9_1.erl"},{line,1122}]},{rabbit_binary_generator,build_simple_method_frame,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_binary_generator.erl"},{line,50}]},{rabbit_writer,assemble_frames,5,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,329}]},{rabbit_writer,internal_send_command_async,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,362}]},{rabbit_writer,handle_message,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,229}]},{rabbit_writer,mainloop1,2,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,213}]}]}
+     Offender:   [{pid,<0.366.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.17>,1,131072,rabbit_framing_amqp_0_9_1,<0.365.0>,{<<"client 127.0.0.1:50954 -> 127.0.0.1:5672">>,1},false,1000000000]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2020-10-28 21:08:03 =SUPERVISOR REPORT====
+     Supervisor: {<0.363.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.366.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.17>,1,131072,rabbit_framing_amqp_0_9_1,<0.365.0>,{<<"client 127.0.0.1:50954 -> 127.0.0.1:5672">>,1},false,1000000000]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2020-10-28 21:08:08 =CRASH REPORT====
+  crasher:
+    initial call: rabbit_writer:enter_mainloop/2
+    pid: <0.379.0>
+    registered_name: []
+    exception error: bad argument: [{erlang,size,[undefined],[]},{rabbit_framing_amqp_0_9_1,shortstr_size,1,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_framing_amqp_0_9_1.erl"},{line,178}]},{rabbit_framing_amqp_0_9_1,encode_method_fields,1,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_framing_amqp_0_9_1.erl"},{line,1122}]},{rabbit_binary_generator,build_simple_method_frame,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_binary_generator.erl"},{line,50}]},{rabbit_writer,assemble_frames,5,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,329}]},{rabbit_writer,internal_send_command_async,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,362}]},{rabbit_writer,handle_message,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,229}]},{rabbit_writer,mainloop1,2,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,213}]}]
+    ancestors: [<0.376.0>,<0.370.0>,<0.368.0>,<0.367.0>,amqp_sup,<0.247.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.376.0>]
+    dictionary: [{process_name,{rabbit_writer,{<<"client 127.0.0.1:50955 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 424
+  neighbours:
+2020-10-28 21:08:08 =SUPERVISOR REPORT====
+     Supervisor: {<0.376.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,size,[undefined],[]},{rabbit_framing_amqp_0_9_1,shortstr_size,1,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_framing_amqp_0_9_1.erl"},{line,178}]},{rabbit_framing_amqp_0_9_1,encode_method_fields,1,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_framing_amqp_0_9_1.erl"},{line,1122}]},{rabbit_binary_generator,build_simple_method_frame,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_binary_generator.erl"},{line,50}]},{rabbit_writer,assemble_frames,5,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,329}]},{rabbit_writer,internal_send_command_async,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,362}]},{rabbit_writer,handle_message,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,229}]},{rabbit_writer,mainloop1,2,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,213}]}]}
+     Offender:   [{pid,<0.379.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.18>,1,131072,rabbit_framing_amqp_0_9_1,<0.378.0>,{<<"client 127.0.0.1:50955 -> 127.0.0.1:5672">>,1},false,1000000000]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2020-10-28 21:08:08 =SUPERVISOR REPORT====
+     Supervisor: {<0.376.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.379.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.18>,1,131072,rabbit_framing_amqp_0_9_1,<0.378.0>,{<<"client 127.0.0.1:50955 -> 127.0.0.1:5672">>,1},false,1000000000]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2020-10-28 21:22:44 =CRASH REPORT====
+  crasher:
+    initial call: rabbit_writer:enter_mainloop/2
+    pid: <0.339.0>
+    registered_name: []
+    exception error: bad argument: [{erlang,size,[undefined],[]},{rabbit_framing_amqp_0_9_1,shortstr_size,1,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_framing_amqp_0_9_1.erl"},{line,178}]},{rabbit_framing_amqp_0_9_1,encode_method_fields,1,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_framing_amqp_0_9_1.erl"},{line,1122}]},{rabbit_binary_generator,build_simple_method_frame,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_binary_generator.erl"},{line,50}]},{rabbit_writer,assemble_frames,5,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,329}]},{rabbit_writer,internal_send_command_async,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,362}]},{rabbit_writer,handle_message,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,229}]},{rabbit_writer,mainloop1,2,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,213}]}]
+    ancestors: [<0.336.0>,<0.330.0>,<0.328.0>,<0.327.0>,amqp_sup,<0.247.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.336.0>]
+    dictionary: [{process_name,{rabbit_writer,{<<"client 127.0.0.1:51239 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 442
+  neighbours:
+2020-10-28 21:22:44 =SUPERVISOR REPORT====
+     Supervisor: {<0.336.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,size,[undefined],[]},{rabbit_framing_amqp_0_9_1,shortstr_size,1,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_framing_amqp_0_9_1.erl"},{line,178}]},{rabbit_framing_amqp_0_9_1,encode_method_fields,1,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_framing_amqp_0_9_1.erl"},{line,1122}]},{rabbit_binary_generator,build_simple_method_frame,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_binary_generator.erl"},{line,50}]},{rabbit_writer,assemble_frames,5,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,329}]},{rabbit_writer,internal_send_command_async,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,362}]},{rabbit_writer,handle_message,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,229}]},{rabbit_writer,mainloop1,2,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,213}]}]}
+     Offender:   [{pid,<0.339.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.15>,1,131072,rabbit_framing_amqp_0_9_1,<0.338.0>,{<<"client 127.0.0.1:51239 -> 127.0.0.1:5672">>,1},false,1000000000]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2020-10-28 21:22:44 =SUPERVISOR REPORT====
+     Supervisor: {<0.336.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.339.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.15>,1,131072,rabbit_framing_amqp_0_9_1,<0.338.0>,{<<"client 127.0.0.1:51239 -> 127.0.0.1:5672">>,1},false,1000000000]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2020-10-28 21:23:10 =CRASH REPORT====
+  crasher:
+    initial call: rabbit_writer:enter_mainloop/2
+    pid: <0.352.0>
+    registered_name: []
+    exception error: bad argument: [{erlang,size,[undefined],[]},{rabbit_framing_amqp_0_9_1,shortstr_size,1,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_framing_amqp_0_9_1.erl"},{line,178}]},{rabbit_framing_amqp_0_9_1,encode_method_fields,1,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_framing_amqp_0_9_1.erl"},{line,1122}]},{rabbit_binary_generator,build_simple_method_frame,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_binary_generator.erl"},{line,50}]},{rabbit_writer,assemble_frames,5,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,329}]},{rabbit_writer,internal_send_command_async,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,362}]},{rabbit_writer,handle_message,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,229}]},{rabbit_writer,mainloop1,2,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,213}]}]
+    ancestors: [<0.349.0>,<0.343.0>,<0.341.0>,<0.340.0>,amqp_sup,<0.247.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.349.0>]
+    dictionary: [{process_name,{rabbit_writer,{<<"client 127.0.0.1:51240 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 425
+  neighbours:
+2020-10-28 21:23:10 =SUPERVISOR REPORT====
+     Supervisor: {<0.349.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,size,[undefined],[]},{rabbit_framing_amqp_0_9_1,shortstr_size,1,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_framing_amqp_0_9_1.erl"},{line,178}]},{rabbit_framing_amqp_0_9_1,encode_method_fields,1,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_framing_amqp_0_9_1.erl"},{line,1122}]},{rabbit_binary_generator,build_simple_method_frame,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_binary_generator.erl"},{line,50}]},{rabbit_writer,assemble_frames,5,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,329}]},{rabbit_writer,internal_send_command_async,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,362}]},{rabbit_writer,handle_message,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,229}]},{rabbit_writer,mainloop1,2,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,213}]}]}
+     Offender:   [{pid,<0.352.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.16>,1,131072,rabbit_framing_amqp_0_9_1,<0.351.0>,{<<"client 127.0.0.1:51240 -> 127.0.0.1:5672">>,1},false,1000000000]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2020-10-28 21:23:10 =SUPERVISOR REPORT====
+     Supervisor: {<0.349.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.352.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.16>,1,131072,rabbit_framing_amqp_0_9_1,<0.351.0>,{<<"client 127.0.0.1:51240 -> 127.0.0.1:5672">>,1},false,1000000000]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2020-10-28 21:23:16 =CRASH REPORT====
+  crasher:
+    initial call: rabbit_writer:enter_mainloop/2
+    pid: <0.365.0>
+    registered_name: []
+    exception error: bad argument: [{erlang,size,[undefined],[]},{rabbit_framing_amqp_0_9_1,shortstr_size,1,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_framing_amqp_0_9_1.erl"},{line,178}]},{rabbit_framing_amqp_0_9_1,encode_method_fields,1,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_framing_amqp_0_9_1.erl"},{line,1122}]},{rabbit_binary_generator,build_simple_method_frame,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_binary_generator.erl"},{line,50}]},{rabbit_writer,assemble_frames,5,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,329}]},{rabbit_writer,internal_send_command_async,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,362}]},{rabbit_writer,handle_message,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,229}]},{rabbit_writer,mainloop1,2,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,213}]}]
+    ancestors: [<0.362.0>,<0.356.0>,<0.354.0>,<0.353.0>,amqp_sup,<0.247.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.362.0>]
+    dictionary: [{process_name,{rabbit_writer,{<<"client 127.0.0.1:51241 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 425
+  neighbours:
+2020-10-28 21:23:16 =SUPERVISOR REPORT====
+     Supervisor: {<0.362.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,size,[undefined],[]},{rabbit_framing_amqp_0_9_1,shortstr_size,1,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_framing_amqp_0_9_1.erl"},{line,178}]},{rabbit_framing_amqp_0_9_1,encode_method_fields,1,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_framing_amqp_0_9_1.erl"},{line,1122}]},{rabbit_binary_generator,build_simple_method_frame,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_binary_generator.erl"},{line,50}]},{rabbit_writer,assemble_frames,5,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,329}]},{rabbit_writer,internal_send_command_async,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,362}]},{rabbit_writer,handle_message,3,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,229}]},{rabbit_writer,mainloop1,2,[{file,"c:/Users/ti900/Desktop/getmore-api-challenge/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,213}]}]}
+     Offender:   [{pid,<0.365.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.17>,1,131072,rabbit_framing_amqp_0_9_1,<0.364.0>,{<<"client 127.0.0.1:51241 -> 127.0.0.1:5672">>,1},false,1000000000]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2020-10-28 21:23:16 =SUPERVISOR REPORT====
+     Supervisor: {<0.362.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.365.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.17>,1,131072,rabbit_framing_amqp_0_9_1,<0.364.0>,{<<"client 127.0.0.1:51241 -> 127.0.0.1:5672">>,1},false,1000000000]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2020-10-29 08:25:02 =ERROR REPORT====
+** Generic server <0.318.0> terminating 
+** Last message in was {timeout,#Ref<0.3944761296.2605711362.101733>,idle_timeout}
+** When Server state == {state,#Port<0.14>,#Ref<0.3944761296.2605711362.101733>,<0.312.0>,<0.316.0>,{method,rabbit_framing_amqp_0_9_1},{expecting_header,<<>>}}
+** Reason for termination == 
+** {socket_error,timeout}
+2020-10-29 08:25:02 =ERROR REPORT====
+** Generic server <0.359.0> terminating 
+** Last message in was {timeout,#Ref<0.3944761296.2605711362.101735>,idle_timeout}
+** When Server state == {state,#Port<0.17>,#Ref<0.3944761296.2605711362.101735>,<0.355.0>,<0.357.0>,{method,rabbit_framing_amqp_0_9_1},{expecting_header,<<>>}}
+** Reason for termination == 
+** {socket_error,timeout}
+2020-10-29 08:25:02 =ERROR REPORT====
+** Generic server <0.355.0> terminating 
+** Last message in was {socket_error,timeout}
+** When Server state == {state,amqp_network_connection,{state,#Port<0.17>,<<"client 127.0.0.1:51241 -> 127.0.0.1:5672">>,10,<0.358.0>,131072,<0.354.0>,undefined,false},<0.357.0>,{amqp_params_network,<<"guest">>,{plaintext,<<"guest">>},<<"/">>,"localhost",5672,0,0,10,50000,none,[fun amqp_auth_mechanisms:plain/3,fun amqp_auth_mechanisms:amqplain/3],[],[]},2047,[{<<"capabilities">>,table,[{<<"publisher_confirms">>,bool,true},{<<"exchange_exchange_bindings">>,bool,true},{<<"basic.nack">>,bool,true},{<<"consumer_cancel_notify">>,bool,true},{<<"connection.blocked">>,bool,true},{<<"consumer_priorities">>,bool,true},{<<"authentication_failure_close">>,bool,true},{<<"per_consumer_qos">>,bool,true},{<<"direct_reply_to">>,bool,true}]},{<<"cluster_name">>,longstr,<<"rabbit@DESKTOP-QBALJNO">>},{<<"copyright">>,longstr,<<"Copyright (c) 2007-2020 VMware, Inc. or its affiliates.">>},{<<"information">>,longstr,<<"Licensed under the MPL 2.0. Website: https://rabbitmq.com">>},{<<"platform">>,longstr,<<"Erlang/OTP 21.3">>},{<<"product">>,longstr,<<"RabbitMQ">>},{<<"version">>,longstr,<<"3.8.9">>}],none,false}
+** Reason for termination == 
+** {socket_error,timeout}
+2020-10-29 08:25:02 =ERROR REPORT====
+** Generic server <0.312.0> terminating 
+** Last message in was {socket_error,timeout}
+** When Server state == {state,amqp_network_connection,{state,#Port<0.14>,<<"client 127.0.0.1:51224 -> 127.0.0.1:5672">>,10,<0.317.0>,131072,<0.311.0>,undefined,false},<0.316.0>,{amqp_params_network,<<"guest">>,{plaintext,<<"guest">>},<<"/">>,"localhost",5672,0,0,10,50000,none,[fun amqp_auth_mechanisms:plain/3,fun amqp_auth_mechanisms:amqplain/3],[],[]},2047,[{<<"capabilities">>,table,[{<<"publisher_confirms">>,bool,true},{<<"exchange_exchange_bindings">>,bool,true},{<<"basic.nack">>,bool,true},{<<"consumer_cancel_notify">>,bool,true},{<<"connection.blocked">>,bool,true},{<<"consumer_priorities">>,bool,true},{<<"authentication_failure_close">>,bool,true},{<<"per_consumer_qos">>,bool,true},{<<"direct_reply_to">>,bool,true}]},{<<"cluster_name">>,longstr,<<"rabbit@DESKTOP-QBALJNO">>},{<<"copyright">>,longstr,<<"Copyright (c) 2007-2020 VMware, Inc. or its affiliates.">>},{<<"information">>,longstr,<<"Licensed under the MPL 2.0. Website: https://rabbitmq.com">>},{<<"platform">>,longstr,<<"Erlang/OTP 21.3">>},{<<"product">>,longstr,<<"RabbitMQ">>},{<<"version">>,longstr,<<"3.8.9">>}],none,false}
+** Reason for termination == 
+** {socket_error,timeout}

@@ -5,7 +5,8 @@ defmodule Products.Application do
 
   def start(_type, _args) do
     children = [
-      Products.Repo
+      Products.Repo,
+      Products.Product.Consumer
     ]
 
     opts = [strategy: :one_for_one, name: Products.Supervisor]

@@ -25,7 +25,8 @@ defmodule Products.MixProject do
       {:ecto_sql, "~> 3.5.3"},
       {:postgrex, ">= 0.15.7"},
       {:credo, "~> 1.5.0-rc.2", only: [:dev, :test], runtime: false},
-      {:amqp, "~> 1.6.0"}
+      {:amqp, "~> 1.6.0"},
+      {:scrivener_ecto, "~> 2.0"}
     ]
   end
 end
