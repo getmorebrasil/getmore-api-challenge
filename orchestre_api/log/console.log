@@ -1,0 +1,74 @@
+2020-10-29 21:55:14.646 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 21:55:14.651 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 21:55:14.669 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 21:55:14.675 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 21:55:14.706 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 21:55:14.707 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 21:55:14.730 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 22:10:15.458 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 22:10:15.474 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 22:10:15.505 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 22:10:15.505 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 22:10:15.521 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 22:10:15.521 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 22:10:15.536 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 22:10:15.643 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 22:10:15.643 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 22:10:15.659 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 22:10:15.659 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 22:10:15.674 [info] <0.43.0> Application cowlib started on node nonode@nohost
+2020-10-29 22:10:15.674 [info] <0.43.0> Application cowboy started on node nonode@nohost
+2020-10-29 22:10:15.690 [info] <0.43.0> Application cowboy_telemetry started on node nonode@nohost
+2020-10-29 22:10:15.690 [info] <0.43.0> Application plug_cowboy started on node nonode@nohost
+2020-10-29 22:10:15.690 [info] <0.43.0> Application phoenix_html started on node nonode@nohost
+2020-10-29 22:10:15.690 [info] <0.43.0> Application phoenix_live_view started on node nonode@nohost
+2020-10-29 22:10:15.690 [info] <0.43.0> Application phoenix_live_dashboard started on node nonode@nohost
+2020-10-29 22:10:15.759 [info] <0.43.0> Application orchestre_api started on node nonode@nohost
+2020-10-29 22:10:42.525 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 22:10:42.541 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 22:10:42.572 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 22:10:42.588 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 22:10:42.588 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 22:10:42.603 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 22:10:42.603 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 22:10:42.726 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 22:10:42.726 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 22:10:42.741 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 22:10:42.741 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 22:10:42.757 [info] <0.43.0> Application cowlib started on node nonode@nohost
+2020-10-29 22:10:42.757 [info] <0.43.0> Application cowboy started on node nonode@nohost
+2020-10-29 22:10:42.773 [info] <0.43.0> Application cowboy_telemetry started on node nonode@nohost
+2020-10-29 22:10:42.773 [info] <0.43.0> Application plug_cowboy started on node nonode@nohost
+2020-10-29 22:10:42.773 [info] <0.43.0> Application phoenix_html started on node nonode@nohost
+2020-10-29 22:10:42.773 [info] <0.43.0> Application phoenix_live_view started on node nonode@nohost
+2020-10-29 22:10:42.788 [info] <0.43.0> Application phoenix_live_dashboard started on node nonode@nohost
+2020-10-29 22:10:42.873 [info] <0.43.0> Application orchestre_api started on node nonode@nohost
+2020-10-29 22:10:56.088 [error] <0.481.0> CRASH REPORT Process <0.481.0> with 0 neighbours exited with reason: {{{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"pt-BR...">>,...},...}},...},...},...},...},...},...}
+2020-10-29 22:10:56.100 [error] <0.481.0> Cowboy stream 1 with ranch listener 'Elixir.OrchestreApiWeb.Endpoint.HTTP' and connection process <0.479.0> had its request process exit with reason: {{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"pt-BR,p...">>,...},...}},...},...},...},...},...}
+2020-10-29 22:10:56.404 [error] <0.484.0> CRASH REPORT Process <0.484.0> with 0 neighbours exited with reason: {{{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"image/avif,image/webp,image/apng,image/*,*/*;q=0.8">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"pt-BR,pt;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"host">> => <<"localhost:4000">>,...},...}},...},...},...},...},...},...}
+2020-10-29 22:10:56.404 [error] <0.484.0> Cowboy stream 2 with ranch listener 'Elixir.OrchestreApiWeb.Endpoint.HTTP' and connection process <0.479.0> had its request process exit with reason: {{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"image/avif,image/webp,image/apng,image/*,*/*;q=0.8">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"pt-BR,pt;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"host">> => <<"localhost:4000">>,<<..>> => ...,...},...}},...},...},...},...},...}
+2020-10-29 22:11:00.207 [error] <0.486.0> CRASH REPORT Process <0.486.0> with 0 neighbours exited with reason: {{{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"pt-BR...">>,...},...}},...},...},...},...},...},...}
+2020-10-29 22:11:00.207 [error] <0.486.0> Cowboy stream 3 with ranch listener 'Elixir.OrchestreApiWeb.Endpoint.HTTP' and connection process <0.479.0> had its request process exit with reason: {{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"pt-BR,p...">>,...},...}},...},...},...},...},...}
+2020-10-29 22:11:06.979 [error] <0.490.0> CRASH REPORT Process <0.490.0> with 0 neighbours exited with reason: {{{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.ActionClauseError',args => [#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"pt-BR...">>,...},...}},...},...],...},...},...},...},...}
+2020-10-29 22:11:06.980 [error] <0.490.0> Cowboy stream 1 with ranch listener 'Elixir.OrchestreApiWeb.Endpoint.HTTP' and connection process <0.488.0> had its request process exit with reason: {{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.ActionClauseError',args => [#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"pt-BR,p...">>,...},...}},...},...],...},...},...},...}
+2020-10-29 22:12:38.853 [error] <0.495.0> CRASH REPORT Process <0.495.0> with 0 neighbours exited with reason: {{{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.ActionClauseError',args => [#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"pt-BR...">>,...},...}},...},...],...},...},...},...},...}
+2020-10-29 22:12:38.853 [error] <0.495.0> Cowboy stream 1 with ranch listener 'Elixir.OrchestreApiWeb.Endpoint.HTTP' and connection process <0.494.0> had its request process exit with reason: {{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.ActionClauseError',args => [#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"pt-BR,p...">>,...},...}},...},...],...},...},...},...}
+2020-10-29 22:16:22.899 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-29 22:16:22.921 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-29 22:16:22.936 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-29 22:16:22.952 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-29 22:16:22.952 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-29 22:16:22.968 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-29 22:16:22.968 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-29 22:16:23.083 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-29 22:16:23.083 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-29 22:16:23.083 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-29 22:16:23.083 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-29 22:16:23.099 [info] <0.43.0> Application cowlib started on node nonode@nohost
+2020-10-29 22:16:23.099 [info] <0.43.0> Application cowboy started on node nonode@nohost
+2020-10-29 22:16:23.136 [info] <0.43.0> Application cowboy_telemetry started on node nonode@nohost
+2020-10-29 22:16:23.152 [info] <0.43.0> Application plug_cowboy started on node nonode@nohost
+2020-10-29 22:16:23.152 [info] <0.43.0> Application phoenix_html started on node nonode@nohost
+2020-10-29 22:16:23.152 [info] <0.43.0> Application phoenix_live_view started on node nonode@nohost
+2020-10-29 22:16:23.152 [info] <0.43.0> Application phoenix_live_dashboard started on node nonode@nohost
+2020-10-29 22:16:23.237 [info] <0.43.0> Application orchestre_api started on node nonode@nohost
