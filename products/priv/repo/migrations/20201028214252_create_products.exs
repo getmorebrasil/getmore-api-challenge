@@ -8,7 +8,7 @@ defmodule Products.Repo.Migrations.CreateProducts do
       add :productName, :string, null: false
       add :productImage, :string, null: false
       add :productStock, :boolean, null: false
-      add :productPrice, :float, null: false
+      add :productPrice, :string, null: false
     end
   end
 end

@@ -5,6 +5,8 @@ defmodule Products.Product do
 
   use Ecto.Schema
 
+  @derive {Jason.Encoder, except: [:__meta__]}
+
   @primary_key {:productId, :id, autogenerate: true}
 
   schema "products" do
@@ -12,6 +14,6 @@ defmodule Products.Product do
     field :productName, :string
     field :productImage, :string
     field :productStock, :boolean
-    field :productPrice, :float
+    field :productPrice, :string
   end
 end

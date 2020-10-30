@@ -1,4 +1,4 @@
-defmodule Products.Product.HandleMessage do
+defmodule Products.Product.MessageHandler do
   @moduledoc """
   Provides methods to handle a message received by the consumer
   """
@@ -23,7 +23,4 @@ defmodule Products.Product.HandleMessage do
 
     response
   end
-
-  # Returns the error json stringfied
-  defp read_message({:error, _reason}), do: %{error: "Invalid message format"} |> Jason.encode()
 end

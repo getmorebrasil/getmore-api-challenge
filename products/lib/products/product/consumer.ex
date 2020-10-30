@@ -6,7 +6,7 @@ defmodule Products.Product.Consumer do
 
   use GenServer
   use AMQP
-  alias Products.Product.HandleMessage
+  alias Products.Product.MessageHandler
 
   def start_link(opts \\ [name: __MODULE__]) do
     GenServer.start_link(__MODULE__, nil, opts)
@@ -70,7 +70,7 @@ defmodule Products.Product.Consumer do
   defp consume(channel, payload, meta) do
     response =
       payload
-      |> HandleMessage.handle_message()
+      |> MessageHandler.handle_message()
 
     AMQP.Basic.ack(channel, meta.delivery_tag)
 
