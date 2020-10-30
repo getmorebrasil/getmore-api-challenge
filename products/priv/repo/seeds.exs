@@ -1,3 +1,5 @@
+# Seed file to fill the DB with the given products.json
+
 json_path = "#{__DIR__}/products.json"
 
 with {:ok, body} <- File.read(json_path),
