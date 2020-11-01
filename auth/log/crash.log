@@ -1,0 +1,1930 @@
+2020-11-01 06:37:27 =ERROR REPORT====
+Error in process <0.24.1> with exit value:
+{{case_clause,nil},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:37:27 =ERROR REPORT====
+Error in process <0.27.1> with exit value:
+{{case_clause,nil},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:37:33 =ERROR REPORT====
+Error in process <0.31.1> with exit value:
+{{case_clause,[{produ,[{line,1},{column,11}],nil}]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:37:34 =ERROR REPORT====
+Error in process <0.33.1> with exit value:
+{{case_clause,[{produce,[{line,1},{column,11}],nil}]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:37:35 =ERROR REPORT====
+Error in process <0.35.1> with exit value:
+{{case_clause,[{produc,[{line,1},{column,11}],nil}]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:37:36 =ERROR REPORT====
+Error in process <0.37.1> with exit value:
+{{case_clause,nil},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:37:36 =ERROR REPORT====
+Error in process <0.40.1> with exit value:
+{{case_clause,[{'__aliases__',[{line,1},{column,11}],['A']}]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:37:37 =ERROR REPORT====
+Error in process <0.43.1> with exit value:
+{{case_clause,[{'__aliases__',[{line,1},{column,11}],['Auth']}]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:37:38 =ERROR REPORT====
+Error in process <0.48.1> with exit value:
+{{case_clause,[{'__aliases__',[{line,1},{column,11}],['Auth','P']}]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:44:53 =ERROR REPORT====
+Error in process <0.1132.1> with exit value:
+{{case_clause,nil},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:44:54 =ERROR REPORT====
+Error in process <0.1134.1> with exit value:
+{{case_clause,nil},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:44:56 =ERROR REPORT====
+Error in process <0.1136.1> with exit value:
+{{case_clause,[{'__aliases__',[{line,1},{column,11}],['A']}]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:44:57 =ERROR REPORT====
+Error in process <0.1138.1> with exit value:
+{{case_clause,[{'__aliases__',[{line,1},{column,11}],['Auth']}]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:44:58 =ERROR REPORT====
+Error in process <0.1143.1> with exit value:
+{{case_clause,[{'__aliases__',[{line,1},{column,11}],['Auth','Pro']}]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:44:59 =ERROR REPORT====
+Error in process <0.1144.1> with exit value:
+{{case_clause,[{'__aliases__',[{line,1},{column,11}],['Auth','Proce']}]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:45:00 =ERROR REPORT====
+Error in process <0.1145.1> with exit value:
+{{case_clause,[{'__aliases__',[{line,1},{column,11}],['Auth','Process']}]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:45:01 =ERROR REPORT====
+Error in process <0.1147.1> with exit value:
+{{case_clause,[{'__aliases__',[{line,1},{column,11}],['Auth','Process']}]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:49:21 =ERROR REPORT====
+Error in process <0.1589.1> with exit value:
+{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"Function definition has moved since suggestion was generated. Try again after file has been recompiled.">>},[{'Elixir.ElixirLS.LanguageServer.Providers.ExecuteCommand',execute,3,[{file,"lib/language_server/providers/execute_command.ex"},{line,39}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:49:22 =ERROR REPORT====
+Error in process <0.1590.1> with exit value:
+{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"Function definition has moved since suggestion was generated. Try again after file has been recompiled.">>},[{'Elixir.ElixirLS.LanguageServer.Providers.ExecuteCommand',execute,3,[{file,"lib/language_server/providers/execute_command.ex"},{line,39}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:49:23 =ERROR REPORT====
+Error in process <0.1591.1> with exit value:
+{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"Function definition has moved since suggestion was generated. Try again after file has been recompiled.">>},[{'Elixir.ElixirLS.LanguageServer.Providers.ExecuteCommand',execute,3,[{file,"lib/language_server/providers/execute_command.ex"},{line,39}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:49:24 =ERROR REPORT====
+Error in process <0.1592.1> with exit value:
+{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"Function definition has moved since suggestion was generated. Try again after file has been recompiled.">>},[{'Elixir.ElixirLS.LanguageServer.Providers.ExecuteCommand',execute,3,[{file,"lib/language_server/providers/execute_command.ex"},{line,39}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:49:26 =ERROR REPORT====
+Error in process <0.1593.1> with exit value:
+{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"Function definition has moved since suggestion was generated. Try again after file has been recompiled.">>},[{'Elixir.ElixirLS.LanguageServer.Providers.ExecuteCommand',execute,3,[{file,"lib/language_server/providers/execute_command.ex"},{line,39}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:49:28 =ERROR REPORT====
+Error in process <0.1594.1> with exit value:
+{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"Function definition has moved since suggestion was generated. Try again after file has been recompiled.">>},[{'Elixir.ElixirLS.LanguageServer.Providers.ExecuteCommand',execute,3,[{file,"lib/language_server/providers/execute_command.ex"},{line,39}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:49:28 =ERROR REPORT====
+Error in process <0.1595.1> with exit value:
+{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"Function definition has moved since suggestion was generated. Try again after file has been recompiled.">>},[{'Elixir.ElixirLS.LanguageServer.Providers.ExecuteCommand',execute,3,[{file,"lib/language_server/providers/execute_command.ex"},{line,39}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:49:32 =ERROR REPORT====
+Error in process <0.1599.1> with exit value:
+{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"Function definition has moved since suggestion was generated. Try again after file has been recompiled.">>},[{'Elixir.ElixirLS.LanguageServer.Providers.ExecuteCommand',execute,3,[{file,"lib/language_server/providers/execute_command.ex"},{line,39}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:49:32 =ERROR REPORT====
+Error in process <0.1600.1> with exit value:
+{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"Function definition has moved since suggestion was generated. Try again after file has been recompiled.">>},[{'Elixir.ElixirLS.LanguageServer.Providers.ExecuteCommand',execute,3,[{file,"lib/language_server/providers/execute_command.ex"},{line,39}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:49:33 =ERROR REPORT====
+Error in process <0.1601.1> with exit value:
+{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"Function definition has moved since suggestion was generated. Try again after file has been recompiled.">>},[{'Elixir.ElixirLS.LanguageServer.Providers.ExecuteCommand',execute,3,[{file,"lib/language_server/providers/execute_command.ex"},{line,39}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:49:33 =ERROR REPORT====
+Error in process <0.1602.1> with exit value:
+{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"Function definition has moved since suggestion was generated. Try again after file has been recompiled.">>},[{'Elixir.ElixirLS.LanguageServer.Providers.ExecuteCommand',execute,3,[{file,"lib/language_server/providers/execute_command.ex"},{line,39}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:49:37 =ERROR REPORT====
+Error in process <0.1604.1> with exit value:
+{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"Function definition has moved since suggestion was generated. Try again after file has been recompiled.">>},[{'Elixir.ElixirLS.LanguageServer.Providers.ExecuteCommand',execute,3,[{file,"lib/language_server/providers/execute_command.ex"},{line,39}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:49:37 =ERROR REPORT====
+Error in process <0.1605.1> with exit value:
+{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"Function definition has moved since suggestion was generated. Try again after file has been recompiled.">>},[{'Elixir.ElixirLS.LanguageServer.Providers.ExecuteCommand',execute,3,[{file,"lib/language_server/providers/execute_command.ex"},{line,39}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:49:37 =ERROR REPORT====
+Error in process <0.1606.1> with exit value:
+{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"Function definition has moved since suggestion was generated. Try again after file has been recompiled.">>},[{'Elixir.ElixirLS.LanguageServer.Providers.ExecuteCommand',execute,3,[{file,"lib/language_server/providers/execute_command.ex"},{line,39}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:49:38 =ERROR REPORT====
+Error in process <0.1607.1> with exit value:
+{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"Function definition has moved since suggestion was generated. Try again after file has been recompiled.">>},[{'Elixir.ElixirLS.LanguageServer.Providers.ExecuteCommand',execute,3,[{file,"lib/language_server/providers/execute_command.ex"},{line,39}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:49:38 =ERROR REPORT====
+Error in process <0.1608.1> with exit value:
+{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"Function definition has moved since suggestion was generated. Try again after file has been recompiled.">>},[{'Elixir.ElixirLS.LanguageServer.Providers.ExecuteCommand',execute,3,[{file,"lib/language_server/providers/execute_command.ex"},{line,39}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:49:39 =ERROR REPORT====
+Error in process <0.1609.1> with exit value:
+{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"Function definition has moved since suggestion was generated. Try again after file has been recompiled.">>},[{'Elixir.ElixirLS.LanguageServer.Providers.ExecuteCommand',execute,3,[{file,"lib/language_server/providers/execute_command.ex"},{line,39}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:50:01 =ERROR REPORT====
+Error in process <0.1624.1> with exit value:
+{{case_clause,nil},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,147}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,95}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:50:01 =ERROR REPORT====
+Error in process <0.1625.1> with exit value:
+{{case_clause,nil},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,147}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,95}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:50:02 =ERROR REPORT====
+Error in process <0.1626.1> with exit value:
+{{case_clause,[{process_token,[{line,6},{column,9}],nil}]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,147}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,95}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:50:05 =ERROR REPORT====
+Error in process <0.1628.1> with exit value:
+{{case_clause,[{process_token,[{line,6},{column,9}],[]}]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,147}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,95}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:50:07 =ERROR REPORT====
+Error in process <0.1630.1> with exit value:
+{{case_clause,[{process_token,[{line,6},{column,9}],[{any,[{line,6},{column,23}],nil}]}]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,147}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,95}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:50:08 =ERROR REPORT====
+Error in process <0.1632.1> with exit value:
+{{case_clause,[{process_token,[{line,6},{column,9}],[{any,[{line,6},{column,23}],nil}]}]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,147}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,95}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:50:10 =ERROR REPORT====
+Error in process <0.1634.1> with exit value:
+{{case_clause,[{process_token,[{line,6},{column,9}],[{any,[{line,6},{column,23}],nil}]}]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,147}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,95}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:50:10 =ERROR REPORT====
+Error in process <0.1635.1> with exit value:
+{{case_clause,[{process_token,[{line,6},{column,9}],[{any,[{line,6},{column,23}],nil}]}]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,147}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,95}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:50:12 =ERROR REPORT====
+Error in process <0.1639.1> with exit value:
+{{case_clause,[{'::',[{line,6},{column,28}],[{process_token,[{line,6},{column,9}],[{any,[{line,6},{column,23}],nil}]},{def,[{line,7},{column,3}],[{process_token,[{line,7},{column,7}],[{token,[{line,7},{column,21}],nil}]}]}]},[{do,{if,[{line,8},{column,5}],[{'==',[{line,8},{column,14}],[{token,[{line,8},{column,8}],nil},<<"abc123">>]},[{do,ok},{else,error}]]}}]]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,147}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,95}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:50:18 =ERROR REPORT====
+Error in process <0.1854.1> with exit value:
+{{case_clause,[{'::',[{line,6},{column,28}],[{process_token,[{line,6},{column,9}],[{any,[{line,6},{column,23}],nil}]},{'|',[{line,6},{column,38}],[error,{def,[{line,7},{column,3}],[{process_token,[{line,7},{column,7}],[{token,[{line,7},{column,21}],nil}]}]}]}]},[{do,{if,[{line,8},{column,5}],[{'==',[{line,8},{column,14}],[{token,[{line,8},{column,8}],nil},<<"abc123">>]},[{do,ok},{else,error}]]}}]]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,147}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,95}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:50:19 =ERROR REPORT====
+Error in process <0.1908.1> with exit value:
+{{case_clause,[{'::',[{line,6},{column,28}],[{process_token,[{line,6},{column,9}],[{any,[{line,6},{column,23}],nil}]},{'|',[{line,6},{column,38}],[error,{def,[{line,7},{column,3}],[{process_token,[{line,7},{column,7}],[{token,[{line,7},{column,21}],nil}]}]}]}]},[{do,{if,[{line,8},{column,5}],[{'==',[{line,8},{column,14}],[{token,[{line,8},{column,8}],nil},<<"abc123">>]},[{do,ok},{else,error}]]}}]]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,147}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,95}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 07:05:22 =ERROR REPORT====
+Error in process <0.6674.1> with exit value:
+{{case_clause,[{'__aliases__',[{line,1},{column,11}],['Auth','Consumer']},[{do,{'__block__',[],[{use,[{line,2},{column,3}],[{'__aliases__',[{line,2},{column,7}],['GenServer']}]},{use,[{line,3},{column,3}],[{'__aliases__',[{line,3},{column,7}],['AMQP']}]},{def,[{line,5},{column,3}],[{start_link,[{line,5},{column,7}],[]},[{do,{{'.',[{line,6},{column,14}],[{'__aliases__',[{line,6},{column,5}],['GenServer']},start_link]},[{line,6},{column,14}],[{'__MODULE__',[{line,6},{column,26}],nil},[],[]]}}]]},{'@',[{line,9},{column,3}],[{exchange,[{line,9},{column,4}],[<<"auth_request_exchange">>]}]},{'@',[{line,10},{column,3}],[{queue,[{line,10},{column,4}],[<<"auth_request_queue">>]}]},{'@',[{line,11},{column,3}],[{queue_error,[{line,11},{column,4}],[{'<<>>',[{line,11},{column,16}],[{'::',[{line,11},{column,17}],[{{'.',[{line,11},{column,17}],['Elixir.Kernel',to_string]},[{line,11},{column,17}],[{'@',[{line,11},{column,19}],[{queue,[{line,11},{column,20}],nil}]}]},{binary,[{line,11},{column,17}],nil}]},<<"_error">>]}]}]},{def,[{line,13},{column,3}],[{init,[{line,13},{column,7}],[{'_opts',[{line,13},{column,12}],nil}]},[{do,{'__block__',[],[{'=',[{line,14},{column,17}],[{ok,{conn,[{line,14},{column,11}],nil}},{{'.',[{line,14},{column,29}],[{'__aliases__',[{line,14},{column,19}],['Connection']},open]},[{line,14},{column,29}],[<<"amqp://guest:guest@localhost">>]}]},{'=',[{line,15},{column,17}],[{ok,{chan,[{line,15},{column,11}],nil}},{{'.',[{line,15},{column,26}],[{'__aliases__',[{line,15},{column,19}],['Channel']},open]},[{line,15},{column,26}],[{conn,[{line,15},{column,32}],nil}]}]},{setup_queue,[{line,16},{column,5}],[{chan,[{line,16},{column,17}],nil}]},{'=',[{line,19},{column,9}],[ok,{{'.',[{line,19},{column,16}],[{'__aliases__',[{line,19},{column,11}],['Basic']},qos]},[{line,19},{column,16}],[{chan,[{line,19},{column,21}],nil},[{prefetch_count,10}]]}]},{'=',[{line,21},{column,26}],[{ok,{'_consumer_tag',[{line,21},{column,11}],nil}},{{'.',[{line,21},{column,33}],[{'__aliases__',[{line,21},{column,28}],['Basic']},consume]},[{line,21},{column,33}],[{chan,[{line,21},{column,42}],nil},{'@',[{line,21},{column,48}],[{queue,[{line,21},{column,49}],nil}]}]}]},{ok,{chan,[{line,22},{column,11}],nil}}]}}]]},{def,[{line,26},{column,3}],[{handle_info,[{line,26},{column,7}],[{basic_consume_ok,{'%{}',[{line,26},{column,40}],[{consumer_tag,{'_consumer_tag',[{line,26},{column,55}],nil}}]}},{chan,[{line,26},{column,72}],nil}]},[{do,{noreply,{chan,[{line,27},{column,16}],nil}}}]]},{def,[{line,31},{column,3}],[{handle_info,[{line,31},{column,7}],[{basic_cancel,{'%{}',[{line,31},{column,36}],[{consumer_tag,{'_consumer_tag',[{line,31},{column,51}],nil}}]}},{chan,[{line,31},{column,68}],nil}]},[{do,{'{}',[{line,32},{column,5}],[stop,normal,{chan,[{line,32},{column,22}],nil}]}}]]},{def,[{line,36},{column,3}],[{handle_info,[{line,36},{column,7}],[{basic_cancel_ok,{'%{}',[{line,36},{column,39}],[{consumer_tag,{'_consumer_tag',[{line,36},{column,54}],nil}}]}},{chan,[{line,36},{column,71}],nil}]},[{do,{noreply,{chan,[{line,37},{column,16}],nil}}}]]},{def,[{line,40},{column,3}],[{handle_info,[{line,40},{column,7}],[{'{}',[{line,40},{column,19}],[basic_deliver,{payload,[{line,40},{column,36}],nil},{'%{}',[{line,40},{column,46}],[{delivery_tag,{tag,[{line,40},{column,61}],nil}},{redelivered,{redelivered,[{line,40},{column,79}],nil}}]}]},{chan,[{line,40},{column,94}],nil}]},[{do,{'__block__',[],[{consume,[{line,42},{column,5}],[{chan,[{line,42},{column,13}],nil},{tag,[{line,42},{column,19}],nil},{redelivered,[{line,42},{column,24}],nil},{payload,[{line,42},{column,37}],nil}]},{noreply,{chan,[{line,43},{column,16}],nil}}]}}]]},{defp,[{line,46},{column,3}],[{setup_queue,[{line,46},{column,8}],[{chan,[{line,46},{column,20}],nil}]},[{do,{'__block__',[],[{'=',[{line,47},{column,14}],[{ok,{'_',[{line,47},{column,11}],nil}},{{'.',[{line,47},{column,21}],[{'__aliases__',[{line,47},{column,16}],['Queue']},declare]},[{line,47},{column,21}],[{chan,[{line,47},{column,30}],nil},{'@',[{line,47},{column,36}],[{queue_error,[{line,47},{column,37}],nil}]},[{durable,true}]]}]},{'=',[{line,49},{column,14}],[{ok,{'_',[{line,49},{column,11}],nil}},{{'.',[{line,49},{column,21}],[{'__aliases__',[{line,49},{column,16}],['Queue']},declare]},[{line,49},{column,21}],[{chan,[{line,49},{column,30}],nil},{'@',[{line,49},{column,36}],[{queue,[{line,49},{column,37}],nil}]},[{durable,true},{arguments,[{'{}',[{line,52},{column,32}],[<<"x-dead-letter-exchange">>,longstr,<<>>]},{'{}',[{line,53},{column,32}],[<<"x-dead-letter-routing-key">>,longstr,{'@',[{line,53},{column,72}],[{queue_error,[{line,53},{column,73}],nil}]}]}]}]]}]},{'=',[{line,56},{column,9}],[ok,{{'.',[{line,56},{column,19}],[{'__aliases__',[{line,56},{column,11}],['Exchange']},fanout]},[{line,56},{column,19}],[{chan,[{line,56},{column,27}],nil},{'@',[{line,56},{column,33}],[{exchange,[{line,56},{column,34}],nil}]},[{durable,true}]]}]},{'=',[{line,57},{column,9}],[ok,{{'.',[{line,57},{column,16}],[{'__aliases__',[{line,57},{column,11}],['Queue']},bind]},[{line,57},{column,16}],[{chan,[{line,57},{column,22}],nil},{'@',[{line,57},{column,28}],[{queue,[{line,57},{column,29}],nil}]},{'@',[{line,57},{column,36}],[{exchange,[{line,57},{column,37}],nil}]}]}]}]}}]]},{'|>',[{line,61},{column,5}],[{{'.',[{line,60},{column,17}],[{'__aliases__',[{line,60},{column,5}],['Auth','Process']},process_token]},[{no_parens,true},{line,60},{column,17}],[]},{{'.',[{line,61},{column,12}],[{'__aliases__',[{line,61},{column,8}],['JSON']},encode]},[{no_parens,true},{line,61},{column,12}],[]}]},{{'.',[{line,63},{column,18}],[{'__aliases__',[{line,63},{column,5}],['Auth','Producer']},invite_message]},[{no_parens,true},{line,63},{column,18}],[]}]}},{rescue,[{'->',[{line,73},{column,15}],[[{exception,[{line,73},{column,5}],nil}],{'__block__',[],[{'=',[{line,74},{column,11}],[ok,{{'.',[{line,74},{column,18}],[{'__aliases__',[{line,74},{column,13}],['Basic']},reject]},[{line,74},{column,18}],[{channel,[{line,74},{column,26}],nil},{tag,[{line,74},{column,35}],nil},[{requeue,{not,[{line,74},{column,49}],[{redelivered,[{line,74},{column,53}],nil}]}}]]}]},{{'.',[{line,75},{column,9}],[{'__aliases__',[{line,75},{column,7}],['IO']},puts]},[{line,75},{column,9}],[{'<<>>',[{line,75},{column,15}],[<<"Error converting ">>,{'::',[{line,75},{column,33}],[{{'.',[{line,75},{column,33}],['Elixir.Kernel',to_string]},[{line,75},{column,33}],[{payload,[{line,75},{column,35}],nil}]},{binary,[{line,75},{column,33}],nil}]}]}]},{exception,[{line,77},{column,5}],nil}]}]}]}]]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 09:09:00 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.496.0>
+    registered_name: []
+    exception exit: {{{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'auth_request_queue' in vhost '/': received 'true' but current is 'false'">>}},{gen_server,call,[<0.510.0>,{call,{'queue.declare',0,<<"auth_request_queue">>,false,true,false,false,false,[{<<"x-dead-letter-exchange">>,longstr,<<>>},{<<"x-dead-letter-routing-key">>,longstr,<<"auth_request_queue_error">>}]},none,<0.496.0>},60000]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,246}]},{'Elixir.AMQP.Queue',declare,3,[{file,"lib/amqp/queue.ex"},{line,45}]},{'Elixir.Auth.Consumer',setup_queue,1,[{file,"lib/auth/consumer.ex"},{line,49}]},{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,16}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.495.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 37620
+  neighbours:
+2020-11-01 09:09:00 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.494.0>
+    registered_name: []
+    exception exit: {{{{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'auth_request_queue' in vhost '/': received 'true' but current is 'false'">>}},{gen_server,call,[<0.510.0>,{call,{'queue.declare',0,<<"auth_request_queue">>,false,true,false,false,false,[{<<"x-dead-letter-exchange">>,longstr,<<>>},{<<"x-dead-letter-routing-key">>,longstr,<<"auth_request_queue_error">>}]},none,<0.496.0>},60000]}},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.493.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.495.0>,normal}]
+    links: [<0.493.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 221
+  neighbours:
+2020-11-01 09:09:49 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.282.0>
+    registered_name: []
+    exception exit: {{{{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'auth_request_queue' in vhost '/': received 'true' but current is 'false'">>}},{gen_server,call,[<0.298.0>,{call,{'queue.declare',0,<<"auth_request_queue">>,false,true,false,false,false,[{<<"x-dead-letter-exchange">>,longstr,<<>>},{<<"x-dead-letter-routing-key">>,longstr,<<"auth_request_queue_error">>}]},none,<0.284.0>},60000]}},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.281.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.283.0>,normal}]
+    links: [<0.281.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 218
+  neighbours:
+2020-11-01 09:09:49 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.284.0>
+    registered_name: []
+    exception exit: {{{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'auth_request_queue' in vhost '/': received 'true' but current is 'false'">>}},{gen_server,call,[<0.298.0>,{call,{'queue.declare',0,<<"auth_request_queue">>,false,true,false,false,false,[{<<"x-dead-letter-exchange">>,longstr,<<>>},{<<"x-dead-letter-routing-key">>,longstr,<<"auth_request_queue_error">>}]},none,<0.284.0>},60000]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,246}]},{'Elixir.AMQP.Queue',declare,3,[{file,"lib/amqp/queue.ex"},{line,45}]},{'Elixir.Auth.Consumer',setup_queue,1,[{file,"lib/auth/consumer.ex"},{line,49}]},{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,16}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.283.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 37640
+  neighbours:
+2020-11-01 09:11:09 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'auth_request_queue' in vhost '/': received 'true' but current is 'false'">>}},{gen_server,call,[<0.287.0>,{call,{'queue.declare',0,<<"auth_request_queue">>,false,true,false,false,false,[{<<"x-dead-letter-exchange">>,longstr,<<>>},{<<"x-dead-letter-routing-key">>,longstr,<<"auth_request_queue_error">>}]},none,<0.273.0>},60000]}},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 218
+  neighbours:
+2020-11-01 09:11:09 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception exit: {{{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'auth_request_queue' in vhost '/': received 'true' but current is 'false'">>}},{gen_server,call,[<0.287.0>,{call,{'queue.declare',0,<<"auth_request_queue">>,false,true,false,false,false,[{<<"x-dead-letter-exchange">>,longstr,<<>>},{<<"x-dead-letter-routing-key">>,longstr,<<"auth_request_queue_error">>}]},none,<0.273.0>},60000]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,246}]},{'Elixir.AMQP.Queue',declare,3,[{file,"lib/amqp/queue.ex"},{line,45}]},{'Elixir.Auth.Consumer',setup_queue,1,[{file,"lib/auth/consumer.ex"},{line,49}]},{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,16}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 37640
+  neighbours:
+2020-11-01 09:12:42 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.282.0>
+    registered_name: []
+    exception exit: {{{{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'auth_request_queue' in vhost '/': received 'true' but current is 'false'">>}},{gen_server,call,[<0.298.0>,{call,{'queue.declare',0,<<"auth_request_queue">>,false,true,false,false,false,[{<<"x-dead-letter-exchange">>,longstr,<<>>},{<<"x-dead-letter-routing-key">>,longstr,<<"auth_request_queue_error">>}]},none,<0.284.0>},60000]}},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.281.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.283.0>,normal}]
+    links: [<0.281.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 218
+  neighbours:
+2020-11-01 09:12:43 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.284.0>
+    registered_name: []
+    exception exit: {{{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'auth_request_queue' in vhost '/': received 'true' but current is 'false'">>}},{gen_server,call,[<0.298.0>,{call,{'queue.declare',0,<<"auth_request_queue">>,false,true,false,false,false,[{<<"x-dead-letter-exchange">>,longstr,<<>>},{<<"x-dead-letter-routing-key">>,longstr,<<"auth_request_queue_error">>}]},none,<0.284.0>},60000]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,246}]},{'Elixir.AMQP.Queue',declare,3,[{file,"lib/amqp/queue.ex"},{line,45}]},{'Elixir.Auth.Consumer',setup_queue,1,[{file,"lib/auth/consumer.ex"},{line,49}]},{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,16}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.283.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 37640
+  neighbours:
+2020-11-01 09:38:14 =ERROR REPORT====
+** Generic server <0.296.0> terminating 
+** Last message in was {basic_deliver,<<"test">>,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-OjP-X18TeTA6Bw4TyWbIoA">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 1,exchange => <<"auth_exchange">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => false,reply_to => undefined,routing_key => <<>>,timestamp => undefined,type => undefined,user_id => undefined}}
+** When Server state == #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.299.0>},custom_consumer => nil,pid => <0.310.0>}
+** Reason for termination ==
+** {{{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'type' for exchange 'auth_exchange' in vhost '/': received 'direct' but current is 'fanout'">>}},{gen_server,call,[<0.333.0>,{call,{'exchange.declare',0,<<"auth_exchange">>,<<"direct">>,false,false,false,false,false,[]},none,<0.296.0>},60000]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,246}]},{'Elixir.AMQP.Exchange',declare,4,[{file,"lib/amqp/exchange.ex"},{line,48}]},{'Elixir.Auth.Producer',invite_message,1,[{file,"lib/auth/producer.ex"},{line,8}]},{'Elixir.Auth.Consumer',consume,4,[{file,"lib/auth/consumer.ex"},{line,66}]},{'Elixir.Auth.Consumer',handle_info,2,[{file,"lib/auth/consumer.ex"},{line,42}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+2020-11-01 09:38:14 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.296.0>
+    registered_name: []
+    exception exit: {{{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'type' for exchange 'auth_exchange' in vhost '/': received 'direct' but current is 'fanout'">>}},{gen_server,call,[<0.333.0>,{call,{'exchange.declare',0,<<"auth_exchange">>,<<"direct">>,false,false,false,false,false,[]},none,<0.296.0>},60000]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,246}]},{'Elixir.AMQP.Exchange',declare,4,[{file,"lib/amqp/exchange.ex"},{line,48}]},{'Elixir.Auth.Producer',invite_message,1,[{file,"lib/auth/producer.ex"},{line,8}]},{'Elixir.Auth.Consumer',consume,4,[{file,"lib/auth/consumer.ex"},{line,66}]},{'Elixir.Auth.Consumer',handle_info,2,[{file,"lib/auth/consumer.ex"},{line,42}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.295.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.295.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 28
+    reductions: 49076
+  neighbours:
+2020-11-01 09:38:14 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.294.0>
+    registered_name: []
+    exception exit: {{{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'type' for exchange 'auth_exchange' in vhost '/': received 'direct' but current is 'fanout'">>}},{gen_server,call,[<0.333.0>,{call,{'exchange.declare',0,<<"auth_exchange">>,<<"direct">>,false,false,false,false,false,[]},none,<0.296.0>},60000]}},[{application_master,terminate,2,[{file,"application_master.erl"},{line,232}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.293.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 11462
+  neighbours:
+2020-11-01 09:38:30 =ERROR REPORT====
+** Generic server <0.309.0> terminating
+** Last message in was {consumer_call,{'basic.deliver',<<"amq.ctag-OjP-X18TeTA6Bw4TyWbIoA">>,2,false,<<"auth_exchange">>,<<>>},{amqp_msg,{'P_basic',undefined,undefined,undefined,1,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"test">>}}
+** When Server state == {state,amqp_selective_consumer,{state,#{},undefined,#{},none}}
+** Reason for termination == 
+** unexpected_delivery_and_no_default_consumer
+2020-11-01 09:38:30 =CRASH REPORT====
+  crasher:
+    initial call: amqp_gen_consumer:init/1
+    pid: <0.309.0>
+    registered_name: []
+    exception exit: {unexpected_delivery_and_no_default_consumer,[{gen_server2,terminate,3,[{file,"/home/v/Documents/trampo/auth/deps/rabbit_common/src/gen_server2.erl"},{line,1183}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.308.0>,<0.302.0>,<0.298.0>,<0.297.0>,amqp_sup,<0.286.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.308.0>]
+    dictionary: [{process_name,{amqp_gen_consumer,{<<"client 127.0.0.1:37795 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 4138
+  neighbours:
+2020-11-01 09:38:30 =SUPERVISOR REPORT====
+     Supervisor: {<0.308.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     unexpected_delivery_and_no_default_consumer
+     Offender:   [{pid,<0.309.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:37795 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2020-11-01 09:38:30 =SUPERVISOR REPORT====
+     Supervisor: {<0.308.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.309.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:37795 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2020-11-01 09:38:30 =ERROR REPORT====
+** Generic server <0.310.0> terminating 
+** Last message in was {'$gen_cast',{method,{'basic.deliver',<<"amq.ctag-OjP-X18TeTA6Bw4TyWbIoA">>,2,false,<<"auth_exchange">>,<<>>},{content,60,none,<<16,0,1>>,rabbit_framing_amqp_0_9_1,[<<"test">>]},noflow}}
+** When Server state == {state,1,<0.299.0>,<0.309.0>,network,{[],[]},false,<0.311.0>,none,none,0,true,none,{0,nil},{0,nil},true,false}
+** Reason for termination ==
+** {{unexpected_delivery_and_no_default_consumer,{gen_server2,call,[<0.309.0>,{consumer_call,{'basic.deliver',<<"amq.ctag-OjP-X18TeTA6Bw4TyWbIoA">>,2,false,<<"auth_exchange">>,<<>>},{amqp_msg,{'P_basic',undefined,undefined,undefined,1,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"test">>}},60000]}},[{gen_server2,call,3,[{file,"/home/v/Documents/trampo/auth/deps/rabbit_common/src/gen_server2.erl"},{line,346}]},{amqp_channel,handle_method_from_server1,3,[{file,"/home/v/Documents/trampo/auth/deps/amqp_client/src/amqp_channel.erl"},{line,751}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+2020-11-01 09:45:11 =ERROR REPORT====
+** Generic server <0.284.0> terminating 
+** Last message in was {basic_deliver,<<"test">>,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-yvsZZelzGQE39pAE5b2NTA">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 1,exchange => <<"auth_exchange">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => true,reply_to => undefined,routing_key => <<>>,timestamp => undefined,type => undefined,user_id => undefined}}
+** When Server state == #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.287.0>},custom_consumer => nil,pid => <0.298.0>}
+** Reason for termination ==
+** {{{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'auth_response_queue' in vhost '/': received 'false' but current is 'true'">>}},{gen_server,call,[<0.315.0>,{call,{'queue.declare',0,<<"auth_response_queue">>,false,false,false,false,false,[]},none,<0.284.0>},60000]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,246}]},{'Elixir.AMQP.Queue',declare,3,[{file,"lib/amqp/queue.ex"},{line,45}]},{'Elixir.Auth.Producer',invite_message,1,[{file,"lib/auth/producer.ex"},{line,9}]},{'Elixir.Auth.Consumer',consume,4,[{file,"lib/auth/consumer.ex"},{line,75}]},{'Elixir.Auth.Consumer',handle_info,2,[{file,"lib/auth/consumer.ex"},{line,42}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+2020-11-01 09:45:11 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.284.0>
+    registered_name: []
+    exception exit: {{{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'auth_response_queue' in vhost '/': received 'false' but current is 'true'">>}},{gen_server,call,[<0.315.0>,{call,{'queue.declare',0,<<"auth_response_queue">>,false,false,false,false,false,[]},none,<0.284.0>},60000]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,246}]},{'Elixir.AMQP.Queue',declare,3,[{file,"lib/amqp/queue.ex"},{line,45}]},{'Elixir.Auth.Producer',invite_message,1,[{file,"lib/auth/producer.ex"},{line,9}]},{'Elixir.Auth.Consumer',consume,4,[{file,"lib/auth/consumer.ex"},{line,75}]},{'Elixir.Auth.Consumer',handle_info,2,[{file,"lib/auth/consumer.ex"},{line,42}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.283.0>]
+    message_queue_len: 2
+    messages: [{basic_deliver,<<"test">>,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-yvsZZelzGQE39pAE5b2NTA">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 2,exchange => <<"auth_exchange">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => true,reply_to => undefined,routing_key => <<>>,timestamp => undefined,type => undefined,user_id => undefined}},{basic_deliver,<<"test">>,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-yvsZZelzGQE39pAE5b2NTA">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 3,exchange => <<"auth_exchange">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => true,reply_to => undefined,routing_key => <<>>,timestamp => undefined,type => undefined,user_id => undefined}}]
+    links: [<0.283.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 28
+    reductions: 49216
+  neighbours:
+2020-11-01 09:45:11 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.282.0>
+    registered_name: []
+    exception exit: {{{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'auth_response_queue' in vhost '/': received 'false' but current is 'true'">>}},{gen_server,call,[<0.315.0>,{call,{'queue.declare',0,<<"auth_response_queue">>,false,false,false,false,false,[]},none,<0.284.0>},60000]}},[{application_master,terminate,2,[{file,"application_master.erl"},{line,232}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.281.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 11462
+  neighbours:
+2020-11-01 09:47:38 =ERROR REPORT====
+** Generic server <0.273.0> terminating 
+** Last message in was {basic_deliver,<<"abc">>,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-c6w1mYJXldStiNtambed9g">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 1,exchange => <<"auth_exchange">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => false,reply_to => undefined,routing_key => <<>>,timestamp => undefined,type => undefined,user_id => undefined}}
+** When Server state == #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.276.0>},custom_consumer => nil,pid => <0.287.0>}
+** Reason for termination ==
+** {{{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'auth_response_queue' in vhost '/': received 'false' but current is 'true'">>}},{gen_server,call,[<0.304.0>,{call,{'queue.declare',0,<<"auth_response_queue">>,false,false,false,false,false,[]},none,<0.273.0>},60000]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,246}]},{'Elixir.AMQP.Queue',declare,3,[{file,"lib/amqp/queue.ex"},{line,45}]},{'Elixir.Auth.Producer',invite_message,1,[{file,"lib/auth/producer.ex"},{line,9}]},{'Elixir.Auth.Consumer',consume,4,[{file,"lib/auth/consumer.ex"},{line,75}]},{'Elixir.Auth.Consumer',handle_info,2,[{file,"lib/auth/consumer.ex"},{line,42}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+2020-11-01 09:47:38 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception exit: {{{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'auth_response_queue' in vhost '/': received 'false' but current is 'true'">>}},{gen_server,call,[<0.304.0>,{call,{'queue.declare',0,<<"auth_response_queue">>,false,false,false,false,false,[]},none,<0.273.0>},60000]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,246}]},{'Elixir.AMQP.Queue',declare,3,[{file,"lib/amqp/queue.ex"},{line,45}]},{'Elixir.Auth.Producer',invite_message,1,[{file,"lib/auth/producer.ex"},{line,9}]},{'Elixir.Auth.Consumer',consume,4,[{file,"lib/auth/consumer.ex"},{line,75}]},{'Elixir.Auth.Consumer',handle_info,2,[{file,"lib/auth/consumer.ex"},{line,42}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.272.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 28
+    reductions: 49158
+  neighbours:
+2020-11-01 09:47:38 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'auth_response_queue' in vhost '/': received 'false' but current is 'true'">>}},{gen_server,call,[<0.304.0>,{call,{'queue.declare',0,<<"auth_response_queue">>,false,false,false,false,false,[]},none,<0.273.0>},60000]}},[{application_master,terminate,2,[{file,"application_master.erl"},{line,232}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 11448
+  neighbours:
+2020-11-01 09:48:37 =ERROR REPORT====
+** Generic server <0.286.0> terminating
+** Last message in was {consumer_call,{'basic.deliver',<<"amq.ctag-c6w1mYJXldStiNtambed9g">>,2,false,<<"auth_exchange">>,<<>>},{amqp_msg,{'P_basic',undefined,undefined,undefined,1,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"abcd">>}}
+** When Server state == {state,amqp_selective_consumer,{state,#{},undefined,#{},none}}
+** Reason for termination == 
+** unexpected_delivery_and_no_default_consumer
+2020-11-01 09:48:37 =CRASH REPORT====
+  crasher:
+    initial call: amqp_gen_consumer:init/1
+    pid: <0.286.0>
+    registered_name: []
+    exception exit: {unexpected_delivery_and_no_default_consumer,[{gen_server2,terminate,3,[{file,"/home/v/Documents/trampo/auth/deps/rabbit_common/src/gen_server2.erl"},{line,1183}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.285.0>,<0.279.0>,<0.275.0>,<0.274.0>,amqp_sup,<0.263.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.285.0>]
+    dictionary: [{process_name,{amqp_gen_consumer,{<<"client 127.0.0.1:34013 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 4138
+  neighbours:
+2020-11-01 09:48:37 =SUPERVISOR REPORT====
+     Supervisor: {<0.285.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     unexpected_delivery_and_no_default_consumer
+     Offender:   [{pid,<0.286.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:34013 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2020-11-01 09:48:37 =SUPERVISOR REPORT====
+     Supervisor: {<0.285.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.286.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:34013 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2020-11-01 09:52:27 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.284.0>
+    registered_name: []
+    exception error: {{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.283.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.283.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 37400
+  neighbours:
+2020-11-01 09:52:27 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.282.0>
+    registered_name: []
+    exception exit: {{{{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.281.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.283.0>,normal}]
+    links: [<0.281.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 215
+  neighbours:
+2020-11-01 10:23:17 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.282.0>
+    registered_name: []
+    exception exit: {{{{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'durable' for exchange 'auth_request_exchange' in vhost '/': received 'false' but current is 'true'">>}},{gen_server,call,[<0.298.0>,{call,{'exchange.declare',0,<<"auth_request_exchange">>,<<"fanout">>,false,false,false,false,false,[]},none,<0.284.0>},60000]}},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.281.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.283.0>,normal}]
+    links: [<0.281.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 219
+  neighbours:
+2020-11-01 10:23:17 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.284.0>
+    registered_name: []
+    exception exit: {{{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'durable' for exchange 'auth_request_exchange' in vhost '/': received 'false' but current is 'true'">>}},{gen_server,call,[<0.298.0>,{call,{'exchange.declare',0,<<"auth_request_exchange">>,<<"fanout">>,false,false,false,false,false,[]},none,<0.284.0>},60000]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,246}]},{'Elixir.AMQP.Exchange',declare,4,[{file,"lib/amqp/exchange.ex"},{line,48}]},{'Elixir.Auth.Consumer',setup_queue,1,[{file,"lib/auth/consumer.ex"},{line,57}]},{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,16}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.283.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 37701
+  neighbours:
+2020-11-01 10:23:49 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception error: {{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 37401
+  neighbours:
+2020-11-01 10:23:49 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 215
+  neighbours:
+2020-11-01 10:23:51 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception error: {{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.272.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 37400
+  neighbours:
+2020-11-01 10:23:51 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 215
+  neighbours:
+2020-11-01 10:23:54 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception error: {{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.272.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 37400
+  neighbours:
+2020-11-01 10:23:54 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 216
+  neighbours:
+2020-11-01 10:23:56 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception error: {{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.272.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 37400
+  neighbours:
+2020-11-01 10:23:56 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 215
+  neighbours:
+2020-11-01 10:23:58 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 215
+  neighbours:
+2020-11-01 10:23:58 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception error: {{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 37401
+  neighbours:
+2020-11-01 10:45:29 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.284.0>
+    registered_name: []
+    exception error: {{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.283.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.283.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 37400
+  neighbours:
+2020-11-01 10:45:29 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.282.0>
+    registered_name: []
+    exception exit: {{{{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.281.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.283.0>,normal}]
+    links: [<0.281.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 215
+  neighbours:
+2020-11-01 10:45:32 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception error: {{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 37401
+  neighbours:
+2020-11-01 10:45:32 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 215
+  neighbours:
+2020-11-01 10:45:33 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception error: {{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.272.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 37400
+  neighbours:
+2020-11-01 10:45:33 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 216
+  neighbours:
+2020-11-01 10:45:35 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 215
+  neighbours:
+2020-11-01 10:45:35 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception error: {{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 37401
+  neighbours:
+2020-11-01 10:45:37 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception error: {{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.272.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 37400
+  neighbours:
+2020-11-01 10:45:37 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 215
+  neighbours:
+2020-11-01 10:56:29 =SUPERVISOR REPORT====
+     Supervisor: {<0.7030.0>,amqp_channel_sup_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{nb_children,1},{name,channel_sup},{mfargs,{amqp_channel_sup,start_link,[network,<0.7029.0>,<<"client 127.0.0.1:38091 -> 127.0.0.1:5672">>]}},{restart_type,temporary},{shutdown,infinity},{child_type,supervisor}]
+
+2020-11-01 11:02:23 =SUPERVISOR REPORT====
+     Supervisor: {<0.23220.10>,amqp_channel_sup_sup}
+     Context:    shutdown_error
+     Reason:     noproc
+     Offender:   [{nb_children,1},{name,channel_sup},{mfargs,{amqp_channel_sup,start_link,[network,<0.23222.10>,<<"client 127.0.0.1:46755 -> 127.0.0.1:5672">>]}},{restart_type,temporary},{shutdown,infinity},{child_type,supervisor}]
+
+2020-11-01 11:06:34 =SUPERVISOR REPORT====
+     Supervisor: {<0.386.18>,amqp_channel_sup_sup}
+     Context:    shutdown_error
+     Reason:     noproc
+     Offender:   [{nb_children,1},{name,channel_sup},{mfargs,{amqp_channel_sup,start_link,[network,<0.383.18>,<<"client 127.0.0.1:52717 -> 127.0.0.1:5672">>]}},{restart_type,temporary},{shutdown,infinity},{child_type,supervisor}]
+
+2020-11-01 11:09:08 =SUPERVISOR REPORT====
+     Supervisor: {<0.18231.22>,amqp_channel_sup_sup}
+     Context:    shutdown_error
+     Reason:     noproc
+     Offender:   [{nb_children,1},{name,channel_sup},{mfargs,{amqp_channel_sup,start_link,[network,<0.18230.22>,<<"client 127.0.0.1:44397 -> 127.0.0.1:5672">>]}},{restart_type,temporary},{shutdown,infinity},{child_type,supervisor}]
+
+2020-11-01 11:09:48 =SUPERVISOR REPORT====
+     Supervisor: {<0.24929.23>,amqp_channel_sup_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{nb_children,1},{name,channel_sup},{mfargs,{amqp_channel_sup,start_link,[network,<0.24926.23>,<<"client 127.0.0.1:47933 -> 127.0.0.1:5672">>]}},{restart_type,temporary},{shutdown,infinity},{child_type,supervisor}]
+
+2020-11-01 11:13:02 =SUPERVISOR REPORT====
+     Supervisor: {<0.17502.29>,amqp_channel_sup_sup}
+     Context:    shutdown_error
+     Reason:     noproc
+     Offender:   [{nb_children,1},{name,channel_sup},{mfargs,{amqp_channel_sup,start_link,[network,<0.17504.29>,<<"client 127.0.0.1:48405 -> 127.0.0.1:5672">>]}},{restart_type,temporary},{shutdown,infinity},{child_type,supervisor}]
+
+2020-11-01 11:31:30 =SUPERVISOR REPORT====
+     Supervisor: {<0.1704.63>,amqp_channel_sup_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{nb_children,1},{name,channel_sup},{mfargs,{amqp_channel_sup,start_link,[network,<0.1659.63>,<<"client 127.0.0.1:56517 -> 127.0.0.1:5672">>]}},{restart_type,temporary},{shutdown,infinity},{child_type,supervisor}]
+
+2020-11-01 11:32:29 =ERROR REPORT====
+** Generic server <0.273.0> terminating 
+** Last message in was {basic_deliver,<<"\"error\"">>,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-UCJVRhmk4T2j6qXY8_CByA">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 163227,exchange => <<"auth_response_exchange">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => false,reply_to => undefined,routing_key => <<>>,timestamp => undefined,type => undefined,user_id => undefined}}
+** When Server state == #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.276.0>},custom_consumer => nil,pid => <0.287.0>}
+** Reason for termination ==
+** {{{shutdown,{connection_closing,{server_initiated_close,320,<<"CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'">>}}},{gen_server,call,[<0.26424.64>,{call,{'queue.bind',0,<<"auth_response_queue">>,<<"auth_response_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,246}]},{'Elixir.AMQP.Queue',bind,4,[{file,"lib/amqp/queue.ex"},{line,81}]},{'Elixir.Auth.Producer',invite_message,1,[{file,"lib/auth/producer.ex"},{line,8}]},{'Elixir.Auth.Consumer',consume,4,[{file,"lib/auth/consumer.ex"},{line,67}]},{'Elixir.Auth.Consumer',handle_info,2,[{file,"lib/auth/consumer.ex"},{line,39}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+2020-11-01 11:32:29 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception exit: {{{shutdown,{connection_closing,{server_initiated_close,320,<<"CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'">>}}},{gen_server,call,[<0.26424.64>,{call,{'queue.bind',0,<<"auth_response_queue">>,<<"auth_response_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,246}]},{'Elixir.AMQP.Queue',bind,4,[{file,"lib/amqp/queue.ex"},{line,81}]},{'Elixir.Auth.Producer',invite_message,1,[{file,"lib/auth/producer.ex"},{line,8}]},{'Elixir.Auth.Consumer',consume,4,[{file,"lib/auth/consumer.ex"},{line,67}]},{'Elixir.Auth.Consumer',handle_info,2,[{file,"lib/auth/consumer.ex"},{line,39}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,680}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,756}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 1
+    messages: [{basic_deliver,<<"\"error\"">>,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-UCJVRhmk4T2j6qXY8_CByA">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 163228,exchange => <<"auth_response_exchange">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => false,reply_to => undefined,routing_key => <<>>,timestamp => undefined,type => undefined,user_id => undefined}}]
+    links: [<0.272.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 28
+    reductions: 111663975
+  neighbours:
+2020-11-01 11:32:29 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{shutdown,{connection_closing,{server_initiated_close,320,<<"CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'">>}}},{gen_server,call,[<0.26424.64>,{call,{'queue.bind',0,<<"auth_response_queue">>,<<"auth_response_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}},[{application_master,terminate,2,[{file,"application_master.erl"},{line,232}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 2586
+    stack_size: 28
+    reductions: 1321954
+  neighbours:
+2020-11-01 11:32:29 =SUPERVISOR REPORT====
+     Supervisor: {<0.279.0>,amqp_channel_sup_sup}
+     Context:    shutdown_error
+     Reason:     noproc
+     Offender:   [{nb_children,1},{name,channel_sup},{mfargs,{amqp_channel_sup,start_link,[network,<0.276.0>,<<"client 127.0.0.1:47525 -> 127.0.0.1:5672">>]}},{restart_type,temporary},{shutdown,infinity},{child_type,supervisor}]
+
+2020-11-01 11:32:46 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.284.0>
+    registered_name: []
+    exception error: {{badmatch,{error,econnrefused}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.283.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 37401
+  neighbours:
+2020-11-01 11:32:46 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.282.0>
+    registered_name: []
+    exception exit: {{{{badmatch,{error,econnrefused}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.281.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.283.0>,normal}]
+    links: [<0.281.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 215
+  neighbours:
+2020-11-01 11:33:03 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception error: {{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.272.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 37400
+  neighbours:
+2020-11-01 11:33:03 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 215
+  neighbours:
+2020-11-01 11:33:04 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 215
+  neighbours:
+2020-11-01 11:33:04 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception error: {{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 37403
+  neighbours:
+2020-11-01 11:33:06 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception error: {{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 37403
+  neighbours:
+2020-11-01 11:33:06 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 215
+  neighbours:
+2020-11-01 11:33:07 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception error: {{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 37401
+  neighbours:
+2020-11-01 11:33:07 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 215
+  neighbours:
+2020-11-01 11:33:09 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception error: {{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.272.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 37400
+  neighbours:
+2020-11-01 11:33:09 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 215
+  neighbours:
+2020-11-01 11:33:11 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception error: {{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.272.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 37400
+  neighbours:
+2020-11-01 11:33:11 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 215
+  neighbours:
+2020-11-01 14:17:40 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception error: {{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.272.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 37400
+  neighbours:
+2020-11-01 14:17:40 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 215
+  neighbours:
+2020-11-01 14:17:43 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception error: {{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.272.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 37400
+  neighbours:
+2020-11-01 14:17:43 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 215
+  neighbours:
+2020-11-01 14:17:46 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 216
+  neighbours:
+2020-11-01 14:17:46 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception error: {{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 37401
+  neighbours:
+2020-11-01 14:17:48 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception error: {{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 37401
+  neighbours:
+2020-11-01 14:17:48 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 215
+  neighbours:
+2020-11-01 14:17:50 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception error: {{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.272.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 37400
+  neighbours:
+2020-11-01 14:17:50 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 215
+  neighbours:
+2020-11-01 14:17:52 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception error: {{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.272.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 37400
+  neighbours:
+2020-11-01 14:17:52 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 215
+  neighbours:
+2020-11-01 14:17:54 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception error: {{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 37401
+  neighbours:
+2020-11-01 14:17:54 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 215
+  neighbours:
+2020-11-01 14:17:56 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no exchange 'auth_request_exchange' in vhost '/'">>}},{gen_server,call,[<0.287.0>,{call,{'queue.bind',0,<<"auth_request_queue">>,<<"auth_request_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 214
+  neighbours:
+2020-11-01 14:17:56 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception exit: {{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no exchange 'auth_request_exchange' in vhost '/'">>}},{gen_server,call,[<0.287.0>,{call,{'queue.bind',0,<<"auth_request_queue">>,<<"auth_request_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,246}]},{'Elixir.AMQP.Queue',bind,4,[{file,"lib/amqp/queue.ex"},{line,81}]},{'Elixir.Auth.Consumer',setup_queue,1,[{file,"lib/auth/consumer.ex"},{line,57}]},{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,16}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 37674
+  neighbours:
+2020-11-01 14:17:58 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no exchange 'auth_request_exchange' in vhost '/'">>}},{gen_server,call,[<0.287.0>,{call,{'queue.bind',0,<<"auth_request_queue">>,<<"auth_request_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 214
+  neighbours:
+2020-11-01 14:17:58 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception exit: {{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no exchange 'auth_request_exchange' in vhost '/'">>}},{gen_server,call,[<0.287.0>,{call,{'queue.bind',0,<<"auth_request_queue">>,<<"auth_request_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,246}]},{'Elixir.AMQP.Queue',bind,4,[{file,"lib/amqp/queue.ex"},{line,81}]},{'Elixir.Auth.Consumer',setup_queue,1,[{file,"lib/auth/consumer.ex"},{line,57}]},{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,16}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 37674
+  neighbours:
+2020-11-01 14:18:00 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no exchange 'auth_request_exchange' in vhost '/'">>}},{gen_server,call,[<0.287.0>,{call,{'queue.bind',0,<<"auth_request_queue">>,<<"auth_request_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 214
+  neighbours:
+2020-11-01 14:18:00 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception exit: {{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no exchange 'auth_request_exchange' in vhost '/'">>}},{gen_server,call,[<0.287.0>,{call,{'queue.bind',0,<<"auth_request_queue">>,<<"auth_request_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,246}]},{'Elixir.AMQP.Queue',bind,4,[{file,"lib/amqp/queue.ex"},{line,81}]},{'Elixir.Auth.Consumer',setup_queue,1,[{file,"lib/auth/consumer.ex"},{line,57}]},{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,16}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 37674
+  neighbours:
+2020-11-01 14:18:02 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no exchange 'auth_request_exchange' in vhost '/'">>}},{gen_server,call,[<0.287.0>,{call,{'queue.bind',0,<<"auth_request_queue">>,<<"auth_request_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 214
+  neighbours:
+2020-11-01 14:18:02 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception exit: {{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no exchange 'auth_request_exchange' in vhost '/'">>}},{gen_server,call,[<0.287.0>,{call,{'queue.bind',0,<<"auth_request_queue">>,<<"auth_request_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,246}]},{'Elixir.AMQP.Queue',bind,4,[{file,"lib/amqp/queue.ex"},{line,81}]},{'Elixir.Auth.Consumer',setup_queue,1,[{file,"lib/auth/consumer.ex"},{line,57}]},{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,16}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 37674
+  neighbours:
+2020-11-01 14:18:04 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no exchange 'auth_request_exchange' in vhost '/'">>}},{gen_server,call,[<0.287.0>,{call,{'queue.bind',0,<<"auth_request_queue">>,<<"auth_request_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 214
+  neighbours:
+2020-11-01 14:18:04 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception exit: {{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no exchange 'auth_request_exchange' in vhost '/'">>}},{gen_server,call,[<0.287.0>,{call,{'queue.bind',0,<<"auth_request_queue">>,<<"auth_request_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,246}]},{'Elixir.AMQP.Queue',bind,4,[{file,"lib/amqp/queue.ex"},{line,81}]},{'Elixir.Auth.Consumer',setup_queue,1,[{file,"lib/auth/consumer.ex"},{line,57}]},{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,16}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 37674
+  neighbours:
+2020-11-01 14:18:06 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no exchange 'auth_request_exchange' in vhost '/'">>}},{gen_server,call,[<0.287.0>,{call,{'queue.bind',0,<<"auth_request_queue">>,<<"auth_request_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 219
+  neighbours:
+2020-11-01 14:18:06 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception exit: {{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no exchange 'auth_request_exchange' in vhost '/'">>}},{gen_server,call,[<0.287.0>,{call,{'queue.bind',0,<<"auth_request_queue">>,<<"auth_request_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,246}]},{'Elixir.AMQP.Queue',bind,4,[{file,"lib/amqp/queue.ex"},{line,81}]},{'Elixir.Auth.Consumer',setup_queue,1,[{file,"lib/auth/consumer.ex"},{line,57}]},{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,16}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 37674
+  neighbours:
+2020-11-01 14:18:08 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no exchange 'auth_request_exchange' in vhost '/'">>}},{gen_server,call,[<0.287.0>,{call,{'queue.bind',0,<<"auth_request_queue">>,<<"auth_request_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 214
+  neighbours:
+2020-11-01 14:18:08 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception exit: {{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no exchange 'auth_request_exchange' in vhost '/'">>}},{gen_server,call,[<0.287.0>,{call,{'queue.bind',0,<<"auth_request_queue">>,<<"auth_request_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,246}]},{'Elixir.AMQP.Queue',bind,4,[{file,"lib/amqp/queue.ex"},{line,81}]},{'Elixir.Auth.Consumer',setup_queue,1,[{file,"lib/auth/consumer.ex"},{line,57}]},{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,16}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 37674
+  neighbours:
+2020-11-01 14:18:10 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no exchange 'auth_request_exchange' in vhost '/'">>}},{gen_server,call,[<0.287.0>,{call,{'queue.bind',0,<<"auth_request_queue">>,<<"auth_request_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 214
+  neighbours:
+2020-11-01 14:18:10 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception exit: {{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no exchange 'auth_request_exchange' in vhost '/'">>}},{gen_server,call,[<0.287.0>,{call,{'queue.bind',0,<<"auth_request_queue">>,<<"auth_request_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,246}]},{'Elixir.AMQP.Queue',bind,4,[{file,"lib/amqp/queue.ex"},{line,81}]},{'Elixir.Auth.Consumer',setup_queue,1,[{file,"lib/auth/consumer.ex"},{line,57}]},{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,16}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 37674
+  neighbours:
+2020-11-01 14:18:17 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no exchange 'auth_request_exchange' in vhost '/'">>}},{gen_server,call,[<0.287.0>,{call,{'queue.bind',0,<<"auth_request_queue">>,<<"auth_request_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 214
+  neighbours:
+2020-11-01 14:18:17 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception exit: {{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no exchange 'auth_request_exchange' in vhost '/'">>}},{gen_server,call,[<0.287.0>,{call,{'queue.bind',0,<<"auth_request_queue">>,<<"auth_request_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,246}]},{'Elixir.AMQP.Queue',bind,4,[{file,"lib/amqp/queue.ex"},{line,81}]},{'Elixir.Auth.Consumer',setup_queue,1,[{file,"lib/auth/consumer.ex"},{line,57}]},{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,16}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 37674
+  neighbours:
+2020-11-01 14:18:27 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no exchange 'auth_request_exchange' in vhost '/'">>}},{gen_server,call,[<0.287.0>,{call,{'queue.bind',0,<<"auth_request_queue">>,<<"auth_request_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 214
+  neighbours:
+2020-11-01 14:18:27 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception exit: {{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no exchange 'auth_request_exchange' in vhost '/'">>}},{gen_server,call,[<0.287.0>,{call,{'queue.bind',0,<<"auth_request_queue">>,<<"auth_request_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,246}]},{'Elixir.AMQP.Queue',bind,4,[{file,"lib/amqp/queue.ex"},{line,81}]},{'Elixir.Auth.Consumer',setup_queue,1,[{file,"lib/auth/consumer.ex"},{line,57}]},{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,16}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 37674
+  neighbours:
+2020-11-01 14:19:06 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no exchange 'auth_request_exchange' in vhost '/'">>}},{gen_server,call,[<0.287.0>,{call,{'queue.bind',0,<<"auth_request_queue">>,<<"auth_request_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 214
+  neighbours:
+2020-11-01 14:19:06 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception exit: {{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no exchange 'auth_request_exchange' in vhost '/'">>}},{gen_server,call,[<0.287.0>,{call,{'queue.bind',0,<<"auth_request_queue">>,<<"auth_request_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}},[{gen_server,call,3,[{file,"gen_server.erl"},{line,246}]},{'Elixir.AMQP.Queue',bind,4,[{file,"lib/amqp/queue.ex"},{line,81}]},{'Elixir.Auth.Consumer',setup_queue,1,[{file,"lib/auth/consumer.ex"},{line,57}]},{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,16}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 37674
+  neighbours:
+2020-11-01 15:42:18 =ERROR REPORT====
+Error in process <0.20810.1> with exit value:
+{{case_clause,nil},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 15:42:19 =ERROR REPORT====
+Error in process <0.20812.1> with exit value:
+{{case_clause,nil},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 15:42:27 =ERROR REPORT====
+Error in process <0.20820.1> with exit value:
+{{case_clause,nil},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 15:42:30 =ERROR REPORT====
+Error in process <0.20827.1> with exit value:
+{{case_clause,[{'__aliases__',[{line,1},{column,11}],['Auth','Message']}]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 16:04:23 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 215
+  neighbours:
+2020-11-01 16:04:23 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception error: {{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: []
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 37402
+  neighbours:
+2020-11-01 16:04:27 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception error: {{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.272.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 37401
+  neighbours:
+2020-11-01 16:04:27 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 215
+  neighbours:
+2020-11-01 16:04:29 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth.Consumer:init/1
+    pid: <0.273.0>
+    registered_name: []
+    exception error: {{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.272.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.272.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 37401
+  neighbours:
+2020-11-01 16:04:29 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.271.0>
+    registered_name: []
+    exception exit: {{{{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.Auth',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.270.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.272.0>,normal}]
+    links: [<0.270.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 215
+  neighbours:

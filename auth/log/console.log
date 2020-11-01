@@ -1,0 +1,938 @@
+2020-11-01 06:31:26.021 [warning] <0.29007.0> Connection (<0.29007.0>) closing: received hard error {'connection.close',320,<<"CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'">>,0,0} from server
+2020-11-01 06:31:26.021 [warning] <0.284.0> Connection (<0.284.0>) closing: received hard error {'connection.close',320,<<"CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'">>,0,0} from server
+2020-11-01 06:37:27.424 [error] emulator Error in process <0.24.1> with exit value:
+{{case_clause,nil},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:37:27.937 [error] emulator Error in process <0.27.1> with exit value:
+{{case_clause,nil},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:37:33.914 [error] emulator Error in process <0.31.1> with exit value:
+{{case_clause,[{produ,[{line,1},{column,11}],nil}]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:37:34.582 [error] emulator Error in process <0.33.1> with exit value:
+{{case_clause,[{produce,[{line,1},{column,11}],nil}]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:37:35.045 [error] emulator Error in process <0.35.1> with exit value:
+{{case_clause,[{produc,[{line,1},{column,11}],nil}]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:37:36.109 [error] emulator Error in process <0.37.1> with exit value:
+{{case_clause,nil},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:37:36.822 [error] emulator Error in process <0.40.1> with exit value:
+{{case_clause,[{'__aliases__',[{line,1},{column,11}],['A']}]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:37:37.802 [error] emulator Error in process <0.43.1> with exit value:
+{{case_clause,[{'__aliases__',[{line,1},{column,11}],['Auth']}]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:37:38.867 [error] emulator Error in process <0.48.1> with exit value:
+{{case_clause,[{'__aliases__',[{line,1},{column,11}],['Auth','P']}]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:44:53.755 [error] emulator Error in process <0.1132.1> with exit value:
+{{case_clause,nil},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:44:54.304 [error] emulator Error in process <0.1134.1> with exit value:
+{{case_clause,nil},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:44:56.378 [error] emulator Error in process <0.1136.1> with exit value:
+{{case_clause,[{'__aliases__',[{line,1},{column,11}],['A']}]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:44:57.342 [error] emulator Error in process <0.1138.1> with exit value:
+{{case_clause,[{'__aliases__',[{line,1},{column,11}],['Auth']}]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:44:59.005 [error] emulator Error in process <0.1143.1> with exit value:
+{{case_clause,[{'__aliases__',[{line,1},{column,11}],['Auth','Pro']}]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:44:59.558 [error] emulator Error in process <0.1144.1> with exit value:
+{{case_clause,[{'__aliases__',[{line,1},{column,11}],['Auth','Proce']}]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:45:00.172 [error] emulator Error in process <0.1145.1> with exit value:
+{{case_clause,[{'__aliases__',[{line,1},{column,11}],['Auth','Process']}]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:45:01.072 [error] emulator Error in process <0.1147.1> with exit value:
+{{case_clause,[{'__aliases__',[{line,1},{column,11}],['Auth','Process']}]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:49:21.264 [error] emulator Error in process <0.1589.1> with exit value:
+{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"Function definition has moved since suggestion was generated. Try again after file has been recompiled.">>},[{'Elixir.ElixirLS.LanguageServer.Providers.ExecuteCommand',execute,3,[{file,"lib/language_server/providers/execute_command.ex"},{line,39}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:49:22.673 [error] emulator Error in process <0.1590.1> with exit value:
+{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"Function definition has moved since suggestion was generated. Try again after file has been recompiled.">>},[{'Elixir.ElixirLS.LanguageServer.Providers.ExecuteCommand',execute,3,[{file,"lib/language_server/providers/execute_command.ex"},{line,39}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:49:23.693 [error] emulator Error in process <0.1591.1> with exit value:
+{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"Function definition has moved since suggestion was generated. Try again after file has been recompiled.">>},[{'Elixir.ElixirLS.LanguageServer.Providers.ExecuteCommand',execute,3,[{file,"lib/language_server/providers/execute_command.ex"},{line,39}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:49:24.354 [error] emulator Error in process <0.1592.1> with exit value:
+{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"Function definition has moved since suggestion was generated. Try again after file has been recompiled.">>},[{'Elixir.ElixirLS.LanguageServer.Providers.ExecuteCommand',execute,3,[{file,"lib/language_server/providers/execute_command.ex"},{line,39}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:49:26.680 [error] emulator Error in process <0.1593.1> with exit value:
+{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"Function definition has moved since suggestion was generated. Try again after file has been recompiled.">>},[{'Elixir.ElixirLS.LanguageServer.Providers.ExecuteCommand',execute,3,[{file,"lib/language_server/providers/execute_command.ex"},{line,39}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:49:28.662 [error] emulator Error in process <0.1594.1> with exit value:
+{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"Function definition has moved since suggestion was generated. Try again after file has been recompiled.">>},[{'Elixir.ElixirLS.LanguageServer.Providers.ExecuteCommand',execute,3,[{file,"lib/language_server/providers/execute_command.ex"},{line,39}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:49:28.904 [error] emulator Error in process <0.1595.1> with exit value:
+{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"Function definition has moved since suggestion was generated. Try again after file has been recompiled.">>},[{'Elixir.ElixirLS.LanguageServer.Providers.ExecuteCommand',execute,3,[{file,"lib/language_server/providers/execute_command.ex"},{line,39}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:49:32.178 [error] emulator Error in process <0.1599.1> with exit value:
+{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"Function definition has moved since suggestion was generated. Try again after file has been recompiled.">>},[{'Elixir.ElixirLS.LanguageServer.Providers.ExecuteCommand',execute,3,[{file,"lib/language_server/providers/execute_command.ex"},{line,39}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:49:32.862 [error] emulator Error in process <0.1600.1> with exit value:
+{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"Function definition has moved since suggestion was generated. Try again after file has been recompiled.">>},[{'Elixir.ElixirLS.LanguageServer.Providers.ExecuteCommand',execute,3,[{file,"lib/language_server/providers/execute_command.ex"},{line,39}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:49:33.039 [error] emulator Error in process <0.1601.1> with exit value:
+{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"Function definition has moved since suggestion was generated. Try again after file has been recompiled.">>},[{'Elixir.ElixirLS.LanguageServer.Providers.ExecuteCommand',execute,3,[{file,"lib/language_server/providers/execute_command.ex"},{line,39}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:49:33.297 [error] emulator Error in process <0.1602.1> with exit value:
+{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"Function definition has moved since suggestion was generated. Try again after file has been recompiled.">>},[{'Elixir.ElixirLS.LanguageServer.Providers.ExecuteCommand',execute,3,[{file,"lib/language_server/providers/execute_command.ex"},{line,39}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:49:37.086 [error] emulator Error in process <0.1604.1> with exit value:
+{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"Function definition has moved since suggestion was generated. Try again after file has been recompiled.">>},[{'Elixir.ElixirLS.LanguageServer.Providers.ExecuteCommand',execute,3,[{file,"lib/language_server/providers/execute_command.ex"},{line,39}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:49:37.774 [error] emulator Error in process <0.1605.1> with exit value:
+{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"Function definition has moved since suggestion was generated. Try again after file has been recompiled.">>},[{'Elixir.ElixirLS.LanguageServer.Providers.ExecuteCommand',execute,3,[{file,"lib/language_server/providers/execute_command.ex"},{line,39}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:49:37.951 [error] emulator Error in process <0.1606.1> with exit value:
+{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"Function definition has moved since suggestion was generated. Try again after file has been recompiled.">>},[{'Elixir.ElixirLS.LanguageServer.Providers.ExecuteCommand',execute,3,[{file,"lib/language_server/providers/execute_command.ex"},{line,39}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:49:38.112 [error] emulator Error in process <0.1607.1> with exit value:
+{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"Function definition has moved since suggestion was generated. Try again after file has been recompiled.">>},[{'Elixir.ElixirLS.LanguageServer.Providers.ExecuteCommand',execute,3,[{file,"lib/language_server/providers/execute_command.ex"},{line,39}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:49:38.267 [error] emulator Error in process <0.1608.1> with exit value:
+{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"Function definition has moved since suggestion was generated. Try again after file has been recompiled.">>},[{'Elixir.ElixirLS.LanguageServer.Providers.ExecuteCommand',execute,3,[{file,"lib/language_server/providers/execute_command.ex"},{line,39}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:49:39.028 [error] emulator Error in process <0.1609.1> with exit value:
+{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"Function definition has moved since suggestion was generated. Try again after file has been recompiled.">>},[{'Elixir.ElixirLS.LanguageServer.Providers.ExecuteCommand',execute,3,[{file,"lib/language_server/providers/execute_command.ex"},{line,39}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:50:01.358 [error] emulator Error in process <0.1624.1> with exit value:
+{{case_clause,nil},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,147}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,95}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:50:01.780 [error] emulator Error in process <0.1625.1> with exit value:
+{{case_clause,nil},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,147}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,95}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:50:02.239 [error] emulator Error in process <0.1626.1> with exit value:
+{{case_clause,[{process_token,[{line,6},{column,9}],nil}]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,147}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,95}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:50:05.722 [error] emulator Error in process <0.1628.1> with exit value:
+{{case_clause,[{process_token,[{line,6},{column,9}],[]}]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,147}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,95}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:50:07.022 [error] emulator Error in process <0.1630.1> with exit value:
+{{case_clause,[{process_token,[{line,6},{column,9}],[{any,[{line,6},{column,23}],nil}]}]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,147}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,95}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:50:08.999 [error] emulator Error in process <0.1632.1> with exit value:
+{{case_clause,[{process_token,[{line,6},{column,9}],[{any,[{line,6},{column,23}],nil}]}]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,147}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,95}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:50:10.070 [error] emulator Error in process <0.1634.1> with exit value:
+{{case_clause,[{process_token,[{line,6},{column,9}],[{any,[{line,6},{column,23}],nil}]}]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,147}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,95}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:50:10.759 [error] emulator Error in process <0.1635.1> with exit value:
+{{case_clause,[{process_token,[{line,6},{column,9}],[{any,[{line,6},{column,23}],nil}]}]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,147}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,95}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:50:12.158 [error] emulator Error in process <0.1639.1> with exit value:
+{{case_clause,[{'::',[{line,6},{column,28}],[{process_token,[{line,6},{column,9}],[{any,[{line,6},{column,23}],nil}]},{def,[{line,7},{column,3}],[{process_token,[{line,7},{column,7}],[{token,[{line,7},{column,21}],nil}]}]}]},[{do,{if,[{line,8},{column,5}],[{'==',[{line,8},{column,14}],[{token,[{line,8},{column,8}],nil},<<"abc123">>]},[{do,ok},{else,error}]]}}]]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,147}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,95}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:50:18.784 [error] emulator Error in process <0.1854.1> with exit value:
+{{case_clause,[{'::',[{line,6},{column,28}],[{process_token,[{line,6},{column,9}],[{any,[{line,6},{column,23}],nil}]},{'|',[{line,6},{column,38}],[error,{def,[{line,7},{column,3}],[{process_token,[{line,7},{column,7}],[{token,[{line,7},{column,21}],nil}]}]}]}]},[{do,{if,[{line,8},{column,5}],[{'==',[{line,8},{column,14}],[{token,[{line,8},{column,8}],nil},<<"abc123">>]},[{do,ok},{else,error}]]}}]]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,147}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,95}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 06:50:19.289 [error] emulator Error in process <0.1908.1> with exit value:
+{{case_clause,[{'::',[{line,6},{column,28}],[{process_token,[{line,6},{column,9}],[{any,[{line,6},{column,23}],nil}]},{'|',[{line,6},{column,38}],[error,{def,[{line,7},{column,3}],[{process_token,[{line,7},{column,7}],[{token,[{line,7},{column,21}],nil}]}]}]}]},[{do,{if,[{line,8},{column,5}],[{'==',[{line,8},{column,14}],[{token,[{line,8},{column,8}],nil},<<"abc123">>]},[{do,ok},{else,error}]]}}]]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,147}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.Enum','-map/2-lists^map/1-0-',2,[{file,"lib/enum.ex"},{line,1396}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,95}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 07:05:22.097 [error] emulator Error in process <0.6674.1> with exit value:
+{{case_clause,[{'__aliases__',[{line,1},{column,11}],['Auth','Consumer']},[{do,{'__block__',[],[{use,[{line,2},{column,3}],[{'__aliases__',[{line,2},{column,7}],['GenServer']}]},{use,[{line,3},{column,3}],[{'__aliases__',[{line,3},{column,7}],['AMQP']}]},{def,[{line,5},{column,3}],[{start_link,[{line,5},{column,7}],[]},[{do,{{'.',[{line,6},{column,14}],[{'__aliases__',[{line,6},{column,5}],['GenServer']},start_link]},[{line,6},{column,14}],[{'__MODULE__',[{line,6},{column,26}],nil},[],[]]}}]]},{'@',[{line,9},{column,3}],[{exchange,[{line,9},{column,4}],[<<"auth_request_exchange">>]}]},{'@',[{line,10},{column,3}],[{queue,[{line,10},{column,4}],[<<"auth_request_queue">>]}]},{'@',[{line,11},{column,3}],[{queue_error,[{line,11},{column,4}],[{'<<>>',[{line,11},{column,16}],[{'::',[{line,11},{column,17}],[{{'.',[{line,11},{column,17}],['Elixir.Kernel',to_string]},[{line,11},{column,17}],[{'@',[{line,11},{column,19}],[{queue,[{line,11},{column,20}],nil}]}]},{binary,[{line,11},{column,17}],nil}]},<<"_error">>]}]}]},{def,[{line,13},{column,3}],[{init,[{line,13},{column,7}],[{'_opts',[{line,13},{column,12}],nil}]},[{do,{'__block__',[],[{'=',[{line,14},{column,17}],[{ok,{conn,[{line,14},{column,11}],nil}},{{'.',[{line,14},{column,29}],[{'__aliases__',[{line,14},{column,19}],['Connection']},open]},[{line,14},{column,29}],[<<"amqp://guest:guest@localhost">>]}]},{'=',[{line,15},{column,17}],[{ok,{chan,[{line,15},{column,11}],nil}},{{'.',[{line,15},{column,26}],[{'__aliases__',[{line,15},{column,19}],['Channel']},open]},[{line,15},{column,26}],[{conn,[{line,15},{column,32}],nil}]}]},{setup_queue,[{line,16},{column,5}],[{chan,[{line,16},{column,17}],nil}]},{'=',[{line,19},{column,9}],[ok,{{'.',[{line,19},{column,16}],[{'__aliases__',[{line,19},{column,11}],['Basic']},qos]},[{line,19},{column,16}],[{chan,[{line,19},{column,21}],nil},[{prefetch_count,10}]]}]},{'=',[{line,21},{column,26}],[{ok,{'_consumer_tag',[{line,21},{column,11}],nil}},{{'.',[{line,21},{column,33}],[{'__aliases__',[{line,21},{column,28}],['Basic']},consume]},[{line,21},{column,33}],[{chan,[{line,21},{column,42}],nil},{'@',[{line,21},{column,48}],[{queue,[{line,21},{column,49}],nil}]}]}]},{ok,{chan,[{line,22},{column,11}],nil}}]}}]]},{def,[{line,26},{column,3}],[{handle_info,[{line,26},{column,7}],[{basic_consume_ok,{'%{}',[{line,26},{column,40}],[{consumer_tag,{'_consumer_tag',[{line,26},{column,55}],nil}}]}},{chan,[{line,26},{column,72}],nil}]},[{do,{noreply,{chan,[{line,27},{column,16}],nil}}}]]},{def,[{line,31},{column,3}],[{handle_info,[{line,31},{column,7}],[{basic_cancel,{'%{}',[{line,31},{column,36}],[{consumer_tag,{'_consumer_tag',[{line,31},{column,51}],nil}}]}},{chan,[{line,31},{column,68}],nil}]},[{do,{'{}',[{line,32},{column,5}],[stop,normal,{chan,[{line,32},{column,22}],nil}]}}]]},{def,[{line,36},{column,3}],[{handle_info,[{line,36},{column,7}],[{basic_cancel_ok,{'%{}',[{line,36},{column,39}],[{consumer_tag,{'_consumer_tag',[{line,36},{column,54}],nil}}]}},{chan,[{line,36},{column,71}],nil}]},[{do,{noreply,{chan,[{line,37},{column,16}],nil}}}]]},{def,[{line,40},{column,3}],[{handle_info,[{line,40},{column,7}],[{'{}',[{line,40},{column,19}],[basic_deliver,{payload,[{line,40},{column,36}],nil},{'%{}',[{line,40},{column,46}],[{delivery_tag,{tag,[{line,40},{column,61}],nil}},{redelivered,{redelivered,[{line,40},{column,79}],nil}}]}]},{chan,[{line,40},{column,94}],nil}]},[{do,{'__block__',[],[{consume,[{line,42},{column,5}],[{chan,[{line,42},{column,13}],nil},{tag,[{line,42},{column,19}],nil},{redelivered,[{line,42},{column,24}],nil},{payload,[{line,42},{column,37}],nil}]},{noreply,{chan,[{line,43},{column,16}],nil}}]}}]]},{defp,[{line,46},{column,3}],[{setup_queue,[{line,46},{column,8}],[{chan,[{line,46},{column,20}],nil}]},[{do,{'__block__',[],[{'=',[{line,47},{column,14}],[{ok,{'_',[{line,47},{column,11}],nil}},{{'.',[{line,47},{column,21}],[{'__aliases__',[{line,47},{column,16}],['Queue']},declare]},[{line,47},{column,21}],[{chan,[{line,47},{column,30}],nil},{'@',[{line,...},...],...},...]}]},...]}}]]},...]}},...]]},...}
+2020-11-01 09:09:00.438 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 09:09:00.443 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 09:09:00.453 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 09:09:00.455 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 09:09:00.456 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 09:09:00.460 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 09:09:00.461 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 09:09:00.485 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 09:09:00.485 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 09:09:00.492 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 09:09:00.495 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 09:09:00.717 [error] <0.496.0> CRASH REPORT Process <0.496.0> with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'auth_request_queue' in vhost '/': received 'true' but current is 'false'">>}},{gen_server,call,[<0.510.0>,{call,{'queue.declare',0,<<"auth_request_queue">>,false,true,false,false,false,[{<<"x-dead-letter-exchange">>,longstr,<<>>},{<<"x-dead-letter-routing-key">>,longstr,<<"auth_request_queue_error">>}]},none,<0.496.0>},60000]}} in gen_server:call/3 line 246
+2020-11-01 09:09:49.173 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 09:09:49.178 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 09:09:49.187 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 09:09:49.190 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 09:09:49.191 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 09:09:49.194 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 09:09:49.195 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 09:09:49.218 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 09:09:49.218 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 09:09:49.224 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 09:09:49.226 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 09:09:49.319 [error] <0.282.0> CRASH REPORT Process <0.282.0> with 0 neighbours exited with reason: {{{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'auth_request_queue' in vhost '/': received 'true' but current is 'false'">>}},{gen_server,call,[<0.298.0>,{call,{'queue.declare',0,<<"auth_request_queue">>,false,true,false,false,false,[{<<"x-dead-letter-exchange">>,longstr,<<>>},{<<"x-dead-letter-routing-key">>,longstr,<<"auth_request_queue_error">>}]},none,<0.284.0>},60000]}},{'Elixir.Auth',start,[normal,[]]}} in application_master:init/4 line 138
+2020-11-01 09:11:09.791 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 09:11:09.795 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 09:11:09.806 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 09:11:09.810 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 09:11:09.812 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 09:11:09.820 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 09:11:09.821 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 09:11:09.839 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 09:11:09.839 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 09:11:09.846 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 09:11:09.849 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 09:11:09.955 [error] <0.271.0> CRASH REPORT Process <0.271.0> with 0 neighbours exited with reason: {{{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'auth_request_queue' in vhost '/': received 'true' but current is 'false'">>}},{gen_server,call,[<0.287.0>,{call,{'queue.declare',0,<<"auth_request_queue">>,false,true,false,false,false,[{<<"x-dead-letter-exchange">>,longstr,<<>>},{<<"x-dead-letter-routing-key">>,longstr,<<"auth_request_queue_error">>}]},none,<0.273.0>},60000]}},{'Elixir.Auth',start,[normal,[]]}} in application_master:init/4 line 138
+2020-11-01 09:12:42.830 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 09:12:42.836 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 09:12:42.855 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 09:12:42.859 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 09:12:42.860 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 09:12:42.865 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 09:12:42.866 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 09:12:42.888 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 09:12:42.888 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 09:12:42.901 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 09:12:42.904 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 09:12:43.004 [error] <0.282.0> CRASH REPORT Process <0.282.0> with 0 neighbours exited with reason: {{{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'auth_request_queue' in vhost '/': received 'true' but current is 'false'">>}},{gen_server,call,[<0.298.0>,{call,{'queue.declare',0,<<"auth_request_queue">>,false,true,false,false,false,[{<<"x-dead-letter-exchange">>,longstr,<<>>},{<<"x-dead-letter-routing-key">>,longstr,<<"auth_request_queue_error">>}]},none,<0.284.0>},60000]}},{'Elixir.Auth',start,[normal,[]]}} in application_master:init/4 line 138
+2020-11-01 09:14:14.647 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 09:14:14.651 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 09:14:14.665 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 09:14:14.669 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 09:14:14.670 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 09:14:14.675 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 09:14:14.676 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 09:14:14.698 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 09:14:14.698 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 09:14:14.704 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 09:14:14.706 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 09:14:15.073 [info] <0.44.0> Application auth started on node nonode@nohost
+2020-11-01 09:15:08.000 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 09:15:08.005 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 09:15:08.015 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 09:15:08.018 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 09:15:08.020 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 09:15:08.023 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 09:15:08.024 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 09:15:08.047 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 09:15:08.047 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 09:15:08.059 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 09:15:08.061 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 09:15:08.385 [info] <0.44.0> Application auth started on node nonode@nohost
+2020-11-01 09:15:50.571 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 09:15:50.576 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 09:15:50.590 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 09:15:50.593 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 09:15:50.594 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 09:15:50.598 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 09:15:50.599 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 09:15:50.622 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 09:15:50.622 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 09:15:50.629 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 09:15:50.631 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 09:15:50.743 [info] <0.44.0> Application auth started on node nonode@nohost
+2020-11-01 09:21:19.436 [info] <0.313.0> Dropping frame {method,'channel.close',<<1,148,61,78,79,84,95,70,79,85,78,68,32,45,32,110,111,32,101,120,99,104,97,110,103,101,32,39,97,117,116,104,95,114,101,115,112,111,110,115,101,95,101,120,99,104,97,110,103,101,39,32,105,110,32,118,104,111,115,116,32,39,47,39,0,60,0,40>>} for invalid or closed channel number 1
+2020-11-01 09:23:26.999 [info] <0.351.0> Dropping frame {method,'channel.close',<<1,148,61,78,79,84,95,70,79,85,78,68,32,45,32,110,111,32,101,120,99,104,97,110,103,101,32,39,97,117,116,104,95,114,101,115,112,111,110,115,101,95,101,120,99,104,97,110,103,101,39,32,105,110,32,118,104,111,115,116,32,39,47,39,0,60,0,40>>} for invalid or closed channel number 1
+2020-11-01 09:34:19.389 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 09:34:19.394 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 09:34:19.405 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 09:34:19.409 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 09:34:19.410 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 09:34:19.415 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 09:34:19.416 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 09:34:19.441 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 09:34:19.442 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 09:34:19.453 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 09:34:19.455 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 09:34:19.795 [info] <0.44.0> Application auth started on node nonode@nohost
+2020-11-01 09:38:14.060 [error] <0.296.0> gen_server <0.296.0> terminated with reason: {{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'type' for exchange 'auth_exchange' in vhost '/': received 'direct' but current is 'fanout'">>}},{gen_server,call,[<0.333.0>,{call,{'exchange.declare',0,<<"auth_exchange">>,<<"direct">>,false,false,false,false,false,[]},none,<0.296.0>},60000]}} in gen_server:call/3 line 246
+2020-11-01 09:38:14.073 [error] <0.296.0> CRASH REPORT Process <0.296.0> with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'type' for exchange 'auth_exchange' in vhost '/': received 'direct' but current is 'fanout'">>}},{gen_server,call,[<0.333.0>,{call,{'exchange.declare',0,<<"auth_exchange">>,<<"direct">>,false,false,false,false,false,[]},none,<0.296.0>},60000]}} in gen_server:call/3 line 246
+2020-11-01 09:38:14.073 [error] <0.294.0> CRASH REPORT Process <0.294.0> with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'type' for exchange 'auth_exchange' in vhost '/': received 'direct' but current is 'fanout'">>}},{gen_server,call,[<0.333.0>,{call,{'exchange.declare',0,<<"auth_exchange">>,<<"direct">>,false,false,false,false,false,[]},none,<0.296.0>},60000]}} in application_master:terminate/2 line 232
+2020-11-01 09:38:14.074 [info] <0.44.0> Application auth exited with reason: {{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'type' for exchange 'auth_exchange' in vhost '/': received 'direct' but current is 'fanout'">>}},{gen_server,call,[<0.333.0>,{call,{'exchange.declare',0,<<"auth_exchange">>,<<"direct">>,false,false,false,false,false,[]},none,<0.296.0>},60000]}}
+2020-11-01 09:38:30.775 [error] <0.309.0> gen_server <0.309.0> terminated with reason: unexpected_delivery_and_no_default_consumer
+2020-11-01 09:38:30.776 [error] <0.309.0> CRASH REPORT Process <0.309.0> with 0 neighbours exited with reason: unexpected_delivery_and_no_default_consumer in gen_server2:terminate/3 line 1183
+2020-11-01 09:38:30.776 [error] <0.308.0> Supervisor {<0.308.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:37795 -> 127.0.0.1:5672">>,1}) at <0.309.0> exit with reason unexpected_delivery_and_no_default_consumer in context child_terminated
+2020-11-01 09:38:30.776 [error] <0.308.0> Supervisor {<0.308.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:37795 -> 127.0.0.1:5672">>,1}) at <0.309.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-11-01 09:38:30.777 [error] <0.310.0> gen_server <0.310.0> terminated with reason: {unexpected_delivery_and_no_default_consumer,{gen_server2,call,[<0.309.0>,{consumer_call,{'basic.deliver',<<"amq.ctag-OjP-X18TeTA6Bw4TyWbIoA">>,2,false,<<"auth_exchange">>,<<>>},{amqp_msg,{'P_basic',undefined,undefined,undefined,1,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"test">>}},60000]}} in gen_server2:call/3 line 346
+2020-11-01 09:39:30.448 [info] <0.303.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,79,106,80,45,88,49,56,84,101,84,65,54,66,119,52,84,121,87,98,73,111,65,0,0,0,0,0,0,0,3,0,13,97,117,116,104,95,101,120,99,104,97,110,103,101,0>>} for invalid or closed channel number 1
+2020-11-01 09:39:30.449 [info] <0.303.0> Dropping frame {content_header,60,0,4,<<16,0,1>>} for invalid or closed channel number 1
+2020-11-01 09:39:30.450 [info] <0.303.0> Dropping frame {content_body,<<"test">>} for invalid or closed channel number 1
+2020-11-01 09:45:11.336 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 09:45:11.340 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 09:45:11.356 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 09:45:11.360 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 09:45:11.361 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 09:45:11.365 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 09:45:11.366 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 09:45:11.388 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 09:45:11.388 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 09:45:11.396 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 09:45:11.398 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 09:45:11.713 [info] <0.44.0> Application auth started on node nonode@nohost
+2020-11-01 09:45:11.748 [error] <0.284.0> gen_server <0.284.0> terminated with reason: {{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'auth_response_queue' in vhost '/': received 'false' but current is 'true'">>}},{gen_server,call,[<0.315.0>,{call,{'queue.declare',0,<<"auth_response_queue">>,false,false,false,false,false,[]},none,<0.284.0>},60000]}} in gen_server:call/3 line 246
+2020-11-01 09:45:11.756 [error] <0.284.0> CRASH REPORT Process <0.284.0> with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'auth_response_queue' in vhost '/': received 'false' but current is 'true'">>}},{gen_server,call,[<0.315.0>,{call,{'queue.declare',0,<<"auth_response_queue">>,false,false,false,false,false,[]},none,<0.284.0>},60000]}} in gen_server:call/3 line 246
+2020-11-01 09:45:11.757 [error] <0.282.0> CRASH REPORT Process <0.282.0> with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'auth_response_queue' in vhost '/': received 'false' but current is 'true'">>}},{gen_server,call,[<0.315.0>,{call,{'queue.declare',0,<<"auth_response_queue">>,false,false,false,false,false,[]},none,<0.284.0>},60000]}} in application_master:terminate/2 line 232
+2020-11-01 09:45:11.757 [info] <0.44.0> Application auth exited with reason: {{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'auth_response_queue' in vhost '/': received 'false' but current is 'true'">>}},{gen_server,call,[<0.315.0>,{call,{'queue.declare',0,<<"auth_response_queue">>,false,false,false,false,false,[]},none,<0.284.0>},60000]}}
+2020-11-01 09:46:58.282 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 09:46:58.286 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 09:46:58.297 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 09:46:58.299 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 09:46:58.299 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 09:46:58.303 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 09:46:58.304 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 09:46:58.324 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 09:46:58.324 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 09:46:58.330 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 09:46:58.332 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 09:46:59.031 [info] <0.44.0> Application auth started on node nonode@nohost
+2020-11-01 09:47:38.591 [error] <0.273.0> gen_server <0.273.0> terminated with reason: {{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'auth_response_queue' in vhost '/': received 'false' but current is 'true'">>}},{gen_server,call,[<0.304.0>,{call,{'queue.declare',0,<<"auth_response_queue">>,false,false,false,false,false,[]},none,<0.273.0>},60000]}} in gen_server:call/3 line 246
+2020-11-01 09:47:38.604 [error] <0.273.0> CRASH REPORT Process <0.273.0> with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'auth_response_queue' in vhost '/': received 'false' but current is 'true'">>}},{gen_server,call,[<0.304.0>,{call,{'queue.declare',0,<<"auth_response_queue">>,false,false,false,false,false,[]},none,<0.273.0>},60000]}} in gen_server:call/3 line 246
+2020-11-01 09:47:38.606 [error] <0.271.0> CRASH REPORT Process <0.271.0> with 0 neighbours exited with reason: {{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'auth_response_queue' in vhost '/': received 'false' but current is 'true'">>}},{gen_server,call,[<0.304.0>,{call,{'queue.declare',0,<<"auth_response_queue">>,false,false,false,false,false,[]},none,<0.273.0>},60000]}} in application_master:terminate/2 line 232
+2020-11-01 09:47:38.606 [info] <0.44.0> Application auth exited with reason: {{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'durable' for queue 'auth_response_queue' in vhost '/': received 'false' but current is 'true'">>}},{gen_server,call,[<0.304.0>,{call,{'queue.declare',0,<<"auth_response_queue">>,false,false,false,false,false,[]},none,<0.273.0>},60000]}}
+2020-11-01 09:48:37.847 [error] <0.286.0> gen_server <0.286.0> terminated with reason: unexpected_delivery_and_no_default_consumer
+2020-11-01 09:48:37.847 [error] <0.286.0> CRASH REPORT Process <0.286.0> with 0 neighbours exited with reason: unexpected_delivery_and_no_default_consumer in gen_server2:terminate/3 line 1183
+2020-11-01 09:48:37.848 [error] <0.285.0> Supervisor {<0.285.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:34013 -> 127.0.0.1:5672">>,1}) at <0.286.0> exit with reason unexpected_delivery_and_no_default_consumer in context child_terminated
+2020-11-01 09:48:37.848 [error] <0.285.0> Supervisor {<0.285.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:34013 -> 127.0.0.1:5672">>,1}) at <0.286.0> exit with reason reached_max_restart_intensity in context shutdown
+2020-11-01 09:48:45.876 [info] <0.280.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,99,54,119,49,109,89,74,88,108,100,83,116,105,78,116,97,109,98,101,100,57,103,0,0,0,0,0,0,0,3,0,13,97,117,116,104,95,101,120,99,104,97,110,103,101,0>>} for invalid or closed channel number 1
+2020-11-01 09:48:45.877 [info] <0.280.0> Dropping frame {content_header,60,0,5,<<16,0,1>>} for invalid or closed channel number 1
+2020-11-01 09:48:45.877 [info] <0.280.0> Dropping frame {content_body,<<"abcde">>} for invalid or closed channel number 1
+2020-11-01 09:52:26.943 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 09:52:26.948 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 09:52:26.962 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 09:52:26.966 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 09:52:26.967 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 09:52:26.971 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 09:52:26.972 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 09:52:26.994 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 09:52:26.994 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 09:52:27.000 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 09:52:27.003 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 09:52:27.088 [error] <0.284.0>@Elixir.Auth.Consumer:init:14 CRASH REPORT Process <0.284.0> with 0 neighbours crashed with reason: no match of right hand value {error,{socket_closed_unexpectedly,'connection.start'}} in 'Elixir.Auth.Consumer':init/1 line 14
+2020-11-01 09:52:29.514 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 09:52:29.519 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 09:52:29.536 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 09:52:29.540 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 09:52:29.541 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 09:52:29.548 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 09:52:29.549 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 09:52:29.568 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 09:52:29.568 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 09:52:29.575 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 09:52:29.577 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 09:52:29.861 [info] <0.44.0> Application auth started on node nonode@nohost
+2020-11-01 10:18:44.918 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 10:18:44.926 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 10:18:44.939 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 10:18:44.942 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 10:18:44.943 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 10:18:44.948 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 10:18:44.949 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 10:18:44.971 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 10:18:44.972 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 10:18:44.978 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 10:18:44.980 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 10:18:45.234 [info] <0.44.0> Application auth started on node nonode@nohost
+2020-11-01 10:23:17.282 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 10:23:17.289 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 10:23:17.303 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 10:23:17.307 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 10:23:17.308 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 10:23:17.314 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 10:23:17.315 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 10:23:17.345 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 10:23:17.345 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 10:23:17.351 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 10:23:17.353 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 10:23:17.456 [error] <0.282.0> CRASH REPORT Process <0.282.0> with 0 neighbours exited with reason: {{{shutdown,{server_initiated_close,406,<<"PRECONDITION_FAILED - inequivalent arg 'durable' for exchange 'auth_request_exchange' in vhost '/': received 'false' but current is 'true'">>}},{gen_server,call,[<0.298.0>,{call,{'exchange.declare',0,<<"auth_request_exchange">>,<<"fanout">>,false,false,false,false,false,[]},none,<0.284.0>},60000]}},{'Elixir.Auth',start,[normal,[]]}} in application_master:init/4 line 138
+2020-11-01 10:23:49.225 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 10:23:49.229 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 10:23:49.241 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 10:23:49.247 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 10:23:49.248 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 10:23:49.255 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 10:23:49.257 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 10:23:49.292 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 10:23:49.292 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 10:23:49.301 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 10:23:49.304 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 10:23:49.377 [error] <0.273.0>@Elixir.Auth.Consumer:init:14 CRASH REPORT Process <0.273.0> with 0 neighbours crashed with reason: no match of right hand value {error,{socket_closed_unexpectedly,'connection.start'}} in 'Elixir.Auth.Consumer':init/1 line 14
+2020-11-01 10:23:51.682 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 10:23:51.687 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 10:23:51.705 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 10:23:51.709 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 10:23:51.712 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 10:23:51.721 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 10:23:51.722 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 10:23:51.751 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 10:23:51.751 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 10:23:51.766 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 10:23:51.770 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 10:23:51.861 [error] <0.273.0>@Elixir.Auth.Consumer:init:14 CRASH REPORT Process <0.273.0> with 0 neighbours crashed with reason: no match of right hand value {error,{socket_closed_unexpectedly,'connection.start'}} in 'Elixir.Auth.Consumer':init/1 line 14
+2020-11-01 10:23:53.898 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 10:23:53.903 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 10:23:53.918 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 10:23:53.921 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 10:23:53.923 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 10:23:53.928 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 10:23:53.929 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 10:23:53.964 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 10:23:53.964 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 10:23:53.973 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 10:23:53.976 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 10:23:54.057 [error] <0.273.0>@Elixir.Auth.Consumer:init:14 CRASH REPORT Process <0.273.0> with 0 neighbours crashed with reason: no match of right hand value {error,{socket_closed_unexpectedly,'connection.start'}} in 'Elixir.Auth.Consumer':init/1 line 14
+2020-11-01 10:23:55.984 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 10:23:55.989 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 10:23:56.009 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 10:23:56.012 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 10:23:56.013 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 10:23:56.019 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 10:23:56.021 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 10:23:56.046 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 10:23:56.046 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 10:23:56.055 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 10:23:56.057 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 10:23:56.119 [error] <0.273.0>@Elixir.Auth.Consumer:init:14 CRASH REPORT Process <0.273.0> with 0 neighbours crashed with reason: no match of right hand value {error,{socket_closed_unexpectedly,'connection.start'}} in 'Elixir.Auth.Consumer':init/1 line 14
+2020-11-01 10:23:57.931 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 10:23:57.937 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 10:23:57.958 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 10:23:57.963 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 10:23:57.965 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 10:23:57.972 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 10:23:57.973 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 10:23:58.012 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 10:23:58.012 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 10:23:58.021 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 10:23:58.023 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 10:23:58.103 [error] <0.271.0> CRASH REPORT Process <0.271.0> with 0 neighbours exited with reason: {{{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.Auth',start,[normal,[]]}} in application_master:init/4 line 138
+2020-11-01 10:23:59.889 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 10:23:59.895 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 10:23:59.912 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 10:23:59.917 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 10:23:59.919 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 10:23:59.926 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 10:23:59.928 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 10:23:59.953 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 10:23:59.954 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 10:23:59.964 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 10:23:59.967 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 10:24:00.179 [info] <0.44.0> Application auth started on node nonode@nohost
+2020-11-01 10:45:29.704 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 10:45:29.710 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 10:45:29.730 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 10:45:29.733 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 10:45:29.735 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 10:45:29.741 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 10:45:29.743 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 10:45:29.777 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 10:45:29.777 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 10:45:29.786 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 10:45:29.790 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 10:45:29.862 [error] <0.284.0>@Elixir.Auth.Consumer:init:14 CRASH REPORT Process <0.284.0> with 0 neighbours crashed with reason: no match of right hand value {error,{socket_closed_unexpectedly,'connection.start'}} in 'Elixir.Auth.Consumer':init/1 line 14
+2020-11-01 10:45:32.216 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 10:45:32.224 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 10:45:32.242 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 10:45:32.246 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 10:45:32.247 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 10:45:32.256 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 10:45:32.258 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 10:45:32.291 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 10:45:32.291 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 10:45:32.299 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 10:45:32.302 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 10:45:32.362 [error] <0.273.0>@Elixir.Auth.Consumer:init:14 CRASH REPORT Process <0.273.0> with 0 neighbours crashed with reason: no match of right hand value {error,{socket_closed_unexpectedly,'connection.start'}} in 'Elixir.Auth.Consumer':init/1 line 14
+2020-11-01 10:45:33.740 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 10:45:33.747 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 10:45:33.764 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 10:45:33.767 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 10:45:33.768 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 10:45:33.777 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 10:45:33.778 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 10:45:33.806 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 10:45:33.806 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 10:45:33.815 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 10:45:33.818 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 10:45:33.888 [error] <0.273.0>@Elixir.Auth.Consumer:init:14 CRASH REPORT Process <0.273.0> with 0 neighbours crashed with reason: no match of right hand value {error,{socket_closed_unexpectedly,'connection.start'}} in 'Elixir.Auth.Consumer':init/1 line 14
+2020-11-01 10:45:35.167 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 10:45:35.172 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 10:45:35.186 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 10:45:35.190 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 10:45:35.191 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 10:45:35.196 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 10:45:35.197 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 10:45:35.226 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 10:45:35.226 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 10:45:35.232 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 10:45:35.234 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 10:45:35.298 [error] <0.271.0> CRASH REPORT Process <0.271.0> with 0 neighbours exited with reason: {{{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.Auth',start,[normal,[]]}} in application_master:init/4 line 138
+2020-11-01 10:45:37.466 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 10:45:37.470 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 10:45:37.489 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 10:45:37.494 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 10:45:37.495 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 10:45:37.504 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 10:45:37.505 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 10:45:37.531 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 10:45:37.531 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 10:45:37.539 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 10:45:37.541 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 10:45:37.619 [error] <0.273.0>@Elixir.Auth.Consumer:init:14 CRASH REPORT Process <0.273.0> with 0 neighbours crashed with reason: no match of right hand value {error,{socket_closed_unexpectedly,'connection.start'}} in 'Elixir.Auth.Consumer':init/1 line 14
+2020-11-01 10:45:39.411 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 10:45:39.415 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 10:45:39.428 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 10:45:39.432 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 10:45:39.433 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 10:45:39.437 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 10:45:39.438 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 10:45:39.462 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 10:45:39.463 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 10:45:39.472 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 10:45:39.475 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 10:45:39.710 [info] <0.44.0> Application auth started on node nonode@nohost
+2020-11-01 10:50:08.759 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 10:50:08.763 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 10:50:08.775 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 10:50:08.778 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 10:50:08.779 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 10:50:08.784 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 10:50:08.785 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 10:50:08.814 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 10:50:08.814 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 10:50:08.820 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 10:50:08.822 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 10:50:08.923 [info] <0.44.0> Application auth started on node nonode@nohost
+2020-11-01 10:54:03.078 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 10:54:03.082 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 10:54:03.094 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 10:54:03.097 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 10:54:03.099 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 10:54:03.103 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 10:54:03.104 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 10:54:03.123 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 10:54:03.123 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 10:54:03.128 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 10:54:03.130 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 10:54:03.231 [info] <0.44.0> Application auth started on node nonode@nohost
+2020-11-01 10:55:02.969 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 10:55:02.973 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 10:55:02.982 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 10:55:02.985 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 10:55:02.986 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 10:55:02.991 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 10:55:02.992 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 10:55:03.021 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 10:55:03.021 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 10:55:03.027 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 10:55:03.031 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 10:55:03.317 [info] <0.44.0> Application auth started on node nonode@nohost
+2020-11-01 10:56:29.880 [error] <0.7030.0> Supervisor {<0.7030.0>,amqp_channel_sup_sup} had child channel_sup started with amqp_channel_sup:start_link(network, <0.7029.0>, <<"client 127.0.0.1:38091 -> 127.0.0.1:5672">>) at undefined exit with reason shutdown in context shutdown_error
+2020-11-01 11:02:23.796 [error] <0.23220.10> Supervisor {<0.23220.10>,amqp_channel_sup_sup} had child channel_sup started with amqp_channel_sup:start_link(network, <0.23222.10>, <<"client 127.0.0.1:46755 -> 127.0.0.1:5672">>) at undefined exit with reason noproc in context shutdown_error
+2020-11-01 11:06:35.000 [error] <0.386.18> Supervisor {<0.386.18>,amqp_channel_sup_sup} had child channel_sup started with amqp_channel_sup:start_link(network, <0.383.18>, <<"client 127.0.0.1:52717 -> 127.0.0.1:5672">>) at undefined exit with reason noproc in context shutdown_error
+2020-11-01 11:09:08.747 [error] <0.18231.22> Supervisor {<0.18231.22>,amqp_channel_sup_sup} had child channel_sup started with amqp_channel_sup:start_link(network, <0.18230.22>, <<"client 127.0.0.1:44397 -> 127.0.0.1:5672">>) at undefined exit with reason noproc in context shutdown_error
+2020-11-01 11:09:48.825 [error] <0.24929.23> Supervisor {<0.24929.23>,amqp_channel_sup_sup} had child channel_sup started with amqp_channel_sup:start_link(network, <0.24926.23>, <<"client 127.0.0.1:47933 -> 127.0.0.1:5672">>) at undefined exit with reason shutdown in context shutdown_error
+2020-11-01 11:13:02.226 [error] <0.17502.29> Supervisor {<0.17502.29>,amqp_channel_sup_sup} had child channel_sup started with amqp_channel_sup:start_link(network, <0.17504.29>, <<"client 127.0.0.1:48405 -> 127.0.0.1:5672">>) at undefined exit with reason noproc in context shutdown_error
+2020-11-01 11:31:30.808 [error] <0.1704.63> Supervisor {<0.1704.63>,amqp_channel_sup_sup} had child channel_sup started with amqp_channel_sup:start_link(network, <0.1659.63>, <<"client 127.0.0.1:56517 -> 127.0.0.1:5672">>) at undefined exit with reason shutdown in context shutdown_error
+2020-11-01 11:32:29.441 [warning] <0.26426.64> Connection (<0.26426.64>) closing: received hard error {'connection.close',320,<<"CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'">>,0,0} from server
+2020-11-01 11:32:29.442 [error] <0.273.0> gen_server <0.273.0> terminated with reason: {{shutdown,{connection_closing,{server_initiated_close,320,<<"CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'">>}}},{gen_server,call,[<0.26424.64>,{call,{'queue.bind',0,<<"auth_response_queue">>,<<"auth_response_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}} in gen_server:call/3 line 246
+2020-11-01 11:32:29.458 [error] <0.273.0> CRASH REPORT Process <0.273.0> with 0 neighbours exited with reason: {{shutdown,{connection_closing,{server_initiated_close,320,<<"CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'">>}}},{gen_server,call,[<0.26424.64>,{call,{'queue.bind',0,<<"auth_response_queue">>,<<"auth_response_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}} in gen_server:call/3 line 246
+2020-11-01 11:32:29.459 [error] <0.271.0> CRASH REPORT Process <0.271.0> with 0 neighbours exited with reason: {{shutdown,{connection_closing,{server_initiated_close,320,<<"CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'">>}}},{gen_server,call,[<0.26424.64>,{call,{'queue.bind',0,<<"auth_response_queue">>,<<"auth_response_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}} in application_master:terminate/2 line 232
+2020-11-01 11:32:29.460 [info] <0.44.0> Application auth exited with reason: {{shutdown,{connection_closing,{server_initiated_close,320,<<"CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'">>}}},{gen_server,call,[<0.26424.64>,{call,{'queue.bind',0,<<"auth_response_queue">>,<<"auth_response_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}}
+2020-11-01 11:32:29.872 [warning] <0.276.0> Connection (<0.276.0>) closing: received hard error {'connection.close',320,<<"CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'">>,0,0} from server
+2020-11-01 11:32:29.873 [error] <0.279.0> Supervisor {<0.279.0>,amqp_channel_sup_sup} had child channel_sup started with amqp_channel_sup:start_link(network, <0.276.0>, <<"client 127.0.0.1:47525 -> 127.0.0.1:5672">>) at undefined exit with reason noproc in context shutdown_error
+2020-11-01 11:32:46.273 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 11:32:46.278 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 11:32:46.299 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 11:32:46.304 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 11:32:46.305 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 11:32:46.312 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 11:32:46.313 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 11:32:46.336 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 11:32:46.336 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 11:32:46.343 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 11:32:46.344 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 11:32:46.382 [error] <0.284.0>@Elixir.Auth.Consumer:init:14 CRASH REPORT Process <0.284.0> with 0 neighbours crashed with reason: no match of right hand value {error,econnrefused} in 'Elixir.Auth.Consumer':init/1 line 14
+2020-11-01 11:33:03.162 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 11:33:03.169 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 11:33:03.181 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 11:33:03.185 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 11:33:03.186 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 11:33:03.193 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 11:33:03.195 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 11:33:03.223 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 11:33:03.223 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 11:33:03.234 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 11:33:03.237 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 11:33:03.316 [error] <0.273.0>@Elixir.Auth.Consumer:init:14 CRASH REPORT Process <0.273.0> with 0 neighbours crashed with reason: no match of right hand value {error,{socket_closed_unexpectedly,'connection.start'}} in 'Elixir.Auth.Consumer':init/1 line 14
+2020-11-01 11:33:04.735 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 11:33:04.742 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 11:33:04.757 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 11:33:04.761 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 11:33:04.762 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 11:33:04.771 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 11:33:04.772 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 11:33:04.800 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 11:33:04.800 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 11:33:04.809 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 11:33:04.811 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 11:33:04.907 [error] <0.271.0> CRASH REPORT Process <0.271.0> with 0 neighbours exited with reason: {{{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.Auth',start,[normal,[]]}} in application_master:init/4 line 138
+2020-11-01 11:33:06.183 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 11:33:06.189 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 11:33:06.206 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 11:33:06.208 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 11:33:06.209 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 11:33:06.216 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 11:33:06.217 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 11:33:06.260 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 11:33:06.260 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 11:33:06.273 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 11:33:06.277 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 11:33:06.368 [error] <0.273.0>@Elixir.Auth.Consumer:init:14 CRASH REPORT Process <0.273.0> with 0 neighbours crashed with reason: no match of right hand value {error,{socket_closed_unexpectedly,'connection.start'}} in 'Elixir.Auth.Consumer':init/1 line 14
+2020-11-01 11:33:07.730 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 11:33:07.735 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 11:33:07.750 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 11:33:07.754 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 11:33:07.757 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 11:33:07.764 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 11:33:07.765 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 11:33:07.798 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 11:33:07.798 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 11:33:07.806 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 11:33:07.810 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 11:33:07.879 [error] <0.273.0>@Elixir.Auth.Consumer:init:14 CRASH REPORT Process <0.273.0> with 0 neighbours crashed with reason: no match of right hand value {error,{socket_closed_unexpectedly,'connection.start'}} in 'Elixir.Auth.Consumer':init/1 line 14
+2020-11-01 11:33:09.258 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 11:33:09.262 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 11:33:09.278 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 11:33:09.282 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 11:33:09.283 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 11:33:09.292 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 11:33:09.293 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 11:33:09.326 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 11:33:09.327 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 11:33:09.341 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 11:33:09.345 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 11:33:09.457 [error] <0.273.0>@Elixir.Auth.Consumer:init:14 CRASH REPORT Process <0.273.0> with 0 neighbours crashed with reason: no match of right hand value {error,{socket_closed_unexpectedly,'connection.start'}} in 'Elixir.Auth.Consumer':init/1 line 14
+2020-11-01 11:33:10.893 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 11:33:10.899 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 11:33:10.915 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 11:33:10.918 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 11:33:10.919 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 11:33:10.925 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 11:33:10.926 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 11:33:10.957 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 11:33:10.957 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 11:33:10.969 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 11:33:10.972 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 11:33:11.063 [error] <0.273.0>@Elixir.Auth.Consumer:init:14 CRASH REPORT Process <0.273.0> with 0 neighbours crashed with reason: no match of right hand value {error,{socket_closed_unexpectedly,'connection.start'}} in 'Elixir.Auth.Consumer':init/1 line 14
+2020-11-01 11:33:12.395 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 11:33:12.399 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 11:33:12.410 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 11:33:12.412 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 11:33:12.413 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 11:33:12.417 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 11:33:12.417 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 11:33:12.438 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 11:33:12.439 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 11:33:12.450 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 11:33:12.454 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 11:33:12.749 [info] <0.44.0> Application auth started on node nonode@nohost
+2020-11-01 14:15:12.506 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 14:15:12.513 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 14:15:12.530 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 14:15:12.534 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 14:15:12.536 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 14:15:12.543 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 14:15:12.545 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 14:15:12.581 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 14:15:12.581 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 14:15:12.591 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 14:15:12.594 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 14:15:12.753 [info] <0.44.0> Application auth started on node nonode@nohost
+2020-11-01 14:15:45.916 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 14:15:45.923 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 14:15:45.939 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 14:15:45.943 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 14:15:45.945 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 14:15:45.954 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 14:15:45.956 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 14:15:45.992 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 14:15:45.992 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 14:15:46.011 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 14:15:46.017 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 14:15:46.178 [info] <0.44.0> Application auth started on node nonode@nohost
+2020-11-01 14:16:26.741 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 14:16:26.748 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 14:16:26.770 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 14:16:26.774 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 14:16:26.776 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 14:16:26.784 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 14:16:26.786 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 14:16:26.825 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 14:16:26.825 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 14:16:26.835 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 14:16:26.838 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 14:16:26.993 [info] <0.44.0> Application auth started on node nonode@nohost
+2020-11-01 14:17:40.765 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 14:17:40.772 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 14:17:40.796 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 14:17:40.801 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 14:17:40.802 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 14:17:40.810 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 14:17:40.811 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 14:17:40.848 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 14:17:40.849 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 14:17:40.861 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 14:17:40.867 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 14:17:40.995 [error] <0.273.0>@Elixir.Auth.Consumer:init:14 CRASH REPORT Process <0.273.0> with 0 neighbours crashed with reason: no match of right hand value {error,{socket_closed_unexpectedly,'connection.start'}} in 'Elixir.Auth.Consumer':init/1 line 14
+2020-11-01 14:17:43.181 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 14:17:43.187 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 14:17:43.203 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 14:17:43.207 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 14:17:43.209 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 14:17:43.219 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 14:17:43.221 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 14:17:43.268 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 14:17:43.268 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 14:17:43.285 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 14:17:43.290 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 14:17:43.399 [error] <0.273.0>@Elixir.Auth.Consumer:init:14 CRASH REPORT Process <0.273.0> with 0 neighbours crashed with reason: no match of right hand value {error,{socket_closed_unexpectedly,'connection.start'}} in 'Elixir.Auth.Consumer':init/1 line 14
+2020-11-01 14:17:45.800 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 14:17:45.808 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 14:17:45.832 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 14:17:45.838 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 14:17:45.839 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 14:17:45.847 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 14:17:45.849 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 14:17:45.898 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 14:17:45.899 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 14:17:45.920 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 14:17:45.925 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 14:17:46.039 [error] <0.271.0> CRASH REPORT Process <0.271.0> with 0 neighbours exited with reason: {{{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.Auth',start,[normal,[]]}} in application_master:init/4 line 138
+2020-11-01 14:17:48.029 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 14:17:48.038 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 14:17:48.066 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 14:17:48.071 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 14:17:48.072 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 14:17:48.082 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 14:17:48.084 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 14:17:48.134 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 14:17:48.134 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 14:17:48.148 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 14:17:48.152 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 14:17:48.260 [error] <0.273.0>@Elixir.Auth.Consumer:init:14 CRASH REPORT Process <0.273.0> with 0 neighbours crashed with reason: no match of right hand value {error,{socket_closed_unexpectedly,'connection.start'}} in 'Elixir.Auth.Consumer':init/1 line 14
+2020-11-01 14:17:49.970 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 14:17:49.977 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 14:17:49.999 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 14:17:50.004 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 14:17:50.006 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 14:17:50.014 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 14:17:50.016 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 14:17:50.049 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 14:17:50.049 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 14:17:50.059 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 14:17:50.063 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 14:17:50.150 [error] <0.273.0>@Elixir.Auth.Consumer:init:14 CRASH REPORT Process <0.273.0> with 0 neighbours crashed with reason: no match of right hand value {error,{socket_closed_unexpectedly,'connection.start'}} in 'Elixir.Auth.Consumer':init/1 line 14
+2020-11-01 14:17:51.881 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 14:17:51.889 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 14:17:51.907 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 14:17:51.912 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 14:17:51.913 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 14:17:51.922 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 14:17:51.923 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 14:17:51.956 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 14:17:51.956 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 14:17:51.972 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 14:17:51.977 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 14:17:52.067 [error] <0.273.0>@Elixir.Auth.Consumer:init:14 CRASH REPORT Process <0.273.0> with 0 neighbours crashed with reason: no match of right hand value {error,{socket_closed_unexpectedly,'connection.start'}} in 'Elixir.Auth.Consumer':init/1 line 14
+2020-11-01 14:17:53.949 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 14:17:53.959 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 14:17:53.982 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 14:17:53.986 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 14:17:53.988 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 14:17:53.997 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 14:17:53.999 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 14:17:54.048 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 14:17:54.048 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 14:17:54.063 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 14:17:54.069 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 14:17:54.187 [error] <0.273.0>@Elixir.Auth.Consumer:init:14 CRASH REPORT Process <0.273.0> with 0 neighbours crashed with reason: no match of right hand value {error,{socket_closed_unexpectedly,'connection.start'}} in 'Elixir.Auth.Consumer':init/1 line 14
+2020-11-01 14:17:55.927 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 14:17:55.933 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 14:17:55.952 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 14:17:55.957 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 14:17:55.958 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 14:17:55.966 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 14:17:55.968 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 14:17:56.004 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 14:17:56.004 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 14:17:56.014 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 14:17:56.019 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 14:17:56.251 [error] <0.271.0> CRASH REPORT Process <0.271.0> with 0 neighbours exited with reason: {{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no exchange 'auth_request_exchange' in vhost '/'">>}},{gen_server,call,[<0.287.0>,{call,{'queue.bind',0,<<"auth_request_queue">>,<<"auth_request_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}},{'Elixir.Auth',start,[normal,[]]}} in application_master:init/4 line 138
+2020-11-01 14:17:57.942 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 14:17:57.948 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 14:17:57.974 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 14:17:57.978 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 14:17:57.981 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 14:17:57.990 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 14:17:57.992 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 14:17:58.032 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 14:17:58.032 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 14:17:58.042 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 14:17:58.045 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 14:17:58.190 [error] <0.271.0> CRASH REPORT Process <0.271.0> with 0 neighbours exited with reason: {{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no exchange 'auth_request_exchange' in vhost '/'">>}},{gen_server,call,[<0.287.0>,{call,{'queue.bind',0,<<"auth_request_queue">>,<<"auth_request_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}},{'Elixir.Auth',start,[normal,[]]}} in application_master:init/4 line 138
+2020-11-01 14:17:59.866 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 14:17:59.873 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 14:17:59.898 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 14:17:59.902 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 14:17:59.904 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 14:17:59.911 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 14:17:59.912 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 14:17:59.945 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 14:17:59.945 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 14:17:59.958 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 14:17:59.962 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 14:18:00.118 [error] <0.271.0> CRASH REPORT Process <0.271.0> with 0 neighbours exited with reason: {{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no exchange 'auth_request_exchange' in vhost '/'">>}},{gen_server,call,[<0.287.0>,{call,{'queue.bind',0,<<"auth_request_queue">>,<<"auth_request_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}},{'Elixir.Auth',start,[normal,[]]}} in application_master:init/4 line 138
+2020-11-01 14:18:01.790 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 14:18:01.797 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 14:18:01.818 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 14:18:01.823 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 14:18:01.824 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 14:18:01.836 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 14:18:01.838 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 14:18:01.879 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 14:18:01.879 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 14:18:01.890 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 14:18:01.893 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 14:18:02.047 [error] <0.271.0> CRASH REPORT Process <0.271.0> with 0 neighbours exited with reason: {{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no exchange 'auth_request_exchange' in vhost '/'">>}},{gen_server,call,[<0.287.0>,{call,{'queue.bind',0,<<"auth_request_queue">>,<<"auth_request_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}},{'Elixir.Auth',start,[normal,[]]}} in application_master:init/4 line 138
+2020-11-01 14:18:03.762 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 14:18:03.769 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 14:18:03.788 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 14:18:03.792 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 14:18:03.793 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 14:18:03.802 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 14:18:03.803 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 14:18:03.843 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 14:18:03.843 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 14:18:03.854 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 14:18:03.857 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 14:18:04.011 [error] <0.271.0> CRASH REPORT Process <0.271.0> with 0 neighbours exited with reason: {{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no exchange 'auth_request_exchange' in vhost '/'">>}},{gen_server,call,[<0.287.0>,{call,{'queue.bind',0,<<"auth_request_queue">>,<<"auth_request_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}},{'Elixir.Auth',start,[normal,[]]}} in application_master:init/4 line 138
+2020-11-01 14:18:06.032 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 14:18:06.038 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 14:18:06.061 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 14:18:06.065 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 14:18:06.067 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 14:18:06.073 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 14:18:06.075 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 14:18:06.109 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 14:18:06.109 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 14:18:06.118 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 14:18:06.121 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 14:18:06.267 [error] <0.271.0> CRASH REPORT Process <0.271.0> with 0 neighbours exited with reason: {{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no exchange 'auth_request_exchange' in vhost '/'">>}},{gen_server,call,[<0.287.0>,{call,{'queue.bind',0,<<"auth_request_queue">>,<<"auth_request_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}},{'Elixir.Auth',start,[normal,[]]}} in application_master:init/4 line 138
+2020-11-01 14:18:08.232 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 14:18:08.240 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 14:18:08.264 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 14:18:08.268 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 14:18:08.270 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 14:18:08.277 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 14:18:08.279 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 14:18:08.317 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 14:18:08.318 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 14:18:08.327 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 14:18:08.330 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 14:18:08.493 [error] <0.271.0> CRASH REPORT Process <0.271.0> with 0 neighbours exited with reason: {{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no exchange 'auth_request_exchange' in vhost '/'">>}},{gen_server,call,[<0.287.0>,{call,{'queue.bind',0,<<"auth_request_queue">>,<<"auth_request_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}},{'Elixir.Auth',start,[normal,[]]}} in application_master:init/4 line 138
+2020-11-01 14:18:10.388 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 14:18:10.395 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 14:18:10.416 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 14:18:10.421 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 14:18:10.422 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 14:18:10.431 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 14:18:10.432 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 14:18:10.469 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 14:18:10.469 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 14:18:10.485 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 14:18:10.490 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 14:18:10.643 [error] <0.271.0> CRASH REPORT Process <0.271.0> with 0 neighbours exited with reason: {{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no exchange 'auth_request_exchange' in vhost '/'">>}},{gen_server,call,[<0.287.0>,{call,{'queue.bind',0,<<"auth_request_queue">>,<<"auth_request_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}},{'Elixir.Auth',start,[normal,[]]}} in application_master:init/4 line 138
+2020-11-01 14:18:16.943 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 14:18:16.950 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 14:18:16.968 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 14:18:16.972 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 14:18:16.973 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 14:18:16.980 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 14:18:16.982 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 14:18:17.015 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 14:18:17.015 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 14:18:17.024 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 14:18:17.027 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 14:18:17.180 [error] <0.271.0> CRASH REPORT Process <0.271.0> with 0 neighbours exited with reason: {{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no exchange 'auth_request_exchange' in vhost '/'">>}},{gen_server,call,[<0.287.0>,{call,{'queue.bind',0,<<"auth_request_queue">>,<<"auth_request_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}},{'Elixir.Auth',start,[normal,[]]}} in application_master:init/4 line 138
+2020-11-01 14:18:27.066 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 14:18:27.074 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 14:18:27.092 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 14:18:27.096 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 14:18:27.097 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 14:18:27.104 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 14:18:27.105 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 14:18:27.142 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 14:18:27.142 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 14:18:27.154 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 14:18:27.159 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 14:18:27.311 [error] <0.271.0> CRASH REPORT Process <0.271.0> with 0 neighbours exited with reason: {{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no exchange 'auth_request_exchange' in vhost '/'">>}},{gen_server,call,[<0.287.0>,{call,{'queue.bind',0,<<"auth_request_queue">>,<<"auth_request_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}},{'Elixir.Auth',start,[normal,[]]}} in application_master:init/4 line 138
+2020-11-01 14:19:05.764 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 14:19:05.772 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 14:19:05.787 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 14:19:05.791 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 14:19:05.793 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 14:19:05.801 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 14:19:05.802 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 14:19:05.841 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 14:19:05.841 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 14:19:05.853 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 14:19:05.857 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 14:19:06.019 [error] <0.271.0> CRASH REPORT Process <0.271.0> with 0 neighbours exited with reason: {{{shutdown,{server_initiated_close,404,<<"NOT_FOUND - no exchange 'auth_request_exchange' in vhost '/'">>}},{gen_server,call,[<0.287.0>,{call,{'queue.bind',0,<<"auth_request_queue">>,<<"auth_request_exchange">>,<<>>,false,[]},none,<0.273.0>},60000]}},{'Elixir.Auth',start,[normal,[]]}} in application_master:init/4 line 138
+2020-11-01 14:21:23.313 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 14:21:23.321 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 14:21:23.346 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 14:21:23.351 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 14:21:23.353 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 14:21:23.363 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 14:21:23.365 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 14:21:23.408 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 14:21:23.408 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 14:21:23.421 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 14:21:23.426 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 14:21:23.738 [info] <0.44.0> Application auth started on node nonode@nohost
+2020-11-01 14:55:01.228 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 14:55:01.235 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 14:55:01.256 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 14:55:01.261 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 14:55:01.262 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 14:55:01.270 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 14:55:01.272 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 14:55:01.313 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 14:55:01.314 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 14:55:01.324 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 14:55:01.328 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 14:55:01.480 [info] <0.44.0> Application auth started on node nonode@nohost
+2020-11-01 15:42:18.470 [error] emulator Error in process <0.20810.1> with exit value:
+{{case_clause,nil},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 15:42:19.265 [error] emulator Error in process <0.20812.1> with exit value:
+{{case_clause,nil},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 15:42:27.519 [error] emulator Error in process <0.20820.1> with exit value:
+{{case_clause,nil},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 15:42:30.650 [error] emulator Error in process <0.20827.1> with exit value:
+{{case_clause,[{'__aliases__',[{line,1},{column,11}],['Auth','Message']}]},[{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_symbol,2,[{file,"lib/language_server/providers/document_symbols.ex"},{line,74}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',extract_modules,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,61}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',list_symbols,1,[{file,"lib/language_server/providers/document_symbols.ex"},{line,49}]},{'Elixir.ElixirLS.LanguageServer.Providers.DocumentSymbols',symbols,3,[{file,"lib/language_server/providers/document_symbols.ex"},{line,26}]},{'Elixir.ElixirLS.LanguageServer.Server','-handle_request_async/2-fun-0-',3,[{file,"lib/language_server/server.ex"},{line,568}]}]}
+2020-11-01 16:03:00.545 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 16:03:00.549 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 16:03:00.561 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 16:03:00.563 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 16:03:00.564 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 16:03:00.571 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 16:03:00.573 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 16:03:00.595 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 16:03:00.595 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 16:03:00.602 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 16:03:00.604 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 16:03:00.705 [info] <0.44.0> Application auth started on node nonode@nohost
+2020-11-01 16:04:23.816 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 16:04:23.820 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 16:04:23.839 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 16:04:23.843 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 16:04:23.844 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 16:04:23.850 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 16:04:23.851 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 16:04:23.873 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 16:04:23.873 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 16:04:23.882 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 16:04:23.886 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 16:04:23.951 [error] <0.271.0> CRASH REPORT Process <0.271.0> with 0 neighbours exited with reason: {{{badmatch,{error,{socket_closed_unexpectedly,'connection.start'}}},[{'Elixir.Auth.Consumer',init,1,[{file,"lib/auth/consumer.ex"},{line,14}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.Auth',start,[normal,[]]}} in application_master:init/4 line 138
+2020-11-01 16:04:27.018 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 16:04:27.022 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 16:04:27.033 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 16:04:27.038 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 16:04:27.041 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 16:04:27.049 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 16:04:27.050 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 16:04:27.077 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 16:04:27.078 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 16:04:27.083 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 16:04:27.085 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 16:04:27.140 [error] <0.273.0>@Elixir.Auth.Consumer:init:14 CRASH REPORT Process <0.273.0> with 0 neighbours crashed with reason: no match of right hand value {error,{socket_closed_unexpectedly,'connection.start'}} in 'Elixir.Auth.Consumer':init/1 line 14
+2020-11-01 16:04:29.355 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 16:04:29.363 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 16:04:29.376 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 16:04:29.379 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 16:04:29.380 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 16:04:29.386 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 16:04:29.388 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 16:04:29.411 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 16:04:29.411 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 16:04:29.418 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 16:04:29.423 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 16:04:29.493 [error] <0.273.0>@Elixir.Auth.Consumer:init:14 CRASH REPORT Process <0.273.0> with 0 neighbours crashed with reason: no match of right hand value {error,{socket_closed_unexpectedly,'connection.start'}} in 'Elixir.Auth.Consumer':init/1 line 14
+2020-11-01 16:04:31.442 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 16:04:31.447 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 16:04:31.460 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 16:04:31.463 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 16:04:31.464 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 16:04:31.470 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 16:04:31.471 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 16:04:31.497 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 16:04:31.497 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 16:04:31.503 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 16:04:31.505 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 16:04:31.777 [info] <0.44.0> Application auth started on node nonode@nohost
+2020-11-01 16:41:27.841 [info] <0.44.0> Application lager started on node nonode@nohost
+2020-11-01 16:41:27.845 [info] <0.44.0> Application xmerl started on node nonode@nohost
+2020-11-01 16:41:27.855 [info] <0.44.0> Application sasl started on node nonode@nohost
+2020-11-01 16:41:27.857 [info] <0.44.0> Application tools started on node nonode@nohost
+2020-11-01 16:41:27.858 [info] <0.44.0> Application jsx started on node nonode@nohost
+2020-11-01 16:41:27.863 [info] <0.44.0> Application ranch started on node nonode@nohost
+2020-11-01 16:41:27.864 [info] <0.44.0> Application recon started on node nonode@nohost
+2020-11-01 16:41:27.886 [info] <0.44.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-01 16:41:27.886 [info] <0.44.0> Application rabbit_common started on node nonode@nohost
+2020-11-01 16:41:27.893 [info] <0.44.0> Application amqp_client started on node nonode@nohost
+2020-11-01 16:41:27.895 [info] <0.44.0> Application amqp started on node nonode@nohost
+2020-11-01 16:41:28.142 [info] <0.44.0> Application auth started on node nonode@nohost
+2020-11-01 16:45:32.437 [warning] <0.276.0> Connection (<0.276.0>) closing: received hard error {'connection.close',320,<<"CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'">>,0,0} from server

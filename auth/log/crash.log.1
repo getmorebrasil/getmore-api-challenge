@@ -1,0 +1,54 @@
+2020-10-31 18:58:37 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth:init/1
+    pid: <0.28945.0>
+    registered_name: []
+    exception exit: {{noproc,{'Elixir.GenServer',call,['Elixir.AMQP.Channel.ReceiverManager',{register_handler,<0.29016.0>,<0.28945.0>,consume,[]},5000]}},[{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1013}]},{'Elixir.AMQP.Basic',consume,4,[{file,"lib/amqp/basic.ex"},{line,366}]},{'Elixir.Auth',init,1,[{file,"lib/auth.ex"},{line,21}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.28891.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.28891.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 38252
+  neighbours:
+    neighbour: [{pid,<0.28891.0>},{registered_name,[]},{initial_call,{erlang,apply,2}},{current_function,{gen,do_call,4}},{ancestors,[]},{message_queue_len,0},{links,[<0.28945.0>]},{trap_exit,false},{status,waiting},{heap_size,2586},{stack_size,50},{reductions,662165},{current_stacktrace,[{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{gen_server,call,3,[{file,"gen_server.erl"},{line,242}]},{'Elixir.Logger',configure,1,[{file,"lib/logger.ex"},{line,639}]},{'Elixir.Mix.Tasks.Compile.All',with_logger_app,2,[{file,"lib/mix/tasks/compile.all.ex"},{line,38}]},{'Elixir.Mix.Task',run_task,3,[{file,"lib/mix/task.ex"},{line,330}]},{'Elixir.Mix.Tasks.Compile',run,1,[{file,"lib/mix/tasks/compile.ex"},{line,96}]},{'Elixir.Mix.Task',run_task,3,[{file,"lib/mix/task.ex"},{line,330}]},{'Elixir.ElixirLS.LanguageServer.Build',compile,0,[{file,"lib/language_server/build.ex"},{line,198}]}]}]
+2020-10-31 18:58:53 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Auth:init/1
+    pid: <0.29178.0>
+    registered_name: []
+    exception error: {undef,[{'Elixir.Auth',init,[[]],[]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.29175.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.29175.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 206
+  neighbours:
+    neighbour: [{pid,<0.29176.0>},{registered_name,[]},{initial_call,{'Elixir.Kernel.LexicalTracker',init,['Argument__1']}},{current_function,{gen_server,loop,7}},{ancestors,[<0.29175.0>]},{message_queue_len,0},{links,[<0.29175.0>]},{trap_exit,false},{status,waiting},{heap_size,6772},{stack_size,12},{reductions,3668},{current_stacktrace,[{gen_server,loop,7,[{file,"gen_server.erl"},{line,437}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}]
+    neighbour: [{pid,<0.29175.0>},{registered_name,[]},{initial_call,{erlang,apply,2}},{current_function,{code_server,call,1}},{ancestors,[]},{message_queue_len,0},{links,[<0.29176.0>,<0.29178.0>]},{trap_exit,false},{status,waiting},{heap_size,6772},{stack_size,71},{reductions,90362},{current_stacktrace,[{code_server,call,1,[{file,"code_server.erl"},{line,139}]},{elixir_compiler,dispatch,4,[{file,"src/elixir_compiler.erl"},{line,77}]},{elixir_compiler,compile,3,[{file,"src/elixir_compiler.erl"},{line,60}]},{elixir_module,eval_form,6,[{file,"src/elixir_module.erl"},{line,333}]},{elixir_module,compile,5,[{file,"src/elixir_module.erl"},{line,107}]},{erl_eval,do_apply,6,[{file,"erl_eval.erl"},{line,680}]},{elixir,recur_eval,3,[{file,"src/elixir.erl"},{line,278}]},{elixir,eval_forms,3,[{file,"src/elixir.erl"},{line,263}]}]}]
+2020-10-31 20:22:24 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.279.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.Auth',start,[normal,[]]},nil}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.278.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.280.0>,normal}]
+    links: [<0.278.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 195
+  neighbours:

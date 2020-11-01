@@ -1,0 +1,21 @@
+
+version: '3.8'
+services:
+  postgres:
+    image: 'postgres:13.0'
+    container_name: 'postgres'
+    ports:
+      - '5432:5432'
+    restart: 'always'
+    environment:
+      POSTGRES_DB: 'products'
+      POSTGRES_USER: 'postgres'
+      POSTGRES_PASSWORD: 'mysecretpassword'
+
+  rabbit:
+    image: 'rabbitmq:3-management'
+    container_name: 'rabbit-name'
+    ports:
+      - '15672:15672'
+      - '5672:5672' 
+    restart: 'always'

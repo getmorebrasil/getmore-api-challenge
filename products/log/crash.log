@@ -1,0 +1,561 @@
+2020-11-01 10:35:43 =CRASH REPORT====
+  crasher:
+    initial call: rabbit_writer:enter_mainloop/2
+    pid: <0.674.0>
+    registered_name: []
+    exception error: bad argument: [{rabbit_framing_amqp_0_9_1,encode_method_fields,1,[{file,"/home/v/Documents/trampo/products/deps/rabbit_common/src/rabbit_framing_amqp_0_9_1.erl"},{line,1150}]},{rabbit_binary_generator,build_simple_method_frame,3,[{file,"/home/v/Documents/trampo/products/deps/rabbit_common/src/rabbit_binary_generator.erl"},{line,50}]},{rabbit_writer,internal_send_command_async,2,[{file,"/home/v/Documents/trampo/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,353}]},{rabbit_writer,handle_message,3,[{file,"/home/v/Documents/trampo/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,229}]},{rabbit_writer,mainloop1,2,[{file,"/home/v/Documents/trampo/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,213}]},{rabbit_writer,mainloop,2,[{file,"/home/v/Documents/trampo/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,204}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]
+    ancestors: [<0.671.0>,<0.665.0>,<0.663.0>,<0.662.0>,amqp_sup,<0.338.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.671.0>]
+    dictionary: [{process_name,{rabbit_writer,{<<"client 127.0.0.1:59251 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 497
+  neighbours:
+2020-11-01 10:35:43 =SUPERVISOR REPORT====
+     Supervisor: {<0.671.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{rabbit_framing_amqp_0_9_1,encode_method_fields,1,[{file,"/home/v/Documents/trampo/products/deps/rabbit_common/src/rabbit_framing_amqp_0_9_1.erl"},{line,1150}]},{rabbit_binary_generator,build_simple_method_frame,3,[{file,"/home/v/Documents/trampo/products/deps/rabbit_common/src/rabbit_binary_generator.erl"},{line,50}]},{rabbit_writer,internal_send_command_async,2,[{file,"/home/v/Documents/trampo/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,353}]},{rabbit_writer,handle_message,3,[{file,"/home/v/Documents/trampo/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,229}]},{rabbit_writer,mainloop1,2,[{file,"/home/v/Documents/trampo/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,213}]},{rabbit_writer,mainloop,2,[{file,"/home/v/Documents/trampo/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,204}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.674.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.24>,1,131072,rabbit_framing_amqp_0_9_1,<0.673.0>,{<<"client 127.0.0.1:59251 -> 127.0.0.1:5672">>,1},false,1000000000]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2020-11-01 10:35:43 =SUPERVISOR REPORT====
+     Supervisor: {<0.671.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.674.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.24>,1,131072,rabbit_framing_amqp_0_9_1,<0.673.0>,{<<"client 127.0.0.1:59251 -> 127.0.0.1:5672">>,1},false,1000000000]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2020-11-01 10:36:25 =CRASH REPORT====
+  crasher:
+    initial call: rabbit_writer:enter_mainloop/2
+    pid: <0.696.0>
+    registered_name: []
+    exception error: bad argument: [{rabbit_framing_amqp_0_9_1,encode_method_fields,1,[{file,"/home/v/Documents/trampo/products/deps/rabbit_common/src/rabbit_framing_amqp_0_9_1.erl"},{line,1150}]},{rabbit_binary_generator,build_simple_method_frame,3,[{file,"/home/v/Documents/trampo/products/deps/rabbit_common/src/rabbit_binary_generator.erl"},{line,50}]},{rabbit_writer,internal_send_command_async,2,[{file,"/home/v/Documents/trampo/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,353}]},{rabbit_writer,handle_message,3,[{file,"/home/v/Documents/trampo/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,229}]},{rabbit_writer,mainloop1,2,[{file,"/home/v/Documents/trampo/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,213}]},{rabbit_writer,mainloop,2,[{file,"/home/v/Documents/trampo/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,204}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]
+    ancestors: [<0.693.0>,<0.687.0>,<0.685.0>,<0.684.0>,amqp_sup,<0.338.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.693.0>]
+    dictionary: [{process_name,{rabbit_writer,{<<"client 127.0.0.1:55103 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 494
+  neighbours:
+2020-11-01 10:36:25 =SUPERVISOR REPORT====
+     Supervisor: {<0.693.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{rabbit_framing_amqp_0_9_1,encode_method_fields,1,[{file,"/home/v/Documents/trampo/products/deps/rabbit_common/src/rabbit_framing_amqp_0_9_1.erl"},{line,1150}]},{rabbit_binary_generator,build_simple_method_frame,3,[{file,"/home/v/Documents/trampo/products/deps/rabbit_common/src/rabbit_binary_generator.erl"},{line,50}]},{rabbit_writer,internal_send_command_async,2,[{file,"/home/v/Documents/trampo/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,353}]},{rabbit_writer,handle_message,3,[{file,"/home/v/Documents/trampo/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,229}]},{rabbit_writer,mainloop1,2,[{file,"/home/v/Documents/trampo/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,213}]},{rabbit_writer,mainloop,2,[{file,"/home/v/Documents/trampo/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,204}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.696.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.25>,1,131072,rabbit_framing_amqp_0_9_1,<0.695.0>,{<<"client 127.0.0.1:55103 -> 127.0.0.1:5672">>,1},false,1000000000]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2020-11-01 10:36:25 =SUPERVISOR REPORT====
+     Supervisor: {<0.693.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.696.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.25>,1,131072,rabbit_framing_amqp_0_9_1,<0.695.0>,{<<"client 127.0.0.1:55103 -> 127.0.0.1:5672">>,1},false,1000000000]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2020-11-01 10:36:59 =CRASH REPORT====
+  crasher:
+    initial call: rabbit_writer:enter_mainloop/2
+    pid: <0.710.0>
+    registered_name: []
+    exception error: bad argument: [{rabbit_framing_amqp_0_9_1,encode_method_fields,1,[{file,"/home/v/Documents/trampo/products/deps/rabbit_common/src/rabbit_framing_amqp_0_9_1.erl"},{line,1150}]},{rabbit_binary_generator,build_simple_method_frame,3,[{file,"/home/v/Documents/trampo/products/deps/rabbit_common/src/rabbit_binary_generator.erl"},{line,50}]},{rabbit_writer,internal_send_command_async,2,[{file,"/home/v/Documents/trampo/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,353}]},{rabbit_writer,handle_message,3,[{file,"/home/v/Documents/trampo/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,229}]},{rabbit_writer,mainloop1,2,[{file,"/home/v/Documents/trampo/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,213}]},{rabbit_writer,mainloop,2,[{file,"/home/v/Documents/trampo/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,204}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]
+    ancestors: [<0.707.0>,<0.701.0>,<0.699.0>,<0.698.0>,amqp_sup,<0.338.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.707.0>]
+    dictionary: [{process_name,{rabbit_writer,{<<"client 127.0.0.1:60429 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 494
+  neighbours:
+2020-11-01 10:36:59 =SUPERVISOR REPORT====
+     Supervisor: {<0.707.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{rabbit_framing_amqp_0_9_1,encode_method_fields,1,[{file,"/home/v/Documents/trampo/products/deps/rabbit_common/src/rabbit_framing_amqp_0_9_1.erl"},{line,1150}]},{rabbit_binary_generator,build_simple_method_frame,3,[{file,"/home/v/Documents/trampo/products/deps/rabbit_common/src/rabbit_binary_generator.erl"},{line,50}]},{rabbit_writer,internal_send_command_async,2,[{file,"/home/v/Documents/trampo/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,353}]},{rabbit_writer,handle_message,3,[{file,"/home/v/Documents/trampo/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,229}]},{rabbit_writer,mainloop1,2,[{file,"/home/v/Documents/trampo/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,213}]},{rabbit_writer,mainloop,2,[{file,"/home/v/Documents/trampo/products/deps/rabbit_common/src/rabbit_writer.erl"},{line,204}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.710.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.26>,1,131072,rabbit_framing_amqp_0_9_1,<0.709.0>,{<<"client 127.0.0.1:60429 -> 127.0.0.1:5672">>,1},false,1000000000]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2020-11-01 10:36:59 =SUPERVISOR REPORT====
+     Supervisor: {<0.707.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.710.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.26>,1,131072,rabbit_framing_amqp_0_9_1,<0.709.0>,{<<"client 127.0.0.1:60429 -> 127.0.0.1:5672">>,1},false,1000000000]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2020-11-01 13:48:00 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Products.Supervisor'}
+     Context:    start_error
+     Reason:     {'EXIT',{undef,[{'Elixir.Rabbitmq.Consumer',start_link,[[]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,385}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,371}]},{supervisor,'-start_children/2-fun-0-',3,[{file,"supervisor.erl"},{line,355}]},{supervisor,children_map,4,[{file,"supervisor.erl"},{line,1171}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,321}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}}
+     Offender:   [{pid,undefined},{id,'Elixir.Rabbitmq.Consumer'},{mfargs,{'Elixir.Rabbitmq.Consumer',start_link,[[]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-11-01 13:48:00 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.427.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,'Elixir.Rabbitmq.Consumer',{'EXIT',{undef,[{'Elixir.Rabbitmq.Consumer',start_link,[[]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,385}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,371}]},{supervisor,'-start_children/2-fun-0-',3,[{file,"supervisor.erl"},{line,355}]},{supervisor,children_map,4,[{file,"supervisor.erl"},{line,1171}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,321}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}}}},{'Elixir.Products.Application',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.426.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.428.0>,normal}]
+    links: [<0.426.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 238
+  neighbours:
+2020-11-01 13:48:54 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Products.Supervisor'}
+     Context:    start_error
+     Reason:     {'EXIT',{undef,[{'Elixir.Rabbitmq.Consumer',start_link,[[]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,385}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,371}]},{supervisor,'-start_children/2-fun-0-',3,[{file,"supervisor.erl"},{line,355}]},{supervisor,children_map,4,[{file,"supervisor.erl"},{line,1171}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,321}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}}
+     Offender:   [{pid,undefined},{id,'Elixir.Rabbitmq.Consumer'},{mfargs,{'Elixir.Rabbitmq.Consumer',start_link,[[]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-11-01 13:48:54 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.415.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,'Elixir.Rabbitmq.Consumer',{'EXIT',{undef,[{'Elixir.Rabbitmq.Consumer',start_link,[[]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,385}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,371}]},{supervisor,'-start_children/2-fun-0-',3,[{file,"supervisor.erl"},{line,355}]},{supervisor,children_map,4,[{file,"supervisor.erl"},{line,1171}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,321}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}}}},{'Elixir.Products.Application',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.414.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.416.0>,normal}]
+    links: [<0.414.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 238
+  neighbours:
+2020-11-01 13:50:49 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Products.Supervisor'}
+     Context:    start_error
+     Reason:     {'EXIT',{undef,[{'Elixir.Rabbitmq.Consumer',start_link,[[]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,385}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,371}]},{supervisor,'-start_children/2-fun-0-',3,[{file,"supervisor.erl"},{line,355}]},{supervisor,children_map,4,[{file,"supervisor.erl"},{line,1171}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,321}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}}
+     Offender:   [{pid,undefined},{id,'Elixir.Rabbitmq.Consumer'},{mfargs,{'Elixir.Rabbitmq.Consumer',start_link,[[]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-11-01 13:50:49 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.415.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,'Elixir.Rabbitmq.Consumer',{'EXIT',{undef,[{'Elixir.Rabbitmq.Consumer',start_link,[[]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,385}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,371}]},{supervisor,'-start_children/2-fun-0-',3,[{file,"supervisor.erl"},{line,355}]},{supervisor,children_map,4,[{file,"supervisor.erl"},{line,1171}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,321}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}}}},{'Elixir.Products.Application',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.414.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.416.0>,normal}]
+    links: [<0.414.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 238
+  neighbours:
+2020-11-01 13:51:33 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Products.Supervisor'}
+     Context:    start_error
+     Reason:     {'EXIT',{undef,[{'Elixir.Rabbitmq.Consumer',start_link,[[]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,385}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,371}]},{supervisor,'-start_children/2-fun-0-',3,[{file,"supervisor.erl"},{line,355}]},{supervisor,children_map,4,[{file,"supervisor.erl"},{line,1171}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,321}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}}
+     Offender:   [{pid,undefined},{id,'Elixir.Rabbitmq.Consumer'},{mfargs,{'Elixir.Rabbitmq.Consumer',start_link,[[]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-11-01 13:51:33 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.415.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,'Elixir.Rabbitmq.Consumer',{'EXIT',{undef,[{'Elixir.Rabbitmq.Consumer',start_link,[[]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,385}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,371}]},{supervisor,'-start_children/2-fun-0-',3,[{file,"supervisor.erl"},{line,355}]},{supervisor,children_map,4,[{file,"supervisor.erl"},{line,1171}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,321}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}}}},{'Elixir.Products.Application',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.414.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.416.0>,normal}]
+    links: [<0.414.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 238
+  neighbours:
+2020-11-01 13:51:41 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Products.Supervisor'}
+     Context:    start_error
+     Reason:     {'EXIT',{undef,[{'Elixir.Rabbitmq.Consumer',start_link,[[]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,385}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,371}]},{supervisor,'-start_children/2-fun-0-',3,[{file,"supervisor.erl"},{line,355}]},{supervisor,children_map,4,[{file,"supervisor.erl"},{line,1171}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,321}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}}
+     Offender:   [{pid,undefined},{id,'Elixir.Rabbitmq.Consumer'},{mfargs,{'Elixir.Rabbitmq.Consumer',start_link,[[]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-11-01 13:51:41 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.404.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,'Elixir.Rabbitmq.Consumer',{'EXIT',{undef,[{'Elixir.Rabbitmq.Consumer',start_link,[[]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,385}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,371}]},{supervisor,'-start_children/2-fun-0-',3,[{file,"supervisor.erl"},{line,355}]},{supervisor,children_map,4,[{file,"supervisor.erl"},{line,1171}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,321}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}}}},{'Elixir.Products.Application',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.403.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.405.0>,normal}]
+    links: [<0.403.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 238
+  neighbours:
+2020-11-01 13:52:45 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Products.Supervisor'}
+     Context:    start_error
+     Reason:     {'EXIT',{undef,[{'Elixir.Rabbitmq.Consumer',start_link,[[]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,385}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,371}]},{supervisor,'-start_children/2-fun-0-',3,[{file,"supervisor.erl"},{line,355}]},{supervisor,children_map,4,[{file,"supervisor.erl"},{line,1171}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,321}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}}
+     Offender:   [{pid,undefined},{id,'Elixir.Rabbitmq.Consumer'},{mfargs,{'Elixir.Rabbitmq.Consumer',start_link,[[]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-11-01 13:52:45 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.415.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,'Elixir.Rabbitmq.Consumer',{'EXIT',{undef,[{'Elixir.Rabbitmq.Consumer',start_link,[[]],[]},{supervisor,do_start_child_i,3,[{file,"supervisor.erl"},{line,385}]},{supervisor,do_start_child,2,[{file,"supervisor.erl"},{line,371}]},{supervisor,'-start_children/2-fun-0-',3,[{file,"supervisor.erl"},{line,355}]},{supervisor,children_map,4,[{file,"supervisor.erl"},{line,1171}]},{supervisor,init_children,2,[{file,"supervisor.erl"},{line,321}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}}}},{'Elixir.Products.Application',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.414.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.416.0>,normal}]
+    links: [<0.414.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 238
+  neighbours:
+2020-11-01 13:53:53 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Products.Supervisor'}
+     Context:    start_error
+     Reason:     nil
+     Offender:   [{pid,undefined},{id,'Elixir.Rabbitmq.Consumer'},{mfargs,{'Elixir.Rabbitmq.Consumer',start_link,[[]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-11-01 13:53:53 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.415.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,'Elixir.Rabbitmq.Consumer',nil}},{'Elixir.Products.Application',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.414.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.416.0>,normal}]
+    links: [<0.414.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 197
+  neighbours:
+2020-11-01 15:19:42 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.597.0>
+    registered_name: []
+    exception exit: {{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Ecto.PendingMigrationError',repo => 'Elixir.Products.Repo'},[{'Elixir.Phoenix.Ecto.CheckRepoStatus','check_pending_migrations!',2,[{file,"lib/phoenix_ecto/check_repo_status.ex"},{line,67}]},{'Elixir.Phoenix.Ecto.CheckRepoStatus','-call/2-fun-0-',3,[{file,"lib/phoenix_ecto/check_repo_status.ex"},{line,27}]},{'Elixir.Enum','-reduce/3-lists^foldl/2-0-',3,[{file,"lib/enum.ex"},{line,2111}]},{'Elixir.Phoenix.Ecto.CheckRepoStatus',call,2,[{file,"lib/phoenix_ecto/check_repo_status.ex"},{line,26}]},{'Elixir.ProductsWeb.Endpoint',plug_builder_call,2,[{file,"lib/products_web/endpoint.ex"},{line,1}]},{'Elixir.ProductsWeb.Endpoint','call (overridable 3)',2,[{file,"lib/plug/debugger.ex"},{line,132}]},{'Elixir.ProductsWeb.Endpoint',call,2,[{file,"lib/products_web/endpoint.ex"},{line,1}]},{'Elixir.Phoenix.Endpoint.Cowboy2Handler',init,4,[{file,"lib/phoenix/endpoint/cowboy2_handler.ex"},{line,65}]},{cowboy_handler,execute,2,[{file,"/home/v/Documents/trampo/products/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"/home/v/Documents/trampo/products/deps/cowboy/src/cowboy_stream_h.erl"},{line,300}]},{cowboy_stream_h,request_process,3,[{file,"/home/v/Documents/trampo/products/deps/cowboy/src/cowboy_stream_h.erl"},{line,291}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.ProductsWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"*/*">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"connection">> => <<"keep-alive">>,<<"host">> => <<"localhost:4000">>,<<"postman-token">> => <<"796231a5-1888-4a3d-a8f2-d571aac4caf4">>,<<"token">> => <<"abc123">>,<<"user-agent">> => <<"PostmanRuntime/7.26.8">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/api/products">>,path_info => undefined,peer => {{127,0,0,1},45690},pid => <0.596.0>,port => 4000,qs => <<"page=2">>,ref => 'Elixir.ProductsWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 1,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.597.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [<<"api">>,<<"products">>],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<"page=2">>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept">>,<<"*/*">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"connection">>,<<"keep-alive">>},{<<"host">>,<<"localhost:4000">>},{<<"postman-token">>,<<"796231a5-1888-4a3d-a8f2-d571aac4caf4">>},{<<"token">>,<<"abc123">>},{<<"user-agent">>,<<"PostmanRuntime/7.26.8">>}],request_path => <<"/api/products">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}},[]}
+    ancestors: [<0.596.0>,<0.474.0>,<0.473.0>,'Elixir.ProductsWeb.Endpoint','Elixir.Products.Supervisor',<0.427.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.596.0>]
+    dictionary: [{{'Elixir.Products.Repo',dynamic_repo},'Elixir.Products.Repo'}]
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 28
+    reductions: 120387
+  neighbours:
+2020-11-01 15:19:42 =ERROR REPORT====
+Ranch listener 'Elixir.ProductsWeb.Endpoint.HTTP', connection process <0.596.0>, stream 1 had its request process <0.597.0> exit with reason {{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Ecto.PendingMigrationError',repo => 'Elixir.Products.Repo'},[{'Elixir.Phoenix.Ecto.CheckRepoStatus','check_pending_migrations!',2,[{file,"lib/phoenix_ecto/check_repo_status.ex"},{line,67}]},{'Elixir.Phoenix.Ecto.CheckRepoStatus','-call/2-fun-0-',3,[{file,"lib/phoenix_ecto/check_repo_status.ex"},{line,27}]},{'Elixir.Enum','-reduce/3-lists^foldl/2-0-',3,[{file,"lib/enum.ex"},{line,2111}]},{'Elixir.Phoenix.Ecto.CheckRepoStatus',call,2,[{file,"lib/phoenix_ecto/check_repo_status.ex"},{line,26}]},{'Elixir.ProductsWeb.Endpoint',plug_builder_call,2,[{file,"lib/products_web/endpoint.ex"},{line,1}]},{'Elixir.ProductsWeb.Endpoint','call (overridable 3)',2,[{file,"lib/plug/debugger.ex"},{line,132}]},{'Elixir.ProductsWeb.Endpoint',call,2,[{file,"lib/products_web/endpoint.ex"},{line,1}]},{'Elixir.Phoenix.Endpoint.Cowboy2Handler',init,4,[{file,"lib/phoenix/endpoint/cowboy2_handler.ex"},{line,65}]},{cowboy_handler,execute,2,[{file,"/home/v/Documents/trampo/products/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"/home/v/Documents/trampo/products/deps/cowboy/src/cowboy_stream_h.erl"},{line,300}]},{cowboy_stream_h,request_process,3,[{file,"/home/v/Documents/trampo/products/deps/cowboy/src/cowboy_stream_h.erl"},{line,291}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.ProductsWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"*/*">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"connection">> => <<"keep-alive">>,<<"host">> => <<"localhost:4000">>,<<"postman-token">> => <<"796231a5-1888-4a3d-a8f2-d571aac4caf4">>,<<"token">> => <<"abc123">>,<<"user-agent">> => <<"PostmanRuntime/7.26.8">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/api/products">>,path_info => undefined,peer => {{127,0,0,1},45690},pid => <0.596.0>,port => 4000,qs => <<"page=2">>,ref => 'Elixir.ProductsWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 1,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.597.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [<<"api">>,<<"products">>],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<"page=2">>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept">>,<<"*/*">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"connection">>,<<"keep-alive">>},{<<"host">>,<<"localhost:4000">>},{<<"postman-token">>,<<"796231a5-1888-4a3d-a8f2-d571aac4caf4">>},{<<"token">>,<<"abc123">>},{<<"user-agent">>,<<"PostmanRuntime/7.26.8">>}],request_path => <<"/api/products">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}} and stacktrace []
+2020-11-01 15:20:16 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.605.0>
+    registered_name: []
+    exception exit: {{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Ecto.PendingMigrationError',repo => 'Elixir.Products.Repo'},[{'Elixir.Phoenix.Ecto.CheckRepoStatus','check_pending_migrations!',2,[{file,"lib/phoenix_ecto/check_repo_status.ex"},{line,67}]},{'Elixir.Phoenix.Ecto.CheckRepoStatus','-call/2-fun-0-',3,[{file,"lib/phoenix_ecto/check_repo_status.ex"},{line,27}]},{'Elixir.Enum','-reduce/3-lists^foldl/2-0-',3,[{file,"lib/enum.ex"},{line,2111}]},{'Elixir.Phoenix.Ecto.CheckRepoStatus',call,2,[{file,"lib/phoenix_ecto/check_repo_status.ex"},{line,26}]},{'Elixir.ProductsWeb.Endpoint',plug_builder_call,2,[{file,"lib/products_web/endpoint.ex"},{line,1}]},{'Elixir.ProductsWeb.Endpoint','call (overridable 3)',2,[{file,"lib/plug/debugger.ex"},{line,132}]},{'Elixir.ProductsWeb.Endpoint',call,2,[{file,"lib/products_web/endpoint.ex"},{line,1}]},{'Elixir.Phoenix.Endpoint.Cowboy2Handler',init,4,[{file,"lib/phoenix/endpoint/cowboy2_handler.ex"},{line,65}]},{cowboy_handler,execute,2,[{file,"/home/v/Documents/trampo/products/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"/home/v/Documents/trampo/products/deps/cowboy/src/cowboy_stream_h.erl"},{line,300}]},{cowboy_stream_h,request_process,3,[{file,"/home/v/Documents/trampo/products/deps/cowboy/src/cowboy_stream_h.erl"},{line,291}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.ProductsWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"*/*">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"connection">> => <<"keep-alive">>,<<"host">> => <<"localhost:4000">>,<<"postman-token">> => <<"ef0f1d4a-2b52-4270-9c5a-8fa88337eeda">>,<<"token">> => <<"abc123">>,<<"user-agent">> => <<"PostmanRuntime/7.26.8">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/api/products">>,path_info => undefined,peer => {{127,0,0,1},45690},pid => <0.596.0>,port => 4000,qs => <<"page=2">>,ref => 'Elixir.ProductsWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 2,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.605.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [<<"api">>,<<"products">>],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<"page=2">>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept">>,<<"*/*">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"connection">>,<<"keep-alive">>},{<<"host">>,<<"localhost:4000">>},{<<"postman-token">>,<<"ef0f1d4a-2b52-4270-9c5a-8fa88337eeda">>},{<<"token">>,<<"abc123">>},{<<"user-agent">>,<<"PostmanRuntime/7.26.8">>}],request_path => <<"/api/products">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}},[]}
+    ancestors: [<0.596.0>,<0.474.0>,<0.473.0>,'Elixir.ProductsWeb.Endpoint','Elixir.Products.Supervisor',<0.427.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.596.0>]
+    dictionary: [{{'Elixir.Products.Repo',dynamic_repo},'Elixir.Products.Repo'}]
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 28
+    reductions: 97935
+  neighbours:
+2020-11-01 15:20:16 =ERROR REPORT====
+Ranch listener 'Elixir.ProductsWeb.Endpoint.HTTP', connection process <0.596.0>, stream 2 had its request process <0.605.0> exit with reason {{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Ecto.PendingMigrationError',repo => 'Elixir.Products.Repo'},[{'Elixir.Phoenix.Ecto.CheckRepoStatus','check_pending_migrations!',2,[{file,"lib/phoenix_ecto/check_repo_status.ex"},{line,67}]},{'Elixir.Phoenix.Ecto.CheckRepoStatus','-call/2-fun-0-',3,[{file,"lib/phoenix_ecto/check_repo_status.ex"},{line,27}]},{'Elixir.Enum','-reduce/3-lists^foldl/2-0-',3,[{file,"lib/enum.ex"},{line,2111}]},{'Elixir.Phoenix.Ecto.CheckRepoStatus',call,2,[{file,"lib/phoenix_ecto/check_repo_status.ex"},{line,26}]},{'Elixir.ProductsWeb.Endpoint',plug_builder_call,2,[{file,"lib/products_web/endpoint.ex"},{line,1}]},{'Elixir.ProductsWeb.Endpoint','call (overridable 3)',2,[{file,"lib/plug/debugger.ex"},{line,132}]},{'Elixir.ProductsWeb.Endpoint',call,2,[{file,"lib/products_web/endpoint.ex"},{line,1}]},{'Elixir.Phoenix.Endpoint.Cowboy2Handler',init,4,[{file,"lib/phoenix/endpoint/cowboy2_handler.ex"},{line,65}]},{cowboy_handler,execute,2,[{file,"/home/v/Documents/trampo/products/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"/home/v/Documents/trampo/products/deps/cowboy/src/cowboy_stream_h.erl"},{line,300}]},{cowboy_stream_h,request_process,3,[{file,"/home/v/Documents/trampo/products/deps/cowboy/src/cowboy_stream_h.erl"},{line,291}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.ProductsWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"*/*">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"connection">> => <<"keep-alive">>,<<"host">> => <<"localhost:4000">>,<<"postman-token">> => <<"ef0f1d4a-2b52-4270-9c5a-8fa88337eeda">>,<<"token">> => <<"abc123">>,<<"user-agent">> => <<"PostmanRuntime/7.26.8">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/api/products">>,path_info => undefined,peer => {{127,0,0,1},45690},pid => <0.596.0>,port => 4000,qs => <<"page=2">>,ref => 'Elixir.ProductsWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 2,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.605.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [<<"api">>,<<"products">>],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<"page=2">>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept">>,<<"*/*">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"connection">>,<<"keep-alive">>},{<<"host">>,<<"localhost:4000">>},{<<"postman-token">>,<<"ef0f1d4a-2b52-4270-9c5a-8fa88337eeda">>},{<<"token">>,<<"abc123">>},{<<"user-agent">>,<<"PostmanRuntime/7.26.8">>}],request_path => <<"/api/products">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}} and stacktrace []
+2020-11-01 15:22:01 =ERROR REPORT====
+** Generic server 'Elixir.Messages' terminating 
+** Last message in was get
+** When Server state == #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.560.0>},custom_consumer => nil,pid => <0.569.0>}
+** Reason for termination ==
+** {#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to call GenServer Messages but no handle_call/3 clause was provided">>},[{'Elixir.Rabbitmq.Consumer',handle_call,3,[{file,"lib/gen_server.ex"},{line,773}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+** Client <0.585.0> stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1020}]},{'Elixir.ProductsWeb.ProductController',find,2,[{file,"lib/products_web/controllers/product_controller.ex"},{line,12}]},{'Elixir.ProductsWeb.ProductController',action,2,[{file,"lib/products_web/controllers/product_controller.ex"},{line,1}]},{'Elixir.ProductsWeb.ProductController',phoenix_controller_pipeline,2,[{file,"lib/products_web/controllers/product_controller.ex"},{line,1}]},{'Elixir.Phoenix.Router','__call__',2,[{file,"lib/phoenix/router.ex"},{line,352}]},{'Elixir.ProductsWeb.Endpoint',plug_builder_call,2,[{file,"lib/products_web/endpoint.ex"},{line,1}]},{'Elixir.ProductsWeb.Endpoint','call (overridable 3)',2,[{file,"lib/plug/debugger.ex"},{line,132}]},{'Elixir.ProductsWeb.Endpoint',call,2,[{file,"lib/products_web/endpoint.ex"},{line,1}]},{'Elixir.Phoenix.Endpoint.Cowboy2Handler',init,4,[{file,"lib/phoenix/endpoint/cowboy2_handler.ex"},{line,65}]},{cowboy_handler,execute,2,[{file,"/home/v/Documents/trampo/products/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"/home/v/Documents/trampo/products/deps/cowboy/src/cowboy_stream_h.erl"},{line,300}]},{cowboy_stream_h,request_process,3,[{file,"/home/v/Documents/trampo/products/deps/cowboy/src/cowboy_stream_h.erl"},{line,291}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]
+2020-11-01 15:22:01 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Rabbitmq.Consumer:init/1
+    pid: <0.557.0>
+    registered_name: 'Elixir.Messages'
+    exception error: {#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to call GenServer Messages but no handle_call/3 clause was provided">>},[{'Elixir.Rabbitmq.Consumer',handle_call,3,[{file,"lib/gen_server.ex"},{line,773}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.Products.Supervisor',<0.407.0>]
+    message_queue_len: 1
+    messages: [{basic_deliver,<<"[\"#PID<0.585.0>\",\"ok\"]">>,#{app_id => undefined,cluster_id => undefined,consumer_tag => <<"amq.ctag-KHIldp-rBGmiiepvpXkk1A">>,content_encoding => undefined,content_type => undefined,correlation_id => undefined,delivery_tag => 7,exchange => <<"auth_response_exchange">>,expiration => undefined,headers => undefined,message_id => undefined,persistent => false,priority => undefined,redelivered => false,reply_to => undefined,routing_key => <<>>,timestamp => undefined,type => undefined,user_id => undefined}}]
+    links: [<0.408.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 17731
+    stack_size: 28
+    reductions: 54033
+  neighbours:
+2020-11-01 15:22:01 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Products.Supervisor'}
+     Context:    child_terminated
+     Reason:     {#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to call GenServer Messages but no handle_call/3 clause was provided">>},[{'Elixir.Rabbitmq.Consumer',handle_call,3,[{file,"lib/gen_server.ex"},{line,773}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.557.0>},{id,'Elixir.Rabbitmq.Consumer'},{mfargs,{'Elixir.Rabbitmq.Consumer',start_link,[[]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-11-01 15:22:02 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.585.0>
+    registered_name: []
+    exception exit: {{{{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to call GenServer Messages but no handle_call/3 clause was provided">>},[{'Elixir.Rabbitmq.Consumer',handle_call,3,[{file,"lib/gen_server.ex"},{line,773}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.GenServer',call,['Elixir.Messages',get,5000]}},{'Elixir.ProductsWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"*/*">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"connection">> => <<"keep-alive">>,<<"host">> => <<"localhost:4000">>,<<"postman-token">> => <<"a28df52b-9d87-456d-9cdc-d1370dd79530">>,<<"token">> => <<"abc123">>,<<"user-agent">> => <<"PostmanRuntime/7.26.8">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/api/products">>,path_info => undefined,peer => {{127,0,0,1},45736},pid => <0.584.0>,port => 4000,qs => <<"page=2">>,ref => 'Elixir.ProductsWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 1,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.585.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [<<"api">>,<<"products">>],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<"page=2">>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept">>,<<"*/*">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"connection">>,<<"keep-alive">>},{<<"host">>,<<"localhost:4000">>},{<<"postman-token">>,<<"a28df52b-9d87-456d-9cdc-d1370dd79530">>},{<<"token">>,<<"abc123">>},{<<"user-agent">>,<<"PostmanRuntime/7.26.8">>}],request_path => <<"/api/products">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}},[]}
+    ancestors: [<0.584.0>,<0.454.0>,<0.453.0>,'Elixir.ProductsWeb.Endpoint','Elixir.Products.Supervisor',<0.407.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.584.0>]
+    dictionary: [{'$logger_metadata$',#{request_id => <<"FkN1Wggpf-puSzgAAABE">>}},{{'Elixir.Products.Repo',dynamic_repo},'Elixir.Products.Repo'},{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 28
+    reductions: 152632
+  neighbours:
+2020-11-01 15:22:02 =ERROR REPORT====
+Ranch listener 'Elixir.ProductsWeb.Endpoint.HTTP', connection process <0.584.0>, stream 1 had its request process <0.585.0> exit with reason {{{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to call GenServer Messages but no handle_call/3 clause was provided">>},[{'Elixir.Rabbitmq.Consumer',handle_call,3,[{file,"lib/gen_server.ex"},{line,773}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.GenServer',call,['Elixir.Messages',get,5000]}},{'Elixir.ProductsWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"*/*">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"connection">> => <<"keep-alive">>,<<"host">> => <<"localhost:4000">>,<<"postman-token">> => <<"a28df52b-9d87-456d-9cdc-d1370dd79530">>,<<"token">> => <<"abc123">>,<<"user-agent">> => <<"PostmanRuntime/7.26.8">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/api/products">>,path_info => undefined,peer => {{127,0,0,1},45736},pid => <0.584.0>,port => 4000,qs => <<"page=2">>,ref => 'Elixir.ProductsWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 1,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.585.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [<<"api">>,<<"products">>],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<"page=2">>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept">>,<<"*/*">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"connection">>,<<"keep-alive">>},{<<"host">>,<<"localhost:4000">>},{<<"postman-token">>,<<"a28df52b-9d87-456d-9cdc-d1370dd79530">>},{<<"token">>,<<"abc123">>},{<<"user-agent">>,<<"PostmanRuntime/7.26.8">>}],request_path => <<"/api/products">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}} and stacktrace []
+2020-11-01 15:30:43 =ERROR REPORT====
+** Generic server 'Elixir.Messages' terminating 
+** Last message in was get
+** When Server state == #{'__struct__' => 'Elixir.AMQP.Channel',conn => #{'__struct__' => 'Elixir.AMQP.Connection',pid => <0.603.0>},custom_consumer => nil,pid => <0.612.0>}
+** Reason for termination ==
+** {#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to call GenServer Messages but no handle_call/3 clause was provided">>},[{'Elixir.Rabbitmq.Consumer',handle_call,3,[{file,"lib/gen_server.ex"},{line,773}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+** Client <0.653.0> stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,208}]},{'Elixir.GenServer',call,3,[{file,"lib/gen_server.ex"},{line,1020}]},{'Elixir.ProductsWeb.ProductController',find,2,[{file,"lib/products_web/controllers/product_controller.ex"},{line,12}]},{'Elixir.ProductsWeb.ProductController',action,2,[{file,"lib/products_web/controllers/product_controller.ex"},{line,1}]},{'Elixir.ProductsWeb.ProductController',phoenix_controller_pipeline,2,[{file,"lib/products_web/controllers/product_controller.ex"},{line,1}]},{'Elixir.Phoenix.Router','__call__',2,[{file,"lib/phoenix/router.ex"},{line,352}]},{'Elixir.ProductsWeb.Endpoint',plug_builder_call,2,[{file,"lib/products_web/endpoint.ex"},{line,1}]},{'Elixir.ProductsWeb.Endpoint','call (overridable 3)',2,[{file,"lib/plug/debugger.ex"},{line,132}]},{'Elixir.ProductsWeb.Endpoint',call,2,[{file,"lib/products_web/endpoint.ex"},{line,1}]},{'Elixir.Phoenix.Endpoint.Cowboy2Handler',init,4,[{file,"lib/phoenix/endpoint/cowboy2_handler.ex"},{line,65}]},{cowboy_handler,execute,2,[{file,"/home/v/Documents/trampo/products/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"/home/v/Documents/trampo/products/deps/cowboy/src/cowboy_stream_h.erl"},{line,300}]},{cowboy_stream_h,request_process,3,[{file,"/home/v/Documents/trampo/products/deps/cowboy/src/cowboy_stream_h.erl"},{line,291}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]
+2020-11-01 15:30:43 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Rabbitmq.Consumer:init/1
+    pid: <0.600.0>
+    registered_name: 'Elixir.Messages'
+    exception error: {#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to call GenServer Messages but no handle_call/3 clause was provided">>},[{'Elixir.Rabbitmq.Consumer',handle_call,3,[{file,"lib/gen_server.ex"},{line,773}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.Products.Supervisor',<0.407.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.408.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 49596
+  neighbours:
+2020-11-01 15:30:43 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Products.Supervisor'}
+     Context:    child_terminated
+     Reason:     {#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to call GenServer Messages but no handle_call/3 clause was provided">>},[{'Elixir.Rabbitmq.Consumer',handle_call,3,[{file,"lib/gen_server.ex"},{line,773}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,<0.600.0>},{id,'Elixir.Rabbitmq.Consumer'},{mfargs,{'Elixir.Rabbitmq.Consumer',start_link,[[]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2020-11-01 15:30:43 =ERROR REPORT====
+** Generic server <0.568.0> terminating
+** Last message in was {consumer_call,{'basic.deliver',<<"amq.ctag-KHIldp-rBGmiiepvpXkk1A">>,8,false,<<"auth_response_exchange">>,<<>>},{amqp_msg,{'P_basic',undefined,undefined,undefined,1,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"[\"#PID<0.653.0>\",\"ok\"]">>}}
+** When Server state == {state,amqp_selective_consumer,{state,#{},undefined,#{},none}}
+** Reason for termination == 
+** unexpected_delivery_and_no_default_consumer
+2020-11-01 15:30:43 =CRASH REPORT====
+  crasher:
+    initial call: amqp_gen_consumer:init/1
+    pid: <0.568.0>
+    registered_name: []
+    exception exit: {unexpected_delivery_and_no_default_consumer,[{gen_server2,terminate,3,[{file,"/home/v/Documents/trampo/products/deps/rabbit_common/src/gen_server2.erl"},{line,1183}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.567.0>,<0.561.0>,<0.559.0>,<0.558.0>,amqp_sup,<0.340.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.567.0>]
+    dictionary: [{process_name,{amqp_gen_consumer,{<<"client 127.0.0.1:46689 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 28
+    reductions: 4856
+  neighbours:
+2020-11-01 15:30:43 =SUPERVISOR REPORT====
+     Supervisor: {<0.567.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     unexpected_delivery_and_no_default_consumer
+     Offender:   [{pid,<0.568.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:46689 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2020-11-01 15:30:43 =SUPERVISOR REPORT====
+     Supervisor: {<0.567.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.568.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:46689 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2020-11-01 15:30:43 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.653.0>
+    registered_name: []
+    exception exit: {{{{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to call GenServer Messages but no handle_call/3 clause was provided">>},[{'Elixir.Rabbitmq.Consumer',handle_call,3,[{file,"lib/gen_server.ex"},{line,773}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.GenServer',call,['Elixir.Messages',get,5000]}},{'Elixir.ProductsWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"*/*">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"connection">> => <<"keep-alive">>,<<"host">> => <<"localhost:4000">>,<<"postman-token">> => <<"cdd56c1c-2988-42f7-b509-4f1e84287ee9">>,<<"token">> => <<"abc123">>,<<"user-agent">> => <<"PostmanRuntime/7.26.8">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/api/products">>,path_info => undefined,peer => {{127,0,0,1},45782},pid => <0.652.0>,port => 4000,qs => <<"page=2">>,ref => 'Elixir.ProductsWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 1,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.653.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [<<"api">>,<<"products">>],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<"page=2">>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept">>,<<"*/*">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"connection">>,<<"keep-alive">>},{<<"host">>,<<"localhost:4000">>},{<<"postman-token">>,<<"cdd56c1c-2988-42f7-b509-4f1e84287ee9">>},{<<"token">>,<<"abc123">>},{<<"user-agent">>,<<"PostmanRuntime/7.26.8">>}],request_path => <<"/api/products">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}},[]}
+    ancestors: [<0.652.0>,<0.454.0>,<0.453.0>,'Elixir.ProductsWeb.Endpoint','Elixir.Products.Supervisor',<0.407.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.652.0>]
+    dictionary: [{'$logger_metadata$',#{request_id => <<"FkN102rPTUxDpzwAAAMi">>}},{{'Elixir.Products.Repo',dynamic_repo},'Elixir.Products.Repo'},{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 28
+    reductions: 142650
+  neighbours:
+2020-11-01 15:30:43 =ERROR REPORT====
+Ranch listener 'Elixir.ProductsWeb.Endpoint.HTTP', connection process <0.652.0>, stream 1 had its request process <0.653.0> exit with reason {{{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"attempted to call GenServer Messages but no handle_call/3 clause was provided">>},[{'Elixir.Rabbitmq.Consumer',handle_call,3,[{file,"lib/gen_server.ex"},{line,773}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,706}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,735}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.GenServer',call,['Elixir.Messages',get,5000]}},{'Elixir.ProductsWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"*/*">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"connection">> => <<"keep-alive">>,<<"host">> => <<"localhost:4000">>,<<"postman-token">> => <<"cdd56c1c-2988-42f7-b509-4f1e84287ee9">>,<<"token">> => <<"abc123">>,<<"user-agent">> => <<"PostmanRuntime/7.26.8">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/api/products">>,path_info => undefined,peer => {{127,0,0,1},45782},pid => <0.652.0>,port => 4000,qs => <<"page=2">>,ref => 'Elixir.ProductsWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 1,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.653.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [<<"api">>,<<"products">>],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<"page=2">>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept">>,<<"*/*">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"connection">>,<<"keep-alive">>},{<<"host">>,<<"localhost:4000">>},{<<"postman-token">>,<<"cdd56c1c-2988-42f7-b509-4f1e84287ee9">>},{<<"token">>,<<"abc123">>},{<<"user-agent">>,<<"PostmanRuntime/7.26.8">>}],request_path => <<"/api/products">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}} and stacktrace []
+2020-11-01 15:32:35 =ERROR REPORT====
+** Generic server <0.611.0> terminating
+** Last message in was {consumer_call,{'basic.deliver',<<"amq.ctag-0_Fpe61UUj2_AbURRgmA4A">>,1,false,<<"auth_response_exchange">>,<<>>},{amqp_msg,{'P_basic',undefined,undefined,undefined,1,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"[\"#PID<0.708.0>\",\"ok\"]">>}}
+** When Server state == {state,amqp_selective_consumer,{state,#{},undefined,#{},none}}
+** Reason for termination == 
+** unexpected_delivery_and_no_default_consumer
+2020-11-01 15:32:35 =CRASH REPORT====
+  crasher:
+    initial call: amqp_gen_consumer:init/1
+    pid: <0.611.0>
+    registered_name: []
+    exception exit: {unexpected_delivery_and_no_default_consumer,[{gen_server2,terminate,3,[{file,"/home/v/Documents/trampo/products/deps/rabbit_common/src/gen_server2.erl"},{line,1183}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.610.0>,<0.604.0>,<0.602.0>,<0.601.0>,amqp_sup,<0.340.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.610.0>]
+    dictionary: [{process_name,{amqp_gen_consumer,{<<"client 127.0.0.1:40429 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 28
+    reductions: 4477
+  neighbours:
+2020-11-01 15:32:35 =SUPERVISOR REPORT====
+     Supervisor: {<0.610.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     unexpected_delivery_and_no_default_consumer
+     Offender:   [{pid,<0.611.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:40429 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2020-11-01 15:32:35 =SUPERVISOR REPORT====
+     Supervisor: {<0.610.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.611.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:40429 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2020-11-01 15:52:37 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.603.0>
+    registered_name: []
+    exception exit: {{{noproc,{'Elixir.GenServer',call,['Elixir.Messages',get,5000]}},{'Elixir.ProductsWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"*/*">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"connection">> => <<"keep-alive">>,<<"host">> => <<"localhost:4000">>,<<"postman-token">> => <<"fd5f709d-553b-46c2-a8b9-5107237e48f8">>,<<"token">> => <<"abc123">>,<<"user-agent">> => <<"PostmanRuntime/7.26.8">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/api/products">>,path_info => undefined,peer => {{127,0,0,1},45954},pid => <0.602.0>,port => 4000,qs => <<"page=2">>,ref => 'Elixir.ProductsWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 1,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.603.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [<<"api">>,<<"products">>],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<"page=2">>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept">>,<<"*/*">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"connection">>,<<"keep-alive">>},{<<"host">>,<<"localhost:4000">>},{<<"postman-token">>,<<"fd5f709d-553b-46c2-a8b9-5107237e48f8">>},{<<"token">>,<<"abc123">>},{<<"user-agent">>,<<"PostmanRuntime/7.26.8">>}],request_path => <<"/api/products">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}},[]}
+    ancestors: [<0.602.0>,<0.481.0>,<0.480.0>,'Elixir.ProductsWeb.Endpoint','Elixir.Products.Supervisor',<0.434.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.602.0>]
+    dictionary: [{{'Elixir.Products.Repo',dynamic_repo},'Elixir.Products.Repo'},{gen_server_call_timeout,60000},{'$logger_metadata$',#{request_id => <<"FkN3BYULMoEfBX4AAAED">>}}]
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 28
+    reductions: 150558
+  neighbours:
+2020-11-01 15:52:37 =ERROR REPORT====
+Ranch listener 'Elixir.ProductsWeb.Endpoint.HTTP', connection process <0.602.0>, stream 1 had its request process <0.603.0> exit with reason {{noproc,{'Elixir.GenServer',call,['Elixir.Messages',get,5000]}},{'Elixir.ProductsWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"*/*">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"connection">> => <<"keep-alive">>,<<"host">> => <<"localhost:4000">>,<<"postman-token">> => <<"fd5f709d-553b-46c2-a8b9-5107237e48f8">>,<<"token">> => <<"abc123">>,<<"user-agent">> => <<"PostmanRuntime/7.26.8">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/api/products">>,path_info => undefined,peer => {{127,0,0,1},45954},pid => <0.602.0>,port => 4000,qs => <<"page=2">>,ref => 'Elixir.ProductsWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 1,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.603.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [<<"api">>,<<"products">>],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<"page=2">>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept">>,<<"*/*">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"connection">>,<<"keep-alive">>},{<<"host">>,<<"localhost:4000">>},{<<"postman-token">>,<<"fd5f709d-553b-46c2-a8b9-5107237e48f8">>},{<<"token">>,<<"abc123">>},{<<"user-agent">>,<<"PostmanRuntime/7.26.8">>}],request_path => <<"/api/products">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}} and stacktrace []
+2020-11-01 16:04:02 =SUPERVISOR REPORT====
+     Supervisor: {<0.567.0>,amqp_channel_sup}
+     Context:    shutdown_error
+     Reason:     {shutdown,{connection_closing,{server_initiated_close,320,<<"CONNECTION_FORCED - broker forced connection closure with reason 'shutdown'">>}}}
+     Offender:   [{pid,<0.569.0>},{name,channel},{mfargs,{amqp_channel,start_link,[network,<0.560.0>,1,<0.568.0>,{<<"client 127.0.0.1:51333 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2020-11-01 16:27:07 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.604.0>
+    registered_name: []
+    exception exit: {{{#{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<"Jason.Encoder protocol must always be explicitly implemented.\n\nIf you own the struct, you can derive the implementation specifying which fields should be encoded to JSON:\n\n    @derive {Jason.Encoder, only: [....]}\n    defstruct ...\n\nIt is also possible to encode all fields, although this should be used carefully to avoid accidentally leaking private information when new fields are added:\n\n    @derive Jason.Encoder\n    defstruct ...\n\nFinally, if you don't own the struct you want to encode to JSON, you may use Protocol.derive/3 placed outside of any module:\n\n    Protocol.derive(Jason.Encoder, NameOfTheStruct, only: [...])\n    Protocol.derive(Jason.Encoder, NameOfTheStruct)\n">>,protocol => 'Elixir.Jason.Encoder',value => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"*/*">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"connection">> => <<"keep-alive">>,<<"host">> => <<"localhost:4000">>,<<"postman-token">> => <<"c4f585d3-4576-43fb-8acf-37204d169c10">>,<<"token">> => <<"abc1234">>,<<"user-agent">> => <<"PostmanRuntime/7.26.8">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/api/products">>,path_info => undefined,peer => {{127,0,0,1},46532},pid => <0.603.0>,port => 4000,qs => <<"page=2">>,ref => 'Elixir.ProductsWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 1,version => 'HTTP/1.1'}},assigns => #{error => <<"Invalid token">>,layout => false},before_send => [#Fun<Elixir.Plug.Telemetry.0.60895335>],body_params => #{},cookies => #{},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.604.0>,params => #{<<"page">> => <<"2">>},path_info => [<<"api">>,<<"products">>],path_params => #{},port => 4000,private => #{'Elixir.ProductsWeb.Router' => {[],#{}},phoenix_action => find,phoenix_controller => 'Elixir.ProductsWeb.ProductController',phoenix_endpoint => 'Elixir.ProductsWeb.Endpoint',phoenix_format => <<"json">>,phoenix_layout => {'Elixir.ProductsWeb.LayoutView',app},phoenix_request_logger => {<<"request_logger">>,<<"request_logger">>},phoenix_router => 'Elixir.ProductsWeb.Router',phoenix_template => <<"error.json">>,phoenix_view => 'Elixir.ProductsWeb.ProductView',plug_session_fetch => #Fun<Elixir.Plug.Session.1.105793137>},query_params => #{<<"page">> => <<"2">>},query_string => <<"page=2">>,remote_ip => {127,0,0,1},req_cookies => #{},req_headers => [{<<"accept">>,<<"*/*">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"connection">>,<<"keep-alive">>},{<<"host">>,<<"localhost:4000">>},{<<"postman-token">>,<<"c4f585d3-4576-43fb-8acf-37204d169c10">>},{<<"token">>,<<"abc1234">>},{<<"user-agent">>,<<"PostmanRuntime/7.26.8">>}],request_path => <<"/api/products">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>},{<<"x-request-id">>,<<"FkN451ipxuvXuEkAAAEl">>}],scheme => http,script_name => [],secret_key_base => <<"G/sdDcvfdY2ok+e1FHKetUt9R7uK7QdWTV7+TdbJ7uOh60fDKaRt3Rwgx6wflv8Z">>,state => unset,status => 403}},[{'Elixir.Jason','encode_to_iodata!',2,[{file,"lib/jason.ex"},{line,199}]},{'Elixir.Phoenix.Controller',render_and_send,4,[{file,"lib/phoenix/controller.ex"},{line,776}]},{'Elixir.ProductsWeb.ProductController',action,2,[{file,"lib/products_web/controllers/product_controller.ex"},{line,1}]},{'Elixir.ProductsWeb.ProductController',phoenix_controller_pipeline,2,[{file,"lib/products_web/controllers/product_controller.ex"},{line,1}]},{'Elixir.Phoenix.Router','__call__',2,[{file,"lib/phoenix/router.ex"},{line,352}]},{'Elixir.ProductsWeb.Endpoint',plug_builder_call,2,[{file,"lib/products_web/endpoint.ex"},{line,1}]},{'Elixir.ProductsWeb.Endpoint','call (overridable 3)',2,[{file,"lib/plug/debugger.ex"},{line,132}]},{'Elixir.ProductsWeb.Endpoint',call,2,[{file,"lib/products_web/endpoint.ex"},{line,1}]},{'Elixir.Phoenix.Endpoint.Cowboy2Handler',init,4,[{file,"lib/phoenix/endpoint/cowboy2_handler.ex"},{line,65}]},{cowboy_handler,execute,2,[{file,"/home/v/Documents/trampo/products/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"/home/v/Documents/trampo/products/deps/cowboy/src/cowboy_stream_h.erl"},{line,300}]},{cowboy_stream_h,request_process,3,[{file,"/home/v/Documents/trampo/products/deps/cowboy/src/cowboy_stream_h.erl"},{line,291}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.ProductsWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"*/*">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"connection">> => <<"keep-alive">>,<<"host">> => <<"localhost:4000">>,<<"postman-token">> => <<"c4f585d3-4576-43fb-8acf-37204d169c10">>,<<"token">> => <<"abc1234">>,<<"user-agent">> => <<"PostmanRuntime/7.26.8">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/api/products">>,path_info => undefined,peer => {{127,0,0,1},46532},pid => <0.603.0>,port => 4000,qs => <<"page=2">>,ref => 'Elixir.ProductsWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 1,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.604.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [<<"api">>,<<"products">>],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<"page=2">>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept">>,<<"*/*">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"connection">>,<<"keep-alive">>},{<<"host">>,<<"localhost:4000">>},{<<"postman-token">>,<<"c4f585d3-4576-43fb-8acf-37204d169c10">>},{<<"token">>,<<"abc1234">>},{<<"user-agent">>,<<"PostmanRuntime/7.26.8">>}],request_path => <<"/api/products">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}},[]}
+    ancestors: [<0.603.0>,<0.481.0>,<0.480.0>,'Elixir.ProductsWeb.Endpoint','Elixir.Products.Supervisor',<0.434.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.603.0>]
+    dictionary: [{{'Elixir.Products.Repo',dynamic_repo},'Elixir.Products.Repo'},{'$logger_metadata$',#{request_id => <<"FkN451ipxuvXuEkAAAEl">>}},{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 28
+    reductions: 287953
+  neighbours:
+2020-11-01 16:27:07 =ERROR REPORT====
+Ranch listener 'Elixir.ProductsWeb.Endpoint.HTTP', connection process <0.603.0>, stream 1 had its request process <0.604.0> exit with reason {{#{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<"Jason.Encoder protocol must always be explicitly implemented.\n\nIf you own the struct, you can derive the implementation specifying which fields should be encoded to JSON:\n\n    @derive {Jason.Encoder, only: [....]}\n    defstruct ...\n\nIt is also possible to encode all fields, although this should be used carefully to avoid accidentally leaking private information when new fields are added:\n\n    @derive Jason.Encoder\n    defstruct ...\n\nFinally, if you don't own the struct you want to encode to JSON, you may use Protocol.derive/3 placed outside of any module:\n\n    Protocol.derive(Jason.Encoder, NameOfTheStruct, only: [...])\n    Protocol.derive(Jason.Encoder, NameOfTheStruct)\n">>,protocol => 'Elixir.Jason.Encoder',value => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"*/*">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"connection">> => <<"keep-alive">>,<<"host">> => <<"localhost:4000">>,<<"postman-token">> => <<"c4f585d3-4576-43fb-8acf-37204d169c10">>,<<"token">> => <<"abc1234">>,<<"user-agent">> => <<"PostmanRuntime/7.26.8">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/api/products">>,path_info => undefined,peer => {{127,0,0,1},46532},pid => <0.603.0>,port => 4000,qs => <<"page=2">>,ref => 'Elixir.ProductsWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 1,version => 'HTTP/1.1'}},assigns => #{error => <<"Invalid token">>,layout => false},before_send => [#Fun<Elixir.Plug.Telemetry.0.60895335>],body_params => #{},cookies => #{},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.604.0>,params => #{<<"page">> => <<"2">>},path_info => [<<"api">>,<<"products">>],path_params => #{},port => 4000,private => #{'Elixir.ProductsWeb.Router' => {[],#{}},phoenix_action => find,phoenix_controller => 'Elixir.ProductsWeb.ProductController',phoenix_endpoint => 'Elixir.ProductsWeb.Endpoint',phoenix_format => <<"json">>,phoenix_layout => {'Elixir.ProductsWeb.LayoutView',app},phoenix_request_logger => {<<"request_logger">>,<<"request_logger">>},phoenix_router => 'Elixir.ProductsWeb.Router',phoenix_template => <<"error.json">>,phoenix_view => 'Elixir.ProductsWeb.ProductView',plug_session_fetch => #Fun<Elixir.Plug.Session.1.105793137>},query_params => #{<<"page">> => <<"2">>},query_string => <<"page=2">>,remote_ip => {127,0,0,1},req_cookies => #{},req_headers => [{<<"accept">>,<<"*/*">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"connection">>,<<"keep-alive">>},{<<"host">>,<<"localhost:4000">>},{<<"postman-token">>,<<"c4f585d3-4576-43fb-8acf-37204d169c10">>},{<<"token">>,<<"abc1234">>},{<<"user-agent">>,<<"PostmanRuntime/7.26.8">>}],request_path => <<"/api/products">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>},{<<"x-request-id">>,<<"FkN451ipxuvXuEkAAAEl">>}],scheme => http,script_name => [],secret_key_base => <<"G/sdDcvfdY2ok+e1FHKetUt9R7uK7QdWTV7+TdbJ7uOh60fDKaRt3Rwgx6wflv8Z">>,state => unset,status => 403}},[{'Elixir.Jason','encode_to_iodata!',2,[{file,"lib/jason.ex"},{line,199}]},{'Elixir.Phoenix.Controller',render_and_send,4,[{file,"lib/phoenix/controller.ex"},{line,776}]},{'Elixir.ProductsWeb.ProductController',action,2,[{file,"lib/products_web/controllers/product_controller.ex"},{line,1}]},{'Elixir.ProductsWeb.ProductController',phoenix_controller_pipeline,2,[{file,"lib/products_web/controllers/product_controller.ex"},{line,1}]},{'Elixir.Phoenix.Router','__call__',2,[{file,"lib/phoenix/router.ex"},{line,352}]},{'Elixir.ProductsWeb.Endpoint',plug_builder_call,2,[{file,"lib/products_web/endpoint.ex"},{line,1}]},{'Elixir.ProductsWeb.Endpoint','call (overridable 3)',2,[{file,"lib/plug/debugger.ex"},{line,132}]},{'Elixir.ProductsWeb.Endpoint',call,2,[{file,"lib/products_web/endpoint.ex"},{line,1}]},{'Elixir.Phoenix.Endpoint.Cowboy2Handler',init,4,[{file,"lib/phoenix/endpoint/cowboy2_handler.ex"},{line,65}]},{cowboy_handler,execute,2,[{file,"/home/v/Documents/trampo/products/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"/home/v/Documents/trampo/products/deps/cowboy/src/cowboy_stream_h.erl"},{line,300}]},{cowboy_stream_h,request_process,3,[{file,"/home/v/Documents/trampo/products/deps/cowboy/src/cowboy_stream_h.erl"},{line,291}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.ProductsWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"*/*">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"connection">> => <<"keep-alive">>,<<"host">> => <<"localhost:4000">>,<<"postman-token">> => <<"c4f585d3-4576-43fb-8acf-37204d169c10">>,<<"token">> => <<"abc1234">>,<<"user-agent">> => <<"PostmanRuntime/7.26.8">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/api/products">>,path_info => undefined,peer => {{127,0,0,1},46532},pid => <0.603.0>,port => 4000,qs => <<"page=2">>,ref => 'Elixir.ProductsWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 1,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.604.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [<<"api">>,<<"products">>],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<"page=2">>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept">>,<<"*/*">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"connection">>,<<"keep-alive">>},{<<"host">>,<<"localhost:4000">>},{<<"postman-token">>,<<"c4f585d3-4576-43fb-8acf-37204d169c10">>},{<<"token">>,<<"abc1234">>},{<<"user-agent">>,<<"PostmanRuntime/7.26.8">>}],request_path => <<"/api/products">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}} and stacktrace []
+2020-11-01 16:31:46 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.425.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.Products.Application',start,[normal,[]]},ok}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.424.0>]
+    message_queue_len: 2
+    messages: [{'EXIT',<0.426.0>,normal},{io_request,<0.591.0>,#Ref<0.1053834684.3453747204.37960>,{put_chars,unicode,<<"Discart last message: []\n">>}}]
+    links: [<0.424.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 216
+  neighbours:
+2020-11-01 16:31:46 =ERROR REPORT====
+** Generic server <0.587.0> terminating
+** Last message in was {consumer_call,{'basic.deliver',<<"amq.ctag-jMwMaSdWzbW3C5bX4k8Pbw">>,1,true,<<"auth_response_exchange">>,<<>>},{amqp_msg,{'P_basic',undefined,undefined,undefined,1,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"[\"#PID<0.577.0>\",\"error\"]">>}}
+** When Server state == {state,amqp_selective_consumer,{state,#{},undefined,#{},none}}
+** Reason for termination == 
+** unexpected_delivery_and_no_default_consumer
+2020-11-01 16:33:00 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.596.0>
+    registered_name: []
+    exception exit: {{{#{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<"Jason.Encoder protocol must always be explicitly implemented.\n\nIf you own the struct, you can derive the implementation specifying which fields should be encoded to JSON:\n\n    @derive {Jason.Encoder, only: [....]}\n    defstruct ...\n\nIt is also possible to encode all fields, although this should be used carefully to avoid accidentally leaking private information when new fields are added:\n\n    @derive Jason.Encoder\n    defstruct ...\n\nFinally, if you don't own the struct you want to encode to JSON, you may use Protocol.derive/3 placed outside of any module:\n\n    Protocol.derive(Jason.Encoder, NameOfTheStruct, only: [...])\n    Protocol.derive(Jason.Encoder, NameOfTheStruct)\n">>,protocol => 'Elixir.Jason.Encoder',value => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"*/*">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"connection">> => <<"keep-alive">>,<<"host">> => <<"localhost:4000">>,<<"postman-token">> => <<"3ac41c80-2b85-4679-9a67-a4a486a30668">>,<<"token">> => <<"abc1234">>,<<"user-agent">> => <<"PostmanRuntime/7.26.8">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/api/products">>,path_info => undefined,peer => {{127,0,0,1},46646},pid => <0.595.0>,port => 4000,qs => <<"page=2">>,ref => 'Elixir.ProductsWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 1,version => 'HTTP/1.1'}},assigns => #{error => <<"Invalid token">>,layout => false},before_send => [#Fun<Elixir.Plug.Telemetry.0.60895335>],body_params => #{},cookies => #{},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.596.0>,params => #{<<"page">> => <<"2">>},path_info => [<<"api">>,<<"products">>],path_params => #{},port => 4000,private => #{'Elixir.ProductsWeb.Router' => {[],#{}},phoenix_action => find,phoenix_controller => 'Elixir.ProductsWeb.ProductController',phoenix_endpoint => 'Elixir.ProductsWeb.Endpoint',phoenix_format => <<"json">>,phoenix_layout => {'Elixir.ProductsWeb.LayoutView',app},phoenix_request_logger => {<<"request_logger">>,<<"request_logger">>},phoenix_router => 'Elixir.ProductsWeb.Router',phoenix_template => <<"error.json">>,phoenix_view => 'Elixir.ProductsWeb.ProductView',plug_session_fetch => #Fun<Elixir.Plug.Session.1.105793137>},query_params => #{<<"page">> => <<"2">>},query_string => <<"page=2">>,remote_ip => {127,0,0,1},req_cookies => #{},req_headers => [{<<"accept">>,<<"*/*">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"connection">>,<<"keep-alive">>},{<<"host">>,<<"localhost:4000">>},{<<"postman-token">>,<<"3ac41c80-2b85-4679-9a67-a4a486a30668">>},{<<"token">>,<<"abc1234">>},{<<"user-agent">>,<<"PostmanRuntime/7.26.8">>}],request_path => <<"/api/products">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>},{<<"x-request-id">>,<<"FkN5OYVtPLZu3m0AAABD">>}],scheme => http,script_name => [],secret_key_base => <<"G/sdDcvfdY2ok+e1FHKetUt9R7uK7QdWTV7+TdbJ7uOh60fDKaRt3Rwgx6wflv8Z">>,state => unset,status => 403}},[{'Elixir.Jason','encode_to_iodata!',2,[{file,"lib/jason.ex"},{line,199}]},{'Elixir.Phoenix.Controller',render_and_send,4,[{file,"lib/phoenix/controller.ex"},{line,776}]},{'Elixir.ProductsWeb.ProductController',action,2,[{file,"lib/products_web/controllers/product_controller.ex"},{line,1}]},{'Elixir.ProductsWeb.ProductController',phoenix_controller_pipeline,2,[{file,"lib/products_web/controllers/product_controller.ex"},{line,1}]},{'Elixir.Phoenix.Router','__call__',2,[{file,"lib/phoenix/router.ex"},{line,352}]},{'Elixir.ProductsWeb.Endpoint',plug_builder_call,2,[{file,"lib/products_web/endpoint.ex"},{line,1}]},{'Elixir.ProductsWeb.Endpoint','call (overridable 3)',2,[{file,"lib/plug/debugger.ex"},{line,132}]},{'Elixir.ProductsWeb.Endpoint',call,2,[{file,"lib/products_web/endpoint.ex"},{line,1}]},{'Elixir.Phoenix.Endpoint.Cowboy2Handler',init,4,[{file,"lib/phoenix/endpoint/cowboy2_handler.ex"},{line,65}]},{cowboy_handler,execute,2,[{file,"/home/v/Documents/trampo/products/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"/home/v/Documents/trampo/products/deps/cowboy/src/cowboy_stream_h.erl"},{line,300}]},{cowboy_stream_h,request_process,3,[{file,"/home/v/Documents/trampo/products/deps/cowboy/src/cowboy_stream_h.erl"},{line,291}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.ProductsWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"*/*">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"connection">> => <<"keep-alive">>,<<"host">> => <<"localhost:4000">>,<<"postman-token">> => <<"3ac41c80-2b85-4679-9a67-a4a486a30668">>,<<"token">> => <<"abc1234">>,<<"user-agent">> => <<"PostmanRuntime/7.26.8">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/api/products">>,path_info => undefined,peer => {{127,0,0,1},46646},pid => <0.595.0>,port => 4000,qs => <<"page=2">>,ref => 'Elixir.ProductsWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 1,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.596.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [<<"api">>,<<"products">>],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<"page=2">>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept">>,<<"*/*">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"connection">>,<<"keep-alive">>},{<<"host">>,<<"localhost:4000">>},{<<"postman-token">>,<<"3ac41c80-2b85-4679-9a67-a4a486a30668">>},{<<"token">>,<<"abc1234">>},{<<"user-agent">>,<<"PostmanRuntime/7.26.8">>}],request_path => <<"/api/products">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}},[]}
+    ancestors: [<0.595.0>,<0.473.0>,<0.472.0>,'Elixir.ProductsWeb.Endpoint','Elixir.Products.Supervisor',<0.426.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.595.0>]
+    dictionary: [{{'Elixir.Products.Repo',dynamic_repo},'Elixir.Products.Repo'},{'$logger_metadata$',#{request_id => <<"FkN5OYVtPLZu3m0AAABD">>}},{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 28
+    reductions: 301702
+  neighbours:
+2020-11-01 16:33:00 =ERROR REPORT====
+Ranch listener 'Elixir.ProductsWeb.Endpoint.HTTP', connection process <0.595.0>, stream 1 had its request process <0.596.0> exit with reason {{#{'__exception__' => true,'__struct__' => 'Elixir.Protocol.UndefinedError',description => <<"Jason.Encoder protocol must always be explicitly implemented.\n\nIf you own the struct, you can derive the implementation specifying which fields should be encoded to JSON:\n\n    @derive {Jason.Encoder, only: [....]}\n    defstruct ...\n\nIt is also possible to encode all fields, although this should be used carefully to avoid accidentally leaking private information when new fields are added:\n\n    @derive Jason.Encoder\n    defstruct ...\n\nFinally, if you don't own the struct you want to encode to JSON, you may use Protocol.derive/3 placed outside of any module:\n\n    Protocol.derive(Jason.Encoder, NameOfTheStruct, only: [...])\n    Protocol.derive(Jason.Encoder, NameOfTheStruct)\n">>,protocol => 'Elixir.Jason.Encoder',value => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"*/*">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"connection">> => <<"keep-alive">>,<<"host">> => <<"localhost:4000">>,<<"postman-token">> => <<"3ac41c80-2b85-4679-9a67-a4a486a30668">>,<<"token">> => <<"abc1234">>,<<"user-agent">> => <<"PostmanRuntime/7.26.8">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/api/products">>,path_info => undefined,peer => {{127,0,0,1},46646},pid => <0.595.0>,port => 4000,qs => <<"page=2">>,ref => 'Elixir.ProductsWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 1,version => 'HTTP/1.1'}},assigns => #{error => <<"Invalid token">>,layout => false},before_send => [#Fun<Elixir.Plug.Telemetry.0.60895335>],body_params => #{},cookies => #{},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.596.0>,params => #{<<"page">> => <<"2">>},path_info => [<<"api">>,<<"products">>],path_params => #{},port => 4000,private => #{'Elixir.ProductsWeb.Router' => {[],#{}},phoenix_action => find,phoenix_controller => 'Elixir.ProductsWeb.ProductController',phoenix_endpoint => 'Elixir.ProductsWeb.Endpoint',phoenix_format => <<"json">>,phoenix_layout => {'Elixir.ProductsWeb.LayoutView',app},phoenix_request_logger => {<<"request_logger">>,<<"request_logger">>},phoenix_router => 'Elixir.ProductsWeb.Router',phoenix_template => <<"error.json">>,phoenix_view => 'Elixir.ProductsWeb.ProductView',plug_session_fetch => #Fun<Elixir.Plug.Session.1.105793137>},query_params => #{<<"page">> => <<"2">>},query_string => <<"page=2">>,remote_ip => {127,0,0,1},req_cookies => #{},req_headers => [{<<"accept">>,<<"*/*">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"connection">>,<<"keep-alive">>},{<<"host">>,<<"localhost:4000">>},{<<"postman-token">>,<<"3ac41c80-2b85-4679-9a67-a4a486a30668">>},{<<"token">>,<<"abc1234">>},{<<"user-agent">>,<<"PostmanRuntime/7.26.8">>}],request_path => <<"/api/products">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>},{<<"x-request-id">>,<<"FkN5OYVtPLZu3m0AAABD">>}],scheme => http,script_name => [],secret_key_base => <<"G/sdDcvfdY2ok+e1FHKetUt9R7uK7QdWTV7+TdbJ7uOh60fDKaRt3Rwgx6wflv8Z">>,state => unset,status => 403}},[{'Elixir.Jason','encode_to_iodata!',2,[{file,"lib/jason.ex"},{line,199}]},{'Elixir.Phoenix.Controller',render_and_send,4,[{file,"lib/phoenix/controller.ex"},{line,776}]},{'Elixir.ProductsWeb.ProductController',action,2,[{file,"lib/products_web/controllers/product_controller.ex"},{line,1}]},{'Elixir.ProductsWeb.ProductController',phoenix_controller_pipeline,2,[{file,"lib/products_web/controllers/product_controller.ex"},{line,1}]},{'Elixir.Phoenix.Router','__call__',2,[{file,"lib/phoenix/router.ex"},{line,352}]},{'Elixir.ProductsWeb.Endpoint',plug_builder_call,2,[{file,"lib/products_web/endpoint.ex"},{line,1}]},{'Elixir.ProductsWeb.Endpoint','call (overridable 3)',2,[{file,"lib/plug/debugger.ex"},{line,132}]},{'Elixir.ProductsWeb.Endpoint',call,2,[{file,"lib/products_web/endpoint.ex"},{line,1}]},{'Elixir.Phoenix.Endpoint.Cowboy2Handler',init,4,[{file,"lib/phoenix/endpoint/cowboy2_handler.ex"},{line,65}]},{cowboy_handler,execute,2,[{file,"/home/v/Documents/trampo/products/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"/home/v/Documents/trampo/products/deps/cowboy/src/cowboy_stream_h.erl"},{line,300}]},{cowboy_stream_h,request_process,3,[{file,"/home/v/Documents/trampo/products/deps/cowboy/src/cowboy_stream_h.erl"},{line,291}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.ProductsWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"*/*">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"connection">> => <<"keep-alive">>,<<"host">> => <<"localhost:4000">>,<<"postman-token">> => <<"3ac41c80-2b85-4679-9a67-a4a486a30668">>,<<"token">> => <<"abc1234">>,<<"user-agent">> => <<"PostmanRuntime/7.26.8">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/api/products">>,path_info => undefined,peer => {{127,0,0,1},46646},pid => <0.595.0>,port => 4000,qs => <<"page=2">>,ref => 'Elixir.ProductsWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 1,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.596.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [<<"api">>,<<"products">>],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<"page=2">>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept">>,<<"*/*">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"connection">>,<<"keep-alive">>},{<<"host">>,<<"localhost:4000">>},{<<"postman-token">>,<<"3ac41c80-2b85-4679-9a67-a4a486a30668">>},{<<"token">>,<<"abc1234">>},{<<"user-agent">>,<<"PostmanRuntime/7.26.8">>}],request_path => <<"/api/products">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}} and stacktrace []
+2020-11-01 16:41:43 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.577.0>
+    registered_name: []
+    exception exit: {{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Ecto.PendingMigrationError',repo => 'Elixir.Products.Repo'},[{'Elixir.Phoenix.Ecto.CheckRepoStatus','check_pending_migrations!',2,[{file,"lib/phoenix_ecto/check_repo_status.ex"},{line,67}]},{'Elixir.Phoenix.Ecto.CheckRepoStatus','-call/2-fun-0-',3,[{file,"lib/phoenix_ecto/check_repo_status.ex"},{line,27}]},{'Elixir.Enum','-reduce/3-lists^foldl/2-0-',3,[{file,"lib/enum.ex"},{line,2111}]},{'Elixir.Phoenix.Ecto.CheckRepoStatus',call,2,[{file,"lib/phoenix_ecto/check_repo_status.ex"},{line,26}]},{'Elixir.ProductsWeb.Endpoint',plug_builder_call,2,[{file,"lib/products_web/endpoint.ex"},{line,1}]},{'Elixir.ProductsWeb.Endpoint','call (overridable 3)',2,[{file,"lib/plug/debugger.ex"},{line,132}]},{'Elixir.ProductsWeb.Endpoint',call,2,[{file,"lib/products_web/endpoint.ex"},{line,1}]},{'Elixir.Phoenix.Endpoint.Cowboy2Handler',init,4,[{file,"lib/phoenix/endpoint/cowboy2_handler.ex"},{line,65}]},{cowboy_handler,execute,2,[{file,"/home/v/Documents/trampo/products/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"/home/v/Documents/trampo/products/deps/cowboy/src/cowboy_stream_h.erl"},{line,300}]},{cowboy_stream_h,request_process,3,[{file,"/home/v/Documents/trampo/products/deps/cowboy/src/cowboy_stream_h.erl"},{line,291}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.ProductsWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"*/*">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"connection">> => <<"keep-alive">>,<<"host">> => <<"localhost:4000">>,<<"postman-token">> => <<"3b777cb3-9ca9-4ef0-b01d-f3e4161976a9">>,<<"token">> => <<"abc1235">>,<<"user-agent">> => <<"PostmanRuntime/7.26.8">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/api/products">>,path_info => undefined,peer => {{127,0,0,1},46922},pid => <0.576.0>,port => 4000,qs => <<"page=2">>,ref => 'Elixir.ProductsWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 1,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.577.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [<<"api">>,<<"products">>],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<"page=2">>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept">>,<<"*/*">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"connection">>,<<"keep-alive">>},{<<"host">>,<<"localhost:4000">>},{<<"postman-token">>,<<"3b777cb3-9ca9-4ef0-b01d-f3e4161976a9">>},{<<"token">>,<<"abc1235">>},{<<"user-agent">>,<<"PostmanRuntime/7.26.8">>}],request_path => <<"/api/products">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}},[]}
+    ancestors: [<0.576.0>,<0.454.0>,<0.453.0>,'Elixir.ProductsWeb.Endpoint','Elixir.Products.Supervisor',<0.407.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.576.0>]
+    dictionary: [{{'Elixir.Products.Repo',dynamic_repo},'Elixir.Products.Repo'}]
+    trap_exit: false
+    status: running
+    heap_size: 6772
+    stack_size: 28
+    reductions: 119712
+  neighbours:
+2020-11-01 16:41:43 =ERROR REPORT====
+Ranch listener 'Elixir.ProductsWeb.Endpoint.HTTP', connection process <0.576.0>, stream 1 had its request process <0.577.0> exit with reason {{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Ecto.PendingMigrationError',repo => 'Elixir.Products.Repo'},[{'Elixir.Phoenix.Ecto.CheckRepoStatus','check_pending_migrations!',2,[{file,"lib/phoenix_ecto/check_repo_status.ex"},{line,67}]},{'Elixir.Phoenix.Ecto.CheckRepoStatus','-call/2-fun-0-',3,[{file,"lib/phoenix_ecto/check_repo_status.ex"},{line,27}]},{'Elixir.Enum','-reduce/3-lists^foldl/2-0-',3,[{file,"lib/enum.ex"},{line,2111}]},{'Elixir.Phoenix.Ecto.CheckRepoStatus',call,2,[{file,"lib/phoenix_ecto/check_repo_status.ex"},{line,26}]},{'Elixir.ProductsWeb.Endpoint',plug_builder_call,2,[{file,"lib/products_web/endpoint.ex"},{line,1}]},{'Elixir.ProductsWeb.Endpoint','call (overridable 3)',2,[{file,"lib/plug/debugger.ex"},{line,132}]},{'Elixir.ProductsWeb.Endpoint',call,2,[{file,"lib/products_web/endpoint.ex"},{line,1}]},{'Elixir.Phoenix.Endpoint.Cowboy2Handler',init,4,[{file,"lib/phoenix/endpoint/cowboy2_handler.ex"},{line,65}]},{cowboy_handler,execute,2,[{file,"/home/v/Documents/trampo/products/deps/cowboy/src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"/home/v/Documents/trampo/products/deps/cowboy/src/cowboy_stream_h.erl"},{line,300}]},{cowboy_stream_h,request_process,3,[{file,"/home/v/Documents/trampo/products/deps/cowboy/src/cowboy_stream_h.erl"},{line,291}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]},{'Elixir.ProductsWeb.Endpoint',call,[#{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"*/*">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"connection">> => <<"keep-alive">>,<<"host">> => <<"localhost:4000">>,<<"postman-token">> => <<"3b777cb3-9ca9-4ef0-b01d-f3e4161976a9">>,<<"token">> => <<"abc1235">>,<<"user-agent">> => <<"PostmanRuntime/7.26.8">>},host => <<"localhost">>,host_info => undefined,method => <<"GET">>,path => <<"/api/products">>,path_info => undefined,peer => {{127,0,0,1},46922},pid => <0.576.0>,port => 4000,qs => <<"page=2">>,ref => 'Elixir.ProductsWeb.Endpoint.HTTP',scheme => <<"http">>,sock => {{127,0,0,1},4000},streamid => 1,version => 'HTTP/1.1'}},assigns => #{},before_send => [],body_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => body_params},cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},halted => false,host => <<"localhost">>,method => <<"GET">>,owner => <0.577.0>,params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => params},path_info => [<<"api">>,<<"products">>],path_params => #{},port => 4000,private => #{},query_params => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => query_params},query_string => <<"page=2">>,remote_ip => {127,0,0,1},req_cookies => #{'__struct__' => 'Elixir.Plug.Conn.Unfetched',aspect => cookies},req_headers => [{<<"accept">>,<<"*/*">>},{<<"accept-encoding">>,<<"gzip, deflate, br">>},{<<"connection">>,<<"keep-alive">>},{<<"host">>,<<"localhost:4000">>},{<<"postman-token">>,<<"3b777cb3-9ca9-4ef0-b01d-f3e4161976a9">>},{<<"token">>,<<"abc1235">>},{<<"user-agent">>,<<"PostmanRuntime/7.26.8">>}],request_path => <<"/api/products">>,resp_body => nil,resp_cookies => #{},resp_headers => [{<<"cache-control">>,<<"max-age=0, private, must-revalidate">>}],scheme => http,script_name => [],secret_key_base => nil,state => unset,status => nil},[]]}} and stacktrace []
