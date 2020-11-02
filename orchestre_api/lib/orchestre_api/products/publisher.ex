@@ -15,7 +15,6 @@ defmodule OrchestreApi.Products.Publisher do
     end
   end
 
-
   @doc """
   Starts a connection, open a channel and starts a queue to do a RPC call to products service
   """
@@ -30,7 +29,7 @@ defmodule OrchestreApi.Products.Publisher do
 
     correlation_id = gen_correlation_id()
     message = encode_message(%{page: page, page_size: page_size})
-
+    IO.inspect(message)
     AMQP.Basic.publish(channel,
                        @products_exchange,
                        "",

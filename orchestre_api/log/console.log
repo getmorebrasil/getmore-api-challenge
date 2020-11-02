@@ -72,3 +72,47 @@
 2020-10-29 22:16:23.152 [info] <0.43.0> Application phoenix_live_view started on node nonode@nohost
 2020-10-29 22:16:23.152 [info] <0.43.0> Application phoenix_live_dashboard started on node nonode@nohost
 2020-10-29 22:16:23.237 [info] <0.43.0> Application orchestre_api started on node nonode@nohost
+2020-10-30 17:31:02.643 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-10-30 17:31:02.674 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-10-30 17:31:02.703 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-10-30 17:31:02.716 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-10-30 17:31:02.722 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-10-30 17:31:02.745 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-10-30 17:31:02.751 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-10-30 17:31:02.929 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-10-30 17:31:02.929 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-10-30 17:31:02.997 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-10-30 17:31:03.008 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-10-30 17:31:03.022 [info] <0.43.0> Application cowlib started on node nonode@nohost
+2020-10-30 17:31:03.049 [info] <0.43.0> Application cowboy started on node nonode@nohost
+2020-10-30 17:31:03.055 [info] <0.43.0> Application cowboy_telemetry started on node nonode@nohost
+2020-10-30 17:31:03.063 [info] <0.43.0> Application plug_cowboy started on node nonode@nohost
+2020-10-30 17:31:03.068 [info] <0.43.0> Application phoenix_html started on node nonode@nohost
+2020-10-30 17:31:03.078 [info] <0.43.0> Application phoenix_live_view started on node nonode@nohost
+2020-10-30 17:31:03.098 [info] <0.43.0> Application phoenix_live_dashboard started on node nonode@nohost
+2020-10-30 17:31:03.301 [info] <0.43.0> Application orchestre_api started on node nonode@nohost
+2020-10-30 17:31:12.422 [error] <0.503.0> CRASH REPORT Process <0.503.0> with 0 neighbours exited with reason: {{{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"image/avif,image/webp,image/apng,image/*,*/*;q=0.8">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"pt-BR,pt;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"host">> => <<"localhost:4000">>,...},...}},...},...},...},...},...},...}
+2020-10-30 17:31:12.449 [error] <0.503.0> Cowboy stream 2 with ranch listener 'Elixir.OrchestreApiWeb.Endpoint.HTTP' and connection process <0.482.0> had its request process exit with reason: {{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"image/avif,image/webp,image/apng,image/*,*/*;q=0.8">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"pt-BR,pt;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"host">> => <<"localhost:4000">>,<<..>> => ...,...},...}},...},...},...},...},...}
+2020-11-02 14:24:16.232 [info] <0.43.0> Application lager started on node nonode@nohost
+2020-11-02 14:24:16.277 [info] <0.43.0> Application xmerl started on node nonode@nohost
+2020-11-02 14:24:16.350 [info] <0.43.0> Application sasl started on node nonode@nohost
+2020-11-02 14:24:16.382 [info] <0.43.0> Application tools started on node nonode@nohost
+2020-11-02 14:24:16.395 [info] <0.43.0> Application jsx started on node nonode@nohost
+2020-11-02 14:24:16.460 [info] <0.43.0> Application ranch started on node nonode@nohost
+2020-11-02 14:24:16.467 [info] <0.43.0> Application recon started on node nonode@nohost
+2020-11-02 14:24:16.714 [info] <0.43.0> Application credentials_obfuscation started on node nonode@nohost
+2020-11-02 14:24:16.714 [info] <0.43.0> Application rabbit_common started on node nonode@nohost
+2020-11-02 14:24:16.777 [info] <0.43.0> Application amqp_client started on node nonode@nohost
+2020-11-02 14:24:16.803 [info] <0.43.0> Application amqp started on node nonode@nohost
+2020-11-02 14:24:16.833 [info] <0.43.0> Application cowlib started on node nonode@nohost
+2020-11-02 14:24:16.899 [info] <0.43.0> Application cowboy started on node nonode@nohost
+2020-11-02 14:24:16.914 [info] <0.43.0> Application cowboy_telemetry started on node nonode@nohost
+2020-11-02 14:24:16.932 [info] <0.43.0> Application plug_cowboy started on node nonode@nohost
+2020-11-02 14:24:16.945 [info] <0.43.0> Application phoenix_html started on node nonode@nohost
+2020-11-02 14:24:16.964 [info] <0.43.0> Application phoenix_live_view started on node nonode@nohost
+2020-11-02 14:24:17.018 [info] <0.43.0> Application phoenix_live_dashboard started on node nonode@nohost
+2020-11-02 14:24:17.446 [info] <0.43.0> Application orchestre_api started on node nonode@nohost
+2020-11-02 14:25:18.085 [error] <0.464.0> CRASH REPORT Process <0.464.0> with 0 neighbours exited with reason: {{{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"pt-BR...">>,...},...}},...},...},...},...},...},...}
+2020-11-02 14:25:18.124 [error] <0.464.0> Cowboy stream 1 with ranch listener 'Elixir.OrchestreApiWeb.Endpoint.HTTP' and connection process <0.463.0> had its request process exit with reason: {{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"pt-BR,p...">>,...},...}},...},...},...},...},...}
+2020-11-02 14:25:18.412 [error] <0.467.0> CRASH REPORT Process <0.467.0> with 0 neighbours exited with reason: {{{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"image/avif,image/webp,image/apng,image/*,*/*;q=0.8">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"pt-BR,pt;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"host">> => <<"localhost:4000">>,...},...}},...},...},...},...},...},...}
+2020-11-02 14:25:18.412 [error] <0.467.0> Cowboy stream 2 with ranch listener 'Elixir.OrchestreApiWeb.Endpoint.HTTP' and connection process <0.463.0> had its request process exit with reason: {{{#{'__exception__' => true,'__struct__' => 'Elixir.Phoenix.Router.NoRouteError',conn => #{'__struct__' => 'Elixir.Plug.Conn',adapter => {'Elixir.Plug.Cowboy.Conn',#{bindings => #{},body_length => 0,cert => undefined,has_body => false,headers => #{<<"accept">> => <<"image/avif,image/webp,image/apng,image/*,*/*;q=0.8">>,<<"accept-encoding">> => <<"gzip, deflate, br">>,<<"accept-language">> => <<"pt-BR,pt;q=0.9">>,<<"connection">> => <<"keep-alive">>,<<"host">> => <<"localhost:4000">>,<<..>> => ...,...},...}},...},...},...},...},...}

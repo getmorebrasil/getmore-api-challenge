@@ -1,21 +1,11 @@
 # Products
 
-**TODO: Add description**
+Products é um serviço que recebe mensagens através de chamadas RPC.
+O serviço possui conexão com o banco de dados para manipular a tabela de produtos e responder as requests.
 
-## Installation
+## Para iniciar o serviço
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `products` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:products, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/products](https://hexdocs.pm/products).
-
+  * Instalar as dependências do projeto `mix deps.get`
+  * Iniciar o banco de dados `mix ecto.create` (a senha do postgres deve estar correta no arquivo 'config/config.exs')
+  * Rodar o arquivo de migration para popular o banco de dados `mix run priv/repo/seeds.exs`
+  * Iniciar o serviço `mix run --no-halt`

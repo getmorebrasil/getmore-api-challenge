@@ -1,3 +1,11 @@
+# Resolução do teste:
+
+Na resolução estão incluídos dois projetos.
+O projeto products é o serviço que comunica através de RPC com a API orquestradora e detém a comunicação com o banco de dados.
+O projeto orchestre_api recebe as requisições HTTP do cliente e comunica com products através de chamadas RPC.
+
+O readme.md de cada projeto tem as instruções de inicialização para cada aplicação.
+
 # Challenge Getmore-Api Team
 
 Considere o seguinte cenário.
