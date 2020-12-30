@@ -1,9 +1,5 @@
 defmodule Marketplace do
-  @moduledoc """
-  Marketplace keeps the contexts that define your domain
-  and business logic.
+  alias Marketplace.Product
 
-  Contexts are also responsible for managing your data, regardless
-  if it comes from the database, an external API or others.
-  """
+  defdelegate index_product(params), to: Product.Index, as: :call
 end
