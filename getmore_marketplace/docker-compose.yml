@@ -1,0 +1,51 @@
+# Version of docker-compose
+version: "3"
+
+# Containers we are going to run
+services:
+  # Our Phoenix container
+  marketplace_server:
+    # The build parameters for this container.
+    build:
+      # Here we define that it should build from the current directory
+      context: ./marketplace
+    command: bash -c "mix ecto.create && mix ecto.migrate && mix run --no-halt"
+    restart: on-failure
+    links:
+      - rabbitmq
+    depends_on:
+      # The db container needs to be started before we start this container
+      - rabbitmq
+      - db
+  marketplace_client:
+    build: ./marketplace_client
+    command: npm start
+    ports:
+      - "3000:3000"
+    depends_on:
+      - rabbitmq
+      - db
+  db:
+    # We use the predefined Postgres image
+    image: postgres:9.6
+    # ports:
+    #   - "5432:5432"
+    environment:
+      # Set user/password for Postgres
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      # Set a path where Postgres should store the data
+      PGDATA: /var/lib/postgresql/data/pgdata
+    restart: always
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+  rabbitmq:
+    image: rabbitmq:3-management
+    hostname: my-rabbit
+    ports:
+      - 5672:5672
+      - 15672:15672
+
+# Define the volumes
+volumes:
+  pgdata:

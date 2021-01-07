@@ -1,0 +1,285 @@
+2020-12-31 18:30:31 =SUPERVISOR REPORT====
+     Supervisor: {<0.3542.0>,amqp_channel_sup_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{nb_children,1},{name,channel_sup},{mfargs,{amqp_channel_sup,start_link,[network,<0.3541.0>,<<"client 127.0.0.1:51399 -> 127.0.0.1:5672">>]}},{restart_type,temporary},{shutdown,infinity},{child_type,supervisor}]
+
+2020-12-31 18:30:31 =SUPERVISOR REPORT====
+     Supervisor: {<0.3418.0>,amqp_channel_sup_sup}
+     Context:    shutdown_error
+     Reason:     noproc
+     Offender:   [{nb_children,1},{name,channel_sup},{mfargs,{amqp_channel_sup,start_link,[network,<0.3417.0>,<<"client 127.0.0.1:33943 -> 127.0.0.1:5672">>]}},{restart_type,temporary},{shutdown,infinity},{child_type,supervisor}]
+
+2020-12-31 18:30:31 =SUPERVISOR REPORT====
+     Supervisor: {<0.3944.0>,amqp_channel_sup_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{nb_children,1},{name,channel_sup},{mfargs,{amqp_channel_sup,start_link,[network,<0.3943.0>,<<"client 127.0.0.1:34047 -> 127.0.0.1:5672">>]}},{restart_type,temporary},{shutdown,infinity},{child_type,supervisor}]
+
+2020-12-31 18:30:31 =SUPERVISOR REPORT====
+     Supervisor: {<0.4204.0>,amqp_channel_sup_sup}
+     Context:    shutdown_error
+     Reason:     noproc
+     Offender:   [{nb_children,1},{name,channel_sup},{mfargs,{amqp_channel_sup,start_link,[network,<0.4203.0>,<<"client 127.0.0.1:42809 -> 127.0.0.1:5672">>]}},{restart_type,temporary},{shutdown,infinity},{child_type,supervisor}]
+
+2020-12-31 19:03:55 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.328.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.Marketplace.Application',start,[normal,[]]},{'EXIT',{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"could not lookup Ecto repo Marketplace.Repo because it was not started or it does not exist">>},[{'Elixir.Ecto.Repo.Registry',lookup,1,[{file,"lib/ecto/repo/registry.ex"},{line,19}]},{'Elixir.Ecto.Repo.Queryable',execute,4,[{file,"lib/ecto/repo/queryable.ex"},{line,210}]},{'Elixir.Ecto.Repo.Queryable',all,3,[{file,"lib/ecto/repo/queryable.ex"},{line,17}]},{'Elixir.Ecto.Repo.Queryable',one,3,[{file,"lib/ecto/repo/queryable.ex"},{line,149}]},{'Elixir.Scrivener.Paginater.Ecto.Query',total_entries,4,[{file,"lib/scrivener/paginater/ecto/query.ex"},{line,56}]},{'Elixir.Scrivener.Paginater.Ecto.Query',paginate,2,[{file,"lib/scrivener/paginater/ecto/query.ex"},{line,17}]},{'Elixir.Marketplace.Product.Index',call,1,[{file,"lib/marketplace/product/index.ex"},{line,7}]},{'Elixir.Marketplace',wait_for_messages,1,[{file,"lib/marketplace.ex"},{line,8}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.327.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.329.0>,normal}]
+    links: [<0.327.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 269
+  neighbours:
+2020-12-31 19:04:27 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.308.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.Marketplace.Application',start,[normal,[]]},{'EXIT',{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"could not lookup Ecto repo Marketplace.Repo because it was not started or it does not exist">>},[{'Elixir.Ecto.Repo.Registry',lookup,1,[{file,"lib/ecto/repo/registry.ex"},{line,19}]},{'Elixir.Ecto.Repo.Queryable',execute,4,[{file,"lib/ecto/repo/queryable.ex"},{line,210}]},{'Elixir.Ecto.Repo.Queryable',all,3,[{file,"lib/ecto/repo/queryable.ex"},{line,17}]},{'Elixir.Ecto.Repo.Queryable',one,3,[{file,"lib/ecto/repo/queryable.ex"},{line,149}]},{'Elixir.Scrivener.Paginater.Ecto.Query',total_entries,4,[{file,"lib/scrivener/paginater/ecto/query.ex"},{line,56}]},{'Elixir.Scrivener.Paginater.Ecto.Query',paginate,2,[{file,"lib/scrivener/paginater/ecto/query.ex"},{line,17}]},{'Elixir.Marketplace.Product.Index',call,1,[{file,"lib/marketplace/product/index.ex"},{line,7}]},{'Elixir.Marketplace',wait_for_messages,1,[{file,"lib/marketplace.ex"},{line,8}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.307.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.309.0>,normal}]
+    links: [<0.307.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 269
+  neighbours:
+2020-12-31 19:04:29 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.308.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.Marketplace.Application',start,[normal,[]]},{'EXIT',{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"could not lookup Ecto repo Marketplace.Repo because it was not started or it does not exist">>},[{'Elixir.Ecto.Repo.Registry',lookup,1,[{file,"lib/ecto/repo/registry.ex"},{line,19}]},{'Elixir.Ecto.Repo.Queryable',execute,4,[{file,"lib/ecto/repo/queryable.ex"},{line,210}]},{'Elixir.Ecto.Repo.Queryable',all,3,[{file,"lib/ecto/repo/queryable.ex"},{line,17}]},{'Elixir.Ecto.Repo.Queryable',one,3,[{file,"lib/ecto/repo/queryable.ex"},{line,149}]},{'Elixir.Scrivener.Paginater.Ecto.Query',total_entries,4,[{file,"lib/scrivener/paginater/ecto/query.ex"},{line,56}]},{'Elixir.Scrivener.Paginater.Ecto.Query',paginate,2,[{file,"lib/scrivener/paginater/ecto/query.ex"},{line,17}]},{'Elixir.Marketplace.Product.Index',call,1,[{file,"lib/marketplace/product/index.ex"},{line,7}]},{'Elixir.Marketplace',wait_for_messages,1,[{file,"lib/marketplace.ex"},{line,8}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.307.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.309.0>,normal}]
+    links: [<0.307.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 269
+  neighbours:
+2020-12-31 19:05:07 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.322.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.Marketplace.Application',start,[normal,[]]},{'EXIT',{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"could not lookup Ecto repo Marketplace.Repo because it was not started or it does not exist">>},[{'Elixir.Ecto.Repo.Registry',lookup,1,[{file,"lib/ecto/repo/registry.ex"},{line,19}]},{'Elixir.Ecto.Repo.Queryable',execute,4,[{file,"lib/ecto/repo/queryable.ex"},{line,210}]},{'Elixir.Ecto.Repo.Queryable',all,3,[{file,"lib/ecto/repo/queryable.ex"},{line,17}]},{'Elixir.Ecto.Repo.Queryable',one,3,[{file,"lib/ecto/repo/queryable.ex"},{line,149}]},{'Elixir.Scrivener.Paginater.Ecto.Query',total_entries,4,[{file,"lib/scrivener/paginater/ecto/query.ex"},{line,56}]},{'Elixir.Scrivener.Paginater.Ecto.Query',paginate,2,[{file,"lib/scrivener/paginater/ecto/query.ex"},{line,17}]},{'Elixir.Marketplace.Product.Index',call,1,[{file,"lib/marketplace/product/index.ex"},{line,7}]},{'Elixir.Marketplace',wait_for_messages,1,[{file,"lib/marketplace.ex"},{line,8}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.321.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.323.0>,normal}]
+    links: [<0.321.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 269
+  neighbours:
+2020-12-31 19:05:08 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.308.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.Marketplace.Application',start,[normal,[]]},{'EXIT',{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"could not lookup Ecto repo Marketplace.Repo because it was not started or it does not exist">>},[{'Elixir.Ecto.Repo.Registry',lookup,1,[{file,"lib/ecto/repo/registry.ex"},{line,19}]},{'Elixir.Ecto.Repo.Queryable',execute,4,[{file,"lib/ecto/repo/queryable.ex"},{line,210}]},{'Elixir.Ecto.Repo.Queryable',all,3,[{file,"lib/ecto/repo/queryable.ex"},{line,17}]},{'Elixir.Ecto.Repo.Queryable',one,3,[{file,"lib/ecto/repo/queryable.ex"},{line,149}]},{'Elixir.Scrivener.Paginater.Ecto.Query',total_entries,4,[{file,"lib/scrivener/paginater/ecto/query.ex"},{line,56}]},{'Elixir.Scrivener.Paginater.Ecto.Query',paginate,2,[{file,"lib/scrivener/paginater/ecto/query.ex"},{line,17}]},{'Elixir.Marketplace.Product.Index',call,1,[{file,"lib/marketplace/product/index.ex"},{line,7}]},{'Elixir.Marketplace',wait_for_messages,1,[{file,"lib/marketplace.ex"},{line,8}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.307.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.309.0>,normal}]
+    links: [<0.307.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 269
+  neighbours:
+2020-12-31 19:07:07 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.328.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.Marketplace.Application',start,[normal,[]]},{'EXIT',{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"could not lookup Ecto repo Marketplace.Repo because it was not started or it does not exist">>},[{'Elixir.Ecto.Repo.Registry',lookup,1,[{file,"lib/ecto/repo/registry.ex"},{line,19}]},{'Elixir.Ecto.Repo.Queryable',execute,4,[{file,"lib/ecto/repo/queryable.ex"},{line,210}]},{'Elixir.Ecto.Repo.Queryable',all,3,[{file,"lib/ecto/repo/queryable.ex"},{line,17}]},{'Elixir.Ecto.Repo.Queryable',one,3,[{file,"lib/ecto/repo/queryable.ex"},{line,149}]},{'Elixir.Scrivener.Paginater.Ecto.Query',total_entries,4,[{file,"lib/scrivener/paginater/ecto/query.ex"},{line,56}]},{'Elixir.Scrivener.Paginater.Ecto.Query',paginate,2,[{file,"lib/scrivener/paginater/ecto/query.ex"},{line,17}]},{'Elixir.Marketplace.Product.Index',call,1,[{file,"lib/marketplace/product/index.ex"},{line,7}]},{'Elixir.Marketplace',wait_for_messages,1,[{file,"lib/marketplace.ex"},{line,8}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.327.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.329.0>,normal}]
+    links: [<0.327.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 269
+  neighbours:
+2020-12-31 19:52:13 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.328.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.Marketplace.Application',start,[normal,[]]},<0.344.0>}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.327.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.329.0>,normal}]
+    links: [<0.327.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 193
+  neighbours:
+2020-12-31 19:55:31 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.328.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.Marketplace.Application',start,[normal,[]]},<0.362.0>}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.327.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.329.0>,normal}]
+    links: [<0.327.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 201
+  neighbours:
+2020-12-31 20:11:37 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.322.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.Marketplace.Application',start,[normal,[]]},{'EXIT',{undef,[{'Elixir.Marketplace',start_server,[],[]},{'Elixir.Marketplace.Application',start,2,[{file,"lib/marketplace/application.ex"},{line,12}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,277}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.321.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.323.0>,normal}]
+    links: [<0.321.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 212
+  neighbours:
+2020-12-31 20:11:46 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.322.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.Marketplace.Application',start,[normal,[]]},{'EXIT',{undef,[{'Elixir.Marketplace',start_server,[],[]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,277}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.321.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.323.0>,normal}]
+    links: [<0.321.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 222
+  neighbours:
+2020-12-31 20:11:52 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.322.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.Marketplace.Application',start,[normal,[]]},{'EXIT',{undef,[{'Elixir.Marketplace',start_server,[],[]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,277}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.321.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.323.0>,normal}]
+    links: [<0.321.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 222
+  neighbours:
+2020-12-31 20:11:59 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.322.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.Marketplace.Application',start,[normal,[]]},{'EXIT',{undef,[{'Elixir.Marketplace',start_server,[],[]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,277}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.321.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.323.0>,normal}]
+    links: [<0.321.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 226
+  neighbours:
+2020-12-31 20:12:34 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.328.0>
+    registered_name: []
+    exception exit: {{bad_return,{{'Elixir.Marketplace.Application',start,[normal,[]]},{'EXIT',{#{'__exception__' => true,'__struct__' => 'Elixir.RuntimeError',message => <<"could not lookup Ecto repo Marketplace.Repo because it was not started or it does not exist">>},[{'Elixir.Ecto.Repo.Registry',lookup,1,[{file,"lib/ecto/repo/registry.ex"},{line,19}]},{'Elixir.Ecto.Repo.Queryable',execute,4,[{file,"lib/ecto/repo/queryable.ex"},{line,210}]},{'Elixir.Ecto.Repo.Queryable',all,3,[{file,"lib/ecto/repo/queryable.ex"},{line,17}]},{'Elixir.Ecto.Repo.Queryable',one,3,[{file,"lib/ecto/repo/queryable.ex"},{line,149}]},{'Elixir.Scrivener.Paginater.Ecto.Query',total_entries,4,[{file,"lib/scrivener/paginater/ecto/query.ex"},{line,56}]},{'Elixir.Scrivener.Paginater.Ecto.Query',paginate,2,[{file,"lib/scrivener/paginater/ecto/query.ex"},{line,17}]},{'Elixir.Marketplace.Product.Index',call,1,[{file,"lib/marketplace/product/index.ex"},{line,7}]},{'Elixir.Marketplace',wait_for_messages,1,[{file,"lib/marketplace.ex"},{line,31}]}]}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.327.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.329.0>,normal}]
+    links: [<0.327.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 28
+    reductions: 277
+  neighbours:
+2021-01-05 23:55:23 =SUPERVISOR REPORT====
+     Supervisor: {local,'Elixir.Marketplace.Supervisor'}
+     Context:    start_error
+     Reason:     {{badmatch,{error,unknown_host}},[{'Elixir.Marketplace',init,1,[{file,"lib/marketplace.ex"},{line,15}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+     Offender:   [{pid,undefined},{id,'Elixir.Marketplace'},{mfargs,{'Elixir.Marketplace',start_link,[[]]}},{restart_type,permanent},{shutdown,5000},{child_type,worker}]
+
+2021-01-05 23:55:23 =CRASH REPORT====
+  crasher:
+    initial call: Elixir.Marketplace:init/1
+    pid: <0.383.0>
+    registered_name: []
+    exception error: {{badmatch,{error,unknown_host}},[{'Elixir.Marketplace',init,1,[{file,"lib/marketplace.ex"},{line,15}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: ['Elixir.Marketplace.Supervisor',<0.368.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.369.0>]
+    dictionary: [{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 28
+    reductions: 33315
+  neighbours:
+2021-01-05 23:55:23 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.367.0>
+    registered_name: []
+    exception exit: {{{shutdown,{failed_to_start_child,'Elixir.Marketplace',{{badmatch,{error,unknown_host}},[{'Elixir.Marketplace',init,1,[{file,"lib/marketplace.ex"},{line,15}]},{gen_server,init_it,2,[{file,"gen_server.erl"},{line,417}]},{gen_server,init_it,6,[{file,"gen_server.erl"},{line,385}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}}},{'Elixir.Marketplace.Application',start,[normal,[]]}},[{application_master,init,4,[{file,"application_master.erl"},{line,138}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,226}]}]}
+    ancestors: [<0.366.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.368.0>,normal}]
+    links: [<0.366.0>,<0.44.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 376
+    stack_size: 28
+    reductions: 215
+  neighbours:
