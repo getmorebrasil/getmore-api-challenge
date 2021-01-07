@@ -66,6 +66,12 @@ docker exec -it <id-container-do-marketplace-server> bash
 ```
 mix run priv/repo/seeds.exs
 ```
+### Como utilizar
+Passando os paramentros `page` e `page_size`, relaizar a requisião na rota
+
+```
+http://localhost:3000/api/products?page=1&page_size=1
+```
 
 ## Contato
 
