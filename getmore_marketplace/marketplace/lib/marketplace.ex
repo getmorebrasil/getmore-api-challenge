@@ -74,40 +74,4 @@ defmodule Marketplace do
   end
 
   defp normalize_payload(payload), do: Jason.decode!(payload)
-
-  # def wait_for_messages(channel) do
-  #   receive do
-  #     {:basic_deliver, payload, meta} ->
-  #       response =
-  #         payload
-  #         |> normalize_payload()
-  #         |> IO.inspect()
-  #         |> Marketplace.Product.Index.call()
-
-  #       AMQP.Basic.publish(
-  #         channel,
-  #         "",
-  #         meta.reply_to,
-  #         Jason.encode!(response),
-  #         correlation_id: meta.correlation_id
-  #       )
-
-  #       AMQP.Basic.ack(channel, meta.delivery_tag)
-
-  #       wait_for_messages(channel)
-  #   end
-  # end
-
-  # def start_server() do
-  #   {:ok, connection} = AMQP.Connection.open(@rmq_uri)
-  #   {:ok, channel} = AMQP.Channel.open(connection)
-
-  #   AMQP.Queue.declare(channel, "rpc_queue")
-  #   AMQP.Basic.qos(channel, prefetch_count: 1)
-  #   AMQP.Basic.consume(channel, "rpc_queue")
-  #   IO.puts(" [x] Awaiting RPC requests")
-
-  #   # Marketplace.wait_for_messages(channel)
-  #   spawn(__MODULE__, :wait_for_messages, [channel])
-  # end
 end
