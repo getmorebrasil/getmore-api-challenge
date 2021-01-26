@@ -1,5 +1,32 @@
 # Challenge Getmore-Api Team
 
+## Usagem
+1. Para realizar as migrações e popular a base
+
+```cd ProductsData```
+
+```mix ecto.migrate```
+
+2. Ao popular a base é importante desativar o início da aplicação em _ProductsData.Application_
+
+```mix run priv/repo/seed.exs```
+
+3. Inicie o serviço ProductsData
+
+```cd ProductsData```
+
+```mix run --no-halt```
+
+4. Inicie a API Phoenix
+
+```cd ProductsAPI```
+
+```mix phx.server```
+
+---
+
+## Cenário
+
 Considere o seguinte cenário.
 
 Sua empresa acabou de fechar uma novo produto e o PO detalhou as seguintes necessidades:
