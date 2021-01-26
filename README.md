@@ -44,5 +44,3 @@ https://hexdocs.pm/amqp/readme.html
 **Aqui vão as etapas:**
  - Faça um fork desse repositório;
  - Crie uma Pull Request com sua fork
-
-
