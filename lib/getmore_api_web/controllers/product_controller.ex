@@ -4,11 +4,12 @@ defmodule GetmoreApiWeb.ProductController do
   alias GetmoreApi.Store
   alias GetmoreApi.Store.Product
 
-  action_fallback GetmoreApiWeb.FallbackController
+  # action_fallback GetmoreApiWeb.FallbackController
 
-  def index(conn, _params) do
-    products = Store.list_products()
-    render(conn, "index.json", products: products)
+  def index(conn, params) do
+    products = Store.list_products(params)
+
+    render(conn, :index, products: products)
   end
 
   def create(conn, %{"product" => product_params}) do

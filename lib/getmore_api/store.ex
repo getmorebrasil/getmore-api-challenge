@@ -5,34 +5,15 @@ defmodule GetmoreApi.Store do
 
   import Ecto.Query, warn: false
   alias GetmoreApi.Repo
-
   alias GetmoreApi.Store.Product
+  alias GetmoreApi.{Store, Paginator}
 
-  @doc """
-  Returns the list of products.
-
-  ## Examples
-
-      iex> list_products()
-      [%Product{}, ...]
-
-  """
-  def list_products do
-    Repo.all(Product)
+  def list_products(params) do
+      Product
+      |> order_by(asc: :product_id)
+      |> Paginator.new(params)
   end
 
-  @doc """
-  Creates a product.
-
-  ## Examples
-
-      iex> create_product(%{field: value})
-      {:ok, %Product{}}
-
-      iex> create_product(%{field: bad_value})
-      {:error, %Ecto.Changeset{}}
-
-  """
   def create_product(attrs \\ %{}) do
     %Product{}
     |> Product.changeset(attrs)
