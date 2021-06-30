@@ -17,7 +17,7 @@ config :getmore_api, GetmoreApi.Repo,
 # with webpack to recompile .js and .css sources.
 config :getmore_api, GetmoreApiWeb.Endpoint,
   http: [port: 4000],
-  debug_errors: true,
+  debug_errors: false,
   code_reloader: true,
   check_origin: false,
   watchers: []

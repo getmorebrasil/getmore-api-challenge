@@ -7,6 +7,8 @@ defmodule GetmoreApiWeb.Router do
 
   scope "/api", GetmoreApiWeb do
     pipe_through :api
+
+    resources "/products", ProductController, only: [:index]
   end
 
   # Enables LiveDashboard only for development
