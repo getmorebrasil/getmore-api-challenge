@@ -16,10 +16,8 @@ defmodule GetmoreApi.Store.Product do
     field :product_id, :integer
     field :product_image, :string
     field :product_name, :string
-    field :product_price, :float
+    field :product_price, :string
     field :product_stock, :boolean, default: false
-
-    timestamps()
   end
 
   @doc false

@@ -11,7 +11,7 @@ defmodule GetmoreApi.StoreTest do
       product_id: 42,
       product_image: "some product_image",
       product_name: "some product_name",
-      product_price: 120.5,
+      product_price: "120.5",
       product_stock: true
     }
     @invalid_attrs %{

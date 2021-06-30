@@ -9,7 +9,7 @@ defmodule GetmoreApiWeb.ProductControllerTest do
     product_id: 42,
     product_image: "some product_image",
     product_name: "some product_name",
-    product_price: 120.5,
+    product_price: "120.5",
     product_stock: true
   }
   @update_attrs %{
@@ -17,7 +17,7 @@ defmodule GetmoreApiWeb.ProductControllerTest do
     product_id: 43,
     product_image: "some updated product_image",
     product_name: "some updated product_name",
-    product_price: 456.7,
+    product_price: "456.7",
     product_stock: false
   }
   @invalid_attrs %{
@@ -59,7 +59,7 @@ defmodule GetmoreApiWeb.ProductControllerTest do
                "product_id" => 42,
                "product_image" => "some product_image",
                "product_name" => "some product_name",
-               "product_price" => 120.5,
+               "product_price" => "120.5",
                "product_stock" => true
              } = json_response(conn, 200)["data"]
     end

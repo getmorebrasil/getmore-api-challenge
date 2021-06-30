@@ -8,9 +8,7 @@ defmodule GetmoreApi.Repo.Migrations.CreateProducts do
       add :product_name, :string
       add :product_image, :string
       add :product_stock, :boolean, default: false, null: false
-      add :product_price, :float
-
-      timestamps()
+      add :product_price, :string
     end
   end
 end
