@@ -11,7 +11,6 @@ defmodule GetmoreApi.Paginator do
     %__MODULE__{
       entries: entries(query, page_number, page_size),
       page_number: page_number,
-      page_size: page_size,
       total_pages: total_pages(query, page_size)
     }
   end

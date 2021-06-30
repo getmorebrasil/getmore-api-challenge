@@ -6,7 +6,6 @@ defmodule GetmoreApiWeb.ProductView do
     %{
       data: render_many(products.entries, ProductView, "product.json"),
       page: products.page_number,
-      page_size: products.page_size,
       total_pages: products.total_pages
     }
   end
