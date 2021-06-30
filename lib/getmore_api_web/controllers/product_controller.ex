@@ -4,7 +4,7 @@ defmodule GetmoreApiWeb.ProductController do
   alias GetmoreApi.Store
   alias GetmoreApi.Store.Product
 
-  # action_fallback GetmoreApiWeb.FallbackController
+  action_fallback GetmoreApiWeb.FallbackController
 
   def index(conn, params) do
     products = Store.list_products(params)
