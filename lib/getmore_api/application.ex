@@ -9,6 +9,8 @@ defmodule GetmoreApi.Application do
     children = [
       # Start the Ecto repository
       GetmoreApi.Repo,
+      # RabbitMQ consumer
+      GetmoreApi.Consumer,
       # Start the Telemetry supervisor
       GetmoreApiWeb.Telemetry,
       # Start the PubSub system

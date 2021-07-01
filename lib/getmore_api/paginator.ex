@@ -8,8 +8,8 @@ defmodule GetmoreApi.Paginator do
     page_number = params |> Map.get("page", 1) |> to_int
     page_size = params |> Map.get("page_size", 10) |> to_int
 
-    %__MODULE__{
-      entries: entries(query, page_number, page_size),
+    %{
+      data: entries(query, page_number, page_size),
       page_number: page_number,
       total_pages: total_pages(query, page_size)
     }
