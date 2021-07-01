@@ -10,27 +10,23 @@
 # We recommend using the bang functions (`insert!`, `update!`
 # and so on) as they will fail if something goes wrong.
 
-defmodule Seed do
-  alias GetmoreApi.Repo
-  alias GetmoreApi.Store.Product
+alias GetmoreApi.Repo
+alias GetmoreApi.Store.Product
 
-  def insert_products do
-    entries = read_json("products.json")
-    Repo.insert_all(Product, entries)
-  end
+Repo.delete_all(Product)
 
-  def delete_products do
-    Repo.delete_all(Product)
-  end
+with {:ok, result} <- File.read("products.json"),
+     {:ok, products} <- Jason.decode(result) do
+  Enum.map(products, fn map ->
+    {product_price, _} = Float.parse(map["productPrice"])
 
-  defp read_json(filename) do
-    File.read!(filename)
-    |> Jason.decode!()
-    |> Enum.map(fn map ->
-      Enum.into(map, %{}, fn {k, v} -> {String.to_atom(Macro.underscore(k)), v} end)
-    end)
-  end
+    product =
+      Enum.into(map, %{}, fn {k, v} -> {k |> Macro.underscore() |> String.to_atom(), v} end)
+
+    product =
+      Product
+      |> struct(%{product | product_price: product_price})
+
+    Repo.insert!(product)
+  end)
 end
-
-Seed.delete_products()
-Seed.insert_products()

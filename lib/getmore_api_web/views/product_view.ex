@@ -12,7 +12,6 @@ defmodule GetmoreApiWeb.ProductView do
 
   def render("product.json", %{product: product}) do
     %{
-      id: product.id,
       product_id: product.product_id,
       product_category: product.product_category,
       product_name: product.product_name,

@@ -6,12 +6,12 @@ defmodule GetmoreApi.Store do
   import Ecto.Query, warn: false
   alias GetmoreApi.Repo
   alias GetmoreApi.Store.Product
-  alias GetmoreApi.{Store, Paginator}
+  alias GetmoreApi.Paginator
 
   def list_products(params) do
-      Product
-      |> order_by(asc: :product_id)
-      |> Paginator.new(params)
+    Product
+    |> order_by(asc: :product_id)
+    |> Paginator.new(params)
   end
 
   def create_product(attrs \\ %{}) do

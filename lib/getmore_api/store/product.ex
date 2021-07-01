@@ -2,6 +2,8 @@ defmodule GetmoreApi.Store.Product do
   use Ecto.Schema
   import Ecto.Changeset
 
+  @primary_key {:product_id, :id, autogenerate: false}
+
   @fields [
     :product_id,
     :product_category,
@@ -13,10 +15,9 @@ defmodule GetmoreApi.Store.Product do
 
   schema "products" do
     field :product_category, :string
-    field :product_id, :integer
     field :product_image, :string
     field :product_name, :string
-    field :product_price, :string
+    field :product_price, :float
     field :product_stock, :boolean, default: false
   end
 

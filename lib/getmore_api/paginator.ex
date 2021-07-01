@@ -49,7 +49,7 @@ defmodule GetmoreApi.Paginator do
       |> exclude(:order_by)
       |> exclude(:preload)
       |> exclude(:select)
-      |> select([e], count(e.id))
+      |> select([e], count(e.product_id))
       |> Repo.one()
 
     ceiling(count / page_size)
