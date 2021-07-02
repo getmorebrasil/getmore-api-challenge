@@ -4,37 +4,14 @@ defmodule GetmoreApi.StoreTest do
   alias GetmoreApi.Store
 
   describe "products" do
-    alias GetmoreApi.Store.Product
+    test "list_products/1 returns paginated data" do
+      params = %{"page" => 3, "page_size" => 5}
+      result = Store.list_products(params)
+      products = result.data
+      page = result.page_number
 
-    @valid_attrs %{
-      product_category: "some product_category",
-      product_id: 42,
-      product_image: "some product_image",
-      product_name: "some product_name",
-      product_price: 120.5,
-      product_stock: true
-    }
-    @invalid_attrs %{
-      product_category: nil,
-      product_id: nil,
-      product_image: nil,
-      product_name: nil,
-      product_price: nil,
-      product_stock: nil
-    }
-
-    def product_fixture(attrs \\ %{}) do
-      {:ok, product} =
-        attrs
-        |> Enum.into(@valid_attrs)
-        |> Store.create_product()
-
-      product
-    end
-
-    test "list_products/0 returns all products" do
-      product = product_fixture()
-      assert Store.list_products() == [product]
+      assert page == params["page"]
+      assert Kernel.length(products) == params["page_size"]
     end
   end
 end

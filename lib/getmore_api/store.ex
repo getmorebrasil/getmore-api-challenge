@@ -4,7 +4,6 @@ defmodule GetmoreApi.Store do
   """
 
   import Ecto.Query, warn: false
-  alias GetmoreApi.Repo
   alias GetmoreApi.Store.Product
   alias GetmoreApi.Paginator
 
@@ -12,11 +11,5 @@ defmodule GetmoreApi.Store do
     Product
     |> order_by(asc: :product_id)
     |> Paginator.new(params)
-  end
-
-  def create_product(attrs \\ %{}) do
-    %Product{}
-    |> Product.changeset(attrs)
-    |> Repo.insert()
   end
 end
