@@ -2,8 +2,6 @@ defmodule GetmoreApi.Paginator do
   import Ecto.Query
   alias GetmoreApi.Repo
 
-  defstruct [:entries, :page_number, :page_size, :total_pages]
-
   def new(query, params) do
     page_number = params |> Map.get("page", 1) |> to_int
     page_size = params |> Map.get("page_size", 10) |> to_int
