@@ -1,5 +1,31 @@
 # Challenge Getmore-Api Team
 
+## Como utilizar 
+Inicie o serviço de mensageria:
+```bash
+docker run -d --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
+```
+
+Crie a migração de dados:
+```bash
+mix ecto.migrate
+```
+Popule o banco (PostgreSQL):
+```bash
+mix run priv/repo/seeds.exs
+```
+
+Inicie o servidor:
+```bash
+mix phx.server
+```
+Acesse a rota com os parâmetros `page` e `page_size`.   
+Exemplo:            
+`http://localhost:4000/api/products/?page=1&page_size=3` 
+
+
+## Desafio 
+
 Considere o seguinte cenário.
 
 Sua empresa acabou de fechar uma novo produto e o PO detalhou as seguintes necessidades:
@@ -15,11 +41,9 @@ Com as necessidades requeridas pelo PO e a definição de arquitetura com time d
 
 > A comunicação entre o orquestrador e o serviço deve ser via protocolo amqp
 utilizando o serviço de mensageria rabbitMq.
-Para subir o serviço de mensageria
-```
-docker run -d --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
-```
+
 ![N|Solid](https://www.rabbitmq.com/img/tutorials/intro/hello-world-example-routing.png)
+
 
 **Tecnologias:**
 
@@ -44,5 +68,3 @@ https://hexdocs.pm/amqp/readme.html
 **Aqui vão as etapas:**
  - Faça um fork desse repositório;
  - Crie uma Pull Request com sua fork
-
-
