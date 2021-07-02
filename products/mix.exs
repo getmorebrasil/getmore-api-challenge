@@ -31,7 +31,8 @@ defmodule Products.MixProject do
       {:credo, "~> 1.5", only: [:dev, :test], runtime: false},
       {:ecto_sql, "~> 3.0"},
       {:postgrex, ">= 0.0.0"},
-      {:jason, "~> 1.2"}
+      {:jason, "~> 1.2"},
+      {:ex_machina, "~> 2.7.0", only: :test}
     ]
   end
 
