@@ -2,21 +2,28 @@ defmodule ApiApp.Schema.Product do
   use Ecto.Schema
   import Ecto.Changeset
 
-  schema "product" do
-    field :ProductStock, :boolean, default: false
-    field :productCategory, :string
-    field :productId, :integer
-    field :productImage, :string
-    field :productName, :string
-    field :productPrice, :string
+  @fields [
+    :product_id,
+    :product_category,
+    :product_name,
+    :product_image,
+    :product_stock,
+    :product_price
+  ]
 
-    timestamps()
+  schema "products" do
+    field :product_category, :string
+    field :product_id, :integer
+    field :product_image, :string
+    field :product_name, :string
+    field :product_price, :string
+    field :product_stock, :boolean, default: false
   end
 
   @doc false
   def changeset(product, attrs) do
     product
-    |> cast(attrs, [:productId, :productCategory, :productName, :productImage, :ProductStock, :productPrice])
-    |> validate_required([:productId, :productCategory, :productName, :productImage, :ProductStock, :productPrice])
+    |> cast(attrs, @fields)
+    |> validate_required(@fields)
   end
 end

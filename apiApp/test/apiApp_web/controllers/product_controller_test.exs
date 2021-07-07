@@ -5,22 +5,22 @@ defmodule ApiAppWeb.ProductControllerTest do
   alias ApiApp.Schema.Product
 
   @create_attrs %{
-    ProductStock: true,
-    productCategory: "some productCategory",
-    productId: 42,
-    productImage: "some productImage",
-    productName: "some productName",
-    productPrice: "some productPrice"
+    product_category: "some product_category",
+    product_id: 42,
+    product_image: "some product_image",
+    product_name: "some product_name",
+    product_price: "some product_price",
+    product_stock: true
   }
   @update_attrs %{
-    ProductStock: false,
-    productCategory: "some updated productCategory",
-    productId: 43,
-    productImage: "some updated productImage",
-    productName: "some updated productName",
-    productPrice: "some updated productPrice"
+    product_category: "some updated product_category",
+    product_id: 43,
+    product_image: "some updated product_image",
+    product_name: "some updated product_name",
+    product_price: "some updated product_price",
+    product_stock: false
   }
-  @invalid_attrs %{ProductStock: nil, productCategory: nil, productId: nil, productImage: nil, productName: nil, productPrice: nil}
+  @invalid_attrs %{product_category: nil, product_id: nil, product_image: nil, product_name: nil, product_price: nil, product_stock: nil}
 
   def fixture(:product) do
     {:ok, product} = Schema.create_product(@create_attrs)
@@ -47,12 +47,12 @@ defmodule ApiAppWeb.ProductControllerTest do
 
       assert %{
                "id" => id,
-               "ProductStock" => true,
-               "productCategory" => "some productCategory",
-               "productId" => 42,
-               "productImage" => "some productImage",
-               "productName" => "some productName",
-               "productPrice" => "some productPrice"
+               "product_category" => "some product_category",
+               "product_id" => 42,
+               "product_image" => "some product_image",
+               "product_name" => "some product_name",
+               "product_price" => "some product_price",
+               "product_stock" => true
              } = json_response(conn, 200)["data"]
     end
 
@@ -73,12 +73,12 @@ defmodule ApiAppWeb.ProductControllerTest do
 
       assert %{
                "id" => id,
-               "ProductStock" => false,
-               "productCategory" => "some updated productCategory",
-               "productId" => 43,
-               "productImage" => "some updated productImage",
-               "productName" => "some updated productName",
-               "productPrice" => "some updated productPrice"
+               "product_category" => "some updated product_category",
+               "product_id" => 43,
+               "product_image" => "some updated product_image",
+               "product_name" => "some updated product_name",
+               "product_price" => "some updated product_price",
+               "product_stock" => false
              } = json_response(conn, 200)["data"]
     end
 

@@ -7,6 +7,8 @@ defmodule ApiAppWeb.Router do
 
   scope "/api", ApiAppWeb do
     pipe_through :api
+    get "/product", ProductController, :index
+    get "/product/:id", ProductController, :show
   end
 
   # Enables LiveDashboard only for development
