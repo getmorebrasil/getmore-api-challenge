@@ -1,3 +1,9 @@
+Esse foi o maximo que consegui fazer pois não pussuo um bom conhecimento em Elixir nem postgres nem no protocolo pedido
+então esse foi o que consegui fazer sem conheimento onde so importo o json pro postgress e imprimo atraves da api usando /api/product e api/product/id
+
+sei que não é o esperado mas na vaga dizia vontade de aprender e eu fiz isso sem saber nada de elixir nem postgres nem do protocolo
+
+
 # Challenge Getmore-Api Team
 
 Considere o seguinte cenário.
