@@ -20,7 +20,7 @@ defmodule ApiAppWeb.ProductController do
     end
   end
 
-  def show(conn, %{"id" => id}) do
+  def show(conn, %{"product_id" => id}) do
     product = Schema.get_product!(id)
     render(conn, "show.json", product: product)
   end
