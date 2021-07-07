@@ -7,7 +7,7 @@ defmodule ApiAppWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_apiApp_key",
-    signing_salt: "fX++eOyI"
+    signing_salt: "xach4Jyg"
   ]
 
   socket "/socket", ApiAppWeb.UserSocket,
@@ -29,8 +29,6 @@ defmodule ApiAppWeb.Endpoint do
   # Code reloading can be explicitly enabled under the
   # :code_reloader configuration of your endpoint.
   if code_reloading? do
-    socket "/phoenix/live_reload/socket", Phoenix.LiveReloader.Socket
-    plug Phoenix.LiveReloader
     plug Phoenix.CodeReloader
     plug Phoenix.Ecto.CheckRepoStatus, otp_app: :apiApp
   end
