@@ -1,0 +1,8 @@
+defmodule ApiAppWeb.PageControllerTest do
+  use ApiAppWeb.ConnCase
+
+  test "GET /", %{conn: conn} do
+    conn = get(conn, "/")
+    assert html_response(conn, 200) =~ "Welcome to Phoenix!"
+  end
+end
