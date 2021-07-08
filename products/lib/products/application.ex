@@ -8,7 +8,8 @@ defmodule Products.Application do
   @impl true
   def start(_type, _args) do
     children = [
-      Products.Repo
+      Products.Repo,
+      Products.Consumer
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
