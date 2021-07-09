@@ -15,6 +15,8 @@ config :api, ApiWeb.Endpoint,
   pubsub_server: Api.PubSub,
   live_view: [signing_salt: "nZKBguWt"]
 
+config :api, Api.Products.Get, rabbitmq_uri: System.get_env("RABBITMQ_URI")
+
 # Configures Elixir's Logger
 config :logger, :console,
   format: "$time $metadata[$level] $message\n",
