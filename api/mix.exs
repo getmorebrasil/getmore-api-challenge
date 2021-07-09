@@ -41,7 +41,8 @@ defmodule Api.MixProject do
       {:jason, "~> 1.0"},
       {:plug_cowboy, "~> 2.0"},
       {:credo, "~> 1.5", only: [:dev, :test], runtime: false},
-      {:amqp, "~> 2.1"}
+      {:amqp, "~> 2.1"},
+      {:ecto_sql, "~> 3.0"}
     ]
   end
 
