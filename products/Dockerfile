@@ -10,11 +10,7 @@ RUN mix local.rebar --force && \
 ENV MIX_ENV=prod
 
 COPY . .
-COPY config config
-RUN mix do deps.get, deps.compile
-
-RUN mix deps.get && \
-  mix release --overwrite
+RUN mix do deps.get, deps.compile, release --overwrite
 
 FROM alpine:3.13.3
 
