@@ -1,0 +1,55 @@
+version: "3.9"
+
+services:
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    container_name: rabbitmq
+    ports: 
+      - 5672:5672
+      - 15672:15672
+    environment: 
+      - RABBITMQ_DEFAULT_USER=rabbitmq
+      - RABBITMQ_DEFAULT_PASS=rabbitmq
+    volumes:
+      - rabbitmq_data:/var/lib/rabbitmq
+      
+  db:
+    image: postgres
+    container_name: db
+    restart: always
+    ports: 
+      - 5432:5432
+    environment: 
+      - POSTGRES_DB=products
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    volumes: 
+      - db_data:/var/lib/postgresql/data
+
+  api:
+    build: ./api
+    container_name: api
+    restart: always
+    environment: 
+      - SECRET_KEY_BASE=fMuC9BCPnF8a0wic+GCKiTFHyaQHNtZtZGFNVibVFFadFsWDEWkDsJSv3/dUCBDA
+      - RABBITMQ_URI=amqp://rabbitmq:rabbitmq@rabbitmq
+    ports: 
+      - 4000:4000
+    depends_on: 
+      - db
+      - rabbitmq
+
+  products:
+    build: ./products
+    container_name: products
+    restart: always
+    environment: 
+      - DATABASE_URL=ecto://postgres:postgres@db/products
+      - RABBITMQ_URI=amqp://rabbitmq:rabbitmq@rabbitmq
+    depends_on: 
+      - db
+      - rabbitmq
+
+volumes: 
+  db_data:
+  rabbitmq_data:
