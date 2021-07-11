@@ -8,8 +8,7 @@ defmodule Catalog.Application do
   @impl true
   def start(_type, _args) do
     children = [
-      # Starts a worker by calling: Catalog.Worker.start_link(arg)
-      # {Catalog.Worker, arg}
+      {Catalog.Repo, []}
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
