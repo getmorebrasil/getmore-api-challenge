@@ -14,7 +14,7 @@ defmodule Catalog.MixProject do
   # Run "mix help compile.app" to learn about applications.
   def application do
     [
-      extra_applications: [:logger],
+      extra_applications: [:lager, :logger],
       mod: {Catalog.Application, []}
     ]
   end
@@ -25,6 +25,7 @@ defmodule Catalog.MixProject do
       {:ecto_sql, "~> 3.4"},
       {:postgrex, ">= 0.0.0"},
       {:jason, "~> 1.2"},
+      {:amqp, "~> 2.1"},
     ]
   end
 end
