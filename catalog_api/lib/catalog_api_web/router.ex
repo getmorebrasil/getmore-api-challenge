@@ -7,6 +7,8 @@ defmodule CatalogApiWeb.Router do
 
   scope "/api", CatalogApiWeb do
     pipe_through :api
+
+    get "/products", ProductsController, :index
   end
 
   # Enables LiveDashboard only for development
