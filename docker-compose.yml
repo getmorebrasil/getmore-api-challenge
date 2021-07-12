@@ -1,0 +1,50 @@
+version: "3"
+
+services:
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - 5672:5672
+
+  db:
+    image: postgres
+    # restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - 5432:5432
+
+  catalog:
+    build:
+      context: ./catalog
+    environment:
+      AMQP_URI: "amqp://rabbitmq:5672"
+      DB_URL: "postgres://postgres:postgres@db:5432/catalog_repo"
+      MIX_ENV: "prod"
+    command: bash -c "
+      mix ecto.create &&
+      mix ecto.migrate &&
+      mix run priv/repo/seeds/products.exs ./products.json &&
+      mix run --no-halt"
+    links:
+      - rabbitmq
+    depends_on:
+      - db
+      - rabbitmq
+
+  api:
+    build:
+      context: ./catalog_api
+    environment:
+      AMQP_URI: "amqp://rabbitmq:5672"
+      SECRET_KEY_BASE: "iFPUbvBdnS/eEgW7KhsnRV5tD/Ec7FmgvIjvLkSYffUnDTsnb9nOmjWDoIjcSH3H"
+      MIX_ENV: "prod"
+    command: bash -c "mix phx.server"
+    ports:
+      - 4000:4000
+    links:
+      - rabbitmq
+    depends_on:
+      - catalog
+      - rabbitmq
