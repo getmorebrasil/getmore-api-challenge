@@ -12,6 +12,7 @@ defmodule Catalog.Schemas.Product do
     :product_price
   ]
 
+  @derive {Jason.Encoder, except: [:__meta__]}
   schema "products" do
     field :product_category, :string
     field :product_name, :string
