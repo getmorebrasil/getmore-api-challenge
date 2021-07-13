@@ -14,6 +14,6 @@ A aplicação api, disponibiliza um endpoint que pode ser acessado através de `
 - `GET /api/products` - Retorna uma lista dos produtos cadastrados
 
   Parâmetros:
-  - `page_size`: Número de produtos por página
-  - `current_page`: Número da página atual
+  - `page_size` Número de produtos por página
+  - `current_page` Identificador da página atual
 
